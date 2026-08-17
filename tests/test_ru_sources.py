@@ -1,0 +1,239 @@
+"""Parsing tests for the Russia ingesters (kremlin.ru, State Duma stenograms).
+
+Offline: exercise the HTML→utterance segmentation and the Russian keyword list
+without touching the network. Fixtures reproduce the real markup of
+kremlin.ru/events/president/news/72811 (AI Journey 2023) and
+transcript.duma.gov.ru node pages.
+"""
+
+from datetime import date
+
+from bs4 import BeautifulSoup
+
+from tracker.filter.keywords import KeywordFilter
+from tracker.ingest.ru_duma import RUDumaIngester, _strip_label_punct, parse_ru_date
+from tracker.ingest.ru_kremlin import RUKremlinIngester
+
+# kremlin transcript shape: press-service description, a bold "* * *" rule that
+# must not open a turn, then bold-led turns with the colon INSIDE the <b>
+KREMLIN_BODY = (
+    '<div class="entry-content">'
+    "<p>Перед началом дискуссии Владимир Путин осмотрел стенды.</p>"
+    "<p><b>* * *</b></p>"
+    "<p><b>Г.Греф:</b>&nbsp;Добрый день, дорогие друзья!</p>"
+    "<p>Хочу поприветствовать всех гостей нашей дискуссии.</p>"
+    "<p><b>В.Путин:</b> Уважаемый Герман Оскарович!</p>"
+    "<p>Звучат даже предложения поставить на паузу дальнейшую работу в области "
+    "так называемого сильного искусственного интеллекта, который будет обладать "
+    "сверхмощными когнитивными способностями.</p>"
+    "</div>"
+)
+
+
+def _kremlin_turns(html):
+    ing = RUKremlinIngester.__new__(RUKremlinIngester)  # parser needs no DB
+    body = BeautifulSoup(html, "lxml").select_one("div.entry-content")
+    return list(ing._segment(body))
+
+
+def test_kremlin_segments_bold_colon_turns():
+    turns = _kremlin_turns(KREMLIN_BODY)
+    assert [s for s, _ in turns] == [None, "Г.Греф", "В.Путин"]
+    # the press-service preamble stays unattributed, not merged into a speaker
+    assert "осмотрел стенды" in turns[0][1]
+    # a multi-paragraph turn stays one utterance
+    putin = turns[2][1]
+    assert "Уважаемый Герман Оскарович" in putin
+    assert "сильного искусственного интеллекта" in putin
+
+
+def test_kremlin_asterisk_rule_is_not_a_speaker():
+    # "* * *" is bold and paragraph-leading but has no colon and no word char
+    assert all(s != "* * *" for s, _ in _kremlin_turns(KREMLIN_BODY))
+
+
+def test_kremlin_news_item_without_turns_stays_unattributed():
+    html = (
+        '<div class="entry-content"><p>Президент подписал закон о развитии '
+        "технологий искусственного интеллекта.</p></div>"
+    )
+    turns = _kremlin_turns(html)
+    assert len(turns) == 1 and turns[0][0] is None
+
+
+# Duma stenogram shape: chair turn with speech in the same <p>, deputy label-only
+# <p> (bold surname + italic faction) whose speech follows, and procedural
+# <h3>/<blockquote> tallies that must be dropped
+DUMA_BODY = (
+    '<div class="detail-text">'
+    '<div class="social"><p>Поделиться ссылкой на выделенное</p></div>'
+    "<p>Здание Государственной Думы. Зал заседаний. 7 ноября 2023 года.</p>"
+    "<p><b>Председательствующий.</b> Добрый день, уважаемые коллеги!</p>"
+    "<h3><b>Результаты регистрации</b> (12 час. 03 мин.)</h3>"
+    "<blockquote>Присутствует\t418 чел.\t92,9 %</blockquote>"
+    "<p><b>Смолин О. Н.,</b><i> фракция КПРФ. </i></p>"
+    "<p>Уважаемые коллеги, нужно обсудить риски сильного искусственного интеллекта.</p>"
+    "<p>Это вопрос выживания человечества.</p>"
+    "<p><b>Из зала.</b>  (Не слышно.)</p>"
+    "</div>"
+)
+
+
+def _duma_turns(html):
+    ing = RUDumaIngester.__new__(RUDumaIngester)
+    body = BeautifulSoup(html, "lxml").select_one("div.detail-text")
+    for sel in ("div.social", "div.link", "div.detail-text-links"):
+        for el in body.select(sel):
+            el.decompose()
+    return list(ing._segment(body))
+
+
+def test_duma_segments_both_turn_forms():
+    turns = _duma_turns(DUMA_BODY)
+    speakers = [s for s, _ in turns]
+    assert speakers == [
+        None,
+        "Председательствующий",
+        "Смолин О. Н., фракция КПРФ",
+        "Из зала",
+    ]
+    # the label-only <p> collects the following bare paragraphs as its speech
+    smolin = turns[2][1]
+    assert "сильного искусственного интеллекта" in smolin
+    assert "выживания человечества" in smolin
+
+
+def test_duma_drops_procedural_tallies_and_chrome():
+    text = "\n".join(t for _, t in _duma_turns(DUMA_BODY))
+    assert "Результаты регистрации" not in text
+    assert "418 чел" not in text
+    assert "Поделиться" not in text
+
+
+def test_duma_chair_speech_stays_in_its_own_turn():
+    turns = _duma_turns(DUMA_BODY)
+    chair = dict((s, t) for s, t in turns if s)["Председательствующий"]
+    assert chair == "Добрый день, уважаемые коллеги!"
+
+
+def test_duma_label_keeps_initials_but_drops_sentence_period():
+    # the period closing an initial is part of the name; dropping it would split
+    # "Смолин О. Н." and "Смолин О. Н., фракция КПРФ" into two speaker identities
+    assert _strip_label_punct("Смолин О. Н.") == "Смолин О. Н."
+    assert _strip_label_punct("Смолин О. Н.,") == "Смолин О. Н."
+    assert _strip_label_punct("Смолин О. Н., фракция КПРФ.") == "Смолин О. Н., фракция КПРФ"
+    assert _strip_label_punct("Председательствующий.") == "Председательствующий"
+    assert _strip_label_punct("Из зала.") == "Из зала"
+
+
+def test_duma_bold_only_label_keeps_initial_period():
+    html = '<div class="detail-text">' "<p><b>Смолин О. Н.</b></p><p>Уважаемые коллеги.</p></div>"
+    turns = _duma_turns(html)
+    assert turns[0] == ("Смолин О. Н.", "Уважаемые коллеги.")
+
+
+def test_duma_parses_russian_dates():
+    assert parse_ru_date("Стенограмма заседания 07 ноября 2023 г.") == date(2023, 11, 7)
+    # plural "заседаний" form used on older records
+    assert parse_ru_date("Стенограмма заседаний 22 июля 2020 г.") == date(2020, 7, 22)
+    assert parse_ru_date("Стенограмма заседания") is None
+
+
+def test_ru_keywords_load_and_match_inflected_forms():
+    kf = KeywordFilter()
+    assert "ru" in kf.languages()
+    # genitive case throughout — the interior wildcards must still hit
+    hits = {
+        m.keyword
+        for m in kf.match(
+            "Предложения поставить на паузу работу в области сильного искусственного "
+            "интеллекта со сверхмощными когнитивными способностями.",
+            "ru",
+        )
+    }
+    assert "сильн* искусственн* интеллект*" in hits
+    assert "искусственн* интеллект*" in hits
+    assert "сверхмощн* когнитивн*" in hits
+
+
+def test_ru_keywords_match_superintelligence_and_xrisk():
+    kf = KeywordFilter()
+    hits = {
+        m.keyword
+        for m in kf.match(
+            "Сверхразум может выйти из-под контроля и создать угрозу человечеству.",
+            "ru",
+        )
+    }
+    assert "сверхразум*" in hits
+    assert "из-под контроля" in hits
+    assert "угроз* человечеству" in hits
+
+
+def test_interior_wildcard_does_not_match_across_words():
+    kf = KeywordFilter()
+    # "сильн* ИИ" must not leap a sentence boundary: \w* stops at non-word chars
+    assert not any(
+        m.keyword == "сильн* ИИ"
+        for m in kf.match("Это сильный аргумент. ИИ развивается быстро.", "ru")
+    )
+    assert any(m.keyword == "сильн* ИИ" for m in kf.match("Речь о сильном ИИ.", "ru"))
+
+
+def test_latin_acronyms_stay_case_sensitive_in_ru_list():
+    kf = KeywordFilter()
+    assert any(m.keyword == "AGI" for m in kf.match("Речь идёт об AGI.", "ru"))
+    assert not any(m.keyword == "AGI" for m in kf.match("Речь идёт об agi.", "ru"))
+
+
+def test_refused_day_is_not_a_quiet_day(conn, monkeypatch):
+    """A 403 must not be recorded as 'no events published that day'.
+
+    kremlin.ru starts refusing after a few hundred requests in one sitting. The
+    original code returned an empty id list for any non-200, so the window
+    finished, the watermark said done, and the missing days were never retried:
+    a backfill silently lost all of 2024 and 2026 that way, with 1574 of 1880
+    fetches 403ing while every window reported empty_days.
+    """
+    from tracker.ingest.ru_kremlin import RUKremlinIngester
+
+    ing = RUKremlinIngester(conn, settings={})
+
+    class Res:
+        status_code = 403
+        text = ""
+
+    class F:
+        def fetch(self, *a, **k):
+            return Res()
+
+    ids, saturated, refused = ing._index_day(F(), date(2024, 3, 15))
+    assert ids == [] and refused is True and saturated is False
+
+
+def test_index_day_success_path_returns_three_values(conn):
+    """The 403 test alone passed while the success path still returned 2 values.
+
+    _index_day has two returns; the happy one computes saturation inline, so a
+    textual patch of `return ids, saturated` missed it and every real window
+    died with "not enough values to unpack".
+    """
+    from tracker.ingest.ru_kremlin import RUKremlinIngester
+
+    ing = RUKremlinIngester(conn, settings={})
+    html = (
+        '<div class="hentry"><a href="/events/president/news/71234">x</a>'
+        '<time datetime="2024-03-15">15 March</time></div>'
+    )
+
+    class Res:
+        status_code = 200
+        text = html
+
+    class F:
+        def fetch(self, *a, **k):
+            return Res()
+
+    ids, saturated, refused = ing._index_day(F(), date(2024, 3, 15))
+    assert ids == ["71234"]
+    assert refused is False

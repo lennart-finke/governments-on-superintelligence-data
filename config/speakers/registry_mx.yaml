@@ -1,0 +1,253 @@
+# Mexico: canonical registry for Senado de la República speakers.
+#
+# Only speakers that have produced a quote get an entry, as in
+# registry_br.yaml. Aliases are the verbatim speaker_raw strings the
+# ingester emits, which prefix the name with the role held at that moment
+# -- the same senator chairs a sitting one week ("La Presidenta Senadora
+# X") and reads the order paper the next ("La Secretaria Senadora X"), so
+# without the alias group one person splits into several speakers. The
+# gender-mismatched and lower-case variants ('El Secretaria Senador ...')
+# are transcription slips in the source, kept verbatim because that is what
+# the linker matches on.
+#
+# party comes from the Senate's own by-group directory, so it is present
+# only for sitting LXVI senators. Members who served earlier and left keep
+# their affiliation in the description instead -- over a six-year term it
+# can change (Márquez Alvarado was elected on a PAN ticket and sat with the
+# PT), and prose can say so where a single `party` value cannot.
+#
+# profile_url has two shapes because the Senate serves two directories:
+# `/66/senador/<id>` for sitting members and
+# `/informacion/senadores/LXIV_LXV/<id>/Curricula` for the previous two
+# legislatures. Both are live; neither id is guessable from the other.
+#
+# description is sourced from the Senate's own "Semblanza Curricular" where
+# it publishes one, and from Wikidata/Wikipedia otherwise. Three sitting
+# senators (Huerta Ladrón de Guevara, Camino Farjat, Martín del Campo) have
+# an empty semblanza tab on their official page, hence the second source.
+- name: Ricardo Velázquez Meza
+  jurisdiction: MX
+  role: Mexican Senator
+  description: Mexican lawyer and Morena politician who served as Senator for Baja
+    California Sur from 2018 to 2024, sitting on the Senate's presiding board.
+  wikidata: Q106520526
+  profile_url: https://www.senado.gob.mx/informacion/senadores/LXIV_LXV/1053/Curricula
+  aliases:
+  - El Secretario Senador Ricardo Velázquez Meza
+  - El Senador Ricardo Velázquez Meza
+  - El Presidente Senador Ricardo Velázquez Meza
+  - El Secretaria Senador Ricardo Velázquez Meza
+  - El Secretario Ricardo Velázquez Meza
+  - El Secretario Senadora Ricardo Velázquez Meza
+- name: Mario Delgado Carrillo
+  jurisdiction: MX
+  role: Secretary of Public Education of Mexico
+  description: Mexican economist and Morena politician who has served as Secretary
+    of Public Education since October 2024, after leading the party as its national
+    president from 2020 to 2024.
+  aliases:
+  - El Secretario de Educación Pública, Mario Delgado Carrillo
+- name: Agustín Dorantes Lambarri
+  jurisdiction: MX
+  role: Mexican Senator (PAN)
+  party: PAN
+  description: Mexican lawyer and PAN Senator for Querétaro since 2024, previously
+    the state's Secretary of Social Development and a deputy in its congress.
+  profile_url: https://www.senado.gob.mx/66/senador/1567
+  aliases:
+  - El Senador Agustín Dorantes Lámbarri
+  - El Senador Agustín Dorantes Lambarri
+- name: Alfonso Cepeda Salas
+  jurisdiction: MX
+  role: Mexican Senator (Morena)
+  party: Morena
+  description: Mexican teachers' union leader and Morena Senator elected on the national
+    list in 2024, serving as secretary general of the national teachers' union (SNTE).
+  profile_url: https://www.senado.gob.mx/66/senador/1711
+  aliases:
+  - El Senador Alfonso Cepeda Salas
+- name: Cuauhtémoc Ochoa Fernández
+  jurisdiction: MX
+  role: Mexican Senator (Morena)
+  party: Morena
+  description: Mexican engineer and Morena Senator for Hidalgo since 2024, twice a
+    federal deputy and formerly an undersecretary at the federal environment ministry.
+  profile_url: https://www.senado.gob.mx/66/senador/1543
+  aliases:
+  - El Senador Cuauhtémoc Ochoa Fernández
+- name: Juan Antonio Martín del Campo
+  jurisdiction: MX
+  role: Mexican Senator (PAN)
+  party: PAN
+  description: Mexican PAN politician who has represented Aguascalientes in the Senate
+    since 2018.
+  wikidata: Q91231670
+  profile_url: https://www.senado.gob.mx/66/senador/1503
+  aliases:
+  - El Senador Juan Antonio Martín del Campo
+  - El Secretario Senador Juan Antonio Martín del Campo
+- name: Manuel Huerta Ladrón de Guevara
+  jurisdiction: MX
+  role: Mexican Senator (Morena)
+  party: Morena
+  description: Mexican lawyer and sociologist, a founding member of Morena and twice
+    a federal deputy, who has been Senator for Veracruz since 2024.
+  wikidata: Q16190571
+  profile_url: https://www.senado.gob.mx/66/senador/1591
+  aliases:
+  - El Senador Manuel Huerta Ladrón de Guevara
+  - El senador Manuel Huerta Ladrón de Guevara
+  - El Secretario Senador Manuel Huerta Ladrón de Guevara
+- name: Rolando Rodrigo Zapata Bello
+  jurisdiction: MX
+  role: Mexican Senator (PRI); President of the Senate's Commission on the
+    Analysis, Monitoring and Evaluation of the Application and Development of
+    Artificial Intelligence in Mexico
+  party: PRI
+  description: Mexican lawyer who was Governor of Yucatán from 2012 to 2018 and has
+    represented the state in the Senate for the PRI since 2024.
+  profile_url: https://www.senado.gob.mx/66/senador/1595
+  aliases:
+  - El Senador Rolando Rodrigo Zapata Bello
+- name: Verónica Noemí Camino Farjat
+  jurisdiction: MX
+  role: Mexican Senator (Morena)
+  party: Morena
+  description: Mexican lawyer and Morena Senator for Yucatán since 2018, who sat as
+    a secretary of the Senate's presiding board from 2018 and became one of its vice-presidents
+    in 2025.
+  wikidata: Q83501850
+  profile_url: https://www.senado.gob.mx/66/senador/1593
+  aliases:
+  - La Secretaria Senadora Verónica Noemí Camino Farjat
+  - La Presidenta Senadora Verónica Noemí Camino Farjat
+  - La Secretaria Verónica Noemí Camino Farjat
+  - La Senadora Verónica Noemí Camino Farjat
+  - La Secretaria Senadora Verónica Noemi Camino Farjat
+  - La Senadora Verónica Noemi Camino Farjat
+  - La Presidenta Senador Verónica Noemí Camino Farjat
+  - La Presidenta Senadora Verónica Noemi Camino Farjat
+  - La Secretaria Senador Verónica Noemí Camino Farjat
+  - La Secretaria senadora Verónica Noemí Camino Farjat
+  - La Vicepresidenta Senadora Verónica Noemí Camino Farjat
+  - La senadora Verónica Noemí Camino Farjat
+  - la Secretaria Senadora Verónica Noemí Camino Farjat
+- name: Beatriz Mojica Morga
+  jurisdiction: MX
+  role: Mexican Senator
+  description: Mexican politician who has sat in the Senate for Guerrero with Morena,
+    a former federal deputy, Guerrero state deputy and secretary general of the PRD.
+  wikidata: Q6395022
+  aliases:
+  - La Senadora Beatriz Mojica Morga
+- name: Imelda Margarita Sanmiguel Sánchez
+  jurisdiction: MX
+  role: Mexican Senator (PAN)
+  party: PAN
+  description: Mexican architect and PAN Senator for Tamaulipas since 2024, twice
+    a state deputy and a former state secretary of public works.
+  profile_url: https://www.senado.gob.mx/66/senador/1586
+  aliases:
+  - La Senadora Imelda Margarita Sanmiguel Sánchez
+  - La Presidenta Senadora Imelda Margarita Sanmiguel Sánchez
+  - La Secretaria Senadora Imelda Margarita Sanmiguel Sánchez
+  - Imelda Margarita Sanmiguel Sánchez
+  - La Secretaria Imelda Margarita Sanmiguel Sánchez
+- name: Karen Michel González Márquez
+  jurisdiction: MX
+  role: Mexican Senator (PAN)
+  party: PAN
+  description: Mexican PAN politician, a federal deputy from 2021 to 2024 and Senator
+    on the party's national list since 2024.
+  wikidata: Q107610414
+  profile_url: https://www.senado.gob.mx/66/senador/1730
+  aliases:
+  - La Senadora Karen Michel González Márquez
+  - El Senador Karen Michel González Márquez
+- name: Karina Isabel Ruiz Ruiz
+  jurisdiction: MX
+  role: Mexican Senator (Morena)
+  party: Morena
+  description: Mexican biochemist and migrant-rights leader in the United States,
+    elected to the Senate on Morena's national list in 2024.
+  profile_url: https://www.senado.gob.mx/66/senador/1713
+  aliases:
+  - La Senadora Karina Isabel Ruiz Ruiz
+  - La Senadora Karina Isabel Ruíz Ruíz
+- name: Lizeth Sánchez García
+  jurisdiction: MX
+  role: Mexican Senator (PT)
+  party: PT
+  description: Mexican political scientist and PT Senator for Puebla since 2024, previously
+    a federal deputy, a Puebla state deputy and the state's welfare secretary.
+  wikidata: Q66085128
+  profile_url: https://www.senado.gob.mx/66/senador/1564
+  aliases:
+  - La Secretaria Senadora Lizeth Sánchez García
+  - La Senadora Lizeth Sánchez García
+  - La Secretaria Lizeth Sánchez García
+- name: Martha Cecilia Márquez Alvarado
+  jurisdiction: MX
+  role: Mexican Senator
+  description: Mexican accountant who served as Senator for Aguascalientes from 2018
+    to 2024, after leading the PAN group in the state congress and serving as state
+    comptroller.
+  wikidata: Q91098708
+  profile_url: https://www.senado.gob.mx/informacion/senadores/LXIV_LXV/1042/Curricula
+  aliases:
+  - La Secretaria Senadora Martha Cecilia Márquez Alvarado
+  - La Senadora Martha Cecilia Márquez Alvarado
+- name: María Martina Kantún Can
+  jurisdiction: MX
+  role: Mexican Senator (Morena)
+  party: Morena
+  description: Mexican educator and Morena Senator for Campeche since 2024, previously
+    the state's undersecretary for basic education and coordinator of its Benito Juárez
+    scholarship programme.
+  profile_url: https://www.senado.gob.mx/66/senador/1512
+  aliases:
+  - La Secretaria Senadora María Martina Kantún Can
+  - La Senadora María Martina Kantún Can
+  - La Secretaria María Martina Kantún Can
+  - La Presidenta Senadora María Martina Kantún Can
+  - La Secretaria Senadora María Martína Kantún Can
+  - La Senadora María Martina Kantun Can
+- name: Olga María Sánchez Cordero Dávila
+  jurisdiction: MX
+  role: Mexican Senator
+  description: Mexican jurist who sat on the Supreme Court from 1995 to 2015 and was
+    Secretary of the Interior from 2018 to 2021, then Senator and President of the
+    Senate until 2024.
+  wikidata: Q5099093
+  profile_url: https://www.senado.gob.mx/informacion/senadores/LXIV_LXV/1276/Curricula
+  aliases:
+  - La Senadora Olga María Sánchez Cordero Dávila
+- name: Reyna Celeste Ascencio Ortega
+  jurisdiction: MX
+  role: Mexican Senator
+  description: Mexican lawyer and Purépecha indigenous-rights activist, a federal
+    deputy from 2018 to 2024 and Senator for Michoacán with Morena from 2024 to 2026.
+  wikidata: Q58338851
+  aliases:
+  - La Senadora Reyna Celeste Ascencio Ortega
+  - El Senador Reyna Celeste Ascencio Ortega
+- name: Ruth Alejandra López Hernández
+  jurisdiction: MX
+  role: Mexican Senator
+  description: Mexican communications graduate and Movimiento Ciudadano Senator for
+    Jalisco from 2021 to 2024, previously a cultural-programming director in the Jalisco
+    state government.
+  profile_url: https://www.senado.gob.mx/informacion/senadores/LXIV_LXV/1120/Curricula
+  aliases:
+  - La Senadora Ruth Alejandra López Hernández
+  - La Secretaria Senadora Ruth Alejandra López Hernández
+  - La Secretaria Diputada Ruth Alejandra López Hernández
+- name: Ruth González Silva
+  jurisdiction: MX
+  role: Mexican Senator (PVEM)
+  party: PVEM
+  description: Mexican PVEM Senator for San Luis Potosí since 2024, previously president
+    of the state's family-welfare agency (DIF).
+  profile_url: https://www.senado.gob.mx/66/senador/1572
+  aliases:
+  - La Senadora Ruth González Silva

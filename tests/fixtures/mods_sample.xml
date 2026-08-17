@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" version="3.7">
+  <extension>
+    <congMember bioGuideId="R000605" party="R" chamber="S" state="South Dakota" congress="119">
+      <name type="parsed">Mike Rounds</name>
+      <name type="authority-fnf">Mike Rounds</name>
+    </congMember>
+    <congMember bioGuideId="C000127" party="D" chamber="S" state="Washington" congress="119">
+      <name type="parsed">Maria Cantwell</name>
+      <name type="authority-fnf">Maria Cantwell</name>
+    </congMember>
+  </extension>
+</mods>

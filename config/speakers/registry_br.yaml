@@ -1,0 +1,148 @@
+- name: Eduardo Gomes
+  jurisdiction: BR
+  role: Brazilian Senator (PL-TO); 1st Vice-President of the Federal Senate
+  description: Carlos Eduardo Torres Gomes is a Brazilian Senator representing Tocantins since 2019 and currently First Vice-President of the Federal Senate.
+  profile_url: https://www25.senado.leg.br/web/senadores/senador/-/perfil/3777
+  aliases:
+  - Eduardo Gomes (PL/TO)
+- name: Carlos Viana
+  jurisdiction: BR
+  role: Brazilian Senator (Podemos-MG)
+  description: Carlos Alberto Dias Viana is a Brazilian journalist and Senator for Minas Gerais since 2019, affiliated with Podemos.
+  profile_url: https://www25.senado.leg.br/web/senadores/senador/-/perfil/5990
+  aliases:
+  - Carlos Viana (PODEMOS/MG)
+- name: Marcos Pontes
+  jurisdiction: BR
+  role: Brazilian Senator (PL-SP); former astronaut
+  description: Marcos Cesar Pontes is a former Brazilian Air Force pilot and astronaut, the first Brazilian and first Lusophone in space, and Senator for São Paulo since 2023.
+  profile_url: https://www25.senado.leg.br/web/senadores/senador/-/perfil/6009
+  aliases:
+  - Astronauta Marcos Pontes (PL/SP)
+- name: Eduardo Girão
+  jurisdiction: BR
+  role: Brazilian Senator (NOVO-CE)
+  description: Luis Eduardo Grangeiro Girão is a Brazilian businessman and Senator for Ceará since 2019, the first senator elected under the NOVO party.
+  profile_url: https://www25.senado.leg.br/web/senadores/senador/-/perfil/5976
+  aliases:
+  - Eduardo Girão (NOVO/CE)
+- name: Esperidião Amin
+  jurisdiction: BR
+  role: Brazilian Senator (PP-SC)
+  description: Esperidião Amin Helou Filho is a Brazilian politician and Senator for Santa Catarina, a former two-time governor of Santa Catarina and mayor of Florianópolis.
+  profile_url: https://www25.senado.leg.br/web/senadores/senador/-/perfil/22
+  aliases:
+  - Esperidião Amin (PP/SC)
+- name: Teresa Leitão
+  jurisdiction: BR
+  role: Brazilian Senator (PT-PE)
+  description: Maria Teresa Leitão de Melo is a Brazilian educator and Senator for Pernambuco since 2023, the first woman elected senator from that state.
+  profile_url: https://www25.senado.leg.br/web/senadores/senador/-/perfil/6338
+  aliases:
+  - Teresa Leitão (PT/PE)
+- name: Chico Rodrigues
+  jurisdiction: BR
+  role: Brazilian Senator (PSB-RR)
+  description: Francisco de Assis Rodrigues is a Brazilian politician and Senator for Roraima since 2019, and a former governor of Roraima.
+  profile_url: https://www25.senado.leg.br/web/senadores/senador/-/perfil/470
+  aliases:
+  - Chico Rodrigues (PSB/RR)
+- name: Damares Alves
+  jurisdiction: BR
+  role: Brazilian Senator (Republicanos-DF); former cabinet minister
+  description: Damares Alves is a Brazilian pastor, lawyer, and Senator for the Federal District since 2023, formerly Minister of Women, Family and Human Rights (2019-2022).
+  profile_url: https://www25.senado.leg.br/web/senadores/senador/-/perfil/6335
+  aliases:
+  - Damares Alves (REPUBLICANOS/DF)
+- name: Hiran Gonçalves
+  # "Dr. Hiran" is his nome parlamentar -- the ballot name the Senado record
+  # uses -- not his name. Senado gives NomeCompletoParlamentar as "Hiran Manuel
+  # Gonçalves da Silva"; he is publicly "Hiran Gonçalves", which matches how the
+  # rest of this file names people (Damares Alves, not Damares Regina Alves).
+  jurisdiction: BR
+  role: Brazilian Senator (PP-RR)
+  description: Hiran Manuel Gonçalves da Silva is a Brazilian physician and Senator for Roraima since 2023.
+  profile_url: https://www25.senado.leg.br/web/senadores/senador/-/perfil/5793
+  aliases:
+  - Dr. Hiran
+  - Dr. Hiran (PP/RR)
+  - Hiran Gonçalves
+- name: Eduardo Braga
+  jurisdiction: BR
+  role: Brazilian Senator (MDB-AM); MDB caucus leader
+  description: Carlos Eduardo de Sousa Braga is a Brazilian politician and Senator for Amazonas, and a former two-term governor of Amazonas.
+  profile_url: https://www25.senado.leg.br/web/senadores/senador/-/perfil/4994
+  aliases:
+  - Eduardo Braga (MDB/AM)
+- name: Flávio Bolsonaro
+  jurisdiction: BR
+  role: Brazilian Senator (PL-RJ)
+  description: Flávio Nantes Bolsonaro is a Brazilian politician, son of former president Jair Bolsonaro, and Senator for Rio de Janeiro since 2019.
+  wikidata: Q10283057
+  profile_url: https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894
+  aliases:
+  - Flávio Bolsonaro (PL/RJ)
+- name: Humberto Costa
+  jurisdiction: BR
+  role: Brazilian Senator (PT-PE); former cabinet minister
+  description: Humberto Costa is a Brazilian physician and Senator for Pernambuco since 2011, and formerly Brazil's Minister of Health (2003-2005).
+  profile_url: https://www25.senado.leg.br/web/senadores/senador/-/perfil/5008
+  aliases:
+  - Humberto Costa (PT/PE)
+- name: João Brant
+  jurisdiction: BR
+  role: Brazilian government official; Secretary of Digital Policies, Secom
+  description: João Caldeira Brant Monteiro de Castro is a Brazilian political scientist who serves as Secretary of Digital Policies at Brazil's Secretariat of Social Communication (Secom) and has testified before Senate committees on AI regulation.
+  profile_url: https://www.gov.br/secom/pt-br/composicao/orgaos-especificos-singulares/secretaria-de-politicas-digitais/joao-caldeira-brant-monteiro-de-castro
+  aliases:
+  - JOÃO CALDEIRA BRANT DE CASTRO
+- name: Jorge Kajuru
+  jurisdiction: BR
+  role: Brazilian Senator (PSB-GO)
+  description: Jorge Kajuru Reis da Costa Nasser is a Brazilian sports journalist, broadcaster and Senator for Goiás since 2019.
+  profile_url: https://www25.senado.leg.br/web/senadores/senador/-/perfil/5895
+  aliases:
+  - Jorge Kajuru (PSB/GO)
+- name: Luiz Fernando Bandeira de Mello
+  jurisdiction: BR
+  role: institutional
+  description: Luiz Fernando Bandeira de Mello Filho is a Brazilian lawyer and career Senate official who served as Secretary-General of the Federal Senate Board from 2014 to 2021 and later as a counselor of Brazil's National Council of Justice.
+  profile_url: https://pt.wikipedia.org/wiki/Luiz_Fernando_Bandeira_de_Mello_Filho
+  aliases:
+  - LUIZ FERNANDO BANDEIRA DE MELLO
+- name: Nelsinho Trad
+  jurisdiction: BR
+  role: Brazilian Senator (PSD-MS)
+  description: Nelson Trad Filho is a Brazilian physician and Senator for Mato Grosso do Sul since 2019, and a former mayor of Campo Grande.
+  profile_url: https://www25.senado.leg.br/web/senadores/senador/-/perfil/5985
+  aliases:
+  - Nelsinho Trad (PSD/MS)
+- name: Randolfe Rodrigues
+  jurisdiction: BR
+  role: Brazilian Senator (PT-AP); Government Leader in Congress
+  description: Randolfe Rodrigues is a Brazilian politician and Senator for Amapá since 2011, currently serving as Government Leader in the National Congress.
+  wikidata: Q6158744
+  profile_url: https://www25.senado.leg.br/web/senadores/senador/-/perfil/5012
+  aliases:
+  - Randolfe Rodrigues (PT/AP)
+- name: Rogério Carvalho
+  jurisdiction: BR
+  role: Brazilian Senator (PT-SE)
+  description: Rogério Carvalho Santos is a Brazilian physician and Senator for Sergipe since 2019.
+  profile_url: https://www25.senado.leg.br/web/senadores/senador/-/perfil/5352
+  aliases:
+  - Rogério Carvalho (PT/SE)
+- name: Weverton
+  jurisdiction: BR
+  role: Brazilian Senator (PDT-MA)
+  description: Weverton Rocha is a Brazilian politician and Senator for Maranhão since 2019.
+  profile_url: https://www25.senado.leg.br/web/senadores/senador/-/perfil/5411
+  aliases:
+  - Weverton (PDT/MA)
+- name: Zenaide Maia
+  jurisdiction: BR
+  role: Brazilian Senator (PSD-RN)
+  description: Zenaide Maia Calado Pereira dos Santos is a Brazilian physician and Senator for Rio Grande do Norte since 2019.
+  profile_url: https://www25.senado.leg.br/web/senadores/senador/-/perfil/5783
+  aliases:
+  - Zenaide Maia (PSD/RN)

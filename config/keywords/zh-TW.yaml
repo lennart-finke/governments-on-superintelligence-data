@@ -1,0 +1,65 @@
+# Traditional Chinese (Taiwan) keyword list v1 — mirrors zh.yaml's topics in
+# Taiwan's script and terminology: 人工智慧 (not 人工智能), 晶片 (not 芯片),
+# 遞迴 (not 递归), 資料 (not 数据). Substring matching (segmented: false).
+# TW-specific additions: 人工智慧基本法 (the AI Basic Act before the
+# Legislative Yuan), 監理 (Taiwan's regulatory term of art).
+lang: zh-TW
+segmented: false
+keywords:
+  # AI 泛指（high recall; TW discourse writes "AI" literally throughout）
+  - 人工智慧
+  - 人工智能              # PRC form, appears in quotes/older records
+  - AI
+  - ＡＩ
+  - 機器智慧
+  - 大型語言模型
+  - 大語言模型
+  - LLM
+  # AGI
+  - 通用人工智慧
+  - 通用智慧
+  - 強人工智慧
+  - 人類水準
+  - 人類等級
+  - 變革性人工智慧
+  # ASI
+  - 超級智慧
+  - 超智慧
+  - 超級人工智慧
+  - 超人工智慧
+  - 超越人類智慧
+  - 超人類智慧
+  # RSI / 遞迴自我改進
+  - 遞迴自我改進
+  - 自我改進
+  - 自我迭代
+  - 奇點
+  - 奇異點                # common TW rendering of "singularity"
+  - 智慧爆炸
+  - 智能爆炸
+  # 生存性 / 災難性風險
+  - 生存風險
+  - 存亡風險
+  - 滅絕風險
+  - 人類滅絕
+  - 災難性風險
+  - 失控
+  - 不可控
+  - 可控
+  - 人類控制
+  - 價值對齊
+  - 對齊
+  - 欺騙性
+  - 可解釋性
+  - 紅線
+  # 監管 / 治理
+  - 人工智慧治理
+  - 人工智慧監管
+  - 人工智慧監理
+  - 人工智慧基本法
+  - AI基本法
+  - 國際條約
+  - 國際公約
+  - 晶片出口
+  - 晶片管制
+  - 資料中心安全

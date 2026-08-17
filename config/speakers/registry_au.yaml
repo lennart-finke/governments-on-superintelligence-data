@@ -1,0 +1,306 @@
+# Australia speaker registry -- harvested from the Hansard labels.
+#
+# aph.gov.au writes a floor speaker sort-inverted with a chamber marker
+# ("Pocock, Sen David", "Chaney, Kate MP") but writes a minister answering in
+# their portfolio in natural order with the office in brackets ("Ed Husic
+# (Minister for Industry and Science)"). Those are the same person, so the two
+# forms are merged by name; otherwise the UI shows one member twice.
+#
+# Identity is the MPID carried on each fragment, which is stable and also gives
+# the official profile URL. Where a label has no MPID the match falls back to
+# given name + surname.
+- name: Aaron Violi
+  jurisdiction: AU
+  role: Member of the House of Representatives for Casey
+  description: Australian parliamentarian; member of the House of Representatives for Casey.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=300147
+  aliases:
+  - Aaron Violi
+  - Violi, Aaron MP
+- name: Alison Penfold
+  jurisdiction: AU
+  role: Member of the House of Representatives for Lyne
+  description: Australian parliamentarian; member of the House of Representatives for Lyne.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=248895
+  aliases:
+  - Alison Penfold
+  - Penfold, Alison MP
+- name: Andrew Charlton
+  jurisdiction: AU
+  role: Member of the House of Representatives for Parramatta
+  description: Australian parliamentarian; member of the House of Representatives for Parramatta.
+  aliases:
+  - Andrew Charlton
+  - Charlton, Andrew MP
+- name: Barnaby Joyce
+  jurisdiction: AU
+  role: Member of the House of Representatives for New England
+  description: Australian parliamentarian; member of the House of Representatives for New England.
+  aliases:
+  - Barnaby Joyce
+  - Joyce, Barnaby MP
+- name: Brendan Patrick John O'Connor
+  jurisdiction: AU
+  role: Member of the House of Representatives for Gorton
+  description: Australian parliamentarian; member of the House of Representatives for Gorton.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=00
+  aliases:
+  - Brendan Patrick John O'Connor
+  - O'Connor, Brendan Patrick John MP
+- name: Dan Repacholi
+  jurisdiction: AU
+  role: Member of the House of Representatives for Hunter
+  description: Australian parliamentarian; member of the House of Representatives for Hunter.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=298840
+  aliases:
+  - Dan Repacholi
+  - Repacholi, Dan MP
+- name: Daniel Mulino
+  jurisdiction: AU
+  role: Member of the House of Representatives for Fraser
+  description: Australian parliamentarian; member of the House of Representatives for Fraser.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=132880
+  aliases:
+  - Daniel Mulino
+  - Mulino, Daniel MP
+- name: David Coleman
+  jurisdiction: AU
+  role: Member of the House of Representatives for Banks
+  description: Australian parliamentarian; member of the House of Representatives for Banks.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=241067
+  aliases:
+  - Coleman, David MP
+  - David Coleman
+- name: David Pocock
+  jurisdiction: AU
+  role: Senator
+  description: Australian parliamentarian; senator.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=256136
+  aliases:
+  - David Pocock
+  - Pocock, Sen David
+- name: David Shoebridge
+  jurisdiction: AU
+  role: Senator
+  description: Australian parliamentarian; senator.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=169119
+  aliases:
+  - David Shoebridge
+  - Shoebridge, Sen David
+- name: Ed Husic
+  jurisdiction: AU
+  role: Member of the House of Representatives for Chifley
+  description: Australian parliamentarian; member of the House of Representatives for Chifley.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=91219
+  aliases:
+  - Ed Husic
+  - Ed Husic (Minister for Industry and Science)
+  - Husic, Ed MP
+- name: Elizabeth Watson-Brown
+  jurisdiction: AU
+  role: Member of the House of Representatives for Ryan
+  description: Australian parliamentarian; member of the House of Representatives for Ryan.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=300127
+  aliases:
+  - Elizabeth Watson-Brown
+  - Watson-Brown, Elizabeth MP
+- name: Fatima Payman
+  jurisdiction: AU
+  role: Senator
+  description: Australian parliamentarian; senator.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=300707
+  aliases:
+  - Fatima Payman
+  - Payman, Sen Fatima
+- name: Jacqui Lambie
+  jurisdiction: AU
+  role: Senator
+  description: Australian parliamentarian; senator.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=250026
+  aliases:
+  - Jacqui Lambie
+  - Lambie, Sen Jacqui
+- name: James McGrath
+  jurisdiction: AU
+  role: Senator
+  description: Australian parliamentarian; senator.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=217241
+  aliases:
+  - James McGrath
+  - James McGrath (Senator)
+  - McGrath, Sen James
+- name: Jenny Ware
+  jurisdiction: AU
+  role: Member of the House of Representatives for Hughes
+  description: Australian parliamentarian; member of the House of Representatives for Hughes.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=300123
+  aliases:
+  - Jenny Ware
+  - Ware, Jenny MP
+- name: Jerome Laxale
+  jurisdiction: AU
+  role: Member of the House of Representatives for Bennelong
+  description: Australian parliamentarian; member of the House of Representatives for Bennelong.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=299174
+  aliases:
+  - Jerome Laxale
+  - Laxale, Jerome MP
+- name: Jim Chalmers
+  jurisdiction: AU
+  role: Treasurer
+  description: Australian parliamentarian; treasurer.
+  aliases:
+  - Jim Chalmers
+  - Jim Chalmers (Treasurer)
+- name: Jo Briskey
+  jurisdiction: AU
+  role: Member of the House of Representatives for Maribyrnong
+  description: Australian parliamentarian; member of the House of Representatives for Maribyrnong.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=263427
+  aliases:
+  - Briskey, Jo MP
+  - Jo Briskey
+- name: Jordon Steele-John
+  jurisdiction: AU
+  role: Senator
+  description: Australian parliamentarian; senator.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=250156
+  aliases:
+  - Jordon Steele-John
+  - Steele-John, Sen Jordon
+- name: Julian Hill
+  jurisdiction: AU
+  role: Member of the House of Representatives for Bruce
+  description: Australian parliamentarian; member of the House of Representatives for Bruce.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=86256
+  aliases:
+  - Hill, Julian MP
+  - Julian Hill
+- name: Kate Chaney
+  jurisdiction: AU
+  role: Member of the House of Representatives for Curtin
+  description: Australian parliamentarian; member of the House of Representatives for Curtin.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=300006
+  aliases:
+  - Chaney, Kate MP
+  - Kate Chaney
+- name: Linda Jean Burney
+  jurisdiction: AU
+  role: Member of the House of Representatives for Barton
+  description: Australian parliamentarian; member of the House of Representatives for Barton.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=8
+  aliases:
+  - Burney, Linda Jean MP
+  - Linda Jean Burney
+- name: Linda Reynolds
+  jurisdiction: AU
+  role: Senator
+  description: Australian parliamentarian; senator.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=250216
+  aliases:
+  - Linda Reynolds
+  - Reynolds, Sen Linda
+- name: Lisa Chesters
+  jurisdiction: AU
+  role: Member of the House of Representatives for Bendigo
+  description: Australian parliamentarian; member of the House of Representatives for Bendigo.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=249710
+  aliases:
+  - Chesters, Lisa MP
+  - Lisa Chesters
+- name: Lisa Darmanin
+  jurisdiction: AU
+  role: Senator
+  description: Australian parliamentarian; senator.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=301128
+  aliases:
+  - Darmanin, Sen Lisa
+  - Lisa Darmanin
+- name: Matt O'Sullivan
+  jurisdiction: AU
+  role: Senator
+  description: Australian parliamentarian; senator.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=283585
+  aliases:
+  - Matt O'Sullivan
+  - O'Sullivan, Sen Matt
+- name: Ms Rowland
+  jurisdiction: AU
+  role: Greenway—Attorney-General
+  description: Australian parliamentarian; greenway—Attorney-General.
+  aliases:
+  - Ms ROWLAND (Greenway—Attorney-General)
+  - Ms Rowland
+- name: Ms Wells
+  jurisdiction: AU
+  role: Lilley—Minister for Sport and Minister for Communications
+  description: Australian parliamentarian; lilley—Minister for Sport and Minister for Communications.
+  aliases:
+  - Ms WELLS (Lilley—Minister for Sport and Minister for Communications)
+  - Ms Wells
+- name: Patrick Gorman
+  jurisdiction: AU
+  role: Member of the House of Representatives for Perth
+  description: Australian parliamentarian; member of the House of Representatives for Perth.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=74519
+  aliases:
+  - Gorman, Patrick MP
+  - Patrick Gorman
+- name: Tanya Plibersek
+  jurisdiction: AU
+  role: Minister for Social Services
+  description: Australian parliamentarian; minister for Social Services.
+  aliases:
+  - Tanya Plibersek
+  - Tanya Plibersek (Minister for Social Services)
+- name: Tim Ayres
+  jurisdiction: AU
+  role: Minister for Industry and Innovation and Minister for Science
+  description: Australian parliamentarian; minister for Industry and Innovation and Minister for Science.
+  aliases:
+  - Mr Ayres (Minister for Industry and Innovation)
+  - Senator Ayres
+  - Senator Ayres (Minister for Industry and Innovation and Minister for Science)
+  - Senator Ayres (Minister for Industry and Innovation)
+  - Tim Ayres
+  - Tim Ayres (Minister for Industry and Innovation and Minister for Science)
+- name: Tom French
+  jurisdiction: AU
+  role: Member of the House of Representatives for Moore
+  description: Australian parliamentarian; member of the House of Representatives for Moore.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=316550
+  aliases:
+  - French, Tom MP
+  - Tom French
+- name: Tony Sheldon
+  jurisdiction: AU
+  role: Senator
+  description: Australian parliamentarian; senator.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=168275
+  aliases:
+  - Sheldon, Sen Tony
+  - Tony Sheldon
+- name: Varun Ghosh
+  jurisdiction: AU
+  role: Senator
+  description: Australian parliamentarian; senator.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=257613
+  aliases:
+  - Ghosh, Sen Varun
+  - Varun Ghosh
+- name: Zali Steggall
+  jurisdiction: AU
+  role: Member of the House of Representatives for Warringah
+  description: Australian parliamentarian; member of the House of Representatives for Warringah.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=175696
+  aliases:
+  - Steggall, Zali MP
+  - Zali Steggall
+- name: Zaneta Mascarenhas
+  jurisdiction: AU
+  role: Member of the House of Representatives for Swan
+  description: Australian parliamentarian; member of the House of Representatives for Swan.
+  profile_url: https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=298800
+  aliases:
+  - Mascarenhas, Zaneta MP
+  - Zaneta Mascarenhas

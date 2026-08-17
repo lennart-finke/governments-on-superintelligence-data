@@ -1,0 +1,20 @@
+# NATO speaker registry — Secretary General transcripts (intl_nato). Split out
+# of the former registry_intl.yaml when NATO and the UN stopped sharing one
+# "INTL" jurisdiction.
+- name: Mircea Geoană
+  jurisdiction: NATO
+  role: NATO Deputy Secretary General (2019–2024)
+  description: Romanian diplomat and politician who served as NATO Deputy Secretary General from 2019
+    to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Mircea_Geoan%C4%83
+  aliases:
+  - by NATO Deputy Secretary General Mircea Geoană followed by Q&A session at the 2023 Spring Session
+    of the NATO Parliamentary Assembly (NPA)
+- name: Jens Stoltenberg
+  jurisdiction: NATO
+  role: NATO Secretary General (2014–2024)
+  description: Norwegian politician who served as NATO Secretary General from 2014 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Jens_Stoltenberg
+  aliases:
+  - by NATO Secretary General Jens Stoltenberg at the 18th Annual NATO Conference on Arms Control, Disarmament
+    and Weapons of Mass Destruction Non-Proliferation

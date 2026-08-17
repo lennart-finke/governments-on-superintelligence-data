@@ -1,0 +1,18 @@
+# French executives surfaced by fr_elysee (no native speaker IDs).
+- name: Emmanuel Macron
+  jurisdiction: FR
+  wikidata: Q3052772
+  role: Président de la République
+  aliases:
+    - "Emmanuel Macron (Président de la République)"
+    - "Emmanuel Macron (President)"
+    - "Emmanuel Macron (President of the Republic)"
+    - "Le Président de la République"
+    - "Président Emmanuel Macron"
+- name: Élysée
+  jurisdiction: FR
+  role: institutional
+  aliases:
+    - "Élysée"
+    - "Elysée"
+    - "Présidence de la République"

@@ -1,0 +1,722 @@
+- name: Tim Clement-Jones
+  jurisdiction: UK
+  role: Liberal Democrat member of the House of Lords; DSIT spokesperson
+  description: Liberal Democrat life peer and barrister who has led parliamentary work on artificial intelligence regulation since 2017.
+  profile_url: https://members.parliament.uk/member/3396
+  aliases:
+  - Lord Clement-Jones (LD)
+- name: Liz Lloyd, Baroness Lloyd of Effra
+  jurisdiction: UK
+  role: Labour member of the House of Lords; DSIT/DBT Parliamentary Under-Secretary and Government Whip
+  description: Labour life peer and former Downing Street deputy chief of staff who serves as a junior minister for science and business.
+  wikidata: Q6660218
+  profile_url: https://members.parliament.uk/member/5414
+  aliases:
+  - Baroness Lloyd of Effra (Lab)
+  - The Parliamentary Under-Secretary of State, Department for Business and Trade and Department for Science, Innovation and Technology (Baroness Lloyd of Effra) (Lab)
+- name: Baroness Doocey
+  jurisdiction: UK
+  role: Liberal Democrat member of the House of Lords
+  description: Liberal Democrat life peer and former chair of the London Assembly who chairs the Lords Finance Committee.
+  profile_url: https://members.parliament.uk/member/4197
+  aliases:
+  - Baroness Doocey (LD)
+- name: Beeban Kidron, Baroness Kidron
+  jurisdiction: UK
+  role: Crossbench member of the House of Lords
+  description: Crossbench peer, filmmaker and founder of the 5Rights Foundation who campaigns on children's digital rights and AI regulation.
+  profile_url: https://members.parliament.uk/member/4258
+  aliases:
+  - Baroness Kidron (CB)
+- name: Iqbal Mohamed
+  jurisdiction: UK
+  role: Independent MP for Dewsbury and Batley
+  description: Independent Member of Parliament for Dewsbury and Batley, elected in July 2024.
+  profile_url: https://members.parliament.uk/member/5268
+  aliases:
+  - Iqbal Mohamed
+  - Iqbal Mohamed (Dewsbury and Batley) (Ind)
+- name: Chris Holmes, Lord Holmes of Richmond
+  jurisdiction: UK
+  role: Conservative member of the House of Lords
+  description: Conservative life peer, former Paralympic swimmer, and campaigner on digital technology and disability policy.
+  profile_url: https://members.parliament.uk/member/4294
+  aliases:
+  - Lord Holmes of Richmond (Con)
+- name: Michelle Donelan
+  jurisdiction: UK
+  role: Former Secretary of State for Science, Innovation and Technology
+  description: Conservative politician who was UK Secretary of State for Science, Innovation and Technology from 2023 to 2024, and MP for Chippenham until 2024.
+  profile_url: https://members.parliament.uk/member/4530
+  aliases:
+  - The Secretary of State for Science, Innovation and Technology (Michelle Donelan)
+- name: Tina Stowell, Baroness Stowell of Beeston
+  jurisdiction: UK
+  role: Conservative member of the House of Lords
+  description: Conservative life peer and former Leader of the House of Lords who previously worked at the BBC.
+  profile_url: https://members.parliament.uk/member/4205
+  aliases:
+  - Baroness Stowell of Beeston (Con)
+- name: Lord Fairfax of Cameron
+  jurisdiction: UK
+  role: Conservative hereditary peer, House of Lords
+  description: Nicholas Fairfax, Conservative excepted hereditary peer who sat in the House of Lords until the 2026 removal of remaining hereditary peers.
+  profile_url: https://members.parliament.uk/member/2760
+  aliases:
+  - Lord Fairfax of Cameron (Con)
+  - Lord Fairfax of Cameron
+- name: Philip Hunt, Lord Hunt of Kings Heath
+  jurisdiction: UK
+  role: Labour member of the House of Lords; government minister
+  description: Labour life peer and former health administrator who has held several ministerial posts, including at Energy Security and Net Zero.
+  profile_url: https://members.parliament.uk/member/2024
+  aliases:
+  - Lord Hunt of Kings Heath (Lab)
+- name: Patrick Vallance, Lord Vallance of Balham
+  jurisdiction: UK
+  role: Minister of State, Department for Science, Innovation and Technology
+  description: Labour life peer and former UK Government Chief Scientific Adviser who serves as a science and technology minister.
+  profile_url: https://members.parliament.uk/member/5363
+  aliases:
+  - Lord Vallance of Balham (Lab)
+  - The Minister of State, Department for Science, Innovation and Technology (Lord Vallance of Balham) (Lab)
+- name: Jonathan Berry, Viscount Camrose
+  jurisdiction: UK
+  role: Former Parliamentary Under-Secretary of State, DSIT
+  description: Conservative hereditary peer who served as a junior minister for science, innovation and technology from 2023 to 2024.
+  profile_url: https://members.parliament.uk/member/4939
+  aliases:
+  - The Parliamentary Under-Secretary of State, Department for Science, Innovation and Technology (Viscount Camrose) (Con)
+  - Viscount Camrose (Con)
+- name: Neena Gill, Baroness Gill
+  jurisdiction: UK
+  role: Labour member of the House of Lords
+  description: Labour life peer and former Member of the European Parliament for the West Midlands.
+  profile_url: https://members.parliament.uk/member/5429
+  aliases:
+  - Baroness Gill (Lab)
+- name: Margaret Ritchie, Baroness Ritchie of Downpatrick
+  jurisdiction: UK
+  role: Labour member of the House of Lords
+  description: Labour life peer, former leader of the SDLP and former MP for South Down.
+  profile_url: https://members.parliament.uk/member/4130
+  aliases:
+  - Baroness Ritchie of Downpatrick (Lab)
+- name: Joanna Shields, Baroness Shields
+  jurisdiction: UK
+  role: Conservative member of the House of Lords
+  description: Conservative life peer and technology executive who served as the UK's first Minister for Internet Safety and Security.
+  profile_url: https://members.parliament.uk/member/4325
+  aliases:
+  - Baroness Shields (Con)
+- name: Kanishka Narayan
+  jurisdiction: UK
+  role: Labour MP for Vale of Glamorgan; Parliamentary Under-Secretary, DSIT
+  description: Labour MP for the Vale of Glamorgan, elected in 2024, serving as a junior minister for science, innovation and technology.
+  profile_url: https://members.parliament.uk/member/5039
+  aliases:
+  - Kanishka Narayan
+- name: James Bethell, Lord Bethell
+  jurisdiction: UK
+  role: Conservative hereditary peer, House of Lords
+  description: Conservative hereditary peer who served as a health minister during the COVID-19 pandemic.
+  profile_url: https://members.parliament.uk/member/4708
+  aliases:
+  - Lord Bethell (Con)
+- name: Jim Knight, Lord Knight of Weymouth
+  jurisdiction: UK
+  role: Labour member of the House of Lords
+  description: Labour life peer and former Cabinet Office and education minister who was MP for South Dorset from 2001 to 2010.
+  wikidata: Q334359
+  profile_url: https://members.parliament.uk/member/4160
+  aliases:
+  - Lord Knight of Weymouth (Lab)
+- name: Sonny Leong, Lord Leong
+  jurisdiction: UK
+  role: Labour member of the House of Lords; government whip/minister
+  description: Labour life peer who has served as a government whip and junior minister in the Department for Business and Trade.
+  profile_url: https://members.parliament.uk/member/4959
+  aliases:
+  - Lord Leong (Lab)
+  - Lord in Waiting/Government Whip (Lord Leong) (Lab)
+- name: Nicholas Markham, Lord Markham
+  jurisdiction: UK
+  role: Conservative member of the House of Lords
+  description: Conservative life peer who served as a junior health minister from 2022 to 2024.
+  profile_url: https://members.parliament.uk/member/4948
+  aliases:
+  - Lord Markham (Con)
+- name: Kulveer Ranger, Lord Ranger of Northwood
+  jurisdiction: UK
+  role: Conservative member of the House of Lords
+  description: Conservative life peer and businessman with a background in transport and technology policy advice.
+  profile_url: https://members.parliament.uk/member/4989
+  aliases:
+  - Lord Ranger of Northwood (Con)
+- name: Martin Rees, Lord Rees of Ludlow
+  jurisdiction: UK
+  role: Crossbench member of the House of Lords
+  description: Crossbench peer, astrophysicist and former Astronomer Royal known for his work on existential risk.
+  wikidata: Q335213
+  profile_url: https://members.parliament.uk/member/3751
+  aliases:
+  - Lord Rees of Ludlow (CB)
+- name: Russell Rook, Lord Rook
+  jurisdiction: UK
+  role: Labour member of the House of Lords
+  description: Labour life peer and clergyman who founded a youth mentoring charity.
+  profile_url: https://members.parliament.uk/member/5378
+  aliases:
+  - Lord Rook (Lab)
+- name: Wilf Stevenson, Lord Stevenson of Balmacara
+  jurisdiction: UK
+  role: Labour member of the House of Lords
+  description: Labour life peer and former director of the British Film Institute.
+  profile_url: https://members.parliament.uk/member/4175
+  aliases:
+  - Lord Stevenson of Balmacara (Lab)
+- name: Paul Strasburger, Lord Strasburger
+  jurisdiction: UK
+  role: Liberal Democrat member of the House of Lords
+  description: Liberal Democrat life peer and businessman who has focused on civil liberties and surveillance policy.
+  profile_url: https://members.parliament.uk/member/4204
+  aliases:
+  - Lord Strasburger (LD)
+- name: Lionel Tarassenko, Lord Tarassenko
+  jurisdiction: UK
+  role: Crossbench member of the House of Lords
+  description: Crossbench peer and Oxford engineering professor specializing in AI and machine learning applications in healthcare.
+  profile_url: https://members.parliament.uk/member/5027
+  aliases:
+  - Lord Tarassenko (CB)
+- name: Mike Watson, Lord Watson of Invergowrie
+  jurisdiction: UK
+  role: Labour member of the House of Lords
+  description: Labour life peer and former Scottish Parliament member who chairs the Secondary Legislation Scrutiny Committee.
+  profile_url: https://members.parliament.uk/member/1241
+  aliases:
+  - Lord Watson of Invergowrie (Lab)
+- name: Matt Rodda
+  jurisdiction: UK
+  role: Labour MP for Reading Central (formerly Reading East)
+  description: Labour MP first elected for Reading East in 2017, now representing Reading Central.
+  profile_url: https://members.parliament.uk/member/4654
+  aliases:
+  - Matt Rodda (Reading East) (Lab)
+- name: Rebecca Smith
+  jurisdiction: UK
+  role: Conservative MP for South West Devon
+  description: Conservative MP for South West Devon, elected in 2024, and Opposition Assistant Whip.
+  profile_url: https://members.parliament.uk/member/5301
+  aliases:
+  - Rebecca Smith
+- name: Peter Kyle
+  jurisdiction: UK
+  role: Secretary of State for Business and Trade (former DSIT Secretary)
+  description: Labour MP for Hove and Portslade since 2015, who served as Secretary of State for Science, Innovation and Technology before moving to Business and Trade.
+  profile_url: https://members.parliament.uk/member/4505
+  aliases:
+  - The Secretary of State for Science, Innovation and Technology (Peter Kyle)
+  - Peter Kyle
+  - Peter Kyle (Hove) (Lab)
+- name: Thomas Lyttelton, Viscount Chandos
+  jurisdiction: UK
+  role: Labour member of the House of Lords
+  description: Labour hereditary peer and former investment banker.
+  profile_url: https://members.parliament.uk/member/3308
+  aliases:
+  - Viscount Chandos (Lab)
+- name: Alex Sobel
+  jurisdiction: UK
+  role: Labour/Co-operative MP for Leeds Central and Headingley
+  description: Labour and Co-operative MP representing Leeds Central and Headingley since 2024, after previously serving Leeds North West from 2017.
+  profile_url: https://en.wikipedia.org/wiki/Alex_Sobel
+  aliases:
+  - Alex Sobel (Leeds Central and Headingley) (Lab/Co-op)
+- name: Anneliese Dodds
+  jurisdiction: UK
+  role: Labour/Co-operative MP for Oxford East
+  description: Labour and Co-operative MP for Oxford East since 2017 who served as a development and women's equalities minister from 2024 to 2025.
+  profile_url: https://en.wikipedia.org/wiki/Anneliese_Dodds
+  aliases:
+  - Anneliese Dodds (Oxford East) (Lab/Co-op)
+- name: Natalie Bennett, Baroness Bennett of Manor Castle
+  jurisdiction: UK
+  role: Green Party member of the House of Lords
+  description: Green Party life peer and former leader of the Green Party of England and Wales.
+  profile_url: https://members.parliament.uk/member/4719
+  aliases:
+  - Baroness Bennett of Manor Castle (GP)
+- name: Virginia Bottomley, Baroness Bottomley of Nettlestone
+  jurisdiction: UK
+  role: Conservative member of the House of Lords
+  description: Conservative life peer and former Health Secretary who was an MP from 1984 to 2005.
+  profile_url: https://members.parliament.uk/member/106
+  aliases:
+  - Baroness Bottomley of Nettlestone (Con)
+- name: Ilora Finlay, Baroness Finlay of Llandaff
+  jurisdiction: UK
+  role: Crossbench member of the House of Lords
+  description: Crossbench peer and professor of palliative medicine who campaigns on end-of-life care policy.
+  profile_url: https://members.parliament.uk/member/3609
+  aliases:
+  - Baroness Finlay of Llandaff (CB)
+- name: Arlene Foster, Baroness Foster of Aghadrumsee
+  jurisdiction: UK
+  role: Non-affiliated member of the House of Lords
+  description: Non-affiliated life peer and former First Minister of Northern Ireland and leader of the Democratic Unionist Party.
+  wikidata: Q4792148
+  profile_url: https://members.parliament.uk/member/4969
+  aliases:
+  - Baroness Foster of Aghadrumsee (Non-Afl)
+- name: Arminka Helic, Baroness Helic
+  jurisdiction: UK
+  role: Conservative member of the House of Lords
+  description: Conservative life peer and former special adviser to Foreign Secretary William Hague.
+  wikidata: Q4793584
+  profile_url: https://members.parliament.uk/member/4331
+  aliases:
+  - Baroness Helic (Con)
+- name: Fiona Hodgson, Baroness Hodgson of Abinger
+  jurisdiction: UK
+  role: Conservative member of the House of Lords
+  description: Conservative life peer who advocates on women's rights and international development.
+  profile_url: https://members.parliament.uk/member/4301
+  aliases:
+  - Baroness Hodgson of Abinger (Con)
+- name: Lucy Neville-Rolfe, Baroness Neville-Rolfe
+  jurisdiction: UK
+  role: Conservative member of the House of Lords
+  description: Conservative life peer, former Tesco executive, who served as a Cabinet Office minister from 2022 to 2024.
+  profile_url: https://members.parliament.uk/member/4284
+  aliases:
+  - Baroness Neville-Rolfe (Con)
+- name: Nuala O'Loan, Baroness O'Loan
+  jurisdiction: UK
+  role: Crossbench member of the House of Lords
+  description: Crossbench peer and former Police Ombudsman for Northern Ireland.
+  wikidata: Q336451
+  profile_url: https://members.parliament.uk/member/3902
+  aliases:
+  - Baroness O’Loan (CB)
+- name: Ben Lake
+  jurisdiction: UK
+  role: Plaid Cymru MP for Ceredigion Preseli
+  description: Plaid Cymru MP for Ceredigion Preseli (formerly Ceredigion), serving as the party's spokesperson on several briefs including science and technology.
+  profile_url: https://members.parliament.uk/member/4630
+  aliases:
+  - Ben Lake (Ceredigion Preseli) (PC)
+- name: Ben Obese-Jecty
+  jurisdiction: UK
+  role: Conservative MP for Huntingdon
+  description: Conservative MP for Huntingdon, elected in 2024.
+  profile_url: https://members.parliament.uk/member/5089
+  aliases:
+  - Ben Obese-Jecty
+- name: Chris Elmore
+  jurisdiction: UK
+  role: Labour MP for Bridgend; Parliamentary Under-Secretary (FCDO)
+  description: Labour MP for Bridgend since 2016, serving as a junior Foreign Office minister.
+  profile_url: https://members.parliament.uk/member/4572
+  aliases:
+  - Chris Elmore
+- name: Caroline Dinenage
+  jurisdiction: UK
+  role: Conservative MP for Gosport
+  description: Conservative MP for Gosport since 2010, who has chaired the Culture, Media and Sport Select Committee.
+  profile_url: https://members.parliament.uk/member/4008
+  aliases:
+  - Dame Caroline Dinenage (Gosport) (Con)
+- name: Chi Onwurah
+  jurisdiction: UK
+  role: Labour MP for Newcastle upon Tyne Central and West
+  description: Labour MP for Newcastle upon Tyne Central and West (formerly Newcastle upon Tyne Central) since 2010, and a former engineer.
+  profile_url: https://members.parliament.uk/member/4124
+  aliases:
+  - Dame Chi Onwurah (Newcastle upon Tyne Central and West) (Lab)
+- name: Damian Hinds
+  jurisdiction: UK
+  role: Conservative MP for East Hampshire
+  description: Conservative MP for East Hampshire since 2010 and former Secretary of State for Education.
+  profile_url: https://members.parliament.uk/member/3969
+  aliases:
+  - Damian Hinds
+- name: Dean Russell
+  jurisdiction: UK
+  role: Former Conservative MP for Watford
+  description: Conservative politician who was MP for Watford from 2019 to 2024.
+  profile_url: https://members.parliament.uk/member/4812
+  aliases:
+  - Dean Russell
+- name: Ben Spencer
+  jurisdiction: UK
+  role: Conservative MP for Runnymede and Weybridge
+  description: Conservative MP for Runnymede and Weybridge since 2019 and former psychiatrist, now a shadow science and technology minister.
+  profile_url: https://members.parliament.uk/member/4785
+  aliases:
+  - Dr Ben Spencer (Runnymede and Weybridge) (Con)
+- name: Luke Evans
+  jurisdiction: UK
+  role: Conservative MP for Hinckley and Bosworth
+  description: Conservative MP for Hinckley and Bosworth (formerly Bosworth) since 2019 and former general practitioner.
+  profile_url: https://members.parliament.uk/member/4781
+  aliases:
+  - Dr Luke Evans (Bosworth) (Con)
+- name: John Russell, Earl Russell
+  jurisdiction: UK
+  role: Liberal Democrat member of the House of Lords
+  description: Liberal Democrat hereditary peer who serves as the party's Lords spokesperson on energy and climate change.
+  profile_url: https://members.parliament.uk/member/4983
+  aliases:
+  - Earl Russell (LD)
+- name: Greg Clark
+  jurisdiction: UK
+  role: Former Conservative MP for Tunbridge Wells
+  description: Conservative politician who represented Tunbridge Wells from 2005 to 2024 and served as Business Secretary.
+  profile_url: https://members.parliament.uk/member/1578
+  aliases:
+  - Greg Clark (Tunbridge Wells) (Con)
+- name: Lord Altrincham
+  jurisdiction: UK
+  role: Conservative hereditary peer, House of Lords
+  description: Edward Grigg, Conservative hereditary peer who sat in the House of Lords until the 2026 removal of remaining hereditary peers.
+  profile_url: https://members.parliament.uk/member/4921
+  aliases:
+  - Lord Altrincham (Con)
+- name: Steve Bassam, Lord Bassam of Brighton
+  jurisdiction: UK
+  role: Labour member of the House of Lords
+  description: Labour life peer and former leader of Brighton and Hove council.
+  profile_url: https://members.parliament.uk/member/3504
+  aliases:
+  - Lord Bassam of Brighton (Lab)
+- name: Guy Black, Lord Black of Brentwood
+  jurisdiction: UK
+  role: Conservative member of the House of Lords
+  description: Conservative life peer and Deputy Chairman of the Telegraph Media Group.
+  profile_url: https://members.parliament.uk/member/4171
+  aliases:
+  - Lord Black of Brentwood (Con)
+- name: Des Browne, Lord Browne of Ladyton
+  jurisdiction: UK
+  role: Labour member of the House of Lords
+  description: Labour life peer and former Defence Secretary who was MP for Kilmarnock and Loudoun from 1997 to 2010.
+  profile_url: https://members.parliament.uk/member/620
+  aliases:
+  - Lord Browne of Ladyton (Lab)
+- name: Christopher Fox, Lord Fox
+  jurisdiction: UK
+  role: Liberal Democrat member of the House of Lords
+  description: Liberal Democrat life peer serving as the party's Lords spokesperson on business.
+  profile_url: https://members.parliament.uk/member/4322
+  aliases:
+  - Lord Fox (LD)
+- name: Anthony Giddens, Lord Giddens
+  jurisdiction: UK
+  role: Labour member of the House of Lords
+  description: Labour life peer and sociologist known for his work on the 'Third Way' and structuration theory.
+  profile_url: https://members.parliament.uk/member/3688
+  aliases:
+  - Lord Giddens (Lab)
+- name: Zac Goldsmith, Lord Goldsmith of Richmond Park
+  jurisdiction: UK
+  role: Conservative member of the House of Lords
+  description: Conservative life peer, former MP and environment minister, known for his focus on conservation policy.
+  profile_url: https://members.parliament.uk/member/4062
+  aliases:
+  - Lord Goldsmith of Richmond Park (Con)
+- name: Archie Hamilton, Lord Hamilton of Epsom
+  jurisdiction: UK
+  role: Conservative member of the House of Lords
+  description: Conservative life peer and former Minister of State for the Armed Forces, MP for Epsom and Ewell from 1978 to 2001.
+  profile_url: https://members.parliament.uk/member/100
+  aliases:
+  - Lord Hamilton of Epsom (Con)
+- name: David Hanson, Lord Hanson of Flint
+  jurisdiction: UK
+  role: Labour member of the House of Lords; Home Office minister
+  description: Labour life peer and Home Office minister, former MP for Delyn from 1992 to 2019.
+  profile_url: https://members.parliament.uk/member/533
+  aliases:
+  - Lord Hanson of Flint (Lab)
+- name: Peter Hendy, Lord Hendy of Richmond Hill
+  jurisdiction: UK
+  role: Labour member of the House of Lords; Minister of State for Rail
+  description: Labour life peer and transport executive, former Commissioner of Transport for London and Network Rail chairman, serving as rail minister since 2024.
+  profile_url: https://en.wikipedia.org/wiki/Peter_Hendy,_Baron_Hendy_of_Richmond_Hill
+  aliases:
+  - Lord Hendy of Richmond Hill (Lab)
+- name: Nick Houghton, Lord Houghton of Richmond
+  jurisdiction: UK
+  role: Crossbench member of the House of Lords
+  description: Crossbench peer and retired Field Marshal who served as Chief of the Defence Staff from 2013 to 2016.
+  profile_url: https://members.parliament.uk/member/4694
+  aliases:
+  - Lord Houghton of Richmond (CB)
+- name: Robert Rogers, Lord Lisvane
+  jurisdiction: UK
+  role: Crossbench member of the House of Lords
+  description: Crossbench peer and former Clerk of the House of Commons from 2011 to 2014.
+  profile_url: https://en.wikipedia.org/wiki/Robert_Rogers,_Baron_Lisvane
+  aliases:
+  - Lord Lisvane (CB)
+- name: Lord Londesborough
+  jurisdiction: UK
+  role: Crossbench member of the House of Lords
+  description: Richard Denison, 9th Baron Londesborough, a crossbench hereditary peer elected to the House of Lords in 2021.
+  profile_url: https://en.wikipedia.org/wiki/Baron_Londesborough
+  aliases:
+  - Lord Londesborough (CB)
+- name: Jonathan Marks, Lord Marks of Henley-on-Thames
+  jurisdiction: UK
+  role: Liberal Democrat member of the House of Lords
+  description: Liberal Democrat life peer and barrister who serves as the party's justice spokesperson.
+  profile_url: https://en.wikipedia.org/wiki/Jonathan_Marks,_Baron_Marks_of_Henley-on-Thames
+  aliases:
+  - Lord Marks of Henley-on-Thames (LD)
+- name: Naren Patel, Lord Patel
+  jurisdiction: UK
+  role: Crossbench member of the House of Lords
+  description: Crossbench peer and obstetrician, former president of the Royal College of Obstetricians and Gynaecologists.
+  profile_url: https://en.wikipedia.org/wiki/Naren_Patel,_Baron_Patel
+  aliases:
+  - Lord Patel (CB)
+- name: Kevin Shinkwin, Lord Shinkwin
+  jurisdiction: UK
+  role: Conservative member of the House of Lords
+  description: Conservative life peer and disability rights campaigner.
+  profile_url: https://en.wikipedia.org/wiki/Kevin_Shinkwin
+  aliases:
+  - Lord Shinkwin (Con)
+- name: Robert Skidelsky, Lord Skidelsky
+  jurisdiction: UK
+  role: Crossbench member of the House of Lords
+  description: Crossbench peer and economic historian, best known for his biography of John Maynard Keynes.
+  profile_url: https://en.wikipedia.org/wiki/Robert_Skidelsky,_Baron_Skidelsky
+  aliases:
+  - Lord Skidelsky (CB)
+- name: Anthony St John, Lord St John of Bletso
+  jurisdiction: UK
+  role: Crossbench hereditary peer, House of Lords
+  description: Crossbench hereditary peer, one of the elected hereditary peers remaining after the House of Lords Act 1999.
+  profile_url: https://en.wikipedia.org/wiki/Baron_St_John_of_Bletso
+  aliases:
+  - Lord St John of Bletso (CB)
+- name: Simon Stevens, Lord Stevens of Birmingham
+  jurisdiction: UK
+  role: Crossbench member of the House of Lords
+  description: Crossbench peer and former Chief Executive of NHS England from 2014 to 2021.
+  profile_url: https://en.wikipedia.org/wiki/Simon_Stevens,_Baron_Stevens_of_Birmingham
+  aliases:
+  - Lord Stevens of Birmingham (CB)
+- name: William Waldegrave, Lord Waldegrave of North Hill
+  jurisdiction: UK
+  role: Conservative member of the House of Lords
+  description: Conservative life peer and former Cabinet minister who held several ministerial posts including Health Secretary.
+  profile_url: https://en.wikipedia.org/wiki/William_Waldegrave,_Baron_Waldegrave_of_North_Hill
+  aliases:
+  - Lord Waldegrave of North Hill (Con)
+- name: Madam Deputy Speaker (unnamed)
+  jurisdiction: UK
+  role: Procedural title (unnamed occupant of the chair)
+  description: A generic reference to whichever MP was chairing the House of Commons at the time, not identifying a specific individual.
+  aliases:
+  - Madam Deputy Speaker
+- name: Judith Cummins
+  jurisdiction: UK
+  role: Labour MP for Bradford South; Deputy Speaker of the House of Commons
+  description: Labour MP for Bradford South since 2015 who has served as a Deputy Speaker of the House of Commons since 2024.
+  profile_url: https://en.wikipedia.org/wiki/Judith_Cummins
+  aliases:
+  - Madam Deputy Speaker (Judith Cummins)
+- name: Nusrat Ghani
+  jurisdiction: UK
+  role: Conservative MP for Wealden; Deputy Speaker of the House of Commons
+  description: Conservative MP for Wealden since 2015 who has served as a Deputy Speaker (Chairman of Ways and Means) since 2022.
+  profile_url: https://en.wikipedia.org/wiki/Nusrat_Ghani
+  aliases:
+  - Madam Deputy Speaker (Ms Nusrat Ghani)
+- name: Mark Logan
+  jurisdiction: UK
+  role: Former Conservative MP for Bolton North East
+  description: Politician who was Conservative MP for Bolton North East from 2019 to 2024, with a policy focus on UK-China relations.
+  profile_url: https://en.wikipedia.org/wiki/Mark_Logan_(politician)
+  aliases:
+  - Mark Logan (Bolton North East) (Con)
+- name: Mick Whitley
+  jurisdiction: UK
+  role: Former Labour MP for Birkenhead
+  description: Labour politician and former trade unionist who was MP for Birkenhead from 2019 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Mick_Whitley
+  aliases:
+  - Mick Whitley (Birkenhead) (Lab)
+- name: David Lammy
+  jurisdiction: UK
+  role: Labour MP for Tottenham; Deputy Prime Minister and Justice Secretary
+  description: Labour MP for Tottenham since 2000, currently serving as Deputy Prime Minister, Justice Secretary and Lord Chancellor.
+  profile_url: https://en.wikipedia.org/wiki/David_Lammy
+  aliases:
+  - Mr David Lammy (Tottenham) (Lab)
+- name: James Frith
+  jurisdiction: UK
+  role: Labour MP for Bury North
+  description: Labour MP for Bury North, first elected in 2017 and re-elected in 2024 after losing the seat in 2019.
+  profile_url: https://en.wikipedia.org/wiki/James_Frith
+  aliases:
+  - Mr James Frith (Bury North) (Lab)
+- name: Luke Charters
+  jurisdiction: UK
+  role: Labour MP for York Outer
+  description: Labour MP for York Outer, elected in 2024.
+  profile_url: https://en.wikipedia.org/wiki/Luke_Charters
+  aliases:
+  - Mr Luke Charters (York Outer) (Lab)
+- name: Pete Wishart
+  jurisdiction: UK
+  role: SNP MP for Perth and Kinross-shire
+  description: Scottish National Party MP, first elected in 2001, and former musician with the band Runrig.
+  profile_url: https://en.wikipedia.org/wiki/Pete_Wishart
+  aliases:
+  - Pete Wishart
+- name: Preet Kaur Gill
+  jurisdiction: UK
+  role: Labour/Co-operative MP for Birmingham Edgbaston
+  description: Labour and Co-operative MP for Birmingham Edgbaston since 2017, the first female Sikh MP elected to the Commons.
+  profile_url: https://members.parliament.uk/member/4603
+  aliases:
+  - Preet Kaur Gill
+- name: Robin Millar
+  jurisdiction: UK
+  role: Former Conservative MP for Aberconwy
+  description: Conservative politician who was MP for Aberconwy from 2019 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Robin_Millar_(politician)
+  aliases:
+  - Robin Millar
+- name: Saqib Bhatti
+  jurisdiction: UK
+  role: Conservative MP for Meriden and Solihull East
+  description: Conservative MP who served as Parliamentary Under-Secretary of State for Science, Innovation and Technology in 2023-2024.
+  profile_url: https://en.wikipedia.org/wiki/Saqib_Bhatti
+  aliases:
+  - Saqib Bhatti
+  - The Parliamentary Under-Secretary of State for Science, Innovation and Technology (Saqib Bhatti)
+- name: Sarah Olney
+  jurisdiction: UK
+  role: Liberal Democrat MP for Richmond Park
+  description: Liberal Democrat MP for Richmond Park since 2019, and the party's Treasury spokesperson.
+  profile_url: https://en.wikipedia.org/wiki/Sarah_Olney
+  aliases:
+  - Sarah Olney (Richmond Park) (LD)
+- name: Chris Bryant
+  jurisdiction: UK
+  role: Labour MP for Rhondda and Ogmore; Minister of State for Trade
+  description: Labour MP first elected in 2001, a former Anglican priest currently serving as a trade minister.
+  profile_url: https://en.wikipedia.org/wiki/Chris_Bryant
+  aliases:
+  - Sir Chris Bryant (Rhondda) (Lab)
+- name: Oliver Dowden
+  jurisdiction: UK
+  role: Conservative MP for Hertsmere; former Deputy Prime Minister
+  description: Conservative MP for Hertsmere since 2015 who served as Deputy Prime Minister from 2023 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Oliver_Dowden
+  aliases:
+  - Sir Oliver Dowden
+  - Sir Oliver Dowden (Hertsmere) (Con)
+- name: Susan Murray
+  jurisdiction: UK
+  role: Liberal Democrat MP for Mid Dunbartonshire
+  description: Liberal Democrat MP for Mid Dunbartonshire, elected in 2024.
+  profile_url: https://en.wikipedia.org/wiki/Susan_Murray
+  aliases:
+  - Susan Murray
+- name: Pat McFadden
+  jurisdiction: UK
+  role: Chancellor of the Duchy of Lancaster (2024-2025)
+  description: Labour MP for Wolverhampton South East since 2005, who served as Chancellor of the Duchy of Lancaster before becoming Work and Pensions Secretary.
+  profile_url: https://en.wikipedia.org/wiki/Pat_McFadden
+  aliases:
+  - The Chancellor of the Duchy of Lancaster (Pat McFadden)
+- name: Earl of Erroll
+  jurisdiction: UK
+  role: Crossbench hereditary peer, House of Lords
+  description: Merlin Hay, 24th Earl of Erroll, a crossbench hereditary peer known for his interest in digital identity and IT policy.
+  profile_url: https://en.wikipedia.org/wiki/Earl_of_Erroll
+  aliases:
+  - The Earl of Erroll (CB)
+- name: Richard Jackson, Bishop of Hereford
+  jurisdiction: UK
+  role: Lord Spiritual; Bishop of Hereford
+  description: Bishop of Hereford in the Church of England since 2020, and a Lord Spiritual sitting in the House of Lords.
+  profile_url: https://en.wikipedia.org/wiki/Bishop_of_Hereford
+  aliases:
+  - The Lord Bishop of Hereford
+- name: Helen-Ann Hartley, Bishop of Newcastle
+  jurisdiction: UK
+  role: Lord Spiritual; Bishop of Newcastle
+  description: Bishop of Newcastle in the Church of England since 2023, and a Lord Spiritual sitting in the House of Lords.
+  profile_url: https://en.wikipedia.org/wiki/Helen-Ann_Hartley
+  aliases:
+  - The Lord Bishop of Newcastle
+- name: Steven Croft, Bishop of Oxford
+  jurisdiction: UK
+  role: Lord Spiritual; Bishop of Oxford
+  description: Bishop of Oxford in the Church of England since 2016, and a Lord Spiritual sitting in the House of Lords.
+  profile_url: https://en.wikipedia.org/wiki/Bishop_of_Oxford
+  aliases:
+  - The Lord Bishop of Oxford
+- name: John Whittingdale
+  jurisdiction: UK
+  role: Former Minister for Data and Digital Infrastructure
+  description: Conservative MP for Maldon since 1992 and former Culture Secretary who served as a junior DSIT minister.
+  profile_url: https://en.wikipedia.org/wiki/John_Whittingdale
+  aliases:
+  - The Minister for Data and Digital Infrastructure (Sir John Whittingdale)
+- name: Earl of Minto
+  jurisdiction: UK
+  role: Former Minister of State, Ministry of Defence
+  description: Gilbert Elliot-Murray-Kynynmound, 7th Earl of Minto, a Conservative hereditary peer who served as a defence minister from 2022 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Earl_of_Minto
+  aliases:
+  - The Minister of State, Ministry of Defence (The Earl of Minto) (Con)
+- name: Paul Scully
+  jurisdiction: UK
+  role: Former Conservative MP for Sutton and Cheam
+  description: Conservative politician who was MP for Sutton and Cheam from 2015 to 2024 and served as a junior DSIT minister.
+  profile_url: https://en.wikipedia.org/wiki/Paul_Scully
+  aliases:
+  - The Parliamentary Under-Secretary of State for Science, Innovation and Technology (Paul Scully)
+- name: Theresa Villiers
+  jurisdiction: UK
+  role: Conservative MP for Chipping Barnet
+  description: Conservative MP for Chipping Barnet since 2005 and former Northern Ireland Secretary and Environment Secretary.
+  profile_url: https://en.wikipedia.org/wiki/Theresa_Villiers
+  aliases:
+  - Theresa Villiers
+- name: Tom Hayes
+  jurisdiction: UK
+  role: Labour MP for Bournemouth East
+  description: Labour MP for Bournemouth East, elected in 2024.
+  profile_url: https://en.wikipedia.org/wiki/Tom_Hayes_(British_politician)
+  aliases:
+  - Tom Hayes (Bournemouth East) (Lab)
+- name: Tony Vaughan
+  jurisdiction: UK
+  role: Labour MP for Folkestone and Hythe
+  description: Labour MP for Folkestone and Hythe, elected in 2024, the first Labour MP to represent the seat.
+  profile_url: https://en.wikipedia.org/wiki/Tony_Vaughan_(politician)
+  aliases:
+  - Tony Vaughan
+- name: Victoria Collins
+  jurisdiction: UK
+  role: Liberal Democrat MP for Harpenden and Berkhamsted; DSIT spokesperson
+  description: Liberal Democrat MP for Harpenden and Berkhamsted, elected in 2024, serving as the party's spokesperson for science, innovation and technology.
+  profile_url: https://en.wikipedia.org/wiki/Victoria_Collins
+  aliases:
+  - Victoria Collins (Harpenden and Berkhamsted) (LD)
+- name: Viscount Waverley
+  jurisdiction: UK
+  role: Former crossbench hereditary peer, House of Lords
+  description: John Anderson, 3rd Viscount Waverley, a crossbench hereditary peer who retired from the House of Lords in 2025.
+  profile_url: https://en.wikipedia.org/wiki/Viscount_Waverley
+  aliases:
+  - Viscount Waverley (CB)

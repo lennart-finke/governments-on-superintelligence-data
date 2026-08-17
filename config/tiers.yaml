@@ -1,0 +1,28 @@
+# LLM model tiers (OpenRouter). Model IDs are pinned here and recorded per
+# adjudication (adjudications.model), so every verdict is traceable to its judge.
+#
+# The bulk judge decides every candidate. Two interchangeable bulk judges are
+# available — pick one per run with `adjudicate --judge <name>`:
+#   gemini — google/gemini-3.1-flash-lite. Parallelism at max ~3 (429 storms above that).
+#   glm    — z-ai/glm-5.2 pinned to Novita's fp8 endpoint. Sustains ~512 parallel.
+# Every judge-config key other than `model` (e.g. `provider`, `reasoning`) is
+# passed verbatim as an OpenRouter request-body param for that model — see
+# https://openrouter.ai/docs/features/provider-routing and .../use-cases/reasoning-tokens
+openrouter:
+  judges:
+    gemini:
+      model: google/gemini-3.1-flash-lite
+    glm:
+      model: z-ai/glm-5.2
+      provider:
+        order: [novita]           # pin Novita...
+        quantizations: [fp8]       # ...at fp8 (the "novita/fp8" endpoint)
+        allow_fallbacks: false     # never silently route elsewhere
+      reasoning:
+        enabled: false            # GLM-5.2 is a reasoning model; left on, it spends
+                                  # the whole token budget on `reasoning` and returns
+                                  # null content (finish_reason=length). We only need
+                                  # the verdict JSON, so disable thinking outright.
+  default_judge: gemini
+  # Optional second judge (opt-in via `adjudicate --confirm`): re-checks accepts.
+  confirm: google/gemini-3.1-flash-lite

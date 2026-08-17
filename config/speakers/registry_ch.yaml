@@ -1,0 +1,196 @@
+# Switzerland speaker registry -- generated from the Amtliches Bulletin
+# metadata already stored per utterance (council, parliamentary group,
+# canton, function). Every CH quote was linked before this file existed,
+# but with no role and no description, so the UI had nothing to show
+# beside the name.
+- name: Albert Rösti
+  jurisdiction: CH
+  role: Member of the Swiss Federal Council
+  description: Swiss politician; member of the Federal Council.
+  aliases:
+  - Albert Rösti
+- name: Anna Giacometti
+  jurisdiction: CH
+  role: Member of the National Council (FDP, Graubünden)
+  party: FDP
+  description: Swiss politician; member of the National Council (FDP, Graubünden).
+  aliases:
+  - Anna Giacometti
+- name: Balthasar Glättli
+  jurisdiction: CH
+  role: Member of the National Council (Greens, Zürich)
+  party: Greens
+  description: Swiss politician; member of the National Council (Greens, Zürich).
+  aliases:
+  - Balthasar Glättli
+- name: Beat Jans
+  jurisdiction: CH
+  role: Member of the Swiss Federal Council
+  description: Swiss politician; member of the Federal Council.
+  aliases:
+  - Beat Jans
+- name: Beat Rieder
+  jurisdiction: CH
+  role: Member of the Council of States (Die Mitte, Wallis)
+  party: Die Mitte
+  description: Swiss politician; member of the Council of States (Die Mitte, Wallis).
+  aliases:
+  - Beat Rieder
+- name: Charles Juillard
+  jurisdiction: CH
+  role: Member of the Council of States (Die Mitte, Jura)
+  party: Die Mitte
+  description: Swiss politician; member of the Council of States (Die Mitte, Jura).
+  aliases:
+  - Charles Juillard
+- name: Daniel Fässler
+  jurisdiction: CH
+  role: Member of the Council of States (Die Mitte, Appenzell I.-Rh.)
+  party: Die Mitte
+  description: Swiss politician; member of the Council of States (Die Mitte, Appenzell I.-Rh.).
+  aliases:
+  - Daniel Fässler
+- name: Delphine Klopfenstein Broggini
+  jurisdiction: CH
+  role: Member of the National Council (Greens, Genf)
+  party: Greens
+  description: Swiss politician; member of the National Council (Greens, Genf).
+  aliases:
+  - Delphine Klopfenstein Broggini
+- name: Elisabeth Baume-Schneider
+  jurisdiction: CH
+  role: Member of the Swiss Federal Council
+  description: Swiss politician; member of the Federal Council.
+  aliases:
+  - Elisabeth Baume-Schneider
+- name: Estelle Revaz
+  jurisdiction: CH
+  role: Member of the National Council (SP, Genf)
+  party: SP
+  description: Swiss politician; member of the National Council (SP, Genf).
+  aliases:
+  - Estelle Revaz
+- name: Fabien Fivaz
+  jurisdiction: CH
+  role: Member of the National Council (Greens, Neuenburg)
+  party: Greens
+  description: Swiss politician; member of the National Council (Greens, Neuenburg).
+  aliases:
+  - Fabien Fivaz
+- name: Franz Grüter
+  jurisdiction: CH
+  role: Member of the National Council (SVP, Luzern)
+  party: SVP
+  description: Swiss politician; member of the National Council (SVP, Luzern).
+  aliases:
+  - Franz Grüter
+- name: Gerhard Andrey
+  jurisdiction: CH
+  role: Member of the National Council (Greens, Freiburg)
+  party: Greens
+  description: Swiss politician; member of the National Council (Greens, Freiburg).
+  aliases:
+  - Gerhard Andrey
+- name: Guy Parmelin
+  jurisdiction: CH
+  role: Member of the Swiss Federal Council
+  description: Swiss politician; member of the Federal Council.
+  aliases:
+  - Guy Parmelin
+- name: Isabelle Chappuis
+  jurisdiction: CH
+  role: Member of the National Council (Die Mitte, Waadt)
+  party: Die Mitte
+  description: Swiss politician; member of the National Council (Die Mitte, Waadt).
+  aliases:
+  - Isabelle Chappuis
+- name: Johanna Gapany
+  jurisdiction: CH
+  role: Member of the Council of States (FDP, Freiburg)
+  party: FDP
+  description: Swiss politician; member of the Council of States (FDP, Freiburg).
+  aliases:
+  - Johanna Gapany
+- name: Jon Pult
+  jurisdiction: CH
+  role: Member of the National Council (SP, Graubünden)
+  party: SP
+  description: Swiss politician; member of the National Council (SP, Graubünden).
+  aliases:
+  - Jon Pult
+- name: Katja Riem
+  jurisdiction: CH
+  role: Member of the National Council (SVP, Bern)
+  party: SVP
+  description: Swiss politician; member of the National Council (SVP, Bern).
+  aliases:
+  - Katja Riem
+- name: Linda De Ventura
+  jurisdiction: CH
+  role: Member of the National Council (SP, Schaffhausen)
+  party: SP
+  description: Swiss politician; member of the National Council (SP, Schaffhausen).
+  aliases:
+  - Linda De Ventura
+- name: Manfred Bühler
+  jurisdiction: CH
+  role: Member of the National Council (SVP, Bern)
+  party: SVP
+  description: Swiss politician; member of the National Council (SVP, Bern).
+  aliases:
+  - Manfred Bühler
+- name: Marionna Schlatter
+  jurisdiction: CH
+  role: Member of the National Council (Greens, Zürich)
+  party: Greens
+  description: Swiss politician; member of the National Council (Greens, Zürich).
+  aliases:
+  - Marionna Schlatter
+- name: Matthias Michel
+  jurisdiction: CH
+  role: Member of the Council of States (FDP, Zug)
+  party: FDP
+  description: Swiss politician; member of the Council of States (FDP, Zug).
+  aliases:
+  - Matthias Michel
+- name: Patricia von Falkenstein
+  jurisdiction: CH
+  role: Member of the National Council (FDP, Basel-Stadt)
+  party: FDP
+  description: Swiss politician; member of the National Council (FDP, Basel-Stadt).
+  aliases:
+  - Patricia von Falkenstein
+- name: Petra Gössi
+  jurisdiction: CH
+  role: Member of the Council of States (FDP, Schwyz)
+  party: FDP
+  description: Swiss politician; member of the Council of States (FDP, Schwyz).
+  aliases:
+  - Petra Gössi
+- name: Philippe Nantermod
+  jurisdiction: CH
+  role: Member of the National Council (FDP, Wallis)
+  party: FDP
+  description: Swiss politician; member of the National Council (FDP, Wallis).
+  aliases:
+  - Philippe Nantermod
+- name: Raphaël Mahaim
+  jurisdiction: CH
+  role: Member of the National Council (Greens, Waadt)
+  party: Greens
+  description: Swiss politician; member of the National Council (Greens, Waadt).
+  aliases:
+  - Raphaël Mahaim
+- name: Vincent Maitre
+  jurisdiction: CH
+  role: Member of the National Council (Die Mitte, Genf)
+  party: Die Mitte
+  description: Swiss politician; member of the National Council (Die Mitte, Genf).
+  aliases:
+  - Vincent Maitre
+- name: Viola Amherd
+  jurisdiction: CH
+  role: Member of the Swiss Federal Council
+  description: Swiss politician; member of the Federal Council.
+  aliases:
+  - Viola Amherd

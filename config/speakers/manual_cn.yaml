@@ -1,0 +1,129 @@
+# Chinese leadership & institutional authors (wikidata-linked where person).
+# Aliases must exactly match quote speaker_display values (utterance speaker_raw
+# or the judge-extracted "Name (role)" strings) so run_link groups them.
+- name: Xi Jinping
+  jurisdiction: CN
+  wikidata: Q15031
+  role: General Secretary / President
+  aliases:
+    - "习近平"
+    - "习近平 (中共中央总书记)"
+    - "习近平 (国家主席)"
+    - "Xi Jinping (General Secretary)"
+    - "Xi Jinping (President)"
+    - "Xi Jinping (General Secretary of the CPC Central Committee)"
+- name: Li Qiang
+  jurisdiction: CN
+  wikidata: Q4414390
+  role: Premier
+  aliases:
+    - "李强"
+    - "李强 (国务院总理)"
+    - "Li Qiang (Premier)"
+    - "Li Qiang (Premier of the State Council)"
+- name: Wang Yi
+  jurisdiction: CN
+  wikidata: Q701801
+  role: Foreign Minister; Director, CCP Central Foreign Affairs Office
+  aliases:
+    - "王毅"
+    - "王毅 (外交部长)"
+    - "Wang Yi (Foreign Minister)"
+- name: Zhuang Rongwen
+  jurisdiction: CN
+  wikidata: Q55694631
+  role: Director, Cyberspace Administration of China
+  aliases:
+    - "庄荣文"
+    - "庄荣文 (中央网络安全和信息化委员会办公室主任)"
+    - "庄荣文 (国家互联网信息办公室主任)"
+    - "Zhuang Rongwen (CAC Director)"
+- name: Jin Zhuanglong
+  jurisdiction: CN
+  wikidata: Q8291855
+  role: Minister of Industry and Information Technology
+  aliases:
+    - "金壮龙"
+    - "金壮龙 (工业和信息化部部长)"
+    - "Jin Zhuanglong (MIIT Minister)"
+- name: Zhang Yunming
+  jurisdiction: CN
+  role: Vice Minister of Industry and Information Technology
+  aliases:
+    - "张云明"
+    - "张云明 (工业和信息化部副部长)"
+- name: Xin Guobin
+  jurisdiction: CN
+  role: Vice Minister of Industry and Information Technology
+  aliases:
+    - "辛国斌"
+    - "辛国斌 (工业和信息化部副部长)"
+- name: State Council
+  jurisdiction: CN
+  role: institutional
+  aliases:
+    - "国务院"
+    - "中华人民共和国国务院"
+    - "State Council (AI+ Initiative opinion)"
+    - "State Council (issuing organ)"
+- name: CCP Central Committee & State Council
+  jurisdiction: CN
+  role: institutional
+  aliases:
+    - "中共中央、国务院"
+    - "中共中央国务院"
+- name: CCP Central Committee
+  jurisdiction: CN
+  role: institutional
+  aliases:
+    - "中共中央"
+    - "CCP Central Committee (Third Plenum resolution)"
+- name: Ministry of Foreign Affairs
+  jurisdiction: CN
+  role: institutional
+  aliases:
+    - "外交部"
+    - "中华人民共和国外交部"
+    - "Ministry of Foreign Affairs (Global AI Governance Initiative)"
+    - "Ministry of Foreign Affairs (Global AI Governance Action Plan)"
+- name: Ministry of Industry and Information Technology
+  jurisdiction: CN
+  role: institutional
+  aliases:
+    - "工业和信息化部"
+    - "工信部"
+    - "中华人民共和国工业和信息化部"
+- name: Cyberspace Administration of China
+  jurisdiction: CN
+  role: institutional
+  aliases:
+    - "国家互联网信息办公室"
+    - "国家网信办"
+    - "中央网络安全和信息化委员会办公室"
+    - "CAC / TC260"
+- name: Ministry of Science and Technology
+  jurisdiction: CN
+  role: institutional
+  aliases:
+    - "科技部"
+    - "科学技术部"
+    - "中华人民共和国科学技术部"
+- name: Cyberspace Administration of China
+  jurisdiction: CN
+  role: institutional
+  aliases:
+    - "国家互联网信息办公室"
+    - "国家互联网信息办公室 (Cyberspace Administration of China)"
+    - "国家网信办"
+- name: Ministry of Foreign Affairs
+  jurisdiction: CN
+  role: institutional
+  aliases:
+    - "Ministry of Foreign Affairs of the People's Republic of China"
+    - "外交部"
+- name: State Council
+  jurisdiction: CN
+  role: institutional
+  aliases:
+    - "国务院"
+    - "State Council of the People's Republic of China"

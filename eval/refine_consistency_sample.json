@@ -1,0 +1,3516 @@
+[
+ {
+  "candidate_id": 6,
+  "speaker": "Lord Waldegrave of North Hill (Con)",
+  "jurisdiction": "UK",
+  "quote": "As recursive self-improvement arrives—it may have already arrived—and machines can design machines more intelligent than themselves without our intervention and our control, we are in a completely new world",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "asi",
+     "regulation",
+     "rsi",
+     "x_risk"
+    ],
+    [
+     "agi",
+     "asi",
+     "regulation",
+     "rsi",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    null,
+    [
+     "regulation",
+     "rsi",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 8,
+  "speaker": "Baroness Bottomley of Nettlestone (Con)",
+  "jurisdiction": "UK",
+  "quote": "There are the fast-burn problems of advanced AI in the hands of bad actors or the loss of control of an advanced AI; there are also the slow-burn problems we are just starting to confront, including the erosion of jobs leading to many of people being deprived of a job, career and sense of purpose in their lives, and the threat of gradual disempowerment and enfeeblement of human beings, as has been",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ],
+    null
+   ],
+   "glm": [
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ],
+    null
+   ]
+  }
+ },
+ {
+  "candidate_id": 20,
+  "speaker": "Baroness Doocey (LD)",
+  "jurisdiction": "UK",
+  "quote": "My amendment would bring the development of such systems by a foreign power within the definition of “foreign power threat activity” under the National Security Act 2023. It is directed at systems capable of neutralising or subverting our relevant human authorities, which I have defined as our Armed Forces, intelligence services, police and the Government themselves.",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "asi",
+     "regulation",
+     "rsi",
+     "x_risk"
+    ],
+    [
+     "asi",
+     "regulation",
+     "rsi",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    null,
+    null
+   ]
+  }
+ },
+ {
+  "candidate_id": 22,
+  "speaker": "Lord Hanson of Flint (Lab)",
+  "jurisdiction": "UK",
+  "quote": "The Government recognise that the development by foreign powers of highly advanced artificial intelligence systems poses a risk to our cyber security and our national security. We will therefore—I hope this helps the noble Baroness—ask the Independent Reviewer of State Threats Legislation to expressly consider whether amendments to legislation are necessary to redefine “foreign power threat activi",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "asi",
+     "regulation"
+    ],
+    [
+     "asi",
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 74,
+  "speaker": "Lord Watson of Wyre Forest (Lab)",
+  "jurisdiction": "UK",
+  "quote": "The first of these—I note the caveats of the noble and gallant Lord, Lord Houghton of Richmond, about there being contrary views—is that the singularity is no longer hypothetical but inevitable. The second is that, as the noble and right reverend Lord, Lord Chartres, said, AI can enhance human life beyond our imagination. It can prolong our lives, eliminate famine and reduce illness; it might even",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "rsi",
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "rsi",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "rsi",
+     "x_risk"
+    ],
+    [
+     "rsi",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 82,
+  "speaker": "Lord Rees of Ludlow (CB)",
+  "jurisdiction": "UK",
+  "quote": "My concern is not so much the science-fiction scenario of a “takeover” by superintelligence as the risk that we will become dependent on interconnected networks whose failure—leading to disruption of the electricity grid, GPS or the internet—could cause societal breakdowns that cascade globally.\n\nRegulation is needed. Innovative algorithms need to be thoroughly tested before wide deployment, by an",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "agi",
+     "asi",
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 125,
+  "speaker": "The Parliamentary Under-Secretary of State, Department for Science, Innovation and Technology (Viscount Camrose) (Con)",
+  "jurisdiction": "UK",
+  "quote": "The White Paper response outlines a range of measures to support existing regulators to deliver against the AI regulatory framework. This includes providing further support to regulators to deliver the regulatory framework through a boost of more than £100 million to upskill regulators and help unlock new AI research and innovation.",
+  "first_stage": [
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 163,
+  "speaker": "The Secretary of State for Science, Innovation and Technology (Peter Kyle)",
+  "jurisdiction": "UK",
+  "quote": "As announced in the King’s Speech last summer, we will deliver on our manifesto commitment by placing binding requirements on the handful of companies developing the most powerful AI systems. This highly targeted legislation will build on the voluntary commitments secured at the Seoul AI safety summit for frontier AI companies to develop and deploy their systems responsibly and strengthen the role",
+  "first_stage": [
+   "agi",
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "regulation"
+    ],
+    [
+     "agi",
+     "regulation"
+    ]
+   ],
+   "glm": [
+    null,
+    null
+   ]
+  }
+ },
+ {
+  "candidate_id": 200,
+  "speaker": "Lord Ranger of Northwood (Con)",
+  "jurisdiction": "UK",
+  "quote": "With regard to artificial general intelligence —the singularity—it must be stated that most experts predict this to happen between 2040 and 2045, if at all.",
+  "first_stage": [
+   "agi",
+   "rsi"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "rsi"
+    ],
+    [
+     "agi",
+     "rsi"
+    ]
+   ],
+   "glm": [
+    [
+     "agi",
+     "regulation",
+     "rsi"
+    ],
+    [
+     "agi",
+     "rsi"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 216,
+  "speaker": "Baroness Foster of Aghadrumsee (Non-Afl)",
+  "jurisdiction": "UK",
+  "quote": "I hope the Minister will be able to set out a plan for international Governments to deal with the risks of superintelligence: that is, systems that would be capable of outsmarting experts, compromising our national security and upending international stability even more than it has been upended already.",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 218,
+  "speaker": "Lord Hunt of Kings Heath (Lab)",
+  "jurisdiction": "UK",
+  "quote": "I am using this debate to urge the Government to consider building safeguards into ASI development to ensure that it proceeds only in a safe and controllable manner, and to seek international agreement on it.",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 228,
+  "speaker": "The Parliamentary Under-Secretary of State, Department for Business and Trade and Department for Science, Innovation and Technology (Baroness Lloyd of Effra) (Lab)",
+  "jurisdiction": "UK",
+  "quote": "As frontier AI evolves, the AI Security Institute helps the Government assess and identify potential emerging risks, which would include pathways towards any kind of superintelligence. The Government will remain vigilant and prepare for new AI risks, including rapid advancements that could affect society and national security.",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "asi",
+     "regulation"
+    ],
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 232,
+  "speaker": "The Parliamentary Under-Secretary of State, Department for Business and Trade and Department for Science, Innovation and Technology (Baroness Lloyd of Effra) (Lab)",
+  "jurisdiction": "UK",
+  "quote": "One of the AISI’s priorities is tracking the development of AI capabilities that would contribute to AI’s ability to evade human control, which has been raised many times in the debate today.",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    null
+   ]
+  }
+ },
+ {
+  "candidate_id": 233,
+  "speaker": "Baroness Lloyd of Effra (Lab)",
+  "jurisdiction": "UK",
+  "quote": "For example, one of its research focuses is tracking the development of AI capabilities that would test the limits of human control, which is one of the most pertinent questions for anybody thinking about the implications of superintelligence.",
+  "first_stage": [
+   "agi",
+   "asi",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "asi",
+     "x_risk"
+    ],
+    [
+     "asi",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "asi",
+     "x_risk"
+    ],
+    [
+     "asi",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 1236,
+  "speaker": "Huang Huang (Vice Dean of the School of Government, Peking University, writing as an official expert interpreter for the CAC)",
+  "jurisdiction": "CN",
+  "quote": "深化公共安全视频图像建设联网，加快图像识别、物联网、大数据、人工智能等信息技术在治安防控领域中的深度融合应用，提升社会治安防控的整体性、协同性、精准性",
+  "first_stage": [
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 1588,
+  "speaker": "Xi Jinping (General Secretary)",
+  "jurisdiction": "CN",
+  "quote": "国家安全工作要贯彻落实党的二十大决策部署，切实做好维护政治安全、提升网络数据人工智能安全治理水平、加快建设国家安全风险监测预警体系、推进国家安全法治建设、加强国家安全教育等方面工作。",
+  "first_stage": [
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 1619,
+  "speaker": "Li Yanhong (Baidu CEO)",
+  "jurisdiction": "CN",
+  "quote": "李彦宏认为，新技术的应用往往要先于规范，只有建立健全保障人工智能健康发展的法律法规、制度体系、伦理道德，才能营造良好的创新生态。着眼未来，在重视防范风险的同时，也应同步建立容错、纠错机制，努力实现规范与发展的动态平衡。",
+  "first_stage": [
+   "agi",
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 2672,
+  "speaker": "Mme Isabelle Rauch",
+  "jurisdiction": "FR",
+  "quote": "Une étape historique a été franchie le 2 février dernier en matière d’encadrement de l’intelligence artificielle, puisque les vingt-sept États membres de l’Union européenne ont voté en faveur de l’IA Act, première réglementation mondiale en la matière.",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    null,
+    null
+   ]
+  }
+ },
+ {
+  "candidate_id": 3597,
+  "speaker": "M. Paul Midy",
+  "jurisdiction": "FR",
+  "quote": "Puisque certains commerçants ont déjà recours à de tels dispositifs, je vous propose, avec ce texte, de légaliser cette pratique mais aussi de prévoir un encadrement solide, et ce grâce à une dizaine de mécanismes.",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    null,
+    null
+   ]
+  }
+ },
+ {
+  "candidate_id": 4251,
+  "speaker": "Mr. Sébastien Lemire (Abitibi—Témiscamingue, BQ)",
+  "jurisdiction": "CA",
+  "quote": "The use of artificial intelligence is a rapidly growing field that risks expanding beyond our control and jurisdiction if we do not begin to regulate the practice and define certain concepts.",
+  "first_stage": [
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 4976,
+  "speaker": "浅田均 (日本維新の会・教育無償化を実現する会)",
+  "jurisdiction": "JP",
+  "quote": "生成ＡＩを搭載したＬＡＷＳ、自律型致死兵器がシンギュラリティー、特異点に達し、私たち人間に銃を向ける、あるいはロボット兵器自身が軍隊や国家に類する機構を組織することは十分に考えられることです。",
+  "first_stage": [
+   "agi",
+   "asi",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    null,
+    null
+   ],
+   "glm": [
+    [
+     "rsi",
+     "x_risk"
+    ],
+    [
+     "rsi",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 5332,
+  "speaker": "Frans Timmermans",
+  "jurisdiction": "EU",
+  "quote": "But what if this optimization no longer can be democratically or legally controlled? What's going to happen? We don't know, do we? Should we not be modelling that as well? I think we should. And then, what if this AI starts to develop a consciousness? Only at the highest levels of the natural habitats or if you look at zoology, not every living animal on this planet has a self-consciousness, self-",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "x_risk"
+    ],
+    [
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 5409,
+  "speaker": "市村浩一郎 (日本維新の会)",
+  "jurisdiction": "JP",
+  "quote": "ＡＩは我々を乗り越える時代も来るというのが、シンギュラリティーというのも来るというふうに言われていますから、だから、しっかりとＡＩを、今度はＡＩ法も、次出てきますので、そこでまた改めてやらせていただきますが、とにかく、これからをどうするか、これを第一歩として、これからどうするかということが大変重要だと私は思います。",
+  "first_stage": [
+   "agi",
+   "asi",
+   "rsi"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "rsi"
+    ],
+    [
+     "agi",
+     "asi",
+     "rsi"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation",
+     "rsi"
+    ],
+    [
+     "regulation",
+     "rsi"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 5457,
+  "speaker": "三木圭恵 (日本維新の会)",
+  "jurisdiction": "JP",
+  "quote": "次の質問なんですけれども、一問飛ばしまして、ＡＩの自動運転についてちょっと聞こうと思っていたんですけれども、城内大臣に来ていただいておりますので、先に、ＡＩの暴走を防ぐ、正義のＡＩに対する考え方についてお伺いしたいと思います。\n　ＡＩの三大巨頭と言われるのは、トロント大学名誉教授のジェフリー・ヒントン、メタのＡＩ研究幹部でニューヨーク大学教授のヤン・ルカン、モントリオール大学教授のヨシュア・ベンジオという方なんですけれども、この三人のうちのヨシュア・ベンジオ教授が、ＡＩの安全性を高める研究に特化したＮＰＯ、ＬａｗＺｅｒｏを設立する、ほかのＡＩの異常な挙動や人に危害を及ぼしかねない動作を予測して制止するＡＩを開発するということでございます。\n　ベンジオ氏は、ＡＩの進化について、二年から十年の間に人間並みのレベルに達する可能性があると指摘して、その上で、国や政府が危険な行動を避けるようにリーダ",
+  "first_stage": [
+   "agi",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "agi",
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "agi",
+     "regulation",
+     "x_risk"
+    ],
+    null
+   ]
+  }
+ },
+ {
+  "candidate_id": 5950,
+  "speaker": "Johannes Schätzl (SPD)",
+  "jurisdiction": "DE",
+  "quote": "Zusätzlich stellt eben genau diese künstliche Intelligenz einen historischen Umbruch im Zeitalter der Cybersicherheit dar. KI-Modelle erkennen automatisiert Schwachstellen, die vermutlich in den meisten technischen Systemen, die mit dem Internet verbunden sind, vorhanden sind.\nUnd ich glaube, wir sollten auf das BSI hören. Das BSI sagt: Neue KI-Modelle sind eine Frage der nationalen Sicherheit. – ",
+  "first_stage": [
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    null,
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [],
+    []
+   ]
+  }
+ },
+ {
+  "candidate_id": 6075,
+  "speaker": "Johannes Rothenberger (CDU/CSU)",
+  "jurisdiction": "DE",
+  "quote": "Einige Menschen haben große Bedenken hinsichtlich einer künstlichen Superintelligenz, von der möglicherweise große Gefahren ausgehen könnten. Auch hier greift der Schutz eines möglichen neuen Produkthaftungsgesetzes.",
+  "first_stage": [
+   "asi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "asi",
+     "x_risk"
+    ],
+    [
+     "asi",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "asi",
+     "regulation"
+    ],
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 6207,
+  "speaker": "Marvin Schulz (CDU/CSU)",
+  "jurisdiction": "DE",
+  "quote": "Worum es letztlich bei der europäischen KI-Verordnung geht, ist, dass wir sie effizienter, dass wir sie schlanker machen. Daran arbeitet die Bundesregierung jetzt.",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 6704,
+  "speaker": "M. Stéphane RAVIER",
+  "jurisdiction": "FR",
+  "quote": "Les craintes que nous éprouvons, mais aussi les chances que nous entrevoyons avec une telle technologie ne font que rappeler l’intrusion du numérique dans nos vies depuis de nombreuses années.\nNous assistons à l’extension de l’ubérisation au domaine de la pensée. Cela pose la question de la liberté et du rapport à la réalité. Créées dans la Silicon Valley, ces technologies diffusent un conformisme",
+  "first_stage": [
+   "agi",
+   "asi",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    []
+   ],
+   "glm": [
+    [],
+    null
+   ]
+  }
+ },
+ {
+  "candidate_id": 7491,
+  "speaker": "Mme Laure DARCOS",
+  "jurisdiction": "FR",
+  "quote": "C’est pourquoi, après avoir attendu les résultats de la concertation nationale entre les titulaires de droits et les fournisseurs d’intelligence artificielle, nous avons décidé d’agir pour rompre avec l’opacité du système actuel et rééquilibrer le rapport de force entre les deux parties.",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    null,
+    null
+   ]
+  }
+ },
+ {
+  "candidate_id": 17096,
+  "speaker": "Mr. Abushahab (United Arab Emirates)",
+  "jurisdiction": "UN",
+  "quote": "We are all witnessing the rapid pace of technological advancements in recent years, such as in artificial intelligence (AI). The risk that non-State actors could misuse AI to acquire or develop weapons of mass destruction serves to highlight the importance of States and of the non-proliferation architecture with regard to resolution 1540 (2004). Both are making significant efforts to stay ahead of",
+  "first_stage": [
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [],
+    []
+   ]
+  }
+ },
+ {
+  "candidate_id": 17236,
+  "speaker": "Mr. Gonçalves (Mozambique)",
+  "jurisdiction": "UN",
+  "quote": "The recent acceleration in both the power and visibility of AI systems, along with the increasing awareness of their capabilities and limitations, has sparked concerns that the technology is advancing at such a rapid pace that it may no longer be safely controllable. That caution is warranted.",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    null,
+    null
+   ],
+   "glm": [
+    [
+     "agi",
+     "regulation",
+     "rsi",
+     "x_risk"
+    ],
+    [
+     "agi",
+     "regulation",
+     "rsi",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 18081,
+  "speaker": "Mr. Afonso (Mozambique)",
+  "jurisdiction": "UN",
+  "quote": "First, innovations in artificial intelligence, robotics and other fields can lead to the development of advanced weaponry, potentially destabilizing global peace and security.",
+  "first_stage": [
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [],
+    []
+   ]
+  }
+ },
+ {
+  "candidate_id": 18499,
+  "speaker": "Mr. Schoof (Kingdom of the Netherlands)",
+  "jurisdiction": "UN",
+  "quote": "But it can also be used for cyberattacks and disinformation campaigns, so there is every reason for us to develop accountability mechanisms.\nIn 2023, the Netherlands and South Korea jointly initiated the broad international \ndebate on the responsible use of AI in the military domain, also known as the REAIM \nprocess. As part of this process, the Netherlands launched a global commission on \nrespons",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 19112,
+  "speaker": "Maria Walsh (PPE)",
+  "jurisdiction": "EU",
+  "quote": "The AI Act and the DSA mandate transparency for AI‑generated media and content moderation, including clear rules and notice and take‑down procedures for deepfakes. And our Commission and Member States need to do more to implement the safeguards to detect and prevent harmful deepfakes and to address gender‑specific digital threats within AI regulations.",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 19253,
+  "speaker": "The Acting President",
+  "jurisdiction": "UN",
+  "quote": "Even what would seem, at a superficial glance, a tool that could improve the well-being of humankind, at a closer look can turn out to be a risk. Let us just consider artificial intelligence. The applications of that new technology may offer great opportunities in many fields, but we cannot pretend to not understand its enormous inherent risks. I am not sure if we are adequately aware of the impli",
+  "first_stage": [
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 19276,
+  "speaker": "Mr. Dowden (United Kingdom)",
+  "jurisdiction": "UN",
+  "quote": "Indeed, the stated aim of those companies is to build superintelligence, AI that strives to surpass intelligence in every possible way. Some people working on that think it is just a few years away.",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "asi",
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "agi",
+     "asi",
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 19283,
+  "speaker": "Mr. Barre (Somalia) ( spoke in Arabic )",
+  "jurisdiction": "UN",
+  "quote": "We see that new technologies, such as artificial intelligence, pose new and terrifying threats to all of us.",
+  "first_stage": [
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "x_risk"
+    ],
+    [
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [],
+    []
+   ]
+  }
+ },
+ {
+  "candidate_id": 19547,
+  "speaker": "The Acting President",
+  "jurisdiction": "UN",
+  "quote": "We are witnessing the groundbreaking advent of generative artificial intelligence — a revolution that raises entirely new questions, although I am not sure we should call it “intelligence”. Intelligence entails asking questions, not answering them through data-processing. In any case, unlike any other innovation in history, this technology is a blueprint for a world in which progress no longer opt",
+  "first_stage": [
+   "agi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 19985,
+  "speaker": "Unknown",
+  "jurisdiction": "CN",
+  "quote": "我们要积极利用法律法规和标准规范引导新技术应用，确保人工智能安全、可靠、可控，让人工智能创造更丰富的价值应用，更有力地塑造人们的美好生活。",
+  "first_stage": [
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 22734,
+  "speaker": "Xi Jinping (President of the People's Republic of China)",
+  "jurisdiction": "CN",
+  "quote": "At this Forum, China will put forward the Global Initiative for Artificial Intelligence (AI) Governance. We stand ready to increase exchanges and dialogue with other countries and jointly promote the sound, orderly and secure AI development in the world.",
+  "first_stage": [
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 25468,
+  "speaker": "Mr Kwek Hian Chuan Henry (Kebun Baru)",
+  "jurisdiction": "SG",
+  "quote": "We should allow as many services as possible for seniors to be coordinated digitally and deploy AI-powered services to interact with and care for our seniors.",
+  "first_stage": [
+   "rsi"
+  ],
+  "verdicts": {
+   "gemini": [
+    [],
+    []
+   ],
+   "glm": [
+    [],
+    []
+   ]
+  }
+ },
+ {
+  "candidate_id": 25578,
+  "speaker": "Ms Tin Pei Ling (MacPherson)",
+  "jurisdiction": "SG",
+  "quote": "I would like to ask, given that AI has been progressing at a speed that was even faster than expected – now it is artificial general intelligence (AGI) and the next one, we do not know when, may be super intelligence – and the impact on ordinary citizens' lives have been far-reaching and wide-ranging – economic, social, legal and so on – can I ask how is the Ministry working with other agencies to",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "asi",
+     "regulation"
+    ],
+    [
+     "agi",
+     "asi",
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "agi",
+     "asi",
+     "regulation"
+    ],
+    [
+     "agi",
+     "asi",
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 25920,
+  "speaker": "Mr Kwek Hian Chuan Henry (Kebun Baru)",
+  "jurisdiction": "SG",
+  "quote": "A key component of this initiative could be the establishment of a Centre of Excellence for AI Alignment, which will develop AI frameworks that ensure that AI models adhere to our needs.",
+  "first_stage": [
+   "agi",
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "agi",
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    []
+   ]
+  }
+ },
+ {
+  "candidate_id": 26306,
+  "speaker": "Ms Mariam Jaafar (Sembawang)",
+  "jurisdiction": "SG",
+  "quote": "True strategic advantage requires building sovereign capability. Leadership in the core systems that AI runs on; interoperability and audit standards; governance frameworks that are trusted internationally.",
+  "first_stage": [
+   "agi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 26476,
+  "speaker": "Mrs Josephine Teo",
+  "jurisdiction": "SG",
+  "quote": "For example, quite apart from introducing model governance frameworks, we have set up a digital trust centre that is our designated AI Safety Institute. We also have the Centre of Advanced Technologies for Online Safety. These are institutions that have grown within academic organisations, but we will look for opportunities to collaborate with industry, with academia, to see how we can institution",
+  "first_stage": [
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 26757,
+  "speaker": "Mr K Shanmugam",
+  "jurisdiction": "SG",
+  "quote": "We have strengthened our legislative levers through the amended Broadcasting Act and the new Online Criminal Harms Act to block or remove extremist and terrorist content, including those generated by AI.",
+  "first_stage": [
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 26866,
+  "speaker": "Dr. Hiran (PP/RR)",
+  "jurisdiction": "BR",
+  "quote": "os experts no assunto tentam fazer um pacto mundial para dar um tempo para que se pareiem essas evoluções, para que nós tenhamos controle; porque senão, daqui a pouco, nós perderemos controle de algumas plataformas tão inteligentes que vão superar a inteligência humana.",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "asi",
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "agi",
+     "asi",
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "agi",
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "agi",
+     "regulation",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 27007,
+  "speaker": "Mr. Fu Cong (China) (spoke in Chinese )",
+  "jurisdiction": "UN",
+  "quote": "As indicated in the report of the Secretary-General, the risk of artificial intelligence and autonomous weapons systems being used as a means of warfare is on the rise, and we should pay it greater attention. Following a human-centred principle of using artificial intelligence to benefit all, countries should work to ensure that artificial intelligence always remains under human control. China sup",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 27541,
+  "speaker": "Dragoş Tudorache, on behalf of the Renew Group",
+  "jurisdiction": "EU",
+  "quote": "That is why global convergence on generative AI needs to be driven by us and by those who share our values. As the first ones to work on legislation for AI worldwide, we are well positioned to lead, but we need to be smart and humble about it, because the impact of generative AI on history will be global.",
+  "first_stage": [
+   "agi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 28328,
+  "speaker": "国家互联网信息办公室网络管理技术局、信息化发展局、网络法治局和国家互联网应急中心等单位负责人",
+  "jurisdiction": "CN",
+  "quote": "邀请国家互联网信息办公室网络管理技术局、信息化发展局、网络法治局和国家互联网应急中心等单位负责人围绕人工智能安全治理，从制度建设、法治保障、技术驱动到应用实践等方面作主题发言，系统呈现我国在人工智能治理领域的探索路径和成果。",
+  "first_stage": [
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 29146,
+  "speaker": "国家互联网信息办公室",
+  "jurisdiction": "CN",
+  "quote": "第三条 国家坚持健康发展和依法治理相结合的原则，鼓励拟人化互动服务创新发展，对拟人化互动服务实行包容审慎和分类分级监管，防止滥用失控。",
+  "first_stage": [
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 29210,
+  "speaker": "张云明 (工业和信息化部副部长)",
+  "jurisdiction": "CN",
+  "quote": "目前，人工智能已渗透领航工厂70%以上的业务场景，沉淀了超6000个垂直领域模型，带动1700多项关键智能制造装备与工业软件规模化应用，形成一批具备感知、决策与执行能力的工业智能体，推动智能制造从“自动化”向“自主化”演进。",
+  "first_stage": [
+   "agi"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi"
+    ],
+    [
+     "agi"
+    ]
+   ],
+   "glm": [
+    [],
+    []
+   ]
+  }
+ },
+ {
+  "candidate_id": 29418,
+  "speaker": "Yu Xiaohui (14th CPPCC National Committee member, CAICT president)",
+  "jurisdiction": "CN",
+  "quote": "习近平总书记在主持中共中央政治局第二十次集体学习时指出：“人工智能带来前所未有发展机遇，也带来前所未遇风险挑战。要把握人工智能发展趋势和规律，加紧制定完善相关法律法规、政策制度、应用规范、伦理准则，构建技术监测、风险预警、应急响应体系，确保人工智能安全、可靠、可控。”",
+  "first_stage": [
+   "agi",
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    null,
+    null
+   ],
+   "glm": [
+    null,
+    null
+   ]
+  }
+ },
+ {
+  "candidate_id": 29452,
+  "speaker": "State Council",
+  "jurisdiction": "CN",
+  "quote": "“清朗”“净网”等专项行动深入开展、个人信息保护持续加强、人工智能安全治理不断深化，一系列举措扎实推进，网络家园更加清朗安全",
+  "first_stage": [
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 29612,
+  "speaker": "Mr. SCHUMER",
+  "jurisdiction": "US",
+  "quote": "Today's classified briefing is crucial because, of all the issues AI would impact, national security may well be the most consequential. In the hands of autocrats or foreign adversaries or domestic rogue actors interested in political chaos or financial gain, the dangers of AI could be extreme.",
+  "first_stage": [
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 29626,
+  "speaker": "Mr. ROUNDS",
+  "jurisdiction": "US",
+  "quote": "(2) Assessing the potential risks of underlying artificial\nintelligence architectures and algorithms, including the\nfollowing:\n(A) Individual foundation models, including the adequacy of\nexisting testing, training, and auditing for such models to\nensure models can be properly assessed over time.\n(B) The interactions of multiple artificial intelligence\nsystems, and the ability to detect and assess ",
+  "first_stage": [
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 29750,
+  "speaker": "李强（国务院总理）",
+  "jurisdiction": "CN",
+  "quote": "三是加强协同共治，确保智能向善。加强发展战略、治理规则、技术标准等对接协调，推动建立普遍参与的国际机制，形成具有广泛共识的治理框架和标准规范，确保人工智能发展安全、可靠、可控，始终符合人类的根本利益和价值标准。",
+  "first_stage": [
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    null
+   ]
+  }
+ },
+ {
+  "candidate_id": 29848,
+  "speaker": "Lin Jian (Foreign Ministry Spokesperson)",
+  "jurisdiction": "CN",
+  "quote": "The Action Plan is aimed at bridging the AI divide and promoting the implementation of the UN 2030 Agenda for Sustainable Development. Five visions were proposed on cooperation areas that meet the expectation of all parties, in particular the Global South, namely AI infrastructure, industrial empowerment, personnel training, digital development and security governance.",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 31071,
+  "speaker": "Donald Trump (President)",
+  "jurisdiction": "US",
+  "quote": "This order launches the ``Genesis Mission'' as a dedicated, coordinated national effort to unleash a new age of AI-accelerated innovation and discovery that can solve the most challenging problems of this century. The Genesis Mission will build an integrated AI platform to harness Federal scientific datasets--the world's largest collection of such datasets, developed over decades of Federal invest",
+  "first_stage": [
+   "agi",
+   "rsi"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    []
+   ],
+   "glm": [
+    [],
+    []
+   ]
+  }
+ },
+ {
+  "candidate_id": 32614,
+  "speaker": "习近平 (国家主席)",
+  "jurisdiction": "CN",
+  "quote": "两国元首认为，双方就人工智能治理进行了坦诚和建设性对话，在联合国大会相互联署各自关于人工智能的决议，确认有必要加强国际合作，促进人工智能向善普惠，应维持由人类控制核武器使用的决定。",
+  "first_stage": [
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 33339,
+  "speaker": "Ron Wyden (U.S. Senator)",
+  "jurisdiction": "US",
+  "quote": "The term ``automated decision system'' means any system, software, or process (including one derived from machine learning, statistics, or other data processing or artificial intelligence techniques and excluding passive computing infrastructure) that uses computation, the result of which serves as a basis for a decision or judgment.",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 33677,
+  "speaker": "Mr. SHERMAN",
+  "jurisdiction": "US",
+  "quote": "It is only a matter of time before artificial intelligence is more intelligent than any human. I mean that in a generalized sense, not just doing the things computers are good at, but doing the things that we do.  We had better make sure that the machines we build do not literally take on a life of their own, create their own objectives and their own tasks, seek to survive and propagate, and seek ",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    null,
+    [
+     "agi",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "agi",
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "agi",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 34005,
+  "speaker": "Mr. BOYLE of Pennsylvania",
+  "jurisdiction": "US",
+  "quote": "I want to call out just one deeply troubling provision hidden in this bill, a provision that blocks States from regulating artificial intelligence for the next 10 years.\n  AI has the potential to be transformative, but only if it is\n  developed and used in a safe, responsible way. That requires strong\n  guardrails. This bill does the opposite.",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 34251,
+  "speaker": "Unknown",
+  "jurisdiction": "US",
+  "quote": "Subtitle H--Export Controls for Advanced Artificial Intelligence Chips\n\n     SEC. 6081. SHORT TITLE.\n\n       This subtitle may be cited as the ``Guaranteeing Access and \n     Innovation for National Artificial Intelligence Act of 2025'' \n     or the ``GAIN AI Act of 2025''.",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 34292,
+  "speaker": "Mr. WICKER",
+  "jurisdiction": "US",
+  "quote": "SEC. 1626. ARTIFICIAL GENERAL INTELLIGENCE STEERING\n                   COMMITTEE.\n\n       (a) Establishment.--\n       (1) In general.--Not later than April 1, 2026, the \n     Secretary of Defense shall establish a steering committee on \n     artificial general intelligence.",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "regulation"
+    ],
+    [
+     "agi",
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "agi",
+     "regulation"
+    ],
+    [
+     "agi",
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 34452,
+  "speaker": "Mr. SANDERS",
+  "jurisdiction": "US",
+  "quote": "some very knowledgeable people believe that in the not too distant future, a superintelligent AI could replace human beings in controlling the planet.",
+  "first_stage": [
+   "agi",
+   "asi",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "asi",
+     "regulation",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 34775,
+  "speaker": "Mr. SANDERS",
+  "jurisdiction": "US",
+  "quote": "Further, there is a very real fear that as AI becomes smarter than humans, it could eventually function independent of human control with potentially catastrophic consequences. That is not me; that is what Nobel Prize scientists and experts are saying.",
+  "first_stage": [
+   "agi",
+   "asi",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "asi",
+     "x_risk"
+    ],
+    [
+     "agi",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "asi",
+     "x_risk"
+    ],
+    [
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 34957,
+  "speaker": "Mr. HUSTED",
+  "jurisdiction": "US",
+  "quote": "(D) an evaluation of the extent to which the model exhibits\n     advanced cyber offensive\n\n[[Page S3793]]\n\n     capabilities, an advanced understanding of biological and\n     virological application domains, and the ability to\n     substantially automate or accelerate artificial intelligence\n     research, and a comparison of such models to the most\n     advanced artificial intelligence models fro",
+  "first_stage": [
+   "agi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    null,
+    null
+   ],
+   "glm": [
+    null,
+    null
+   ]
+  }
+ },
+ {
+  "candidate_id": 35628,
+  "speaker": "Mr. Sherman",
+  "jurisdiction": "US",
+  "quote": "My line of questioning is going to be about things that won't affect us until the second half of this century. But since they relate to whether humankind will continue to be in domination of the planet Earth, they're important. We're--right now, the computer engineers and the bioengineers are racing to create a new level of intelligence. And the last time there was a higher level, a new level of i",
+  "first_stage": [
+   "agi",
+   "asi",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "x_risk"
+    ],
+    [
+     "agi",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "agi",
+     "asi",
+     "x_risk"
+    ],
+    [
+     "agi",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 36625,
+  "speaker": "Mr. Altman",
+  "jurisdiction": "US",
+  "quote": "also that prospect of increased danger or risk resulting from even more complex and capable AI mechanisms certainly may be closer than a lot of people appreciate.",
+  "first_stage": [
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "x_risk"
+    ],
+    [
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [],
+    []
+   ]
+  }
+ },
+ {
+  "candidate_id": 37755,
+  "speaker": "Vice Chairman Rubio",
+  "jurisdiction": "US",
+  "quote": "I think what scares people about this technology is the belief that it not simply holds the promise of making us better, but the threat of potentially replacing the human, being able to do what humans do without the human. I think one of the things that's interesting is we've been interacting with AI, or at least models of AI and applications of it, in ways we don't fully understand.",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "regulation",
+     "rsi",
+     "x_risk"
+    ],
+    [
+     "agi",
+     "regulation",
+     "rsi",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "agi"
+    ],
+    [
+     "agi",
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 38305,
+  "speaker": "Senator Casey",
+  "jurisdiction": "US",
+  "quote": "This July, I introduced the No Robot Bosses Act in Senate Bill 2419, which aims to regulate the potential risks and use of AI in the workplace. This bill would add protections for job applicants and employees related to automated decision systems and would require employers to disclose when and how these systems are being used.",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 38436,
+  "speaker": "Senator Johnson",
+  "jurisdiction": "US",
+  "quote": "I would even say nuclear power versus nuclear weapons is completely different than this that we cannot even begin to grapple with once this is unleashed and it is starting to learn and maybe even becoming self-aware. What is that going to actually result in?",
+  "first_stage": [
+   "agi",
+   "asi",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "x_risk"
+    ],
+    [
+     "agi",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "x_risk"
+    ],
+    [
+     "agi"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 38865,
+  "speaker": "Mr. Garbarino",
+  "jurisdiction": "US",
+  "quote": "Last, Mr. Swanson, how do you expect malicious actors will \r\nleverage AI to carry out cyber attacks? Do you think the \r\nefforts to use AI for cyber defense--and do you think the \r\nefforts to use AI for cyber defense will progress faster than \r\nefforts to use AI for offensive cyber operations?",
+  "first_stage": [
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    []
+   ],
+   "glm": [
+    [],
+    []
+   ]
+  }
+ },
+ {
+  "candidate_id": 39449,
+  "speaker": "Mr. Kiley",
+  "jurisdiction": "US",
+  "quote": "I am pretty skeptical of our ability as policymakers to legislate specific solutions to specific problems that we are seeing with the State of the technology right now. I think even the high-level engineers at OpenAI can't tell you what this technology is going to look like a year from now.",
+  "first_stage": [
+   "agi"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "regulation"
+    ],
+    [
+     "agi"
+    ]
+   ],
+   "glm": [
+    [],
+    []
+   ]
+  }
+ },
+ {
+  "candidate_id": 39597,
+  "speaker": "Mr. Williams",
+  "jurisdiction": "US",
+  "quote": "Artificial intelligence (AI) has extraordinary potential to benefit society. It also has peril. The safe use of AI can lead to life-changing breakthroughs in medicine and science, but unsafe use can result in bias and discrimination, exacerbating existing inequities in society, and in the wrong hands can present a threat to society equal to that of chemical, biological, radiological and nuclear th",
+  "first_stage": [
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 41083,
+  "speaker": "Senator Vance",
+  "jurisdiction": "US",
+  "quote": "On the flip side of it I also worry that that legitimate concern is justifying some over regulation or some preemptive over regulation attempts that would, frankly, entrench the tech incumbents that we already have and make it actually harder for new entrants to create the innovation that is going to sort of power the next generation of American growth and American job creation.",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 41408,
+  "speaker": "Mr. Gimenez",
+  "jurisdiction": "US",
+  "quote": "So it is critical that we win the race and we always have \nthe most intelligent artificial intelligence if that is the way \nwe are going to go, and I think that is the way that we are \ngoing to go.",
+  "first_stage": [
+   "agi",
+   "asi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "asi"
+    ],
+    [
+     "agi"
+    ]
+   ],
+   "glm": [
+    [],
+    []
+   ]
+  }
+ },
+ {
+  "candidate_id": 42742,
+  "speaker": "Mr. Fitzgerald",
+  "jurisdiction": "US",
+  "quote": "is moving out of the EU as a direct result of the AI Act. What they said was that Europe regulators are just killing innovation within the EU. You think there's lessons already that can be learned here in the States from what we've witnessed on some of these examples of what's transpiring overseas?",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 43355,
+  "speaker": "Senator Fetterman",
+  "jurisdiction": "US",
+  "quote": "You know, some people are worried about AI or whatever and I am, like, you know, what about the singularity so, you know, the people like that.\n    If you would address that, please.",
+  "first_stage": [
+   "agi",
+   "asi",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "rsi"
+    ],
+    [
+     "rsi",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "rsi"
+    ],
+    [
+     "rsi"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 43537,
+  "speaker": "Ms. Bonamici",
+  "jurisdiction": "US",
+  "quote": "This is a blank check for big tech, and the bill as written will block State and local governments from regulating artificial intelligence for 10 years. That is a long time. That is a decade of risk.",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 43907,
+  "speaker": "Mr. Perry",
+  "jurisdiction": "US",
+  "quote": "the AI has chosen, on occasion, to further its goals, as opposed to the goals of the people that wrote the code. And on occasion, how about the instance where Anthropic's Claude 4 model attempted to blackmail the people it believed were trying to shut it down, and then it would ignore and other ones would ignore shutdown commands, even when told in advance that shut down commands were coming, and ",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "agi",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 44305,
+  "speaker": "Mr. Biggs",
+  "jurisdiction": "US",
+  "quote": "A week--let's see, maybe a week ago Elon Musk announced \nGrok 4. He talked about artificial intelligence and Grok 4 is \ngoing to have the intelligence--it already has beyond a Ph.D., \nengineering, science, genius, et cetera, an artificial super \nintelligence.\n    We've touched on it lightly here today using different \nterms, but my question is at what point do we no longer see \ncomputational decis",
+  "first_stage": [
+   "agi",
+   "asi",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "asi",
+     "rsi"
+    ],
+    [
+     "asi",
+     "rsi"
+    ]
+   ],
+   "glm": [
+    [
+     "asi",
+     "rsi"
+    ],
+    [
+     "asi",
+     "rsi",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 44327,
+  "speaker": "Mr. Luttrell",
+  "jurisdiction": "US",
+  "quote": "technology and AI, AGI will advance \nStuxnet, SolarWinds in some way, and we won't be able to not \nonly keep up, catch up, but I am assuming there is a \nprobability that it is just going to outrun everything.",
+  "first_stage": [
+   "agi",
+   "asi",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi"
+    ],
+    [
+     "agi",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "agi"
+    ],
+    [
+     "agi"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 44717,
+  "speaker": "Ms. Mace",
+  "jurisdiction": "US",
+  "quote": "Some experts warn we are just a few years away from the emergence of artificial general intelligence or the singularity. Others argue that technology has inherent limitations, and we are decades away from the singularity, if it is even possible. We do not know for certain what future of AI will look like, but what I do know is the future is too important to leave up to chance. We are going to do o",
+  "first_stage": [
+   "agi",
+   "rsi"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "regulation",
+     "rsi"
+    ],
+    [
+     "agi",
+     "regulation",
+     "rsi"
+    ]
+   ],
+   "glm": [
+    [
+     "agi",
+     "rsi"
+    ],
+    [
+     "agi",
+     "rsi"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 44727,
+  "speaker": "Ms. Mace",
+  "jurisdiction": "US",
+  "quote": "What do you think it will take to get there, where AI is \ncreating its own AI?",
+  "first_stage": [
+   "agi",
+   "asi",
+   "rsi"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "rsi"
+    ],
+    [
+     "rsi"
+    ]
+   ],
+   "glm": [
+    [
+     "rsi"
+    ],
+    [
+     "rsi"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 44734,
+  "speaker": "Mr. McGuire",
+  "jurisdiction": "US",
+  "quote": "Mr. Hammond, you said you think singularity, based on your experience, will be 2026. And, just real quick, Dr. Lee, when do you think we will have that?",
+  "first_stage": [
+   "agi",
+   "asi",
+   "rsi"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "rsi"
+    ],
+    [
+     "rsi"
+    ]
+   ],
+   "glm": [
+    [
+     "rsi"
+    ],
+    [
+     "rsi"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 44825,
+  "speaker": "Mr. Foster",
+  "jurisdiction": "US",
+  "quote": "Similarly, regulations, regulatory technology (RegTech), I think, is another real advantage. I did an interesting experiment a couple weeks ago where I said, okay, Claude, or whoever I was using, give me the balance sheets for three banks that have just failed for typical reasons, and it just knocked it out of the park.",
+  "first_stage": [
+   "agi"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [],
+    []
+   ]
+  }
+ },
+ {
+  "candidate_id": 49378,
+  "speaker": "蔡其昌 (委員)",
+  "jurisdiction": "TW",
+  "quote": "如果不把個資保護做好、如果今天個資保護委員會不趕快成立，同時透過法規的建置，AI運用得不好，會是集權主義的溫床。更多的想像是：到底是人類用機器人，還是未來機器人統治人類？它都不再是科幻電影裡面的情節，它可能會在真實世界裡面上演。",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "asi",
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "agi",
+     "asi",
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 54226,
+  "speaker": "主席",
+  "jurisdiction": "TW",
+  "quote": "為因應人工智慧之發展趨勢及妥善運用人工智慧協助人員執行業務，本院於今年5月30日數位轉型委員會議，請保訓會研議辦理人工智慧等相關公務人員基礎訓練課程，並以人工智慧作為推動下階段數位轉型之重點；另於9月5日訂定「考試院使用人工智慧注意事項」，秉持鼓勵使用並兼顧風險之原則，作為本院後續推動人工智慧應用之準據。",
+  "first_stage": [
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [],
+    []
+   ]
+  }
+ },
+ {
+  "candidate_id": 56048,
+  "speaker": "邱若華 (委員)",
+  "jurisdiction": "TW",
+  "quote": "我們也肯定主管機關現在有看到生成式AI最大的問題不是誰比較好用，而是未來會不會只剩下少數幾家說了算，從而限制，甚至掌控臺灣整個社會？從日常生活到商業競爭，也包括學術發展，還有國家安全的整體未來。",
+  "first_stage": [
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 56739,
+  "speaker": "彭金隆 (主任委員)",
+  "jurisdiction": "TW",
+  "quote": "現在AI發展出來以後，我們看到很多像AI大語言模型已經具備尋找資安漏洞的功能，大家也很擔心，所以現在大家反而要防範AI去尋找資安漏洞，並進行這樣的工作。",
+  "first_stage": [
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [],
+    []
+   ]
+  }
+ },
+ {
+  "candidate_id": 58822,
+  "speaker": "葛如鈞 (委員)",
+  "jurisdiction": "TW",
+  "quote": "行政院在2月26號指示，將人工智慧基本法的主管機關由國科會改為數發部，但是很神奇，我們翻閱了今天行政院的書面報告，對這件事情隻字未提、完全避而不談。",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 58833,
+  "speaker": "葉寧 (次長)",
+  "jurisdiction": "TW",
+  "quote": "我們都完全同意委員的說法，就是我們要在鼓勵創新跟風險管理之間求取平衡，行政院在研擬AI基本法的時候大概就會特別強調，包括人類的自主、隱私保護、安全性、透明及可解釋性、公平以及可問責，希望我們能夠享受AI所帶來的好處，減低AI所帶來的負面影響，這個部分在草案裡面也都會做詳盡的規劃。",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 61217,
+  "speaker": "Micky Adriaansens",
+  "jurisdiction": "NL",
+  "quote": "Er is in ieder geval specifiek een categorie voor AI, maar dat hoeft niet hoogrisico te zijn. Als er interactie is met mensen, dan is het sowieso een categorie waarvoor bepaalde transparantie-eisen gelden.",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 61621,
+  "speaker": "Danai van Weerdenburg (PVV)",
+  "jurisdiction": "NL",
+  "quote": "Maar het Europees Parlement sorteert voor op dat alle generatieve AI-systemen onder de hoogrisicocategorie worden gebracht, ongeacht de toepassing. Ik ben wel benieuwd of Nederland, het kabinet, daar een positie in heeft of daar nog iets aan kan doen.",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 61810,
+  "speaker": "Mark Rutte",
+  "jurisdiction": "NL",
+  "quote": "Over de exportrestricties vanuit de Verenigde Staten zijn ook verschillende vragen gesteld. De Verenigde Staten hebben aangekondigd dat oudere types van die zogenaamde duv-machines onder exportcontrole worden gebracht vanwege zorgen over de nationale veiligheid en niet vanwege economische belangen. We delen overigens die zorgen over de nationale veiligheid van de Verenigde Staten, maar we maken da",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 61955,
+  "speaker": "Jesse Six Dijkstra (NSC)",
+  "jurisdiction": "NL",
+  "quote": "Er bestaat internationaal het belang van een zeker niveau van transparantie in de ontwikkeling van geavanceerde AI-modellen. Dit vanuit een perspectief van betrouwbaarheid, zodat de mensheid in de toekomst nog grip kan houden op autonome systemen.",
+  "first_stage": [
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 62350,
+  "speaker": "Jesse Six Dijkstra (NSC)",
+  "jurisdiction": "NL",
+  "quote": "Zeker nu ook OpenAI o3 heeft aangekondigd, een taalmodel dat het gros van de softwareontwikkelaars al kan verslaan en qua probleemoplossend vermogen driemaal zo hoog zou scoren als het vorige model o1, is het reëel dat de volgende stap AI is die AI kan verbeteren. Dat biedt heel veel kansen, maar de ontwikkelingen gaan heel erg snel. Ik vrees dat we de gevolgen niet altijd zullen kunnen overzien a",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "regulation",
+     "rsi",
+     "x_risk"
+    ],
+    null
+   ],
+   "glm": [
+    [
+     "regulation",
+     "rsi",
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "rsi",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 63645,
+  "speaker": "De heer Jasper van Dijk (SP)",
+  "jurisdiction": "NL",
+  "quote": "Een heel belangrijk punt daaromtrent is dat er eigenlijk een verdrag gemaakt zou moeten worden, een internationaal verdrag waarin je regels vaststelt rondom het gebruik van dit soort wapens. Daarin zou eigenlijk het verbod op volledig autonome wapens moeten staan. De regulering van gedeeltelijk autonome wapens zou daarin ook geregeld moeten worden. Ik vraag de regering of ze dat met mij eens is.",
+  "first_stage": [
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 63876,
+  "speaker": "Mevrouw Rajkowski (VVD)",
+  "jurisdiction": "NL",
+  "quote": "Drie. Dit punt is ook namens de Partij voor de Dieren. Een oplossingsrichting kan de zogenaamde «value alignment AI» zijn. Een moeilijk woord, maar daarmee kun je ervoor zorgen dat geavanceerde AI altijd blijft handelen op basis van waarden die wij in acht nemen en belangrijk vinden. Hoe kunnen we dat precies inbouwen? Dat is een belangrijke vraag.",
+  "first_stage": [
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 64117,
+  "speaker": "Futselaar",
+  "jurisdiction": "NL",
+  "quote": "Vraag 7 Deelt u de analyse dat toepassing van kunstmatige intelligentie «in de sfeer van aanval en verdediging uitgesproken riskant is», met name signaleringssystemen?",
+  "first_stage": [
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "x_risk"
+    ],
+    [
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [
+     "x_risk"
+    ],
+    []
+   ]
+  }
+ },
+ {
+  "candidate_id": 66049,
+  "speaker": "A.C.L. Rutte (De Staatssecretaris van Justitie en Veiligheid)",
+  "jurisdiction": "NL",
+  "quote": "Tot slot wijst de regering erop dat binnen de Raad van Europa een nieuw (kader)verdrag is ontwikkeld dat de ontwikkeling, het ontwerp en de toepassing van AI-systemen reguleert en dat gebaseerd is op de standaarden van de Raad van Europa op het gebied van de mensenrechten.",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    null
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 66143,
+  "speaker": "Mevrouw Kathmann (GroenLinks-PvdA)",
+  "jurisdiction": "NL",
+  "quote": "verzoekt de regering om een AI-raad op te richten van onafhankelijke experts, met de taak om proactief advies uit te brengen over de kansen en risico's op het gebied van kunstmatige intelligentie,",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 66291,
+  "speaker": "E. van Marum (De Staatssecretaris van Binnenlandse Zaken en Koninkrijksrelaties)",
+  "jurisdiction": "NL",
+  "quote": "Vanuit de prioriteit AI wordt de samenwerking met de AI-fabriek en de sector overheid nadrukkelijk gezocht en ook de aansluiting bij het regulatory sandbox-instrument vanuit de AI-verordening wordt als onderdeel van de ontwikkelingen op AI-innovatie uitgewerkt.",
+  "first_stage": [
+   "agi",
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 66368,
+  "speaker": "Zwinkels",
+  "jurisdiction": "NL",
+  "quote": "Denkt u dat een algeheel verbod op het generen van seksuele content door AI-bots kan helpen om te voorkomen dat vrouwen en minderjarigen hiervan slachtoffer worden?",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 66373,
+  "speaker": "Zwinkels",
+  "jurisdiction": "NL",
+  "quote": "Vraag 5 In hoeverre is het huidige Nederlandse en Europese toezichtkader (waaronder de AI Act) toereikend om risico’s van autonome AI-systemen die zelfstandig taken uitvoeren te ondervangen?",
+  "first_stage": [
+   "agi",
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    null,
+    null
+   ]
+  }
+ },
+ {
+  "candidate_id": 66379,
+  "speaker": "De heer Recourt (GroenLinks-PvdA)",
+  "jurisdiction": "NL",
+  "quote": "Op welke wijze kunnen de verdediging en de rechter controleren dat gebruik is gemaakt van AI? Op welke wijze kunnen de verdediging en de rechter controleren welke algoritmen zijn gebruikt? Is er bij het gebruik van AI altijd sprake van een menselijke beoordeling? Is het met de kennis van nu en in het licht van de aard van de strafvordering niet verstandig om fundamentele normen voor het gebruik va",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 67513,
+  "speaker": "Луговой А. К.",
+  "jurisdiction": "RU",
+  "quote": "мы, конечно, будем поддерживать такую ответственность и смелость. И конечно, надо законопроект в любом случае поддерживать (понятно, он рамочный), потому что искусственный интеллект — это, по сути дела, бездна, в которую мы уже погрузились, и эта бездна на нас уже смотрит, в том числе глазами известного \"Палантира\". И мы, принимая этот закон, должны понимать, что мы его принимаем прежде всего для ",
+  "first_stage": [
+   "agi",
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 67587,
+  "speaker": "В.Путин",
+  "jurisdiction": "RU",
+  "quote": "То есть машина не просто воспроизводит речь человека, но и пытается передать его эмоции, развивает свои собственные когнитивные навыки за счёт более совершенной вычислительной архитектуры. То есть машина сама себя постоянно улучшает, по-моему, даже программы сама себе пишет. Здесь, конечно, нужно понимать, что там происходит, и контролировать весь этот процесс.",
+  "first_stage": [
+   "agi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation",
+     "rsi",
+     "x_risk"
+    ],
+    [
+     "agi",
+     "regulation",
+     "rsi"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation",
+     "rsi"
+    ],
+    [
+     "regulation",
+     "rsi",
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 67713,
+  "speaker": "В.Путин",
+  "jurisdiction": "RU",
+  "quote": "Предотвратить развитие искусственного интеллекта, в том числе сверхинтеллекта, который начинает чувствовать, который различает запахи, у него появляются когнитивные возможности, который сам себя развивает, – просто предотвратить это невозможно, предотвратить развитие невозможно. А значит, нужно возглавить, во всяком случае нужно сделать всё для того, чтобы мы могли быть одними из лидеров в этом на",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi",
+     "asi",
+     "regulation",
+     "rsi",
+     "x_risk"
+    ],
+    null
+   ],
+   "glm": [
+    [
+     "asi",
+     "regulation",
+     "rsi",
+     "x_risk"
+    ],
+    null
+   ]
+  }
+ },
+ {
+  "candidate_id": 68602,
+  "speaker": "O'Sullivan, Sen Matt",
+  "jurisdiction": "AU",
+  "quote": "We're less than 18 months away from having artificial general intelligence. That is going to profoundly change the way we go about life. It will happen within this term of parliament.",
+  "first_stage": [
+   "agi"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "agi"
+    ],
+    [
+     "agi"
+    ]
+   ],
+   "glm": [
+    [
+     "agi"
+    ],
+    [
+     "agi"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 69354,
+  "speaker": "European Commission",
+  "jurisdiction": "EU",
+  "quote": "The Commission recommends that Member States, together with the Commission, initially conduct collective risk assessments of these four areas by the end of this year.",
+  "first_stage": [
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 70444,
+  "speaker": "Executive Vice-President Virkkunen",
+  "jurisdiction": "EU",
+  "quote": "The Commission is aware that Member States and Members of the European Parliament are proposing to strengthen the AI Act to include explicit prohibitions of AI systems producing child sexual abuse material and non-consensual sexually explicit images in the context of the AI Omnibus negotiations.",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 71547,
+  "speaker": "Dimitri (Russian Federation), Deputy Permanent Representative",
+  "jurisdiction": "UN",
+  "quote": "And the Russian Federation is convinced that AI regulation should be liberated under the central role of of the United nations. On the basis of the Charter in its entirety and interconnectedness, principles of international law and respect for sovereignty of states.",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 71831,
+  "speaker": "Cristina Kitzos (Switzerland), Mayor of Geneva",
+  "jurisdiction": "UN",
+  "quote": "Climate disruption, identity-based retrenchment, growing inequalities, geopolitical crisis, the integration of artificial intelligence into armed conflicts, which is fundamentally changing the nature of warfare, and the rise in the number of autocratic states all remind us that nothing can be taken for granted.",
+  "first_stage": [
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [],
+    []
+   ]
+  }
+ },
+ {
+  "candidate_id": 71931,
+  "speaker": "Ukraine, Representative",
+  "jurisdiction": "UN",
+  "quote": "It would simply remove a human from the equation. Concurrently, the risk of conflict between the subjective and objective representation of reality in humans and AI would always exist. This stems from the subjective reality of AI developers, which frequently diverges from the corresponding objective reality. They would never possess sufficient information and the necessary experiential knowledge t",
+  "first_stage": [
+   "agi",
+   "asi",
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation",
+     "x_risk"
+    ],
+    [
+     "regulation",
+     "x_risk"
+    ]
+   ],
+   "glm": [
+    [],
+    [
+     "x_risk"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 72360,
+  "speaker": "Annalena Baerbock (GA), PGA",
+  "jurisdiction": "UN",
+  "quote": "Because something with such power, with such profound implications for our economies, our social systems, our defence and therefore our peace and security, but especially for even our homes, our food, our children's bedrooms, can only be meaningfully and safely managed together. And the UN was built for moments like this.",
+  "first_stage": [
+   "agi",
+   "regulation",
+   "rsi",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 72423,
+  "speaker": "Annalena Baerbock (GA), PGA",
+  "jurisdiction": "UN",
+  "quote": "An inclusive AI governance is overdue. And as the Independent Scientific Panel on AI concluded in its final report, which we are discussing also here at the Global Dialogue, concrete next steps to close this gap exist, but each requires sustained investments in member state capacity to shape, evaluate, and deploy AI. And given the complexity of this technological revolution and its rapid pace, No ",
+  "first_stage": [
+   "regulation",
+   "x_risk"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ },
+ {
+  "candidate_id": 72645,
+  "speaker": "David Lametti (Canada), Permanent Representative",
+  "jurisdiction": "UN",
+  "quote": "And also true for AI, that AI would have to be proven to be safe, a chatbot, before it could be, uh, before it could be, uh, exposed to children, uh, and with a digital commissioner to ensure, ensure that.",
+  "first_stage": [
+   "regulation"
+  ],
+  "verdicts": {
+   "gemini": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ],
+   "glm": [
+    [
+     "regulation"
+    ],
+    [
+     "regulation"
+    ]
+   ]
+  }
+ }
+]

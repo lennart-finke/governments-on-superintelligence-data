@@ -1,0 +1,1819 @@
+# United Nations speaker registry — Security Council and General Assembly
+# verbatim records (intl_un). Split out of the former registry_intl.yaml when
+# NATO and the UN stopped sharing one "INTL" jurisdiction; the procedural
+# labels ("The President", "The Secretary-General") belong here because they
+# only ever appear in UN records.
+#
+# Those labels carry "UN" in their name even though the records do not: the
+# jurisdiction is a column on the tracker, but the worldwide view lists every
+# speaker together, and there a bare "The President" reads as some country's
+# head of state. The aliases stay verbatim, so matching is unaffected.
+- name: UN President
+  jurisdiction: UN
+  role: Presiding officer, UN Security Council or General Assembly
+  description: A rotating procedural title for whoever presides over a United Nations meeting (e.g. Security
+    Council or General Assembly session); not tied to one person.
+  aliases:
+  - The President
+  - The President (spoke in Arabic )
+  - The President (spoke in Chinese )
+  - The President (spoke in Korean; English text provided by the delegation )
+- name: UN Acting President
+  jurisdiction: UN
+  role: Acting presiding officer, UN Security Council or General Assembly
+  description: A rotating procedural title for the officer acting as presiding chair of a United Nations
+    meeting in the President's absence.
+  aliases:
+  - The Acting President
+  - The Acting President (spoke in French )
+- name: UN Secretary-General
+  jurisdiction: UN
+  role: Secretary-General of the United Nations
+  description: The United Nations Secretary-General, the Organization's chief administrative officer;
+    the office-holder is not disambiguated in this record.
+  aliases:
+  - The Secretary-General
+- name: Fu Cong
+  jurisdiction: UN
+  role: Permanent Representative of China to the United Nations
+  description: Chinese career diplomat serving as China's Permanent Representative to the United Nations.
+  aliases:
+  - Mr. Fu Cong (China) ( spoke in Chinese )
+  - Mr. Fu Cong (China ) ( spoke in Chinese )
+  - Mr. Fu Cong (China) (spoke in Chinese )
+- name: Vanessa Frazier
+  jurisdiction: UN
+  role: Permanent Representative of Malta to the United Nations
+  description: Maltese diplomat who served as Malta's Permanent Representative to the United Nations and
+    later as President of the UN Human Rights Council.
+  aliases:
+  - Mrs. Frazier (Malta)
+- name: Barbara Woodward
+  jurisdiction: UN
+  role: Permanent Representative of the United Kingdom to the United Nations
+  description: British diplomat serving as the United Kingdom's Permanent Representative to the United
+    Nations since 2020.
+  profile_url: https://en.wikipedia.org/wiki/Barbara_Woodward
+  aliases:
+  - Dame Barbara Woodward (United Kingdom)
+- name: Hwang Joonkook
+  jurisdiction: UN
+  role: Permanent Representative of the Republic of Korea to the United Nations
+  description: South Korean diplomat who served as the Republic of Korea's Permanent Representative to
+    the United Nations.
+  aliases:
+  - Mr. Hwang (Republic of Korea)
+- name: Michael Imran Kanu
+  jurisdiction: UN
+  role: Permanent Representative of Sierra Leone to the United Nations
+  description: Sierra Leonean diplomat serving as Sierra Leone's Permanent Representative to the United
+    Nations.
+  aliases:
+  - Mr. Kanu (Sierra Leone)
+- name: Mia Mottley
+  jurisdiction: UN
+  role: Prime Minister of Barbados
+  description: Barbadian politician who has served as Prime Minister of Barbados since 2018.
+  profile_url: https://en.wikipedia.org/wiki/Mia_Mottley
+  aliases:
+  - Ms. Mottley (Barbados)
+- name: Mohamed Abushahab
+  jurisdiction: UN
+  role: Deputy Permanent Representative of the United Arab Emirates to the United Nations
+  description: Emirati diplomat who has served as the UAE's Deputy Permanent Representative to the United
+    Nations.
+  aliases:
+  - Mr. Abushahab (United Arab Emirates)
+- name: Mr. Acha Vásquez (Panama)
+  jurisdiction: UN
+  role: Panamanian delegate to the United Nations
+  description: A Panamanian government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Acha Vásquez (Panama) ( spoke in Spanish )
+- name: Mr. Afonso (Mozambique)
+  jurisdiction: UN
+  role: Mozambican delegate to the United Nations
+  description: A Mozambican government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Afonso (Mozambique)
+- name: Mr. Agyeman (Ghana)
+  jurisdiction: UN
+  role: Ghanaian delegate to the United Nations
+  description: A Ghanaian government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Agyeman (Ghana)
+- name: Mr. Ahmad (Pakistan)
+  jurisdiction: UN
+  role: Pakistani delegate to the United Nations
+  description: A Pakistani government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Ahmad (Pakistan)
+- name: Mr. Al-Zubaidi (Yemen)
+  jurisdiction: UN
+  role: Yemeni delegate to the United Nations
+  description: A Yemeni government representative who spoke at a United Nations meeting; not further identified
+    in this record.
+  aliases:
+  - Mr. Al-Zubaidi (Yemen) ( spoke in Arabic )
+- name: Mr. André Tinoco (Costa Rica)
+  jurisdiction: UN
+  role: Costa Rican delegate to the United Nations
+  description: A Costa Rican government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. André Tinoco (Costa Rica) ( spoke in Spanish )
+- name: Ahmed Attaf
+  jurisdiction: UN
+  role: Minister of Foreign Affairs of Algeria
+  description: Algerian diplomat who has served as Algeria's Minister of Foreign Affairs since 2023.
+  profile_url: https://en.wikipedia.org/wiki/Ahmed_Attaf
+  aliases:
+  - Mr. Attaf (Algeria) ( spoke in Arabic )
+- name: Vivian Balakrishnan
+  jurisdiction: UN
+  role: Minister for Foreign Affairs of Singapore
+  description: Singaporean politician who has served as Minister for Foreign Affairs since 2015.
+  profile_url: https://en.wikipedia.org/wiki/Vivian_Balakrishnan
+  aliases:
+  - Mr. Balakrishnan (Singapore )
+  - Mr. Balakrishnan (Singapore)
+- name: Mr. Barre (Somalia)
+  jurisdiction: UN
+  role: Somali delegate to the United Nations
+  description: A Somali government representative who spoke at a United Nations meeting; not further identified
+    in this record.
+  aliases:
+  - Mr. Barre (Somalia) ( spoke in Arabic )
+- name: Mr. Ben Mellouk (Morocco)
+  jurisdiction: UN
+  role: Moroccan delegate to the United Nations
+  description: A Moroccan government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Ben Mellouk (Morocco) ( spoke in French )
+- name: Amar Bendjama
+  jurisdiction: UN
+  role: Permanent Representative of Algeria to the United Nations
+  description: Algerian diplomat serving as Algeria's Permanent Representative to the United Nations.
+  aliases:
+  - Mr. Bendjama (Algeria)
+- name: Alain Berset
+  jurisdiction: UN
+  role: Secretary General of the Council of Europe
+  description: Swiss politician and former President of Switzerland who became Secretary General of the
+    Council of Europe in 2024.
+  profile_url: https://en.wikipedia.org/wiki/Alain_Berset
+  aliases:
+  - Mr. Berset (Council of Europe) ( spoke in French )
+- name: Pushpa Kamal Dahal
+  jurisdiction: UN
+  role: Prime Minister of Nepal
+  description: Nepali politician, also known as Prachanda, who has served multiple terms as Prime Minister
+    of Nepal.
+  profile_url: https://en.wikipedia.org/wiki/Pushpa_Kamal_Dahal
+  aliases:
+  - Mr. Dahal (Nepal)
+- name: Alexander De Croo
+  jurisdiction: UN
+  role: Prime Minister of Belgium (2020–2025)
+  description: Belgian politician who served as Prime Minister of Belgium from 2020 to 2025.
+  profile_url: https://en.wikipedia.org/wiki/Alexander_De_Croo
+  aliases:
+  - Mr. De Croo (Belgium)
+- name: Mr. De La Gasca (Ecuador)
+  jurisdiction: UN
+  role: Ecuadorian delegate to the United Nations
+  description: An Ecuadorian government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. De La Gasca (Ecuador) ( spoke in Spanish )
+- name: Nicolas de Rivière
+  jurisdiction: UN
+  role: Former Permanent Representative of France to the United Nations
+  description: French diplomat who served as France's Permanent Representative to the United Nations from
+    2019 to 2023.
+  profile_url: https://en.wikipedia.org/wiki/Nicolas_de_Rivi%C3%A8re
+  aliases:
+  - Mr. De Rivière (France) (spoke in French )
+- name: Jeffrey DeLaurentis
+  jurisdiction: UN
+  role: US delegate to the United Nations
+  description: American career diplomat who has held senior posts at the US Mission to the United Nations,
+    including Deputy Permanent Representative.
+  profile_url: https://en.wikipedia.org/wiki/Jeffrey_DeLaurentis
+  aliases:
+  - Mr. DeLaurentis (United States of America)
+- name: Mr. Dharmadhikari (France)
+  jurisdiction: UN
+  role: French delegate to the United Nations
+  description: A representative of the French delegation who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Dharmadhikari (France) (spoke in French )
+- name: Oliver Dowden
+  jurisdiction: UN
+  role: Deputy Prime Minister of the United Kingdom (2023–2024)
+  description: British Conservative politician who served as Deputy Prime Minister of the United Kingdom
+    from 2023 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Oliver_Dowden
+  aliases:
+  - Mr. Dowden (United Kingdom)
+- name: Sérgio França Danese
+  jurisdiction: UN
+  role: Permanent Representative of Brazil to the United Nations
+  description: Brazilian diplomat serving as Brazil's Permanent Representative to the United Nations.
+  aliases:
+  - Mr. França Danese (Brazil)
+- name: Mr. Frick (Liechtenstein)
+  jurisdiction: UN
+  role: Liechtenstein delegate to the United Nations
+  description: A representative of Liechtenstein who spoke at a United Nations meeting; not further identified
+    in this record.
+  aliases:
+  - Mr. Frick (Liechtenstein)
+- name: Geng Shuang
+  jurisdiction: UN
+  role: Chinese diplomat; former Deputy Permanent Representative to the United Nations
+  description: Chinese diplomat and former Ministry of Foreign Affairs spokesperson who served as a Deputy
+    Permanent Representative of China to the United Nations.
+  profile_url: https://en.wikipedia.org/wiki/Geng_Shuang
+  aliases:
+  - Mr. Geng Shuang (China) ( spoke in Chinese )
+- name: Mr. George (Sierra Leone)
+  jurisdiction: UN
+  role: Sierra Leonean delegate to the United Nations
+  description: A Sierra Leonean government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. George (Sierra Leone)
+- name: Mr. Gonçalves (Mozambique)
+  jurisdiction: UN
+  role: Mozambican delegate to the United Nations
+  description: A Mozambican government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Gonçalves (Mozambique)
+- name: Mr. Gürber (Switzerland)
+  jurisdiction: UN
+  role: Swiss delegate to the United Nations
+  description: A Swiss government representative who spoke at a United Nations meeting; not further identified
+    in this record.
+  aliases:
+  - Mr. Gürber (Switzerland) ( spoke in French )
+- name: Ferit Hoxha
+  jurisdiction: UN
+  role: Albanian diplomat
+  description: Albanian career diplomat who has represented Albania at the United Nations.
+  aliases:
+  - Mr. Hoxha (Albania)
+- name: Mr. Ibrahimović (Montenegro)
+  jurisdiction: UN
+  role: Montenegrin delegate to the United Nations
+  description: A Montenegrin government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Ibrahimović (Montenegro)
+- name: Mr. Kan (Cambodia)
+  jurisdiction: UN
+  role: Cambodian delegate to the United Nations
+  description: A Cambodian government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Kan (Cambodia)
+- name: Mr. Kieffer-Kristensen (Denmark)
+  jurisdiction: UN
+  role: Danish delegate to the United Nations
+  description: A Danish government representative who spoke at a United Nations meeting; not further identified
+    in this record.
+  aliases:
+  - Mr. Kieffer-Kristensen (Denmark)
+- name: Mr. Koudri (Algeria)
+  jurisdiction: UN
+  role: Algerian delegate to the United Nations
+  description: An Algerian government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Koudri (Algeria) ( spoke in Arabic )
+- name: Mr. Kweon (Republic of Korea)
+  jurisdiction: UN
+  role: South Korean delegate to the United Nations
+  description: A Republic of Korea government representative who spoke at a United Nations meeting; not
+    further identified in this record.
+  aliases:
+  - Mr. Kweon (Republic of Korea)
+- name: Mr. Kössler (Austria)
+  jurisdiction: UN
+  role: Austrian delegate to the United Nations
+  description: An Austrian government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Kössler (Austria)
+- name: Ma Zhaoxu
+  jurisdiction: UN
+  role: Vice Minister of Foreign Affairs of China
+  description: Chinese diplomat serving as a Vice Minister of Foreign Affairs, and formerly China's Permanent
+    Representative to the United Nations Office at Geneva.
+  profile_url: https://en.wikipedia.org/wiki/Ma_Zhaoxu
+  aliases:
+  - Mr. Ma Zhaoxu (spoke in Chinese )
+- name: Mr. Mahmoud (Egypt)
+  jurisdiction: UN
+  role: Egyptian delegate to the United Nations
+  description: An Egyptian government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Mahmoud (Egypt) ( spoke in Arabic )
+- name: Alexander Marschik
+  jurisdiction: UN
+  role: Permanent Representative of Austria to the United Nations
+  description: Austrian diplomat serving as Austria's Permanent Representative to the United Nations.
+  aliases:
+  - Mr. Marschik (Austria)
+- name: Charles Michel
+  jurisdiction: UN
+  role: President of the European Council
+  description: Belgian politician who has served as President of the European Council since 2019.
+  profile_url: https://en.wikipedia.org/wiki/Charles_Michel
+  aliases:
+  - Mr. Michel (European Council) ( spoke in French )
+- name: Kyriakos Mitsotakis
+  jurisdiction: UN
+  role: Prime Minister of Greece
+  description: Greek politician who has served as Prime Minister of Greece since 2019.
+  profile_url: https://en.wikipedia.org/wiki/Kyriakos_Mitsotakis
+  aliases:
+  - Mr. Mitsotakis (Greece)
+- name: Mr. Nasir (Indonesia)
+  jurisdiction: UN
+  role: Indonesian delegate to the United Nations
+  description: An Indonesian government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Nasir (Indonesia)
+- name: Benjamin Netanyahu
+  jurisdiction: UN
+  role: Prime Minister of Israel
+  description: Israeli politician who has served as Prime Minister of Israel across multiple terms since
+    1996.
+  profile_url: https://en.wikipedia.org/wiki/Benjamin_Netanyahu
+  aliases:
+  - Mr. Netanyahu (Israel)
+- name: Murat Nurtleu
+  jurisdiction: UN
+  role: Minister of Foreign Affairs of Kazakhstan
+  description: Kazakh official who has served as Kazakhstan's Minister of Foreign Affairs since 2023.
+  profile_url: https://en.wikipedia.org/wiki/Murat_Nurtleu
+  aliases:
+  - Mr. Nurtleu (Kazakhstan )
+- name: Dmitry Polyanskiy
+  jurisdiction: UN
+  role: First Deputy Permanent Representative of Russia to the United Nations
+  description: Russian diplomat serving as Russia's First Deputy Permanent Representative to the United
+    Nations.
+  profile_url: https://en.wikipedia.org/wiki/Dmitry_Polyanskiy
+  aliases:
+  - Mr. Polyanskiy (Russian Federation) ( spoke in Russian )
+- name: Sitiveni Rabuka
+  jurisdiction: UN
+  role: Prime Minister of Fiji
+  description: Fijian politician and former military commander who has served as Prime Minister of Fiji
+    since 2022.
+  profile_url: https://en.wikipedia.org/wiki/Sitiveni_Rabuka
+  aliases:
+  - Mr. Rabuka (Fiji)
+- name: Ali Sabry
+  jurisdiction: UN
+  role: Minister of Foreign Affairs of Sri Lanka
+  description: Sri Lankan lawyer and politician who served as Sri Lanka's Minister of Foreign Affairs.
+  profile_url: https://en.wikipedia.org/wiki/Ali_Sabry
+  aliases:
+  - Mr. Sabry (Sri Lanka)
+- name: Bakhtiyor Saidov
+  jurisdiction: UN
+  role: Minister of Foreign Affairs of Uzbekistan
+  description: Uzbek official who has served as Uzbekistan's Minister of Foreign Affairs since 2023.
+  profile_url: https://en.wikipedia.org/wiki/Bakhtiyor_Saidov
+  aliases:
+  - Mr. Saidov (Uzbekistan)
+- name: Juan Manuel Santos
+  jurisdiction: UN
+  role: Former President of Colombia; Nobel Peace Prize laureate
+  description: Colombian politician who served as President of Colombia from 2010 to 2018 and received
+    the 2016 Nobel Peace Prize.
+  profile_url: https://en.wikipedia.org/wiki/Juan_Manuel_Santos
+  aliases:
+  - Mr. Santos Calderón
+- name: Dick Schoof
+  jurisdiction: UN
+  role: Prime Minister of the Netherlands
+  description: Dutch civil servant who became Prime Minister of the Netherlands in 2024.
+  profile_url: https://en.wikipedia.org/wiki/Dick_Schoof
+  aliases:
+  - Mr. Schoof (Kingdom of the Netherlands)
+- name: Mr. Sharaf (United Arab Emirates)
+  jurisdiction: UN
+  role: Emirati delegate to the United Nations
+  description: An Emirati government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Sharaf (United Arab Emirates)
+- name: Mr. Siddiqi (Bangladesh)
+  jurisdiction: UN
+  role: Bangladeshi delegate to the United Nations
+  description: A Bangladeshi government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Siddiqi (Bangladesh)
+- name: Mr. Sowa (Sierra Leone)
+  jurisdiction: UN
+  role: Sierra Leonean delegate to the United Nations
+  description: A Sierra Leonean government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Sowa (Sierra Leone)
+- name: Jonas Gahr Støre
+  jurisdiction: UN
+  role: Prime Minister of Norway
+  description: Norwegian politician who has served as Prime Minister of Norway since 2021.
+  profile_url: https://en.wikipedia.org/wiki/Jonas_Gahr_St%C3%B8re
+  aliases:
+  - Mr. Støre (Norway)
+- name: Mr. Sun Lei (China)
+  jurisdiction: UN
+  role: Chinese delegate to the United Nations
+  description: A representative of the Chinese Mission who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Sun Lei (China) ( spoke in Chinese )
+- name: T.S. Tirumurti
+  jurisdiction: UN
+  role: Former Permanent Representative of India to the United Nations
+  description: Indian diplomat who served as India's Permanent Representative to the United Nations from
+    2020 to 2022.
+  profile_url: https://en.wikipedia.org/wiki/T._S._Tirumurti
+  aliases:
+  - Mr. Tirumurti (India)
+- name: Hugh Todd
+  jurisdiction: UN
+  role: Minister of Foreign Affairs of Guyana
+  description: Guyanese politician who has served as Guyana's Minister of Foreign Affairs since 2020.
+  aliases:
+  - Mr. Todd (Guyana)
+- name: Wang Yi
+  jurisdiction: UN
+  role: Minister of Foreign Affairs of China
+  description: Chinese diplomat serving as Minister of Foreign Affairs and Director of the Office of the
+    Central Foreign Affairs Commission.
+  profile_url: https://en.wikipedia.org/wiki/Wang_Yi_(diplomat)
+  aliases:
+  - Mr. Wang Yi (China ) (spoke in Chinese )
+- name: Mr. Wu Jianjian (China)
+  jurisdiction: UN
+  role: Chinese delegate to the United Nations
+  description: A representative of the Chinese Mission who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Wu Jianjian (China) ( spoke in Chinese )
+- name: Kazuyuki Yamazaki
+  jurisdiction: UN
+  role: Japanese diplomat
+  description: Japanese career diplomat who has represented Japan at the United Nations.
+  aliases:
+  - Mr. Yamazaki (Japan )
+  - Mr. Yamazaki (Japan)
+- name: Mr. Yang (Cameroon)
+  jurisdiction: UN
+  role: Cameroonian delegate to the United Nations
+  description: A Cameroonian government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mr. Yang (Cameroon)
+- name: Zhang Jun
+  jurisdiction: UN
+  role: Former Permanent Representative of China to the United Nations
+  description: Chinese diplomat who served as China's Permanent Representative to the United Nations from
+    2019 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Zhang_Jun_(diplomat)
+  aliases:
+  - Mr. Zhang Jun (China) ( spoke in Chinese )
+- name: Pascale Baeriswyl
+  jurisdiction: UN
+  role: Former Permanent Representative of Switzerland to the United Nations
+  description: Swiss diplomat who served as Switzerland's Permanent Representative to the United Nations
+    and later as State Secretary for Foreign Affairs.
+  profile_url: https://en.wikipedia.org/wiki/Pascale_Baeriswyl
+  aliases:
+  - Mrs. Baeriswyl (Switzerland) ( spoke in French )
+- name: Mrs. Blokar Drobič (Slovenia)
+  jurisdiction: UN
+  role: Slovenian delegate to the United Nations
+  description: A Slovenian government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mrs. Blokar Drobič (Slovenia)
+- name: Mrs. Mansouri (Algeria)
+  jurisdiction: UN
+  role: Algerian delegate to the United Nations
+  description: An Algerian government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mrs. Mansouri (Algeria) ( spoke in Arabic)
+- name: Mrs. Ngyema Ndong (Gabon)
+  jurisdiction: UN
+  role: Gabonese delegate to the United Nations
+  description: A Gabonese government representative who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Mrs. Ngyema Ndong (Gabon) (spoke in French )
+- name: Lana Nusseibeh
+  jurisdiction: UN
+  role: Emirati diplomat; former Permanent Representative to the United Nations
+  description: Emirati diplomat who served as the UAE's Permanent Representative to the United Nations
+    and later as Assistant Minister for Political Affairs.
+  profile_url: https://en.wikipedia.org/wiki/Lana_Nusseibeh
+  aliases:
+  - Mrs. Nusseibeh (United Arab Emirates)
+- name: Carolyn Rodrigues-Birkett
+  jurisdiction: UN
+  role: Permanent Representative of Guyana to the United Nations
+  description: Guyanese diplomat and former Minister of Foreign Affairs who has served as Guyana's Permanent
+    Representative to the United Nations.
+  aliases:
+  - Mrs. Rodrigues-Birkett (Guyana)
+- name: Þórdís Kolbrún Reykfjörð Gylfadóttir
+  jurisdiction: UN
+  role: Former Minister for Foreign Affairs of Iceland
+  description: Icelandic politician who served as Iceland's Minister for Foreign Affairs from 2023 to
+    2024.
+  profile_url: https://en.wikipedia.org/wiki/%C3%9E%C3%B3rd%C3%ADs_Kolbr%C3%BAn_Reykfj%C3%B6r%C3%B0_Gylfad%C3%B3ttir
+  aliases:
+  - Ms. Gylfadóttir (Iceland)
+- name: Ms. Kaji (Japan)
+  jurisdiction: UN
+  role: Japanese delegate to the United Nations
+  description: A representative of the Japanese Mission who spoke at a United Nations meeting; not further
+    identified in this record.
+  aliases:
+  - Ms. Kaji (Japan)
+- name: Ms. Lassen (Denmark)
+  jurisdiction: UN
+  role: Danish delegate to the United Nations
+  description: A Danish government representative who spoke at a United Nations meeting; not further identified
+    in this record.
+  aliases:
+  - Ms. Lassen (Denmark)
+- name: Nanaia Mahuta
+  jurisdiction: UN
+  role: Former Minister of Foreign Affairs of New Zealand
+  description: New Zealand politician who served as Minister of Foreign Affairs from 2020 to 2023.
+  profile_url: https://en.wikipedia.org/wiki/Nanaia_Mahuta
+  aliases:
+  - Ms. Mahuta (New Zealand)
+- name: Giorgia Meloni
+  jurisdiction: UN
+  role: Prime Minister of Italy
+  description: Italian politician who has served as Prime Minister of Italy since 2022.
+  profile_url: https://en.wikipedia.org/wiki/Giorgia_Meloni
+  aliases:
+  - Ms. Meloni (Italy) ( spoke in Italian; English text provided by the delegation )
+- name: Ms. Shea (United States of America)
+  jurisdiction: UN
+  role: US delegate to the United Nations
+  description: A representative of the United States Mission to the United Nations who spoke at a UN meeting;
+    not further identified in this record.
+  aliases:
+  - Ms. Shea (United States of America)
+- name: Albert II, Prince of Monaco
+  jurisdiction: UN
+  role: Sovereign Prince of Monaco
+  description: Reigning monarch and head of state of the Principality of Monaco since 2005.
+  profile_url: https://en.wikipedia.org/wiki/Albert_II,_Prince_of_Monaco
+  aliases:
+  - Prince Albert (spoke in French )
+- name: Algeria (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Algeria by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Algeria, Representative
+- name: Australia (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Australia by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - Australia, Representative
+  - Australia, Ambassador for Cyber Affairs and Critical Technology
+- name: Azerbaijan (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Azerbaijan by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - Azerbaijan, Representative
+- name: Bahrain (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Bahrain by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Bahrain, Representative
+- name: Belgium (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Belgium by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Belgium, Representative
+  - Belgium, Permanent Representative
+- name: Brazil (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Brazil by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Brazil, Representative
+  - Brazil, Deputy Permanent Representative
+- name: Cameroon (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Cameroon by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - Cameroon, Representative
+- name: Canada (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Canada by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Canada, Representative
+  - Canada, Parliamentary Secretary
+- name: Chile (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Chile by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Chile, Representative
+- name: China (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of China by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - China, Representative
+  - China, Ambassador
+  - China, Ambassador Disarmament Affairs
+  - China, Deputy Permanent Representative
+  - China, Director-General, Department of Arms Control
+  - China, Permanent Representative
+- name: Colombia (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Colombia by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - Colombia, Representative
+  - Colombia, Minister
+- name: Costa Rica (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Costa Rica by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - Costa Rica, Representative
+  - Costa Rica, Permanent Representative
+- name: European Union (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of the European Union by its delegation to the United Nations;
+    the verbatim record does not name the individual speaker.
+  aliases:
+  - EU, Representative
+- name: Egypt (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Egypt by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Egypt, Representative
+  - Egypt
+- name: El Salvador (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of El Salvador by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - El Salvador, Representative
+- name: Equatorial Guinea (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Equatorial Guinea by its delegation to the United Nations;
+    the verbatim record does not name the individual speaker.
+  aliases:
+  - Equatorial Guinea, Representative
+- name: Ethiopia (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Ethiopia by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - Ethiopia, Representative
+  - Ethiopia, Ambassador
+- name: France (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of France by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - France, Representative
+  - France, Permanent Representative
+- name: Germany (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Germany by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Germany, Representative
+- name: Greece (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Greece by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Greece, Representative
+- name: Guyana (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Guyana by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Guyana, Representative
+- name: International Telecommunication Union (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of the International Telecommunication Union by its delegation
+    to the United Nations; the verbatim record does not name the individual speaker.
+  aliases:
+  - ITU, Representative
+- name: India (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of India by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - India, Representative
+  - India, Permanent Representative
+- name: Indonesia (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Indonesia by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - Indonesia, Representative
+  - Indonesia, Deputy Permanent Representative
+- name: Iran (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Iran by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Iran (Islamic Republic of), Representative
+- name: Ireland (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Ireland by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Ireland, Representative
+- name: Italy (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Italy by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Italy, Representative
+  - Italy, Permanent Representative
+- name: Japan (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Japan by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Japan, Representative
+  - Japan, Permanent Representative
+- name: Kazakhstan (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Kazakhstan by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - Kazakhstan, Representative
+  - Kazakhstan, Permanent Representative
+- name: Latvia (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Latvia by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Latvia, Representative
+- name: Lesotho (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Lesotho by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Lesotho, Representative
+- name: Libya (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Libya by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Libya, Representative
+- name: Liechtenstein (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Liechtenstein by its delegation to the United Nations;
+    the verbatim record does not name the individual speaker.
+  aliases:
+  - Liechtenstein, Representative
+- name: Mauritius (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Mauritius by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - Mauritius, Representative
+- name: Mexico (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Mexico by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Mexico, Representative
+- name: Mozambique (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Mozambique by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - Mozambique, Representative
+  - Mozambique, Permanent Representative
+- name: Nigeria (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Nigeria by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Nigeria, Representative
+- name: Norway (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Norway by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Norway, Representative
+- name: Oman (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Oman by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Oman, Representative
+- name: Pakistan (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Pakistan by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - Pakistan, Representative
+  - Pakistan, Minister of ICT
+  - Pakistan, Permanent Representative to UNOG
+- name: Philippines (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of the Philippines by its delegation to the United Nations;
+    the verbatim record does not name the individual speaker.
+  aliases:
+  - Philippines, Representative
+  - Philippines
+- name: Portugal (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Portugal by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - Portugal, Representative
+  - Portugal, Permanent Representative
+- name: Republic of Korea (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of the Republic of Korea by its delegation to the United
+    Nations; the verbatim record does not name the individual speaker.
+  aliases:
+  - Republic of Korea, Representative
+  - Republic of Korea, Permanent Representative
+- name: Russian Federation (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of the Russian Federation by its delegation to the United
+    Nations; the verbatim record does not name the individual speaker.
+  aliases:
+  - Russian Federation, Representative
+  - Russian Federation, Deputy Minister of Foreign Affairs
+- name: Singapore (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Singapore by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - Singapore, Representative
+- name: Sweden (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Sweden by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Sweden, Representative
+- name: Switzerland (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Switzerland by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - Switzerland, Representative
+- name: Thailand (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Thailand by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - Thailand, Representative
+- name: Timor-Leste (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Timor-Leste by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - Timor-Leste, Representative
+- name: Tonga (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Tonga by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Tonga, Representative
+- name: Ukraine (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Ukraine by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Ukraine, Representative
+- name: United Arab Emirates (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of the United Arab Emirates by its delegation to the United
+    Nations; the verbatim record does not name the individual speaker.
+  aliases:
+  - United Arab Emirates, Representative
+- name: United Kingdom (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of the United Kingdom by its delegation to the United Nations;
+    the verbatim record does not name the individual speaker.
+  aliases:
+  - United Kingdom of Great Britain and Northern Ireland, Representative
+- name: Tanzania (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Tanzania by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - United Republic of Tanzania, Representative
+- name: United States (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of the United States by its delegation to the United Nations;
+    the verbatim record does not name the individual speaker.
+  aliases:
+  - United States of America, Representative
+- name: Uruguay (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Uruguay by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Uruguay, Representative
+- name: Zimbabwe (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Zimbabwe by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - Zimbabwe, Representative
+- name: Angola (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Angola by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Angola, Permanent Representative
+- name: Austria (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Austria by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Austria, State Secretary
+- name: Belarus (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Belarus by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Belarus, Permanent Representative
+- name: Belize (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Belize by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Belize, Permanent Representative
+- name: Cambodia (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Cambodia by its delegation to the United Nations; the
+    verbatim record does not name the individual speaker.
+  aliases:
+  - Cambodia, Deputy Permanent Representative
+  - Cambodia, Permanent Representative
+- name: Czechia (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Czechia by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Czechia, Deputy Minister of Foreign Affairs
+- name: Holy See (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of the Holy See by its delegation to the United Nations;
+    the verbatim record does not name the individual speaker.
+  aliases:
+  - Holy See, Permanent Observer
+- name: Peru (UN delegation)
+  jurisdiction: UN
+  role: institutional
+  description: Statement delivered on behalf of Peru by its delegation to the United Nations; the verbatim
+    record does not name the individual speaker.
+  aliases:
+  - Peru, Permanent Representative
+- name: Abdelkader El-Kebir
+  jurisdiction: UN
+  role: Senator; parliamentary delegate to the UN Counter-Terrorism Week
+  description: A senator addressing a United Nations Counter-Terrorism Week side event; the record gives
+    no country.
+  aliases:
+  - Abdelkader El-Kebir, Senator
+- name: Abdulaziz Alwasil
+  jurisdiction: UN
+  role: Permanent Representative of Saudi Arabia to the United Nations
+  description: Saudi diplomat serving as Saudi Arabia's Permanent Representative to the United Nations.
+  aliases:
+  - Abdulaziz Al-Wassi (Saudi Arabia), Permanent Representative
+- name: Abir Al-Sahlani
+  jurisdiction: UN
+  role: Member of the European Parliament; Co-Chair, Committee on Development
+  description: Swedish member of the European Parliament active on development and human rights.
+  aliases:
+  - Abir Al-Sahlani (EP), Co-Chair, Committee on Development
+- name: Adam Muhammad Alkali
+  jurisdiction: UN
+  role: Representative of Nigeria
+  description: Nigerian representative speaking at a United Nations counter-terrorism side event.
+  aliases:
+  - Adam Muhammad Alkali (Nigeria)
+- name: Alar Karis
+  jurisdiction: UN
+  role: President of Estonia
+  description: Estonian politician and biologist who has served as President of Estonia since 2021.
+  aliases:
+  - Alar Karis (Estonia), President
+- name: Alessio Butti
+  jurisdiction: UN
+  role: Undersecretary of State for Technological Innovation, Italy
+  description: Italian politician serving as undersecretary of state with responsibility for technological
+    innovation.
+  aliases:
+  - Alessio Butti (Italy), Secretary of State for Innovation
+- name: Alexander Zuev
+  jurisdiction: UN
+  role: Acting Under-Secretary-General, UN Office of Counter-Terrorism
+  description: United Nations official serving as acting head of the Office of Counter-Terrorism.
+  aliases:
+  - Alexander Zuev (UNOCT), Acting USG
+- name: Ali Ihsan
+  jurisdiction: UN
+  role: Minister of Homeland Security, Labour and Technology, Maldives
+  description: Maldivian government minister responsible for homeland security, labour and technology.
+  aliases:
+  - Ali Ihsan (Maldives), Minister of Homeland Security, Labor, and Technology
+- name: Alison Kalem San Giorgio
+  jurisdiction: UN
+  role: Rapporteur, UN Committee on Information (Monaco)
+  description: Monegasque delegate serving as rapporteur of the United Nations Committee on Information.
+  aliases:
+  - Alison Kalem San Giorgio (Monaco), Rapporteur
+- name: Amal El Fallah Seghrouchni
+  jurisdiction: UN
+  role: Minister Delegate for Digital Transition and Administrative Reform, Morocco
+  description: Moroccan computer scientist and government minister responsible for digital transition.
+  aliases:
+  - Amal El Fala Segraouchni (Morocco), Minister Delegate
+  - Amal El Filah Sarrouchni (MOR), Minister Delegate
+- name: Amandeep Singh Gill
+  jurisdiction: UN
+  role: UN Under-Secretary-General; Secretary-General's Envoy on Technology
+  description: Indian diplomat serving as the United Nations Secretary-General's Envoy on Technology.
+  aliases:
+  - Amandeep Singh Gill (UN Secretariat), USG Tech Envoy
+  - Amandeep Singh Gill (UN), USG and Special Envoy for Digital and Emerging Technologies
+  - Amandeep Singh Gill (UN), USG; Special Envoy for Digital and Emerging Technologies
+- name: Américo Muchanga
+  jurisdiction: UN
+  role: Minister of Communications and Digital Transformation, Mozambique
+  description: Mozambican engineer and government minister responsible for communications and digital
+    transformation.
+  aliases:
+  - Américo Muchanga (Mozambique), Minister of Communications and Digital Transformation
+- name: Angela Kairuki
+  jurisdiction: UN
+  role: Minister, United Republic of Tanzania
+  description: Tanzanian lawyer and government minister.
+  aliases:
+  - Angela Kairuki (United Republic of Tanzania), Minister
+- name: Anna Stravska
+  jurisdiction: UN
+  role: Special Envoy for Counterterrorism, European Union
+  description: European Union special envoy on counter-terrorism, as named in the United Nations record.
+  aliases:
+  - Anna Stravska (EU), Special Envoy for Counterterrorism
+- name: Annalena Baerbock
+  jurisdiction: UN
+  role: President of the UN General Assembly (80th session)
+  description: German politician and former Federal Foreign Minister, elected President of the UN General
+    Assembly for its 80th session.
+  profile_url: https://en.wikipedia.org/wiki/Annalena_Baerbock
+  aliases:
+  - Annalena Baerbock (GA), PGA
+- name: António Guterres
+  jurisdiction: UN
+  role: Secretary-General of the United Nations
+  description: Portuguese politician and diplomat serving as Secretary-General of the United Nations since
+    2017.
+  profile_url: https://en.wikipedia.org/wiki/Ant%C3%B3nio_Guterres
+  aliases:
+  - Antonio Guterres (UN Secretariat), SG
+  - António Guterres (UN Secretariat), SG
+- name: Bart-Jan Wechter
+  jurisdiction: UN
+  role: Counter-Terrorism Coordinator, European Union
+  description: European Union counter-terrorism coordinator, as named in the United Nations record.
+  aliases:
+  - Bart-Jan Wechter (EU), Counterterrorism Coordinator
+- name: Bosun Tijani
+  jurisdiction: UN
+  role: Minister of Communications, Innovation and Digital Economy, Nigeria
+  description: Nigerian technology entrepreneur serving as minister of communications, innovation and
+    digital economy.
+  aliases:
+  - Bosun Tijani (Nigeria), Minister
+- name: Burhan Gafoor
+  jurisdiction: UN
+  role: Permanent Representative of Singapore to the United Nations
+  description: Singaporean diplomat serving as Singapore's Permanent Representative to the United Nations.
+  aliases:
+  - Burhan Ghaffour (Singapore), Permanent Representative
+- name: Carlo Jacobici
+  jurisdiction: UN
+  role: Vice-Chair, UN Advisory Committee on Administrative and Budgetary Questions (ACABQ)
+  description: Member and vice-chair of the United Nations advisory committee on administrative and budgetary
+    questions.
+  aliases:
+  - Carlo Jacobici (ACABQ), Vice-Chair
+- name: Carlos Mendoza Alvarado
+  jurisdiction: UN
+  role: Secretary of Planning and Programming of the Presidency, Guatemala
+  description: Guatemalan official heading the presidential planning and programming secretariat.
+  aliases:
+  - Carlos Mendoza Alvarado (Guatemala), Secretary
+- name: Carsten Wildberger
+  jurisdiction: UN
+  role: Federal Minister for Digital Transformation and Government Modernisation, Germany
+  description: German business executive serving as federal minister for digital transformation and government
+    modernisation.
+  aliases:
+  - Carsten Wildberger (Germany), Federal Minister for Digital Transformation and Government Modernization
+- name: Chadrick Namalomba
+  jurisdiction: UN
+  role: Minister of Information and Communications Technology, Malawi
+  description: Malawian government minister responsible for information and communications technology.
+  aliases:
+  - Chadrick Namalomba (Malawi), Minister of Information and Communications Technology
+- name: Chaloka Beyani
+  jurisdiction: UN
+  role: UN Under-Secretary-General; Special Adviser on the Prevention of Genocide
+  description: Zambian human rights lawyer serving as the UN Secretary-General's Special Adviser on the
+    Prevention of Genocide.
+  aliases:
+  - Chalok Abyani (UN), USG and Special Adviser of the SG on the Prevention of Genocide
+  - Chaloka Beyani (OSAPG), Special Adviser on the Prevention of Genocide
+- name: Chen Jiachang
+  jurisdiction: UN
+  role: Vice Minister of Science and Technology, China
+  description: Chinese official serving as a vice minister of the Ministry of Science and Technology.
+  aliases:
+  - Chen Jiacheng (China), Vice Minister of Science and Technology
+- name: Clara Chappaz
+  jurisdiction: UN
+  role: Ambassador for Digital Affairs and Artificial Intelligence, France
+  description: French official responsible for digital affairs and artificial intelligence, previously
+    minister delegate for AI and digital technology.
+  aliases:
+  - Clara Chapez (France), Ambassador
+  - Clara Schappaz (France), Ambassador for Digital Affairs and Artificial Intelligence
+- name: Constant Serge Vunda
+  jurisdiction: UN
+  role: Minister, Congo
+  description: Congolese government minister addressing United Nations discussions on AI governance.
+  aliases:
+  - Constant Serge Vunda (Congo), Minister
+- name: Christina Kitsos
+  jurisdiction: UN
+  role: Mayor of Geneva, Switzerland
+  description: Swiss politician serving as mayor of the city of Geneva.
+  aliases:
+  - Cristina Kitzos (Switzerland), Mayor of Geneva
+- name: Darkan Zazubkay
+  jurisdiction: UN
+  role: Chairman of a Kazakh state agency
+  description: Kazakh official identified in the United Nations record only as the chairman of a state
+    agency.
+  aliases:
+  - Darkan Zazubkay (Kazakhstan), Chairman
+- name: David Lametti
+  jurisdiction: UN
+  role: Permanent Representative of Canada to the United Nations
+  description: Canadian lawyer and former Minister of Justice serving as Canada's Permanent Representative
+    to the United Nations.
+  aliases:
+  - David Lametti (Canada), Permanent Representative
+- name: David Sere
+  jurisdiction: UN
+  role: Minister of Communications and Innovation, Botswana
+  description: Botswanan government minister responsible for communications and innovation.
+  aliases:
+  - David Sere (Botswana), Minister
+- name: Dimitri (Russian Federation)
+  jurisdiction: UN
+  role: Deputy Permanent Representative of the Russian Federation to the United Nations
+  description: A Russian deputy permanent representative recorded by first name only; the record does
+    not give a surname.
+  aliases:
+  - Dimitri (Russian Federation), Deputy Permanent Representative
+- name: Emanuele Loperfido
+  jurisdiction: UN
+  role: Vice Chair, OSCE Parliamentary Assembly Ad Hoc Committee on Countering Terrorism
+  description: Italian parliamentarian serving as a vice chair of the OSCE Parliamentary Assembly's counter-terrorism
+    committee.
+  aliases:
+  - Emanuele Lo Perfido (OSCE PA), Vice Chair, Ad Hoc Committee on Countering Terrorism
+  - Emmanuel Laprofido (OSCE PA), Vice Chair
+- name: Emily Pugin
+  jurisdiction: UN
+  role: High Commissioner of Australia to Cyprus
+  description: Australian diplomat, recorded speaking at United Nations human rights meetings.
+  aliases:
+  - Emily Pugin (Australia), High Commissioner to Cyprus
+- name: Emma Theofelus
+  jurisdiction: UN
+  role: Minister of Information and Communication Technology, Namibia
+  description: Namibian lawyer and politician serving as minister of information and communication technology.
+  aliases:
+  - Emma Theophilus (Namibia), Minister of Information and Communications Technology
+- name: Koh Eng Chuan
+  jurisdiction: UN
+  role: Chief Statistician of Singapore
+  description: Singapore's chief statistician, heading the Department of Statistics.
+  aliases:
+  - Eng Chuan Koh (Singapore), Chief Statistician
+- name: Eugênio Vargas Garcia
+  jurisdiction: UN
+  role: Ambassador; Brazilian representative to the United Nations
+  description: Brazilian career diplomat working on digital and technology governance at the United Nations.
+  aliases:
+  - Eugenio Vargas Garcia (Brazil), Ambassador
+  - Eugênio Garcia (Brazil), Representative
+- name: Farhan Haq
+  jurisdiction: UN
+  role: Deputy Spokesperson for the UN Secretary-General
+  description: United Nations deputy spokesperson, who conducts the Organization's daily press briefings.
+  aliases:
+  - Farhan (UN)
+  - Farhan (UN), Spokesperson
+- name: Félix Ulloa
+  jurisdiction: UN
+  role: Vice President of El Salvador
+  description: Salvadoran lawyer serving as Vice President of El Salvador since 2019.
+  aliases:
+  - Felix Ulloa (El Salvador), Vice President
+  - Félix Augusto Antonio Ulloa Garay (El Salvador), Vice President
+- name: Francesca Groome
+  jurisdiction: UN
+  role: Chief, UN Statistics Division
+  description: United Nations Statistics Division official addressing the Statistical Commission.
+  aliases:
+  - Francesca Groome (UNSD), Chief
+- name: François-Javier Martin Lazarega
+  jurisdiction: UN
+  role: Director; delegate of Spain
+  description: Spanish official recorded as a director at a United Nations counter-terrorism conference.
+  aliases:
+  - François-Javier Martin Lazarega (Spain), Director
+- name: Giorgio Marapodi
+  jurisdiction: UN
+  role: Permanent Representative of Italy
+  description: Italian diplomat speaking for Italy at United Nations counter-terrorism meetings.
+  aliases:
+  - Giorgio Marapodi (Italy), Permanent Representative
+- name: Gonçalo Matias
+  jurisdiction: UN
+  role: Minister for Youth and Modernisation, Portugal
+  description: Portuguese constitutional lawyer serving as minister for youth and modernisation.
+  aliases:
+  - Gonzalo Matías (Portugal), Minister
+- name: Gregor Koslo
+  jurisdiction: UN
+  role: Co-Chair, UN Multi-stakeholder Forum on Science, Technology and Innovation (Austria)
+  description: Austrian delegate co-chairing the United Nations science, technology and innovation forum.
+  aliases:
+  - Gregor Koslo (Austria), Co-Chair
+- name: Griselda López
+  jurisdiction: UN
+  role: Co-Chair, Global Dialogue on AI Governance (El Salvador)
+  description: Salvadoran official co-chairing the United Nations Global Dialogue on Artificial Intelligence
+    Governance.
+  aliases:
+  - Griselda López (El Salvador), Co-Chair
+- name: Guilherme Patriota
+  jurisdiction: UN
+  role: Chair, UN Commission on Science and Technology for Development working group
+  description: Brazilian diplomat chairing United Nations work on data governance.
+  aliases:
+  - Guilherme Patriota (UNCTAD), Chair
+- name: Guy Ryder
+  jurisdiction: UN
+  role: UN Under-Secretary-General for Policy
+  description: British former Director-General of the International Labour Organization, serving as UN
+    Under-Secretary-General for Policy.
+  profile_url: https://en.wikipedia.org/wiki/Guy_Ryder
+  aliases:
+  - Guy Ryder (UN), USG Policy
+- name: Haleki Tchoua Mahamat
+  jurisdiction: UN
+  role: Minister of Telecommunications and the Digital Economy, Chad
+  description: Chadian government minister responsible for telecommunications, the digital economy and
+    public administration digitalisation.
+  aliases:
+  - Haleki Tchoua Mahamat (Chad), Minister of Telecommunications, Digital Economy, and Digitalization
+    of Public Administration
+- name: Navid Hanif
+  jurisdiction: UN
+  role: UN Assistant Secretary-General for Economic Development, UN DESA
+  description: United Nations Department of Economic and Social Affairs official at assistant secretary-general
+    level.
+  aliases:
+  - Hanif (UN DESA), ASG
+- name: Parvathaneni Harish
+  jurisdiction: UN
+  role: Permanent Representative of India to the United Nations
+  description: Indian career diplomat serving as India's Permanent Representative to the United Nations.
+  aliases:
+  - Harish Prava Taneni (India), Ambassador and Permanent Representative
+- name: Henrique (Philippines)
+  jurisdiction: UN
+  role: Deputy Permanent Representative of the Philippines to the United Nations
+  description: A Philippine deputy permanent representative recorded by one name only.
+  aliases:
+  - Henrique (Philippines), Deputy Permanent Representative
+- name: Hiroyuki Minami
+  jurisdiction: UN
+  role: Ambassador in Charge of International Cooperation for Countering Terrorism and International Organized
+    Crime, Japan
+  description: Japanese diplomat responsible for international counter-terrorism and organised crime cooperation.
+  aliases:
+  - Hiroyuki Minami (Japan), Ambassador in Charge of International Cooperation for Countering Terrorism
+    and International Organized Crime
+- name: Iman (Namibia)
+  jurisdiction: UN
+  role: Minister, Namibia
+  description: A Namibian government minister recorded by one name only.
+  aliases:
+  - Iman (Namibia), Minister
+- name: Ioannis Giokas
+  jurisdiction: UN
+  role: Permanent Representative of Greece; Co-Chair
+  description: Greek diplomat co-chairing United Nations High-Level Political Forum proceedings.
+  aliases:
+  - Ioannis Giokas (Greece), Permanent Representative; Co-Chair
+- name: Jevorg Montashian
+  jurisdiction: UN
+  role: First Deputy Minister of High-Tech Industry, Armenia
+  description: Armenian official serving as first deputy minister of high-tech industry.
+  aliases:
+  - Jevorg Montashian (Armenia), First Deputy Minister of High-Tech Industry
+- name: Ji-hoon Cha
+  jurisdiction: UN
+  role: Permanent Representative of the Republic of Korea to the United Nations
+  description: South Korean diplomat representing the Republic of Korea at the United Nations.
+  aliases:
+  - Ji-hoon Cha (Republic of Korea), Permanent Representative
+- name: Jibril Altara
+  jurisdiction: UN
+  role: Minister of Digital Transformation, Côte d'Ivoire
+  description: Ivorian government minister responsible for digital transformation.
+  aliases:
+  - Jibril Altara (Côte d’Ivoire), Minister of Digital Transformation
+- name: Joseph Beti Assomo
+  jurisdiction: UN
+  role: Minister of Defence, Cameroon
+  description: Cameroonian politician serving as minister delegate at the presidency in charge of defence.
+  aliases:
+  - Joseph Betty Assomo (Cameroon), Minister of Defense
+- name: Josephine Teo
+  jurisdiction: UN
+  role: Minister for Digital Development and Information, Singapore
+  description: Singaporean politician responsible for digital development and information policy.
+  profile_url: https://en.wikipedia.org/wiki/Josephine_Teo
+  aliases:
+  - Josephine Teo (Singapore), Minister for Digital Development and Information
+- name: João Brant
+  jurisdiction: UN
+  role: Secretary of Digital Policy, Brazil
+  description: Brazilian official heading the presidency's secretariat for digital policy.
+  aliases:
+  - João Brandt (Brazil), Secretary of Digital Policy
+- name: Juan Pablo Vegas
+  jurisdiction: UN
+  role: Deputy Permanent Representative of Peru to the United Nations
+  description: Peruvian diplomat serving as Peru's deputy permanent representative.
+  aliases:
+  - Juan Pablo Vegas (Peru), Deputy Permanent Representative
+- name: Kamal Shehadi
+  jurisdiction: UN
+  role: Minister of Telecommunications, Lebanon
+  description: Lebanese government minister responsible for telecommunications.
+  aliases:
+  - Kamal Shehadi (Lebanon), Minister
+- name: Catherine Russell
+  jurisdiction: UN
+  role: Executive Director, UNICEF
+  description: American official serving as executive director of the United Nations Children's Fund.
+  profile_url: https://en.wikipedia.org/wiki/Catherine_M._Russell
+  aliases:
+  - Katherine Russell (UNICEF), Executive Director
+- name: Katie Strickland
+  jurisdiction: UN
+  role: High-level representative of the United States
+  description: United States representative addressing the United Nations Global Dialogue on AI Governance.
+  aliases:
+  - Katie Strickland (United States of America), High-level representative
+- name: Kitty van der Heijden
+  jurisdiction: UN
+  role: UN Assistant Secretary-General; Deputy Executive Director, UNICEF
+  description: Dutch official serving as a deputy executive director of the United Nations Children's
+    Fund.
+  aliases:
+  - Kitty van der Heijden (UNICEF), ASG and Deputy Executive Director
+- name: Krzysztof Gawkowski
+  jurisdiction: UN
+  role: Deputy Prime Minister and Minister of Digital Affairs, Poland
+  description: Polish politician serving as deputy prime minister with responsibility for digital affairs.
+  aliases:
+  - Krzysztof Kaczkowski (Poland), Deputy Prime Minister
+- name: Li Lecheng
+  jurisdiction: UN
+  role: Minister of Industry and Information Technology, China
+  description: Chinese official serving as minister of industry and information technology.
+  aliases:
+  - Le Sheng Li (China), Minister
+- name: Lina Gálvez
+  jurisdiction: UN
+  role: Member of the European Parliament; Chair, Committee on Women's Rights and Gender Equality
+  description: Spanish economist and member of the European Parliament working on gender equality and
+    technology.
+  aliases:
+  - Lena Galvez (EP), Member, Women’s Rights & Gender Equality Committee
+- name: Leonardo Cervera Navas
+  jurisdiction: UN
+  role: Director-General, European Data Protection Supervisor
+  description: European Union official heading the office of the European Data Protection Supervisor.
+  aliases:
+  - Leonardo Cervera Navas (EU), Director General
+- name: Liisa-Ly Pakosta
+  jurisdiction: UN
+  role: Minister of Justice and Digital Affairs, Estonia
+  description: Estonian politician serving as minister of justice and digital affairs.
+  aliases:
+  - Lisa Lee Kosta (Estonia), Minister of Justice and Digital Affairs
+- name: Macky Sall
+  jurisdiction: UN
+  role: Former President of Senegal; candidate for UN Secretary-General
+  description: Senegalese politician who served as President of Senegal from 2012 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Macky_Sall
+  aliases:
+  - Macky Sall (Senegal), Candidate for SG
+- name: Malhotra (United Kingdom)
+  jurisdiction: UN
+  role: Minister, United Kingdom
+  description: A United Kingdom minister recorded by surname only in the United Nations record.
+  aliases:
+  - Malhotra (United Kingdom of Great Britain and Northern Ireland), Minister
+- name: Márcia Lopes
+  jurisdiction: UN
+  role: Minister of Women, Brazil
+  description: Brazilian social worker and politician serving as minister of women.
+  aliases:
+  - Marcia Lopez (Brazil), Minister
+- name: Maren Nystad Storslett
+  jurisdiction: UN
+  role: Member of the Executive Council, Sámi Parliament of Norway
+  description: Sámi parliamentarian addressing the UN Expert Mechanism on the Rights of Indigenous Peoples.
+  aliases:
+  - Maren Nystad Storslett, Member of the Executive Council
+- name: Meutya Hafid
+  jurisdiction: UN
+  role: Minister of Communications and Digital Affairs, Indonesia
+  description: Indonesian journalist and politician serving as minister of communications and digital
+    affairs.
+  aliases:
+  - Meotia Viada Hafid (Indonesia), Minister of Communications and Digital Affairs
+- name: Michelle Bachelet
+  jurisdiction: UN
+  role: Former President of Chile; candidate for UN Secretary-General
+  description: Chilean politician who twice served as President of Chile and as UN High Commissioner for
+    Human Rights.
+  profile_url: https://en.wikipedia.org/wiki/Michelle_Bachelet
+  aliases:
+  - Michelle Bachelet, President
+- name: Mikheil Kavelashvili
+  jurisdiction: UN
+  role: President of Georgia
+  description: Georgian politician and former footballer who became President of Georgia in December 2024.
+  aliases:
+  - Mikheil Kabaashvili (Georgia), President
+- name: Mohamed Adam Mualim
+  jurisdiction: UN
+  role: Minister of Communication and Technology, Somalia
+  description: Somali government minister responsible for communication and technology.
+  aliases:
+  - Mohamed Adam Mualim (Somalia), Minister of Communication and Technology
+- name: Mohamed al-Menfi
+  jurisdiction: UN
+  role: President of the Presidential Council of Libya
+  description: Libyan diplomat and politician heading Libya's Presidential Council.
+  aliases:
+  - Mohamed Menfi (Libya), President
+- name: Mohammed bin Ali Al Mannai
+  jurisdiction: UN
+  role: Minister of Communications and Information Technology, Qatar
+  description: Qatari government minister responsible for communications and information technology.
+  aliases:
+  - Mohammed bin Ali bin Mohammed Al-Manai (Qatar), Minister
+- name: Monica Juma
+  jurisdiction: UN
+  role: UN Under-Secretary-General; Executive Director, UNODC
+  description: Kenyan diplomat serving as executive director of the United Nations Office on Drugs and
+    Crime.
+  aliases:
+  - Monica Kathina Juma (UNODC), USG and Executive Director
+- name: Mustafa Al-Maryani
+  jurisdiction: UN
+  role: Minister of Communications, Iraq
+  description: Iraqi government minister responsible for communications.
+  aliases:
+  - Mustafa Al-Maryani (Iraq), Minister of Communications
+- name: Nahida (Bangladesh)
+  jurisdiction: UN
+  role: Representative of Bangladesh
+  description: A Bangladeshi representative recorded by one name only.
+  aliases:
+  - Nahida (Bangladesh)
+- name: Natalia Gherman
+  jurisdiction: UN
+  role: UN Assistant Secretary-General; Executive Director, Counter-Terrorism Committee Executive Directorate
+  description: Moldovan diplomat and former foreign minister heading the UN Counter-Terrorism Committee
+    Executive Directorate.
+  aliases:
+  - Natalia German (CTED), ASG and Executive Director
+  - Natalia Gherman (CTED), ASG, Executive Director
+- name: Nthomeng Majara
+  jurisdiction: UN
+  role: Deputy Prime Minister, Lesotho
+  description: Lesotho jurist and politician serving as deputy prime minister.
+  aliases:
+  - Ndhameng Amajara (Lesotho), Deputy Prime Minister
+- name: Niamh Smyth
+  jurisdiction: UN
+  role: Minister of State for Trade Promotion, Artificial Intelligence and Digital Transformation, Ireland
+  description: Irish politician serving as minister of state with responsibility for artificial intelligence
+    and digital transformation.
+  aliases:
+  - Niamh Smith (Ireland), Minister
+  - Niamh Smith (Ireland), Minister of State with responsibility for trade promotion, artificial intelligence,
+    and digital transformation
+  - Niamh Smyth (Ireland), Minister of State
+- name: Ntate Emily Morosi
+  jurisdiction: UN
+  role: Minister, Lesotho
+  description: Lesotho government minister addressing the UN forum on science, technology and innovation.
+  aliases:
+  - Ntate Emily Morosi (Lesotho), Minister
+- name: Olzhas Bektenov
+  jurisdiction: UN
+  role: Prime Minister of Kazakhstan
+  description: Kazakh politician serving as Prime Minister of Kazakhstan since 2024.
+  aliases:
+  - Oljas Bekhtenev (Kazakhstan), Prime Minister
+- name: Óscar López Águeda
+  jurisdiction: UN
+  role: Minister for Digital Transformation and the Civil Service, Spain
+  description: Spanish politician serving as minister for digital transformation and the civil service.
+  aliases:
+  - Oscar López Agüero (Spain), Minister
+  - Oscar López Águeda (Spain), Minister
+- name: Paula Bogantes Zamora
+  jurisdiction: UN
+  role: Minister of Science, Innovation, Technology and Telecommunications, Costa Rica
+  description: Costa Rican government minister responsible for science, innovation, technology and telecommunications.
+  aliases:
+  - Paula Bogantes Zamora (Costa Rica), Minister
+  - Paula Bragantes Zamora, Co-Chair
+- name: Pedro Roque
+  jurisdiction: UN
+  role: Vice-President, Parliamentary Assembly of the Mediterranean
+  description: Portuguese parliamentarian serving as a vice-president of the Parliamentary Assembly of
+    the Mediterranean.
+  aliases:
+  - Pedro Roque (PAM), PAM Vice-President
+- name: Philip Thigo
+  jurisdiction: UN
+  role: Special Envoy on Technology, Kenya
+  description: Kenyan technology policy specialist serving as the country's special envoy on technology.
+  aliases:
+  - Philip Tigo (Kenya), Special Envoy on Technology
+- name: Rafael Mariano Grossi
+  jurisdiction: UN
+  role: Director-General, International Atomic Energy Agency
+  description: Argentine diplomat serving as Director-General of the International Atomic Energy Agency.
+  profile_url: https://en.wikipedia.org/wiki/Rafael_Grossi
+  aliases:
+  - Rafael Mariano Grossi (Argentina), Director-General
+- name: Rana Mashhood Ahmad Khan
+  jurisdiction: UN
+  role: Chairman, Prime Minister's Youth Programme, Pakistan
+  description: Pakistani politician chairing the Prime Minister's Youth Programme.
+  aliases:
+  - Rana Mashood Ahmad Khan (Pakistan), Chairman
+- name: Reine Tamsar
+  jurisdiction: UN
+  role: Co-Chair, Global Dialogue on AI Governance (Estonia)
+  description: Estonian official co-chairing the United Nations Global Dialogue on Artificial Intelligence
+    Governance.
+  aliases:
+  - Reine Tamsar (Estonia), Co-Chair
+- name: Roberto Viola
+  jurisdiction: UN
+  role: Director-General for Communications Networks, Content and Technology, European Commission
+  description: Italian engineer heading the European Commission's DG CONNECT.
+  aliases:
+  - Roberto Viola (European Commission), Director-General
+- name: Celeste Saulo
+  jurisdiction: UN
+  role: Secretary-General, World Meteorological Organization
+  description: Argentine meteorologist serving as Secretary-General of the World Meteorological Organization.
+  aliases:
+  - Saulo (WMO), Secretary-General
+- name: Shaza Fatima Khawaja
+  jurisdiction: UN
+  role: Minister of State for Information Technology and Telecommunication, Pakistan
+  description: Pakistani politician responsible for information technology and telecommunication.
+  aliases:
+  - Shahza Fatima Khawaja (Pakistan), Minister of Information Technology and Telecommunication
+- name: Sheikh Abdullah bin Ahmed Al Khalifa
+  jurisdiction: UN
+  role: Minister of Transportation and Telecommunications, Bahrain
+  description: Bahraini government minister responsible for transportation and telecommunications.
+  aliases:
+  - Sheikh Abdullah bin Ahmed Al Khalifa (Bahrain), Minister of Transportation and Telecommunications
+- name: Sid Ali Zerrouki
+  jurisdiction: UN
+  role: Minister of Post and Telecommunications, Algeria
+  description: Algerian government minister responsible for post and telecommunications.
+  aliases:
+  - Sid Ali Zouraki (Algeria), Minister
+- name: Sima Bahous
+  jurisdiction: UN
+  role: Executive Director, UN Women
+  description: Jordanian diplomat serving as executive director of UN Women.
+  profile_url: https://en.wikipedia.org/wiki/Sima_Bahous
+  aliases:
+  - Sima Bahaus (UN Women), Executive Director
+- name: Song Yu
+  jurisdiction: UN
+  role: Deputy Permanent Representative of China to the United Nations
+  description: Chinese diplomat serving as a deputy permanent representative at the United Nations.
+  aliases:
+  - Song Yu (China), Deputy Permanent Representative
+- name: Tareq Albanai
+  jurisdiction: UN
+  role: Permanent Representative of Kuwait to the United Nations
+  description: Kuwaiti diplomat serving as Kuwait's Permanent Representative to the United Nations.
+  aliases:
+  - Tarek Albanai (Kuwait), Permanent Representative
+- name: Tatjana Macura
+  jurisdiction: UN
+  role: Minister without Portfolio, Serbia
+  description: Serbian politician serving as minister without portfolio responsible for gender equality.
+  aliases:
+  - Tatjana Makura (Serbia), Minister without Portfolio
+- name: Ulises Canzola
+  jurisdiction: UN
+  role: Special Representative of Mexico
+  description: Mexican representative addressing United Nations sessions on AI governance.
+  aliases:
+  - Ulises Canzola (Mexico), Special Representative
+- name: Chea Vandeth
+  jurisdiction: UN
+  role: Minister of Post and Telecommunications, Cambodia
+  description: Cambodian government minister responsible for post and telecommunications.
+  aliases:
+  - Vanden Chhea (Cambodia), Minister
+- name: Vindhya Persaud
+  jurisdiction: UN
+  role: Minister of Human Services and Social Security, Guyana
+  description: Guyanese physician and politician serving as minister of human services and social security.
+  aliases:
+  - Vindhya Persad (Guyana), Minister of Human Services and Social Security
+- name: Vladimir Cuc
+  jurisdiction: UN
+  role: Ambassador of the Republic of Moldova
+  description: Moldovan diplomat representing the Republic of Moldova at the United Nations.
+  aliases:
+  - Vladimir Tzuc (Republic of Moldova), Ambassador
+- name: Willemien Arends
+  jurisdiction: UN
+  role: Minister, Netherlands
+  description: Netherlands government representative addressing the United Nations Global Dialogue on
+    AI Governance.
+  aliases:
+  - Willemien Arends (Netherlands (Kingdom of the)), Minister
+- name: William Kabogo Gitau
+  jurisdiction: UN
+  role: Cabinet Secretary for Information, Communications and the Digital Economy, Kenya
+  description: Kenyan politician serving as cabinet secretary for information, communications and the
+    digital economy.
+  aliases:
+  - William Gitau (Kenya), Cabinet Secretary
+- name: Wonho Park
+  jurisdiction: UN
+  role: Administrator; delegate of the Republic of Korea
+  description: South Korean official addressing the United Nations high-level conference on counter-terrorism.
+  aliases:
+  - Wonho Park (Republic of Korea), Administrator
+- name: Xiang Zhang
+  jurisdiction: UN
+  role: Chair, UN Commission on Science and Technology for Development
+  description: Chair of the United Nations Commission on Science and Technology for Development.
+  aliases:
+  - Xiang Zhang (CSTD), Chair
+- name: Ximena Lincalao
+  jurisdiction: UN
+  role: Minister of Science, Technology, Knowledge and Innovation, Chile
+  description: Chilean government minister responsible for science, technology, knowledge and innovation.
+  aliases:
+  - Ximena Lincalao (Chile), Minister of Science, Technology, Knowledge, and Innovation
+- name: Zhaslan Madiyev
+  jurisdiction: UN
+  role: Deputy Prime Minister and Minister of Digital Development, Kazakhstan
+  description: Kazakh official responsible for digital development, innovation and aerospace industry.
+  aliases:
+  - Zaslan Madiyev (Kazakhstan), Deputy Prime Minister

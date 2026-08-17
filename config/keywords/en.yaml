@@ -1,0 +1,74 @@
+# English keyword list v2 — flat list mirroring readme.md §Search (the ground
+# truth for topics). Word-boundary matching, case-insensitive; '*' = stem
+# wildcard. Precision is the judges' job; this list optimizes recall.
+lang: en
+segmented: true
+keywords:
+  # AI generically (just for high recall)
+  - AI
+  - A.I.
+  - artificial intelligence
+  - machine intelligence
+  - engineered intelligence
+  - LLM*
+  - large language model*
+  # AGI
+  - AGI
+  - artificial general intelligence
+  - general artificial intelligence
+  - human-level AI
+  - human-level artificial intelligence
+  - automated coding
+  - transformative AI
+  - transformative artificial intelligence
+  - strong AI
+  # ASI
+  - ASI
+  - artificial superintelligence
+  - superintelligen*         # superintelligence, superintelligent
+  - superhuman intelligence
+  - smarter-than-human
+  - smarter than human*
+  - more intelligent than humans
+  - surpass human intelligence
+  - exceed human intelligence
+  # RSI / recursive self-improvement
+  - RSI                      # mostly repetitive strain injury; judges filter
+  - recursive self-improvement
+  - recursively self-improving
+  - self-improving artificial intelligence
+  - singularity
+  - intelligence explosion
+  - AI takeoff
+  - runaway AI
+  - automated AI R&D
+  # AI existential / catastrophic risk
+  - existential risk*
+  - existential threat*
+  - catastrophic risk*
+  - human extinction
+  - extinction risk*
+  - extinction of humanity
+  - end of humanity
+  - loss of control
+  - control problem
+  - AI control
+  - AI alignment
+  - alignment problem
+  - misalignment
+  - misaligned
+  - self-exfiltrat*
+  - power-seeking
+  - deceptive AI
+  - scalable oversight
+  - interpretability
+  # AI regulation
+  - AI regulation
+  - AI governance
+  - AI international treaty
+  - international AI treaty
+  - chip export control*
+  - semiconductor export control*
+  - datacenter security
+  - data center security
+  - data centre security

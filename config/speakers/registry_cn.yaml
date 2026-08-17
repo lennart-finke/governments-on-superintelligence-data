@@ -1,0 +1,1189 @@
+- name: Xi Jinping
+  jurisdiction: CN
+  role: General Secretary of the CCP; President of the People's Republic of China
+  description: Paramount leader of China since 2012, holding the top posts of the Communist Party, the state, and the military.
+  wikidata: Q15031
+  profile_url: https://en.wikipedia.org/wiki/Xi_Jinping
+  aliases:
+  - Xi Jinping (General Secretary)
+  - 习近平（国家主席）
+  - 习近平 (国家主席)
+  - Xi Jinping (President)
+  - Xi Jinping (President of the People's Republic of China)
+  - Xi Jinping
+  - Xi Jinping (国家主席)
+  - 习近平
+  - 习近平 (General Secretary of the CPC Central Committee)
+  - 习近平 (General Secretary)
+  - 习近平 (Xi Jinping)
+  - 习近平（中共中央总书记、国家主席、中央军委主席）
+  - 习近平（中华人民共和国主席）
+  - 习近平（中国国家主席）
+  - Xi Jinping (General Secretary / State Council / Party Organs)
+  - Xi Jinping (General Secretary / 国家主席)
+  - Xi Jinping (General Secretary and President)
+  - Xi Jinping (President and Chairman of the Central National Security Commission)
+  - 习近平 (General Secretary of the CCP Central Committee)
+  - 习近平 (President)
+  - 习近平 (中共中央总书记、国家主席、中央军委主席)
+  - 习近平 (中央国家安全委员会主席)
+  - 习近平 (国家主席) / 两国元首
+  - 习近平主席
+  - 习近平主席 (President Xi Jinping)
+  - 习近平（中共中央总书记）
+  - 习近平（国家主席）/中尼双方
+- name: Xi Jinping & Emmanuel Macron (joint statement)
+  jurisdiction: CN
+  role: institutional
+  description: Joint attribution to the Chinese and French heads of state in a bilateral statement.
+  aliases:
+  - Xi Jinping & Emmanuel Macron (heads of state)
+- name: Xi Jinping & Lula da Silva (joint statement)
+  jurisdiction: CN
+  role: institutional
+  description: Joint attribution to the Chinese and Brazilian heads of state in a bilateral statement.
+  aliases:
+  - 习近平 (President) / 卢拉·达席尔瓦 (President of Brazil)
+- name: Li Qiang
+  jurisdiction: CN
+  role: Premier of the State Council
+  description: Premier of the People's Republic of China since 2023, ranked second in the CCP Politburo Standing Committee.
+  wikidata: Q4414390
+  profile_url: https://en.wikipedia.org/wiki/Li_Qiang
+  aliases:
+  - Li Qiang (Premier of the State Council)
+  - 李强 (国务院总理)
+  - 李强（国务院总理）
+  - Li Qiang
+  - Li Qiang (Premier)
+  - 李强 (Premier of China)
+- name: Wang Yi
+  jurisdiction: CN
+  role: Minister of Foreign Affairs; Director, CCP Central Foreign Affairs Commission Office
+  description: China's top diplomat, serving as Foreign Minister and a member of the CCP Politburo.
+  wikidata: Q701801
+  profile_url: https://en.wikipedia.org/wiki/Wang_Yi_(diplomat)
+  aliases:
+  - Wang Yi
+  - Wang Yi (Foreign Minister)
+  - Wang Yi (Minister of Foreign Affairs)
+  - 王毅 (中共中央政治局委员、中央外办主任)
+  - Wang Yi (Director of the Office of the Central Foreign Affairs Commission)
+  - Wang Yi (Member of the Political Bureau of the CPC Central Committee and Foreign Minister)
+  - Wang Yi (Minister of Foreign Affairs, Special Representative of President Xi Jinping)
+  - Wang Yi (State Councilor and Foreign Minister)
+  - 王毅 (中共中央政治局委员、外交部长)
+  - 王毅（中共中央政治局委员、外交部长）
+- name: Zhuang Rongwen
+  jurisdiction: CN
+  role: Director, Cyberspace Administration of China
+  description: Head of China's internet and cyberspace regulator since 2018, and chairman of the World Internet Conference.
+  wikidata: Q55694631
+  aliases:
+  - Zhuang Rongwen (CAC Director)
+  - 庄荣文（中央宣传部副部长、中央网信办主任、国家网信办主任）
+  - 庄荣文（中央网信办主任）
+  - Zhuang Rongwen (Director of the Cyberspace Administration of China)
+  - 庄荣文 (中央宣传部副部长、中央网信办主任、国家网信办主任)
+  - 庄荣文 (中央网信办主任)
+  - 庄荣文 (中央网络安全和信息化委员会办公室主任、国家互联网信息办公室主任)
+  - 庄荣文（中国国家互联网信息办公室主任、世界互联网大会理事长）
+- name: Li Lecheng
+  jurisdiction: CN
+  role: Minister of Industry and Information Technology
+  description: Minister of Industry and Information Technology, responsible for China's industrial policy and telecommunications regulation.
+  aliases:
+  - Li Lecheng (Minister of Industry and Information Technology)
+  - 李乐成 (工业和信息化部部长)
+  - 李乐成（工业和信息化部部长）
+  - Li Lecheng (Official/Author for People's Daily)
+  - 李乐成 (Minister of Industry and Information Technology)
+- name: Jin Zhuanglong
+  jurisdiction: CN
+  role: Former Minister of Industry and Information Technology
+  description: Served as Minister of Industry and Information Technology from 2022 until his removal from the post in 2025.
+  wikidata: Q8291855
+  aliases:
+  - 金壮龙（工业和信息化部部长）
+- name: Zhang Yunming
+  jurisdiction: CN
+  role: Vice Minister of Industry and Information Technology
+  description: Vice Minister overseeing industrial and information technology policy at MIIT.
+  aliases:
+  - 张云明（工业和信息化部副部长）
+  - Zhang Yunming (MIIT Vice Minister)
+  - 张云明 (工业和信息化部副部长)
+- name: Xin Guobin
+  jurisdiction: CN
+  role: Vice Minister of Industry and Information Technology
+  description: Vice Minister at MIIT covering industrial and information technology affairs.
+  aliases:
+  - 辛国斌 (工业和信息化部副部长)
+- name: Xiong Jijun
+  jurisdiction: CN
+  role: Vice Minister of Industry and Information Technology
+  description: Vice Minister at MIIT covering industrial and information technology affairs.
+  aliases:
+  - Xiong Jijun (Vice Minister of Industry and Information Technology)
+  - 熊继军 (工业和信息化部副部长)
+  - 熊继军 (工信部副部长)
+  - 熊继军（工业和信息化部副部长）
+- name: Zhang Kejian
+  jurisdiction: CN
+  role: Vice Minister and Party Group Member, Ministry of Industry and Information Technology
+  description: Vice Minister and Party leadership group member at MIIT.
+  aliases:
+  - 张克俭（工业和信息化部党组成员、副部长）
+- name: Xu Xiaolan
+  jurisdiction: CN
+  role: Vice Minister of Industry and Information Technology
+  description: Vice Minister at MIIT covering industrial and information technology affairs.
+  aliases:
+  - 徐晓兰 (工业和信息化部副部长)
+  - 徐晓兰 (工信部副部长)
+- name: Zhao Zhiguo
+  jurisdiction: CN
+  role: Director, Information and Communications Management Bureau; Chief Engineer, MIIT
+  description: MIIT official who has headed its information and communications management bureau and served as chief engineer.
+  aliases:
+  - 赵志国 (工业和信息化部信息通信管理局局长)
+  - 赵志国（工业和信息化部总工程师）
+- name: Tao Qing
+  jurisdiction: CN
+  role: MIIT Spokesperson; Director, Operation Monitoring and Coordination Bureau
+  description: MIIT spokesperson and director of the ministry's operation monitoring and coordination bureau.
+  aliases:
+  - 陶青 (工业和信息化部新闻发言人、运行监测协调局局长)
+- name: Dan Zhongde
+  jurisdiction: CN
+  role: Vice Minister of Industry and Information Technology
+  description: Vice Minister at MIIT covering industrial and information technology affairs.
+  aliases:
+  - 单忠德（工业和信息化部副部长）
+- name: Wu Chaohui
+  jurisdiction: CN
+  role: Vice Minister of Science and Technology
+  description: Vice Minister at the Ministry of Science and Technology, formerly president of Zhejiang University.
+  aliases:
+  - 吴朝晖 (中国科技部副部长)
+  - 吴朝晖 (科技部副部长)
+- name: Ministry of Foreign Affairs
+  jurisdiction: CN
+  role: institutional
+  description: China's ministry responsible for foreign affairs and diplomacy, including its global AI governance initiatives.
+  profile_url: https://www.mfa.gov.cn/eng/
+  aliases:
+  - Ministry of Foreign Affairs (Global AI Governance Initiative)
+  - Ministry of Foreign Affairs (Global AI Governance Action Plan)
+  - Ministry of Foreign Affairs of the People's Republic of China
+- name: Guo Jiakun
+  jurisdiction: CN
+  role: Foreign Ministry Spokesperson
+  description: Spokesperson for China's Ministry of Foreign Affairs.
+  aliases:
+  - Guo Jiakun (Foreign Ministry Spokesperson)
+- name: Lin Jian
+  jurisdiction: CN
+  role: Foreign Ministry Spokesperson
+  description: Spokesperson for China's Ministry of Foreign Affairs.
+  aliases:
+  - Lin Jian (Foreign Ministry Spokesperson)
+- name: Fu Cong
+  jurisdiction: CN
+  role: Permanent Representative of China to the United Nations
+  description: Chinese diplomat serving as Permanent Representative to the United Nations, formerly Ambassador to the European Union.
+  aliases:
+  - 傅聪（中国常驻联合国代表）
+  - Fu Cong (China's Permanent Representative to the United Nations)
+- name: Dai Bing
+  jurisdiction: CN
+  role: Deputy Permanent Representative of China to the United Nations
+  description: Chinese diplomat serving as Deputy Permanent Representative to the United Nations.
+  aliases:
+  - 戴兵（中国常驻联合国副代表）
+- name: Chinese Government Official (unspecified)
+  jurisdiction: CN
+  role: unspecified
+  description: An unnamed Chinese government official quoted via Ministry of Foreign Affairs reporting; specific identity not established.
+  aliases:
+  - Chinese Government Official (per Ministry of Foreign Affairs of the People's Republic of China)
+- name: Cyberspace Administration of China
+  jurisdiction: CN
+  role: institutional
+  description: China's central internet and cyberspace content regulator, also known as the Office of the Central Cyberspace Affairs Commission.
+  profile_url: https://www.cac.gov.cn/
+  aliases:
+  - 国家互联网信息办公室
+  - 中央网信办
+  - 中央网信办 (Cyberspace Administration of China)
+  - 中央网信办有关负责人
+  - Cyberspace Administration of China (CAC)
+  - 中央网络安全和信息化委员会办公室
+  - 国家互联网信息办公室 (Cyberspace Administration of China)
+  - 国家网信办
+  - Cyberspace Administration of China
+  - 中央网络安全和信息化委员会办公室室务会
+  - 国家互联网信息办公室有关负责人
+  - CAC (中央网信办)
+  - CAC Office of the Central Cyberspace Affairs Commission
+  - Cyberspace Administration of China (网信办)
+  - Office of the Central Cyberspace Affairs Commission
+  - State Internet Information Office (CAC)
+  - 中国网信网
+  - 中央网信办 / 国家网信办
+  - 中央网信办举报中心
+  - 中央网信办网络安全协调局
+  - 中央网信办网络安全协调局 (and co-guiding agencies)
+  - 中央网信办网络综合治理局
+  - 国家互联网信息办公室相关负责人
+  - 国家互联网信息办公室网络管理技术局、信息化发展局、网络法治局和国家互联网应急中心等单位负责人
+  - 国家网信办有关负责人
+  - 国家网信办有关负责人 (Cyberspace Administration of China responsible official)
+  - 国家网信办有关负责同志
+  - 国家网信办相关负责人
+  - 网信部门
+  - 网安周组委会 / 中国网信网
+- name: Ministry of Industry and Information Technology
+  jurisdiction: CN
+  role: institutional
+  description: China's ministry overseeing industrial policy, telecommunications, and information technology regulation.
+  profile_url: https://www.miit.gov.cn/
+  aliases:
+  - 工业和信息化部
+  - Ministry of Industry and Information Technology (MIIT)
+  - 工业和信息化部党组 (MIIT Party Group)
+  - 工业和信息化部党组 (Ministry of Industry and Information Technology Party Leadership Group)
+- name: Ministry of Science and Technology
+  jurisdiction: CN
+  role: institutional
+  description: China's ministry responsible for national science and technology policy.
+  profile_url: https://www.most.gov.cn/
+  aliases:
+  - 中华人民共和国科学技术部
+- name: Wang Jiang
+  jurisdiction: CN
+  role: Director and Party Secretary, China Academy of Cyberspace Studies
+  description: Head of the Cyberspace Administration's affiliated think tank, the China Academy of Cyberspace Studies.
+  aliases:
+  - 王江（中国网络空间研究院院长、党委书记）
+- name: Zou Xiaoxiang
+  jurisdiction: CN
+  role: Director, Information Research Institute, China Academy of Cyberspace Studies
+  description: Researcher directing the Information Research Institute within the China Academy of Cyberspace Studies.
+  aliases:
+  - 邹潇湘（中国网络空间研究院信息化研究所所长）
+- name: China Academy of Cyberspace Studies (Information Research Institute)
+  jurisdiction: CN
+  role: institutional
+  description: Research institute affiliated with the Cyberspace Administration of China that studies internet governance.
+  aliases:
+  - China Cyberspace Research Institute (Information Research Institute)
+- name: BRICS Leaders
+  jurisdiction: CN
+  role: institutional
+  description: Collective attribution to heads of state issuing joint declarations at BRICS summits.
+  aliases:
+  - 金砖国家领导人 (BRICS Leaders)
+  - BRICS Leaders (14th Summit, Beijing Declaration)
+  - BRICS Leaders (16th Summit)
+  - BRICS Leaders (金砖国家领导人)
+- name: Yin Hejun
+  jurisdiction: CN
+  role: Minister of Science and Technology
+  description: Minister of Science and Technology of China since 2024, an aerospace engineer by training.
+  profile_url: https://en.wikipedia.org/wiki/Yin_Hejun
+  aliases:
+  - 阴和俊（科技部部长）
+  - 阴和俊 (科技部部长)
+- name: Chen Jiachang
+  jurisdiction: CN
+  role: Vice Minister of Science and Technology
+  description: Vice Minister at the Ministry of Science and Technology.
+  aliases:
+  - 陈家昌（科技部副部长）
+  - Chen Jiachang (Vice Minister of Science and Technology)
+- name: 2024 World Artificial Intelligence Conference & High-Level Meeting on Global AI Governance
+  jurisdiction: CN
+  role: institutional
+  description: Joint proceedings combining the 2024 World AI Conference with a high-level meeting on global AI governance, held in Shanghai.
+  aliases:
+  - 2024世界人工智能大会暨人工智能全球治理高级别会议
+- name: China-Africa Internet Development and Cooperation Forum (2024)
+  jurisdiction: CN
+  role: institutional
+  description: Chair's statement from the 2024 China-Africa Internet Development and Cooperation Forum.
+  aliases:
+  - 2024年中非互联网发展与合作论坛 (Chair's Statement)
+  - Chair, 2024 China-Africa Internet Development and Cooperation Forum
+- name: APEC Leaders
+  jurisdiction: CN
+  role: institutional
+  description: Collective attribution to the leaders of Asia-Pacific Economic Cooperation member economies.
+  aliases:
+  - APEC Leaders (Issuing Organ)
+- name: Chen Jining
+  jurisdiction: CN
+  role: CCP Secretary of Shanghai
+  description: Communist Party Secretary of Shanghai, previously Mayor of Beijing and Minister of Environmental Protection.
+  profile_url: https://en.wikipedia.org/wiki/Chen_Jining
+  aliases:
+  - Chen Jining (Shanghai Party Secretary)
+- name: Chen Tao
+  jurisdiction: CN
+  role: Deputy General Manager, China Automotive Engineering Research Institute
+  description: Deputy general manager at the China Automotive Engineering Research Institute.
+  aliases:
+  - Chen Tao (Deputy General Manager, China Automotive Engineering Research Institute)
+- name: Cheng Xueqi
+  jurisdiction: CN
+  role: Deputy Director, Institute of Computing Technology, Chinese Academy of Sciences
+  description: Computer scientist serving as deputy director of the Institute of Computing Technology at the Chinese Academy of Sciences.
+  aliases:
+  - Cheng Xueqi (Deputy Director of the Institute of Computing Technology, Chinese Academy of Sciences)
+  - 程学旗 (中国科学院计算技术研究所副所长、研究员)
+- name: China-Arab States Cooperation Forum (10th Ministerial Conference)
+  jurisdiction: CN
+  role: institutional
+  description: Joint ministerial conference declaration of the China-Arab States Cooperation Forum.
+  aliases:
+  - China-Arab States Cooperation Forum (10th Ministerial Conference)
+- name: Fang Yu
+  jurisdiction: CN
+  role: Director, Internet Law Research Center, China Academy of Information and Communications Technology
+  description: Researcher directing internet law studies at the China Academy of Information and Communications Technology (CAICT).
+  aliases:
+  - Fang Yu (Director of the Internet Law Research Center at the China Academy of Information and Communications Technology)
+- name: Feng Fei
+  jurisdiction: CN
+  role: CCP Secretary of Hainan
+  description: Communist Party Secretary of Hainan province.
+  aliases:
+  - Feng Fei (Hainan Party Secretary)
+- name: G20 Leaders
+  jurisdiction: CN
+  role: institutional
+  description: Collective attribution to the leaders of Group of Twenty member countries.
+  aliases:
+  - G20 Leaders (二十国集团领导人)
+- name: Gao Lin
+  jurisdiction: CN
+  role: Director, Cybersecurity Coordination Bureau, Cyberspace Administration of China
+  description: Bureau director overseeing cybersecurity coordination at the CAC.
+  aliases:
+  - Gao Lin (CAC Cybersecurity Coordination Bureau Director)
+- name: General Offices of the CCP Central Committee and the State Council
+  jurisdiction: CN
+  role: institutional
+  description: Joint secretariat bodies of the Communist Party's Central Committee and the State Council that issue administrative directives.
+  aliases:
+  - General Office of the Communist Party of China Central Committee and the General Office of the State Council
+  - 中共中央办公厅、国务院办公厅
+- name: Global Development Initiative Digital Cooperation Forum 2024
+  jurisdiction: CN
+  role: institutional
+  description: Chair's statement from the 2024 Global Development Initiative Digital Cooperation Forum.
+  aliases:
+  - Global Development Initiative Digital Cooperation Forum 2024 (Chair's Statement)
+- name: Guangdong Cyberspace Administration
+  jurisdiction: CN
+  role: institutional
+  description: Provincial-level cyberspace affairs office for Guangdong province.
+  aliases:
+  - Guangdong Cyberspace Administration
+- name: Guangxi Cyberspace Administration
+  jurisdiction: CN
+  role: institutional
+  description: Cybersecurity and informatization office of the Guangxi Zhuang Autonomous Region Party Committee.
+  aliases:
+  - Guangxi Autonomous Region Party Committee Cybersecurity and Informatization Office (自治区党委网信办)
+- name: Han Zheng
+  jurisdiction: CN
+  role: Vice President of the People's Republic of China
+  description: Vice President of China since 2023, previously a Politburo Standing Committee member and Vice Premier.
+  profile_url: https://en.wikipedia.org/wiki/Han_Zheng
+  aliases:
+  - Han Zheng (National Vice President)
+  - 韩正 (国家副主席)
+  - 韩正（国家副主席）
+- name: He Baohong
+  jurisdiction: CN
+  role: Director, Cloud Computing and Big Data Research Institute, CAICT
+  description: Researcher directing cloud computing and big data studies at CAICT.
+  aliases:
+  - He Baohong (Director, Cloud Computing and Big Data Research Institute, CAICT)
+- name: Hong Yanqing
+  jurisdiction: CN
+  role: Professor, Beijing Institute of Technology
+  description: Legal scholar at the Beijing Institute of Technology writing on technology governance.
+  aliases:
+  - Hong Yanqing (Professor, Beijing Institute of Technology)
+- name: Huang Huang
+  jurisdiction: CN
+  role: Vice Dean, School of Government, Peking University
+  description: Peking University academic who has written as an official interpreter of CAC policy.
+  aliases:
+  - Huang Huang (Vice Dean of the School of Government, Peking University, writing as an official expert interpreter for the CAC)
+- name: Huang Peng
+  jurisdiction: CN
+  role: Chief Engineer, National Industrial Information Security Development Research Center
+  description: Chief engineer at China's National Industrial Information Security Development Research Center.
+  aliases:
+  - Huang Peng (Chief Engineer, National Industrial Information Security Development Research Center)
+- name: Jiang Bixin
+  jurisdiction: CN
+  role: Vice Chairman, NPC Constitution and Law Committee
+  description: Vice chairman of the National People's Congress Constitution and Law Committee.
+  aliases:
+  - Jiang Bixin (Vice Chairman of the NPC Constitution and Law Committee)
+- name: Li Yanhong (Robin Li)
+  jurisdiction: CN
+  role: Chairman and CEO, Baidu
+  description: Founder, chairman and CEO of Chinese technology company Baidu.
+  profile_url: https://en.wikipedia.org/wiki/Robin_Li
+  aliases:
+  - Li Yanhong (Baidu CEO)
+- name: Liu Guozhong
+  jurisdiction: CN
+  role: Vice Premier of the State Council
+  description: Vice Premier of China's State Council since 2023.
+  profile_url: https://en.wikipedia.org/wiki/Liu_Guozhong
+  aliases:
+  - Liu Guozhong (Vice Premier)
+- name: Long Teng
+  jurisdiction: CN
+  role: Vice Minister of Science and Technology
+  description: Vice Minister at the Ministry of Science and Technology.
+  aliases:
+  - Long Teng (Vice Minister of Science and Technology)
+  - 龙腾（科技部副部长）
+- name: Meng Dan
+  jurisdiction: CN
+  role: Director, Institute of Information Engineering, Chinese Academy of Sciences
+  description: Director of the Institute of Information Engineering at the Chinese Academy of Sciences.
+  aliases:
+  - Meng Dan (Director of the Institute of Information Engineering, Chinese Academy of Sciences)
+- name: Niu Yibing
+  jurisdiction: CN
+  role: Deputy Director, Cyberspace Administration of China
+  description: Deputy director of China's internet and cyberspace regulator.
+  aliases:
+  - Niu Yibing (CAC Deputy Director)
+  - 牛一兵（中国国家互联网信息办公室副主任）
+  - 牛一兵（中央网信办副主任、国家网信办副主任）
+- name: China-Zimbabwe Joint Statement
+  jurisdiction: CN
+  role: institutional
+  description: Joint statement issued between the governments of the People's Republic of China and the Republic of Zimbabwe.
+  aliases:
+  - People's Republic of China / Republic of Zimbabwe (joint statement)
+- name: China-Uruguay Joint Statement
+  jurisdiction: CN
+  role: institutional
+  description: Joint statement issued between the People's Republic of China and the Oriental Republic of Uruguay.
+  aliases:
+  - 中华人民共和国和乌拉圭东岸共和国
+- name: Qinghai Cyberspace Administration
+  jurisdiction: CN
+  role: institutional
+  description: Provincial-level cyberspace affairs office for Qinghai province.
+  aliases:
+  - Qinghai Cyberspace Administration
+- name: Shen Huawei
+  jurisdiction: CN
+  role: Researcher, Chinese Academy of Sciences
+  description: Researcher at the Chinese Academy of Sciences.
+  aliases:
+  - Shen Huawei (Chinese Academy of Sciences)
+- name: Sheng Ronghua
+  jurisdiction: CN
+  role: Deputy Director, Cyberspace Administration of China
+  description: Deputy director of China's internet and cyberspace regulator.
+  aliases:
+  - Sheng Ronghua (CAC Deputy Director)
+- name: Shi Jianzhong
+  jurisdiction: CN
+  role: Vice President, China University of Political Science and Law
+  description: Legal scholar serving as vice president of the China University of Political Science and Law.
+  aliases:
+  - Shi Jianzhong (Vice President of China University of Political Science and Law / Expert)
+- name: State Administration for Market Regulation
+  jurisdiction: CN
+  role: institutional
+  description: China's market regulation and antitrust authority.
+  profile_url: https://www.samr.gov.cn/
+  aliases:
+  - State Administration for Market Regulation
+- name: State Council
+  jurisdiction: CN
+  role: institutional
+  description: The chief administrative authority and cabinet of the People's Republic of China.
+  profile_url: https://www.gov.cn/
+  aliases:
+  - State Council
+  - State Council (BRICS Leaders)
+  - State Council (CAC and MIIT)
+  - State Council (CAC and other ministries)
+  - State Council (CAC)
+  - State Council (CAC/MIIT/MPS/SAMR)
+  - State Council (Central Cyberspace Affairs Commission)
+  - State Council (Cyberspace Administration of China context)
+  - State Council (Cyberspace Administration of China)
+  - State Council (Guizhou Cyberspace Administration)
+  - State Council (Issuing Departments)
+  - State Council (People's Republic of China)
+  - State Council (WIC / 国家网信办)
+  - State Council (implied institutional author of official report)
+  - State Council (issuing body of cited policy)
+  - State Council (issuing body of the 14th Five-Year National Informatization Plan)
+  - State Council (issuing body/representative official record)
+  - State Council (official editorial content)
+  - State Council (via CAC)
+  - State Council (via CAC/official commentary)
+  - State Council (via Cyberspace Administration of China/Chinese Academy of Cyberspace Studies)
+  - State Council (via Guangming Online report)
+  - State Council (via NDRC Deputy Director Zhou Haibing)
+  - State Council (via WAIC / 上海宣言)
+  - State Council (via Xinhua official readout)
+  - State Council / CCTV官方通稿
+  - State Council / Xinhua (官方述评)
+  - State Council / official media (CCTV)
+  - State Council / 两国元首
+- name: CCP Central Committee & State Council (joint issuance)
+  jurisdiction: CN
+  role: institutional
+  description: Joint policy documents co-issued by the Communist Party's Central Committee and the State Council.
+  aliases:
+  - State Council / CCP Central Committee (official record article)
+  - State Council / CPC Central Committee
+  - State Council / 中共中央
+  - 中共中央 国务院 (CPC Central Committee and State Council)
+  - 中共中央、国务院
+- name: State Council Information Office
+  jurisdiction: CN
+  role: institutional
+  description: The State Council body responsible for media relations and government communications.
+  profile_url: http://www.scio.gov.cn/
+  aliases:
+  - State Council Information Office
+  - 国务院新闻办公室
+- name: Tianjin Municipal Cyberspace Administration
+  jurisdiction: CN
+  role: institutional
+  description: Municipal-level cyberspace affairs office of the Tianjin Party Committee.
+  aliases:
+  - Tianjin Municipal Cyberspace Administration (天津市委网信办)
+- name: Wang Jingtao
+  jurisdiction: CN
+  role: Deputy Director, Cyberspace Administration of China
+  description: Deputy director of China's internet and cyberspace regulator, and chairman of the national cybersecurity standardization committee.
+  aliases:
+  - 王京涛 (中国国家互联网信息办公室副主任)
+  - Wang Jingtao (Deputy Director of the Cyberspace Administration of China)
+  - 王京涛 (CAC Deputy Director)
+  - 王京涛（中国国家互联网信息办公室副主任）
+  - 王京涛（中央网信办副主任、国家网信办副主任、网安标委主任委员）
+  - 王京涛（中央网络安全和信息化委员会办公室副主任、国家互联网信息办公室副主任）
+- name: Wang Zhigang
+  jurisdiction: CN
+  role: Former Minister of Science and Technology
+  description: Served as Minister of Science and Technology of China from 2018 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Wang_Zhigang
+  aliases:
+  - Wang Zhigang (Minister of Science and Technology)
+  - 王志刚（科技部部长）
+- name: Wang Zhiqin
+  jurisdiction: CN
+  role: Vice President, China Academy of Information and Communications Technology
+  description: Vice president of CAICT, a MIIT-affiliated research institute.
+  aliases:
+  - Wang Zhiqin (Vice President, China Academy of Information and Communications Technology)
+- name: World Internet Conference (Organizing Committee)
+  jurisdiction: CN
+  role: institutional
+  description: Organizing body of China's annual World Internet Conference.
+  profile_url: https://www.wicinternet.org/
+  aliases:
+  - World Internet Conference Organizing Committee
+  - 世界互联网大会 (World Internet Conference)
+  - 世界互联网大会（官方通稿）
+- name: World Internet Conference AI Professional Committee
+  jurisdiction: CN
+  role: institutional
+  description: Expert committee on artificial intelligence under the World Internet Conference.
+  aliases:
+  - 世界互联网大会人工智能专业委员会
+- name: Xin Yongfei
+  jurisdiction: CN
+  role: Director, Policy and Economy Research Institute, CAICT
+  description: Researcher directing policy and economic studies at CAICT.
+  aliases:
+  - Xin Yongfei (Director of Policy and Economy Research Institute, CAICT)
+- name: Xinhua News Agency
+  jurisdiction: CN
+  role: institutional
+  description: China's official state news agency.
+  profile_url: https://www.news.cn/english/
+  aliases:
+  - Xinhua News Agency (state organ)
+  - Xinhua News Agency (辛识平 editorial)
+  - 新华社 (Xinhua News Agency)
+- name: Xu Bo
+  jurisdiction: CN
+  role: Director, Institute of Automation, Chinese Academy of Sciences
+  description: Director of the Institute of Automation at the Chinese Academy of Sciences.
+  aliases:
+  - Xu Bo (Director of the Institute of Automation, Chinese Academy of Sciences)
+- name: Yang Jianjun
+  jurisdiction: CN
+  role: Party Secretary, China Electronics Standardization Institute
+  description: Communist Party secretary of the China Electronics Standardization Institute.
+  aliases:
+  - Yang Jianjun (Party Secretary of the China Electronics Standardization Institute)
+  - Yang Jianjun (Party Secretary, China Electronics Standardization Institute)
+- name: Ding Xuexiang
+  jurisdiction: CN
+  role: Vice Premier of the State Council; CCP Politburo Standing Committee member
+  description: Vice Premier of China and member of the CCP Politburo Standing Committee.
+  profile_url: https://en.wikipedia.org/wiki/Ding_Xuexiang
+  aliases:
+  - 丁薛祥 (国务院副总理)
+  - 丁薛祥 (Ding Xuexiang, Vice Premier)
+  - 丁薛祥（中共中央政治局常委、国务院副总理）
+  - 丁薛祥（国务院副总理）
+- name: Wan Gang
+  jurisdiction: CN
+  role: Chairman, China Association for Science and Technology
+  description: Chairman of the China Association for Science and Technology and former Minister of Science and Technology.
+  profile_url: https://en.wikipedia.org/wiki/Wan_Gang
+  aliases:
+  - 万钢（中国科协主席）
+- name: China-Pakistan Joint Statement
+  jurisdiction: CN
+  role: institutional
+  description: Joint statement issued between the People's Republic of China and the Islamic Republic of Pakistan.
+  aliases:
+  - 中华人民共和国 / 巴基斯坦伊斯兰共和国（联合声明）
+- name: China-CELAC Joint Statement
+  jurisdiction: CN
+  role: institutional
+  description: Joint statement between the People's Republic of China and member states of the Community of Latin American and Caribbean States.
+  aliases:
+  - 中华人民共和国与拉美和加勒比国家共同体（拉共体）成员国
+- name: China-Russia Joint Statement
+  jurisdiction: CN
+  role: institutional
+  description: Joint statements between the governments of the People's Republic of China and the Russian Federation.
+  aliases:
+  - State Council (PRC) and Government of the Russian Federation
+  - 中华人民共和国和俄罗斯联邦
+  - 中华人民共和国政府、俄罗斯联邦政府
+- name: China-Tajikistan Joint Statement
+  jurisdiction: CN
+  role: institutional
+  description: Joint statement between the People's Republic of China and the Republic of Tajikistan.
+  aliases:
+  - 中华人民共和国和塔吉克斯坦共和国（两国元首联合声明）
+  - 中华人民共和国和塔吉克斯坦共和国（联合声明）
+- name: China-Nigeria Joint Statement
+  jurisdiction: CN
+  role: institutional
+  description: Joint statement between the People's Republic of China and the Federal Republic of Nigeria.
+  aliases:
+  - 中华人民共和国和尼日利亚联邦共和国 (联合声明)
+- name: China-Chile Joint Statement
+  jurisdiction: CN
+  role: institutional
+  description: Joint statement between the People's Republic of China and the Republic of Chile.
+  aliases:
+  - 中华人民共和国和智利共和国 (joint state declaration)
+- name: Government of the People's Republic of China
+  jurisdiction: CN
+  role: institutional
+  description: Generic institutional attribution to the national government of China.
+  aliases:
+  - 中华人民共和国政府
+  - 中国政府
+- name: China Meteorological Administration
+  jurisdiction: CN
+  role: institutional
+  description: China's national weather and climate agency.
+  profile_url: https://www.cma.gov.cn/
+  aliases:
+  - 中国气象局
+- name: China Federation of Internet Societies
+  jurisdiction: CN
+  role: institutional
+  description: National federation of internet-related social organizations in China.
+  aliases:
+  - 中国网络社会组织联合会
+- name: China Cyberspace Security Association
+  jurisdiction: CN
+  role: institutional
+  description: National industry association for cybersecurity operating under CAC guidance.
+  aliases:
+  - 中国网络空间安全协会
+- name: China.com.cn (China Net Interview Program)
+  jurisdiction: CN
+  role: institutional
+  description: Interview program run by the state-owned China Internet Information Center.
+  aliases:
+  - 中国网（中国访谈栏目）
+- name: CAC & National Development and Reform Commission (joint circular)
+  jurisdiction: CN
+  role: institutional
+  description: Joint policy circular co-issued by the Cyberspace Administration of China and the National Development and Reform Commission.
+  aliases:
+  - 中央网信办、国家发展改革委
+- name: Gao Dongsheng
+  jurisdiction: CN
+  role: Chief Economist, Ministry of Industry and Information Technology
+  description: Chief economist at MIIT who has represented China's delegation at international forums.
+  aliases:
+  - 中方代表团 (高东升，工业和信息化部总经济师)
+- name: FOCAC Beijing Summit
+  jurisdiction: CN
+  role: institutional
+  description: Forum on China-Africa Cooperation Beijing Summit declaration.
+  aliases:
+  - 中非合作论坛北京峰会 (FOCAC Beijing Summit)
+  - 中非合作论坛 (FOCAC)
+- name: Ministry of Human Resources and Social Security
+  jurisdiction: CN
+  role: institutional
+  description: China's ministry overseeing employment, labor, and social security policy.
+  profile_url: http://www.mohrss.gov.cn/
+  aliases:
+  - 人力资源社会保障部有关负责人 (Relevant Official from the Ministry of Human Resources and Social Security)
+- name: Ren Xianliang
+  jurisdiction: CN
+  role: Secretary-General, World Internet Conference
+  description: Secretary-general of the World Internet Conference, formerly a CAC deputy director.
+  aliases:
+  - 任贤良 (世界互联网大会秘书长)
+- name: He Lifeng
+  jurisdiction: CN
+  role: Vice Premier of the State Council
+  description: Vice Premier of China since 2023, also director of the Central Financial and Economic Affairs Commission Office.
+  profile_url: https://en.wikipedia.org/wiki/He_Lifeng
+  aliases:
+  - 何立峰 (Vice Premier, State Council)
+- name: National People's Congress Standing Committee
+  jurisdiction: CN
+  role: institutional
+  description: The permanent legislative body of China's National People's Congress.
+  profile_url: http://www.npc.gov.cn/
+  aliases:
+  - 全国人民代表大会常务委员会
+- name: Liu Bo
+  jurisdiction: CN
+  role: Deputy Director, National Internet Emergency Center (CNCERT)
+  description: Deputy director of China's National Computer Network Emergency Response Technical Team/Coordination Center.
+  aliases:
+  - 刘博（国家互联网应急中心副主任）
+- name: Liu Qingfeng
+  jurisdiction: CN
+  role: Chairman, iFlytek; NPC Deputy
+  description: Chairman of Chinese AI company iFlytek and a deputy to the National People's Congress.
+  profile_url: https://en.wikipedia.org/wiki/Liu_Qingfeng
+  aliases:
+  - 刘庆峰 (科大讯飞董事长, 全国人大代表)
+- name: Liu Wenxian
+  jurisdiction: CN
+  role: Deputy Director, Planning Development and Informatization Division, National Health Commission
+  description: National Health Commission official overseeing planning, development, and informatization.
+  aliases:
+  - 刘文先 (National Health Commission, Planning Development and Informatization Division, Deputy Director)
+- name: Wu Yongjun
+  jurisdiction: CN
+  role: Municipal Cyberspace Administration Director; Deputy Head, Municipal Propaganda Department
+  description: Municipal-level cyberspace affairs director who concurrently deputy-heads the city's propaganda department.
+  aliases:
+  - 吴勇军（市委网信办主任、市委宣传部副部长（兼））
+- name: Wu Di
+  jurisdiction: CN
+  role: Member, Ministry of Education Education Informatization Expert Group
+  description: Expert group member advising the Ministry of Education on education informatization.
+  aliases:
+  - 吴砥 (教育部教育信息化专家组成员)
+- name: Zhou Renjie
+  jurisdiction: CN
+  role: Commentator
+  description: Newspaper commentator writing on policy topics.
+  aliases:
+  - 周人杰 (Commentator)
+- name: Zhou Xiaochuan
+  jurisdiction: CN
+  role: Vice Chairman, Boao Forum for Asia
+  description: Former Governor of the People's Bank of China, now vice chairman and chief China representative of the Boao Forum for Asia.
+  profile_url: https://en.wikipedia.org/wiki/Zhou_Xiaochuan
+  aliases:
+  - 周小川（博鳌亚洲论坛副理事长、中方首席代表）
+- name: Heyin (和音)
+  jurisdiction: CN
+  role: institutional
+  description: Pen name used for international-affairs commentary in People's Daily.
+  aliases:
+  - 和音
+- name: General Office of the State Council
+  jurisdiction: CN
+  role: institutional
+  description: The administrative office supporting the State Council's daily operations.
+  aliases:
+  - 国务院办公厅
+- name: CAC, MIIT & Ministry of Public Security (joint circular)
+  jurisdiction: CN
+  role: institutional
+  description: Joint regulatory circular co-issued by the Cyberspace Administration of China, MIIT, and the Ministry of Public Security.
+  aliases:
+  - 国家互联网信息办公室、工业和信息化部、公安部
+- name: CAC, MIIT, Ministry of Public Security & SAMR (joint circular)
+  jurisdiction: CN
+  role: institutional
+  description: Joint regulatory circular co-issued by CAC, MIIT, the Ministry of Public Security, and the State Administration for Market Regulation.
+  aliases:
+  - 国家互联网信息办公室、工业和信息化部、公安部、国家市场监督管理总局
+- name: CAC, MIIT, Ministry of Public Security & National Radio and Television Administration (joint circular)
+  jurisdiction: CN
+  role: institutional
+  description: Joint regulatory circular co-issued by CAC, MIIT, the Ministry of Public Security, and the National Radio and Television Administration.
+  aliases:
+  - 国家互联网信息办公室、工业和信息化部、公安部、国家广播电视总局
+- name: National Internet Emergency Center (CNCERT)
+  jurisdiction: CN
+  role: institutional
+  description: China's national computer network emergency response and coordination center.
+  aliases:
+  - 国家互联网应急中心
+  - 国家互联网应急中心负责同志
+- name: National Health Commission
+  jurisdiction: CN
+  role: institutional
+  description: China's ministry-level health policy authority.
+  profile_url: http://www.nhc.gov.cn/
+  aliases:
+  - 国家卫生健康委有关负责人
+- name: National Data Administration
+  jurisdiction: CN
+  role: institutional
+  description: China's national authority coordinating data infrastructure and data-element policy.
+  aliases:
+  - 国家数据局 (National Data Administration)
+- name: CAC & Six Other Departments (joint circular)
+  jurisdiction: CN
+  role: institutional
+  description: Joint circular co-issued by the Cyberspace Administration of China with six other central departments, including the NDRC, Ministry of Education, MOST, MIIT, Ministry of Public Security, and National Radio and Television Administration.
+  aliases:
+  - 国家网信办等七部门
+  - 国家网信办联合发改委、教育部、科技部、工信部、公安部、广电总局
+- name: Meng Fanzhe
+  jurisdiction: CN
+  role: Author/Commentator
+  description: Commentator writing on policy and governance topics.
+  aliases:
+  - 孟繁哲 (Author/Commentator)
+- name: Kou Gang
+  jurisdiction: CN
+  role: Vice Chairman, Sichuan CDNCA Provincial Committee; Counselor, Chengdu Municipal Government
+  description: Provincial democratic-party official and government counselor in Sichuan.
+  aliases:
+  - 寇纲 (民建四川省委副主委、成都市政府参事)
+- name: MIIT, CAC, NDRC & Standardization Administration (joint circular)
+  jurisdiction: CN
+  role: institutional
+  description: Joint circular co-issued by MIIT, the Cyberspace Administration of China, the National Development and Reform Commission, and the Standardization Administration of China.
+  aliases:
+  - 工业和信息化部、中央网络安全和信息化委员会办公室、国家发展和改革委员会、国家标准化管理委员会
+- name: MIIT & Fifteen Other Departments (joint circular)
+  jurisdiction: CN
+  role: institutional
+  description: Joint circular co-issued by MIIT together with fifteen other central government departments.
+  aliases:
+  - 工业和信息化部等十六部门
+- name: Guangxi Party Committee Standing Committee Meeting
+  jurisdiction: CN
+  role: institutional
+  description: Standing committee meeting of the Guangxi Zhuang Autonomous Region Communist Party Committee.
+  aliases:
+  - 广西壮族自治区党委常委会会议
+- name: Zhang Linghan
+  jurisdiction: CN
+  role: Professor, China University of Political Science and Law
+  description: Legal scholar specializing in data governance and a Chinese expert member of the UN High-Level Advisory Body on AI.
+  aliases:
+  - 张凌寒 (Zhang Linghan, 教授)
+  - 张凌寒（联合国高级别人工智能咨询机构中方专家、中国政法大学数据法治研究院教授）
+- name: Zhang Guoqing
+  jurisdiction: CN
+  role: Vice Premier of the State Council
+  description: Vice Premier of China since 2023, previously Mayor of Chongqing and Governor of Liaoning.
+  profile_url: https://en.wikipedia.org/wiki/Zhang_Guoqing
+  aliases:
+  - 张国清 (国务院副总理)
+  - 张国清（国务院副总理）
+- name: Zhang Shaokang
+  jurisdiction: CN
+  role: Vice Governor of Guangdong
+  description: Vice Governor of Guangdong province.
+  aliases:
+  - 张少康（广东省副省长）
+- name: Zhang Lin (Shenzhen)
+  jurisdiction: CN
+  role: Director, Shenzhen Science and Technology Innovation Commission Office
+  description: Shenzhen municipal official overseeing science and technology innovation policy.
+  aliases:
+  - 张林（深圳市委科创委办公室主任、市科技创新局局长）
+- name: Zhang Zhen
+  jurisdiction: CN
+  role: Senior Engineer, National Internet Emergency Center (CNCERT)
+  description: Senior engineer at China's National Internet Emergency Center.
+  aliases:
+  - Zhang Zhen (Senior Engineer, CNCERT)
+  - 张震（国家计算机网络应急技术处理协调中心正高级工程师）
+  - 张震，国家互联网应急中心副处长、正高级工程师
+- name: Wen Feng
+  jurisdiction: CN
+  role: Commentator, China National Radio Online
+  description: Commentator writing for China National Radio's online outlet (央广网).
+  aliases:
+  - 文峰（央广网评论员）
+- name: Cao Lili
+  jurisdiction: CN
+  role: Director, Standardization Theory and Strategy Research Institute, China National Institute of Standardization
+  description: Researcher directing standardization theory and strategy studies at the China National Institute of Standardization.
+  aliases:
+  - 曹俐莉 (中国标准化研究院标准化理论与战略研究所所长、研究员)
+- name: Zeng Yi
+  jurisdiction: CN
+  role: Chair, World Internet Conference AI Professional Committee; Researcher, Institute of Automation, CAS
+  description: AI researcher at the Chinese Academy of Sciences' Institute of Automation who chairs the WIC's AI professional committee.
+  aliases:
+  - 曾毅（世界互联网大会人工智能专业委员会主任委员、中国科学院自动化研究所研究员）
+- name: Li Baodong
+  jurisdiction: CN
+  role: Secretary-General, Boao Forum for Asia
+  description: Secretary-general of the Boao Forum for Asia, formerly China's Vice Foreign Minister and UN envoy.
+  profile_url: https://en.wikipedia.org/wiki/Li_Baodong
+  aliases:
+  - 李保东 (博鳌亚洲论坛秘书长)
+- name: Li Qiangzhi
+  jurisdiction: CN
+  role: Deputy Director, Policy and Economics Research Institute, CAICT
+  description: Researcher deputy-directing policy and economics studies at CAICT.
+  aliases:
+  - 李强治（中国信息通信研究院政策与经济研究所副所长）
+- name: Du Cuilan
+  jurisdiction: CN
+  role: Deputy Director, National Internet Emergency Center (CNCERT)
+  description: Deputy director of China's National Internet Emergency Center.
+  aliases:
+  - 杜翠兰（国家互联网应急中心副主任）
+- name: Yang Linping
+  jurisdiction: CN
+  role: Vice President, Supreme People's Court
+  description: Vice president of China's Supreme People's Court.
+  aliases:
+  - 杨临萍 (最高人民法院副院长)
+- name: Yang Fuyu
+  jurisdiction: CN
+  role: Science and Technology Department, People's Bank of China
+  description: Official in the People's Bank of China's Science and Technology Department.
+  aliases:
+  - 杨富玉 (中国人民银行科技司)
+- name: Yang Jianwen
+  jurisdiction: CN
+  role: Deputy Director, Cyberspace Administration of China
+  description: Deputy director of China's internet and cyberspace regulator.
+  aliases:
+  - 杨建文（中央网信办副主任、国家网信办副主任）
+- name: Yin Yong
+  jurisdiction: CN
+  role: Mayor of Beijing; Deputy Party Secretary
+  description: Mayor of Beijing and deputy secretary of the Beijing Municipal Party Committee.
+  profile_url: https://en.wikipedia.org/wiki/Yin_Yong
+  aliases:
+  - 殷勇 (北京市委副书记、市长)
+- name: Shen Jian
+  jurisdiction: CN
+  role: Deputy Director-General, Arms Control Department, Ministry of Foreign Affairs
+  description: Deputy director-general of the Foreign Ministry's Arms Control Department.
+  aliases:
+  - 沈健 (中国外交部军控司副司长)
+  - 沈健 (外交部军控司副司长)
+- name: Shen Hao
+  jurisdiction: CN
+  role: Chief Scientist, Big Data Center, State Key Laboratory of Media Convergence, Communication University of China
+  description: Chief scientist at the Communication University of China's media convergence research center.
+  aliases:
+  - 沈浩 (中国传媒大学媒体融合与传播国家重点实验室大数据中心，首席科学家)
+- name: Zhejiang Cyberspace Administration
+  jurisdiction: CN
+  role: institutional
+  description: Provincial-level cyberspace affairs office of the Zhejiang Party Committee.
+  aliases:
+  - 浙江省委网信办
+- name: Wang Xiaohong
+  jurisdiction: CN
+  role: State Councilor; Minister of Public Security
+  description: State Councilor and Minister of Public Security of China.
+  profile_url: https://en.wikipedia.org/wiki/Wang_Xiaohong
+  aliases:
+  - 王小洪 (国务委员、公安部部长)
+- name: China Institute of International Studies (Global Security Initiative Research Center)
+  jurisdiction: CN
+  role: institutional
+  description: Foreign-ministry-affiliated think tank's research center dedicated to the Global Security Initiative.
+  aliases:
+  - 中国国际问题研究院、全球安全倡议研究中心
+- name: CAC, Ministry of Education, MIIT & MOHRSS (joint circular)
+  jurisdiction: CN
+  role: institutional
+  description: Joint circular co-issued by the Cyberspace Administration of China, the Ministry of Education, MIIT, and the Ministry of Human Resources and Social Security.
+  aliases:
+  - 中央网信办、教育部、工业和信息化部、人力资源社会保障部
+- name: CAC, NDRC & MIIT (joint circular)
+  jurisdiction: CN
+  role: institutional
+  description: Joint circular co-issued by the Cyberspace Administration of China, the National Development and Reform Commission, and MIIT.
+  aliases:
+  - 国家网信办、国家发展改革委、工业和信息化部
+- name: China Joint Internet Rumor-Refuting Platform
+  jurisdiction: CN
+  role: institutional
+  description: State-backed platform coordinating official responses to online rumors and misinformation.
+  aliases:
+  - 中国互联网联合辟谣平台
+- name: Council of Heads of State of the Shanghai Cooperation Organisation
+  jurisdiction: CN
+  role: institutional
+  description: Collective decision-making body of Shanghai Cooperation Organisation member state heads of state.
+  aliases:
+  - 上海合作组织成员国元首理事会
+- name: CCP Politburo
+  jurisdiction: CN
+  role: institutional
+  description: The Communist Party of China's Political Bureau, its top decision-making body between Central Committee plenums.
+  aliases:
+  - 中共中央政治局
+  - 中共中央政治局 (Central Political Bureau of the CPC)
+- name: CCP Central Committee
+  jurisdiction: CN
+  role: institutional
+  description: The Communist Party of China's Central Committee, its highest authority between National Congresses.
+  aliases:
+  - CCP Central Committee (Third Plenum resolution)
+  - 中共中央
+  - 中共中央 (CPC Central Committee)
+- name: Zhao Leji
+  jurisdiction: CN
+  role: Chairman, NPC Standing Committee
+  description: Chairman of the National People's Congress Standing Committee and a member of the CCP Politburo Standing Committee.
+  profile_url: https://en.wikipedia.org/wiki/Zhao_Leji
+  aliases:
+  - 赵乐际 (全国人大常委会委员长)
+- name: Guo Xiaolei
+  jurisdiction: CN
+  role: Chief Engineer, National Information Technology Security Research Center
+  description: Chief engineer at China's National Information Technology Security Research Center and member of the TC260 cybersecurity standardization committee.
+  aliases:
+  - 郭晓雷（国家信息技术安全研究中心总师、全国网络安全标准化技术委员会WG1专家组成员）
+- name: Jin Bo
+  jurisdiction: CN
+  role: Deputy Director, Third Research Institute, Ministry of Public Security
+  description: Deputy director of the Ministry of Public Security's Third Research Institute.
+  aliases:
+  - 金波，公安部第三研究所副所长
+- name: Chen Wei
+  jurisdiction: CN
+  role: Academician, Chinese Academy of Engineering; President, Jiangnan University
+  description: Engineering academician serving as president of Jiangnan University and a National People's Congress deputy.
+  aliases:
+  - 陈卫 (中国工程院院士、江南大学校长，全国人大代表)
+- name: Chen Chun
+  jurisdiction: CN
+  role: Academician, Chinese Academy of Engineering; Professor, Zhejiang University
+  description: Engineering academician and professor at Zhejiang University.
+  aliases:
+  - 陈纯（中国工程院院士、浙江大学教授）
+- name: Chan Mo-po (Paul Chan)
+  jurisdiction: CN
+  role: Financial Secretary, Hong Kong SAR Government
+  description: Financial Secretary of the Hong Kong Special Administrative Region government.
+  profile_url: https://en.wikipedia.org/wiki/Paul_Chan_Mo-po
+  aliases:
+  - 陈茂波（香港特区政府财政司司长）
+- name: Gao Xinbo
+  jurisdiction: CN
+  role: President, Chongqing University of Posts and Telecommunications; CPPCC Member
+  description: University president and member of the Chinese People's Political Consultative Conference.
+  aliases:
+  - 高新波 (重庆邮电大学校长、全国政协委员)
+  - 高新波（重庆邮电大学校长、政协委员）
+- name: Wei Kai
+  jurisdiction: CN
+  role: Director, AI Research Institute, CAICT
+  description: Researcher directing artificial intelligence studies at CAICT.
+  aliases:
+  - 魏凯（中国信息通信研究院人工智能研究所所长）
+- name: National Information Security Standardization Technical Committee (TC260)
+  jurisdiction: CN
+  role: institutional
+  description: China's national technical committee that develops cybersecurity and AI-related national standards.
+  aliases:
+  - 全国网络安全标准化技术委员会
+- name: Xiao Rongmei
+  jurisdiction: CN
+  role: Deputy Director, Policy and Economics Research Institute, CAICT
+  description: Researcher deputy-directing policy and economics studies at CAICT.
+  aliases:
+  - 肖荣美 (中国信息通信研究院政策与经济研究所副所长)
+- name: Unknown
+  jurisdiction: CN
+  role: unspecified
+  description: Speaker identity not established in the source record.
+  aliases:
+  - Unknown
+- name: Bo Zhaoyi
+  jurisdiction: CN
+  role: Deputy Director, Data and Technology Support Center, Cyberspace Administration of China
+  description: Deputy director of the CAC's data and technology support center.
+  aliases:
+  - 薄兆一（中央网信办数据与技术保障中心副主任）
+- name: Yu Xiaohui
+  jurisdiction: CN
+  role: President, China Academy of Information and Communications Technology (CAICT)
+  description: Head of CAICT, MIIT's telecommunications and internet policy research institute, and a member of the 14th CPPCC National Committee.
+  aliases:
+  - Yu Xiaohui (14th CPPCC National Committee member, CAICT president)
+  - Yu Xiaohui (President, China Academy of Information and Communications Technology)
+  - 余晓晖（中国信息通信研究院院长）
+- name: Li Yan
+  jurisdiction: CN
+  role: Director, Institute of Science, Technology and Cyber Security, CICIR
+  description: Head of the science, technology and cybersecurity institute at the China Institutes of Contemporary International Relations.
+  aliases:
+  - 李艳（中国现代国际关系研究院科技与网络安全研究所所长）
+- name: Wang Zhicheng
+  jurisdiction: CN
+  role: Deputy Director, Data and Technology Support Center, Cyberspace Administration of China
+  description: Deputy director of the CAC's data and technology support center.
+  aliases:
+  - 王志成（中央网信办数据与技术保障中心副主任）
+- name: Fan Kefeng
+  jurisdiction: CN
+  role: Deputy President, China Electronics Standardization Institute
+  description: Deputy head of CESI, the MIIT-affiliated institute that drafts China's electronics and artificial-intelligence national standards.
+  aliases:
+  - 范科峰（中国电子标准化研究院副院长）
+  - 范科峰，中国电子技术标准化研究院副院长
+- name: Huludao Municipal Cyberspace Administration
+  jurisdiction: CN
+  role: institutional
+  description: Municipal-level cyberspace affairs office of the Huludao Party Committee, Liaoning province.
+  aliases:
+  - 葫芦岛市委网信办
+- name: State Key Laboratory of Media Convergence Production Technology and Systems
+  jurisdiction: CN
+  role: institutional
+  description: Xinhua News Agency's state key laboratory for media convergence production technology and systems.
+  aliases:
+  - 新华社媒体融合生产技术与系统国家重点实验室

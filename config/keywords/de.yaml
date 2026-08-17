@@ -1,0 +1,58 @@
+# German keyword list v2 — flat list mirroring readme.md §Search, translated.
+# Leading '*' matches inside compounds (e.g. "KI-Superintelligenz",
+# "Intelligenzexplosion" in "Superintelligenzforschung").
+lang: de
+segmented: true
+keywords:
+  # KI generisch (high recall)
+  - KI
+  - K.I.
+  - künstliche Intelligenz
+  - maschinelle Intelligenz
+  - Maschinenintelligenz
+  - LLM
+  - '*sprachmodell*'
+  # AGI
+  - AGI
+  - allgemeine künstliche Intelligenz
+  - künstliche allgemeine Intelligenz
+  - starke KI
+  - KI auf menschlichem Niveau
+  - transformative KI
+  - automatisierte Programmierung
+  # ASI
+  - ASI
+  - '*superintelligen*'
+  - übermenschliche Intelligenz
+  # RSI / rekursive Selbstverbesserung
+  - rekursive Selbstverbesserung
+  - sich selbst verbessernde KI
+  - '*singularität*'
+  - '*intelligenzexplosion*'
+  # Existenzielle / katastrophale Risiken
+  - existenzielle* Risik*
+  - existentielle* Risik*
+  - '*existenzrisik*'
+  - existenzielle* Bedrohung*
+  - katastrophale* Risik*
+  - '*kontrollverlust*'
+  - außer Kontrolle
+  - unkontrollierbar*
+  - '*alignment*'            # German discourse uses the English term
+  - Wertekonformität
+  - Fehlausrichtung
+  - täuschende KI
+  - '*interpretierbarkeit*'
+  # Regulierung
+  - KI-Regulierung
+  - Regulierung von KI
+  - Regulierung künstlicher Intelligenz
+  - KI-Governance
+  - internationale* KI-Abkommen
+  - '*chipexport*'
+  - '*chip-export*'
+  - '*halbleiterexport*'
+  - Exportkontrollen für Chips
+  - Exportkontrollen für Halbleiter
+  - Sicherheit von Rechenzentren
+  - '*rechenzentrumssicherheit*'

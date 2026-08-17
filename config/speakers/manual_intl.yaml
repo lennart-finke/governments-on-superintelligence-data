@@ -1,0 +1,15 @@
+# EU / international executives whose sources carry no native speaker IDs.
+- name: Ursula von der Leyen
+  jurisdiction: EU
+  wikidata: Q60772
+  role: President of the European Commission
+  aliases:
+    - "Ursula von der Leyen (President of the European Commission)"
+    - "President von der Leyen"
+- name: European Commission
+  jurisdiction: EU
+  role: institutional
+  description: The EU's executive, which proposes legislation including the AI Act and issues statements in its own name.
+  aliases:
+    - "The European Commission"
+    - "European Commission (as the collective issuing organ)"

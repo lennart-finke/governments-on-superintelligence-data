@@ -1,0 +1,521 @@
+# Taiwan Legislative Yuan speakers. Canonical English names are the LY's
+# official 委員英文姓名 (via LYAPI /legislators, terms 10-11), formatted
+# 'Surname Given-given'. Generated; executive officials live in manual_tw.yaml.
+- name: Chang Chia-chun
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (張嘉郡), Legislative Yuan term(s) 11.
+  aliases:
+  - 張嘉郡 (委員)
+- name: Chang Liao Wan-chien
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (張廖萬堅), Legislative Yuan term(s) 10.
+  aliases:
+  - 張廖萬堅 (委員)
+- name: Chen Chao-ming
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (陳超明), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 陳超明 (委員)
+- name: Chen Hsiu-pao
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (陳秀寳), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 陳秀寳 (委員)
+- name: Chen Jiau-hua
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (NPP)
+  party: NPP
+  description: Taiwanese legislator (陳椒華), Legislative Yuan term(s) 10.
+  aliases:
+  - 陳椒華 (委員)
+- name: Chen Pei-yu
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (陳培瑜), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 陳培瑜 (委員)
+- name: Chen Su-yueh
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (陳素月), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 陳素月 (委員)
+- name: Chen Yeong-kang
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (陳永康), Legislative Yuan term(s) 11.
+  aliases:
+  - 陳永康 (委員)
+- name: Cheng Cheng-chien
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (鄭正鈐), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 鄭正鈐 (委員)
+- name: Ching Hui-chen
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (陳菁徽), Legislative Yuan term(s) 11.
+  aliases:
+  - 陳菁徽 (委員)
+- name: Chiu Jo-hua
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (邱若華), Legislative Yuan term(s) 11.
+  aliases:
+  - 邱若華 (委員)
+- name: Chiu Yi-ying
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (邱議瑩), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 邱議瑩 (委員)
+- name: Chuang Jui-hsiung
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (莊瑞雄), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 莊瑞雄 (委員)
+- name: Chung Chia-pin
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (鍾佳濱), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 鍾佳濱 (委員)
+- name: Fan Yun
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (范雲), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 范雲 (委員)
+- name: Fu Kun-chi
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (傅崐萁), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 傅崐萁 (委員)
+- name: Ho Hsin-chun
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (何欣純), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 何欣純 (委員)
+- name: Hsieh Lung-chieh
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (謝龍介), Legislative Yuan term(s) 11.
+  aliases:
+  - 謝龍介 (委員)
+- name: Hsieh Yi-fong
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (謝衣鳯), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 謝衣鳯 (委員)
+- name: Hsu Chiao-hsin
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (徐巧芯), Legislative Yuan term(s) 11.
+  aliases:
+  - 徐巧芯 (委員)
+- name: Hsu Chih-chieh
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (許智傑), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 許智傑 (委員)
+- name: Hsu Fu-kuei
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (徐富癸), Legislative Yuan term(s) 11.
+  aliases:
+  - 徐富癸 (委員)
+- name: Hsu Hsin-ying
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (徐欣瑩), Legislative Yuan term(s) 11.
+  aliases:
+  - 徐欣瑩 (委員)
+- name: Hsu Yu-chen
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (許宇甄), Legislative Yuan term(s) 11.
+  aliases:
+  - 許宇甄 (委員)
+- name: Huang Chien-hao
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (黃健豪), Legislative Yuan term(s) 11.
+  aliases:
+  - 黃健豪 (委員)
+- name: Huang Jen
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (黃仁), Legislative Yuan term(s) 11.
+  aliases:
+  - 黃仁 (委員)
+- name: Huang Kuo-shu
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (Independent)
+  party: Independent
+  description: Taiwanese legislator (黃國書), Legislative Yuan term(s) 10.
+  aliases:
+  - 黃國書 (委員)
+- name: Huang Shan-shan
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (TPP)
+  party: TPP
+  description: Taiwanese legislator (黃珊珊), Legislative Yuan term(s) 11.
+  aliases:
+  - 黃珊珊 (委員)
+- name: Hung Mong-kai
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (洪孟楷), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 洪孟楷 (委員)
+- name: Hung Sun-han
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (洪申翰), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 洪申翰 (委員)
+- name: Hung Yu-shiang
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (TPP)
+  party: TPP
+  description: Taiwanese legislator (洪毓祥), Legislative Yuan term(s) 11.
+  aliases:
+  - 洪毓祥 (委員)
+- name: Kao Hung-an
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (TPP)
+  party: TPP
+  description: Taiwanese legislator (高虹安), Legislative Yuan term(s) 10.
+  aliases:
+  - 高虹安 (委員)
+- name: Ko Chih-en
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (柯志恩), Legislative Yuan term(s) 11.
+  aliases:
+  - 柯志恩 (委員)
+- name: Ko Ju-chun
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (葛如鈞), Legislative Yuan term(s) 11.
+  aliases:
+  - 葛如鈞 (委員)
+- name: Kuo Kuo-wen
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (郭國文), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 郭國文 (委員)
+- name: Kuo Yu-ching
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (郭昱晴), Legislative Yuan term(s) 11.
+  aliases:
+  - 郭昱晴 (委員)
+- name: Lai Jui-lung
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (賴瑞隆), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 賴瑞隆 (委員)
+- name: Lai Pin-yu
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (賴品妤), Legislative Yuan term(s) 10.
+  aliases:
+  - 賴品妤 (委員)
+- name: Lai Shyh-bao
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (賴士葆), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 賴士葆 (委員)
+- name: Lee Guei-min
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (李貴敏), Legislative Yuan term(s) 10.
+  aliases:
+  - 李貴敏 (委員)
+- name: Lee Kun-tse
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (李昆澤), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 李昆澤 (委員)
+- name: Liao Hsien-hsiang
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (廖先翔), Legislative Yuan term(s) 11.
+  aliases:
+  - 廖先翔 (委員)
+- name: Liao Wei-hsiang
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (廖偉翔), Legislative Yuan term(s) 11.
+  aliases:
+  - 廖偉翔 (委員)
+- name: Lim Tshiong-tso
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (林昶佐), Legislative Yuan term(s) 10.
+  aliases:
+  - 林昶佐 (委員)
+- name: Lin Chien-chi
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (林倩綺), Legislative Yuan term(s) 11.
+  aliases:
+  - 林倩綺 (委員)
+- name: Lin Chu-yin
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (林楚茵), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 林楚茵 (委員)
+- name: Lin Chun-hsien
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (林俊憲), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 林俊憲 (委員)
+- name: Lin I-chin
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (林宜瑾), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 林宜瑾 (委員)
+- name: Lin Pei-hsiang
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (林沛祥), Legislative Yuan term(s) 11.
+  aliases:
+  - 林沛祥 (委員)
+- name: Lin Shu-fen
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (林淑芬), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 林淑芬 (委員)
+- name: Lin Yi-chun
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (TPP)
+  party: TPP
+  description: Taiwanese legislator (林憶君), Legislative Yuan term(s) 11.
+  aliases:
+  - 林憶君 (委員)
+- name: Liu Shu-pin
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (TPP)
+  party: TPP
+  description: Taiwanese legislator (劉書彬), Legislative Yuan term(s) 11.
+  aliases:
+  - 劉書彬 (委員)
+- name: Lo Chih-chiang
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (羅智強), Legislative Yuan term(s) 11.
+  aliases:
+  - 羅智強 (委員)
+- name: Loh Meei-ling
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (羅美玲), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 羅美玲 (委員)
+- name: Ma Wen-chun
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (馬文君), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 馬文君 (委員)
+- name: Mai Yu-chen
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (TPP)
+  party: TPP
+  description: Taiwanese legislator (麥玉珍), Legislative Yuan term(s) 11.
+  aliases:
+  - 麥玉珍 (委員)
+- name: Ngalim Tiunn
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (張雅琳), Legislative Yuan term(s) 11.
+  aliases:
+  - 張雅琳 (委員)
+- name: Shen Fa-hui
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (沈發惠), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 沈發惠 (委員)
+- name: Shen Pao-yang
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (沈伯洋), Legislative Yuan term(s) 11.
+  aliases:
+  - 沈伯洋 (委員)
+- name: Tang Hui-jane
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (湯蕙禎), Legislative Yuan term(s) 10.
+  aliases:
+  - 湯蕙禎 (委員)
+- name: Ting Wei-lo
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (羅廷瑋), Legislative Yuan term(s) 11.
+  aliases:
+  - 羅廷瑋 (委員)
+- name: Tsai Chi-chang
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (蔡其昌), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 蔡其昌 (委員)
+- name: Tsai Yi-yu
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (蔡易餘), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 蔡易餘 (委員)
+- name: Wan Mei-ling
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (萬美玲), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 萬美玲 (委員)
+- name: Wang Cheng-hsu
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (王正旭), Legislative Yuan term(s) 11.
+  aliases:
+  - 王正旭 (委員)
+- name: Wang Ting-yu
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (王定宇), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 王定宇 (委員)
+- name: Weng Hsiao-ling
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (翁曉玲), Legislative Yuan term(s) 11.
+  aliases:
+  - 翁曉玲 (委員)
+- name: Wu Pei-yi
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (吳沛憶), Legislative Yuan term(s) 11.
+  aliases:
+  - 吳沛憶 (委員)
+- name: Wu Ping-jui
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (吳秉叡), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 吳秉叡 (委員)
+- name: Wu Szu-yao
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (DPP)
+  party: DPP
+  description: Taiwanese legislator (吳思瑤), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 吳思瑤 (委員)
+- name: Wu Tsung-hsien
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (吳宗憲), Legislative Yuan term(s) 11.
+  aliases:
+  - 吳宗憲 (委員)
+- name: Yang Chiung-ying
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (楊瓊瓔), Legislative Yuan term(s) 10/11.
+  aliases:
+  - 楊瓊瓔 (委員)
+- name: Yeh Yuan-chih
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (葉元之), Legislative Yuan term(s) 11.
+  aliases:
+  - 葉元之 (委員)
+- name: Yu Hao
+  jurisdiction: TW
+  role: Member of the Legislative Yuan (KMT)
+  party: KMT
+  description: Taiwanese legislator (游顥), Legislative Yuan term(s) 11.
+  aliases:
+  - 游顥 (委員)

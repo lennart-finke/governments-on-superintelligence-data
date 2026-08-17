@@ -1,0 +1,64 @@
+# French keyword list v2 — flat list mirroring readme.md §Search, translated.
+# ASCII apostrophes below also match the typographic ’ used by AN/Sénat records
+# (handled in the pattern compiler). "RSI" is omitted: in French records it is
+# the Régime social des indépendants.
+lang: fr
+segmented: true
+keywords:
+  # IA générique (high recall)
+  - IA
+  - I.A.
+  - intelligence artificielle
+  - intelligence des machines
+  - LLM
+  - grand* modèle* de langage
+  - modèle* de langage
+  # AGI
+  - AGI
+  - IAG
+  - intelligence artificielle générale
+  - IA générale
+  - IA de niveau humain
+  - IA forte
+  - intelligence artificielle forte
+  - IA transformatrice
+  - programmation automatisée
+  # ASI
+  - ASI
+  - superintelligen*         # superintelligence, superintelligent(e)
+  - intelligence surhumaine
+  # RSI / auto-amélioration récursive
+  - auto-amélioration récursive
+  - autoamélioration récursive
+  - singularité
+  - explosion d'intelligence
+  - explosion de l'intelligence
+  - IA incontrôlable
+  # Risques existentiels / catastrophiques
+  - risque* existentiel*
+  - menace* existentielle*
+  - risque* catastrophique*
+  - perte de contrôle
+  - hors de contrôle
+  - incontrôlable*
+  - contrôle de l'IA
+  - alignement de l'IA
+  - alignement des IA
+  - problème de l'alignement
+  - désalignement
+  - IA trompeuse
+  - auto-exfiltration
+  - interprétabilité
+  # Régulation
+  - régulation de l'IA
+  - régulation de l'intelligence artificielle
+  - réglementation de l'IA
+  - réglementation de l'intelligence artificielle
+  - gouvernance de l'IA
+  - gouvernance de l'intelligence artificielle
+  - traité international sur l'IA
+  - traité international sur l'intelligence artificielle
+  - contrôle* des exportations de puces
+  - contrôle* des exportations de semi-conducteurs
+  - sécurité des centres de données
+  - sécurité des datacenters

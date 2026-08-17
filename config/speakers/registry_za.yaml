@@ -1,0 +1,162 @@
+# South Africa speaker registry -- harvested from the PMG labels. The
+# record writes surnames in caps ("Mr B J FARMER") and attributes many
+# answers to an office rather than a person, so names are title-cased and
+# office attributions are kept as such rather than invented into people.
+- name: CPSI (Centre for Public Service Innovation)
+  jurisdiction: ZA
+  role: Speaker in the South African parliamentary record
+  description: Recorded speaker in the South African parliamentary record.
+  aliases:
+  - CPSI (Centre for Public Service Innovation)
+- name: Deputy Speaker
+  jurisdiction: ZA
+  role: Office-holder in the South African Parliament
+  description: Attribution by office in the South African parliamentary record (Deputy Speaker).
+  aliases:
+  - Deputy Speaker
+  - The DEPUTY SPEAKER
+- name: Dr T K S Letlape
+  jurisdiction: ZA
+  role: Speaker in the South African parliamentary record
+  description: Recorded speaker in the South African parliamentary record.
+  aliases:
+  - Dr T K S LETLAPE
+  - Dr T K S Letlape
+- name: Llanley Simpson
+  jurisdiction: ZA
+  role: 'Director: Socio-Economic Partnerships, Department of Science and Innovation'
+  description: South African official directing socio-economic partnerships at the Department of Science
+    and Innovation.
+  aliases:
+  - 'Llanley Simpson (DSI Director: Socio-Economic Partnerships)'
+- name: Minister in the Presidency
+  jurisdiction: ZA
+  role: Office-holder in the South African Parliament
+  description: Attribution by office in the South African parliamentary record (Minister in the Presidency).
+  aliases:
+  - Minister in the Presidency
+  - The MINISTER IN THE PRESIDENCY
+- name: Minister of Communications and Digital Technologies
+  jurisdiction: ZA
+  role: Office-holder in the South African Parliament
+  description: Attribution by office in the South African parliamentary record (Minister of Communications
+    and Digital Technologies).
+  aliases:
+  - Minister of Communications and Digital Technologies
+- name: Minister of International Relations and Cooperation
+  jurisdiction: ZA
+  role: Office-holder in the South African Parliament
+  description: Attribution by office in the South African parliamentary record (Minister of International
+    Relations and Cooperation).
+  aliases:
+  - Minister of International Relations and Cooperation
+- name: Minister of Science, Technology and Innovation
+  jurisdiction: ZA
+  role: Office-holder in the South African Parliament
+  description: Attribution by office in the South African parliamentary record (Minister of Science, Technology
+    and Innovation).
+  aliases:
+  - Minister of Science, Technology and Innovation
+- name: Minister of Sport Arts and Culture
+  jurisdiction: ZA
+  role: Office-holder in the South African Parliament
+  description: Attribution by office in the South African parliamentary record (Minister of Sport Arts
+    and Culture).
+  aliases:
+  - Minister of Sport Arts and Culture
+  - 'Minister of Sport Arts and Culture:'
+- name: Mnu E Nzimande
+  jurisdiction: ZA
+  role: Speaker in the South African parliamentary record
+  description: Recorded speaker in the South African parliamentary record.
+  aliases:
+  - Mnu E NZIMANDE
+  - Mnu E Nzimande
+- name: Mr B J Farmer
+  jurisdiction: ZA
+  role: Speaker in the South African parliamentary record
+  description: Recorded speaker in the South African parliamentary record.
+  aliases:
+  - Mr B J FARMER
+  - Mr B J Farmer
+- name: Mr M Feni
+  jurisdiction: ZA
+  role: Speaker in the South African parliamentary record
+  description: Recorded speaker in the South African parliamentary record.
+  aliases:
+  - Mr M FENI
+  - Mr M Feni
+- name: Mr S I Subrathie
+  jurisdiction: ZA
+  role: Speaker in the South African parliamentary record
+  description: Recorded speaker in the South African parliamentary record.
+  aliases:
+  - Mr S I SUBRATHIE
+  - Mr S I Subrathie
+- name: Mr S S Zondo
+  jurisdiction: ZA
+  role: Member of the National Assembly (IFP)
+  party: IFP
+  description: South African politician; member of the National Assembly for the Inkatha Freedom Party.
+  aliases:
+  - Mr S S Zondo
+  - Mr S S Zondo (IFP)
+- name: Mr T M Langa
+  jurisdiction: ZA
+  role: Speaker in the South African parliamentary record
+  description: Recorded speaker in the South African parliamentary record.
+  aliases:
+  - Mr T M LANGA
+  - Mr T M Langa
+- name: Mr T S Mjadu
+  jurisdiction: ZA
+  role: Member of the National Assembly (MKP)
+  party: MKP
+  description: South African politician; member of the National Assembly for the uMkhonto weSizwe Party.
+  aliases:
+  - Mr T S Mjadu
+  - Mr T S Mjadu (MKP)
+- name: Mrs N W A Mazzone
+  jurisdiction: ZA
+  role: Speaker in the South African parliamentary record
+  description: Recorded speaker in the South African parliamentary record.
+  aliases:
+  - Mrs N W A MAZZONE
+  - Mrs N W A Mazzone
+- name: J. Adriaanse
+  jurisdiction: ZA
+  role: Member of the National Council of Provinces (DA, North West)
+  party: DA
+  description: South African NCOP delegate for the Democratic Alliance, North West province.
+  aliases:
+  - Ms J Adriaanse (DA, North West)
+- name: Ms N H Mhlongo
+  jurisdiction: ZA
+  role: Member of the National Assembly (EFF)
+  party: EFF
+  description: South African politician; member of the National Assembly for the Economic Freedom Fighters.
+  aliases:
+  - Ms N H Mhlongo
+  - Ms N H Mhlongo (EFF)
+- name: Ms N Mazzone
+  jurisdiction: ZA
+  role: Member of the National Assembly (DA)
+  party: DA
+  description: South African politician; member of the National Assembly for the Democratic Alliance.
+  aliases:
+  - Ms N Mazzone
+  - Ms N Mazzone (DA)
+- name: Zwane (Deputy Minister)
+  jurisdiction: ZA
+  role: Deputy Minister of Science, Technology and Innovation
+  description: South African deputy minister presenting the science and innovation annual performance
+    plan; the record gives a surname and an office.
+  aliases:
+  - Ms. Zwane (Deputy Minister)
+- name: Prof May
+  jurisdiction: ZA
+  role: Official, Academy of Science of South Africa (ASSAf)
+  description: ASSAf representative addressing the parliamentary portfolio committee on science, technology
+    and innovation.
+  aliases:
+  - Prof May (ASSAf Official)

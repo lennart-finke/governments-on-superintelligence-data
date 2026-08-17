@@ -1,0 +1,507 @@
+- name: Armand Zorn
+  jurisdiction: DE
+  role: Member of the Bundestag (SPD)
+  description: German SPD politician who has represented Frankfurt am Main in the Bundestag since 2021 and serves as a deputy faction spokesperson on digital and economic policy.
+  wikidata: Q108708654
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/Z/zorn_armand-1048326
+  aliases:
+  - Armand Zorn (SPD)
+- name: Holger Becker
+  jurisdiction: DE
+  role: Former Member of the Bundestag (SPD), 2021-2025
+  description: German SPD politician and physicist who represented Jena-Sömmerda-Weimarer Land in the 20th Bundestag from 2021 to 2025 but lost his seat in the 2025 election.
+  wikidata: Q108708895
+  aliases:
+  - Holger Becker (SPD)
+- name: Maximilian Funke-Kaiser
+  jurisdiction: DE
+  role: Former Member of the Bundestag (FDP), 2021-2025
+  description: German FDP politician who sat in the 20th Bundestag from 2021 to 2025 via the Bavaria state list, leaving parliament after the FDP fell below the 5% threshold in 2025.
+  wikidata: Q108756123
+  aliases:
+  - Maximilian Funke-Kaiser (FDP)
+- name: Rebecca Lenhard
+  jurisdiction: DE
+  role: Member of the Bundestag (Bündnis 90/Die Grünen)
+  description: German Green politician elected to the Bundestag in 2025 via the Bavaria state list, serving on the Committee for Digital Affairs and State Modernization.
+  wikidata: Q132733625
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/L/lenhard_rebecca-1045792
+  aliases:
+  - Rebecca Lenhard (BÜNDNIS 90/DIE GRÜNEN)
+- name: Sonja Lemke
+  jurisdiction: DE
+  role: Member of the Bundestag (Die Linke)
+  description: German Die Linke politician representing North Rhine-Westphalia in the Bundestag, serving on the Committee for Digital Affairs and State Modernization.
+  wikidata: Q132733554
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/L/lemke_sonja-1045784
+  aliases:
+  - Sonja Lemke (Die Linke)
+- name: Carolin Wagner
+  jurisdiction: DE
+  role: Member of the Bundestag (SPD)
+  description: German SPD politician representing Regensburg, Bavaria, in the Bundestag, serving on the Committee for Digital Affairs and State Modernization.
+  wikidata: Q108760467
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/W/wagner_carolin-1047924
+  aliases:
+  - Carolin Wagner (SPD)
+- name: Donata Vogtschmidt
+  jurisdiction: DE
+  role: Member of the Bundestag (Die Linke)
+  description: German Die Linke politician representing Thuringia in the Bundestag, serving on the Defense Committee and the Committee for Digital Affairs and State Modernization.
+  wikidata: Q109593885
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/V/vogtschmidt_donata-1047876
+  aliases:
+  - Donata Vogtschmidt (Die Linke)
+- name: Marvin Schulz
+  jurisdiction: DE
+  role: Member of the Bundestag (CDU/CSU)
+  description: German CDU politician who won the Berlin-Reinickendorf constituency directly in the 2025 election and serves on the Committee for Digital Affairs and State Modernization.
+  wikidata: Q132733593
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/S/schulz_marvin-1047290
+  aliases:
+  - Marvin Schulz (CDU/CSU)
+- name: Petra Sitte
+  jurisdiction: DE
+  role: Former Member of the Bundestag (Die Linke), 2005-2025
+  description: German economist and Die Linke politician who represented Saxony-Anhalt in the Bundestag from 2005 to 2025, chairing the Committee for Education, Research and Technology Assessment.
+  wikidata: Q1748314
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/S/sitte_petra-858018
+  aliases:
+  - Petra Sitte (DIE LINKE)
+  - "Petra Sitte (DIE\n                    LINKE)"
+  - Petra Sitte (Die Linke)
+- name: Johannes Schätzl
+  jurisdiction: DE
+  role: Member of the Bundestag (SPD); Chair, Digital Affairs Committee
+  description: German SPD politician representing Passau, Bavaria, since 2021, chairing the Bundestag's Committee for Digital Affairs and State Modernization.
+  wikidata: Q108758038
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/S/schaetzl_johannes-1047012
+  aliases:
+  - Johannes Schätzl (SPD)
+- name: Karsten Wildberger
+  jurisdiction: DE
+  role: Bundesminister für Digitales und Staatsmodernisierung
+  description: German Federal Minister for Digital Affairs and State Modernisation since May 2025, previously CEO of Ceconomy AG (MediaMarktSaturn).
+  wikidata: Q106901329
+  profile_url: https://bmds.bund.de/ministerium/leitung/minister
+  aliases:
+  - Karsten Wildberger (Bundesminister für Digitales und Staatsmodernisierung)
+- name: Robin Jünger
+  jurisdiction: DE
+  role: Member of the Bundestag (AfD)
+  description: German AfD politician representing the Gießen constituency in Hesse, elected to the Bundestag in 2025.
+  wikidata: Q132730390
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/J/juenger_robin-1045240
+  aliases:
+  - Robin Jünger (AfD)
+- name: Ronja Kemmer
+  jurisdiction: DE
+  role: Former Member of the Bundestag (CDU/CSU)
+  description: German CDU politician who represented the Ulm constituency and served as deputy CDU/CSU faction spokesperson on digital affairs before renouncing her Bundestag seat in May 2026.
+  wikidata: Q19299319
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/K/kemmer_ronja-1045358
+  aliases:
+  - Ronja Kemmer (CDU/CSU)
+- name: Ruben Rupp
+  jurisdiction: DE
+  role: Member of the Bundestag (AfD); digital-policy spokesperson
+  description: German AfD politician representing Backnang-Schwäbisch Gmünd, Baden-Württemberg, and the AfD faction's spokesperson on the Committee for Digital Affairs and State Modernization.
+  wikidata: Q106201320
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/R/rupp_ruben-1046904
+  aliases:
+  - Ruben Rupp (AfD)
+- name: Thomas Jarzombek
+  jurisdiction: DE
+  role: Parliamentary State Secretary, Digital Affairs Ministry (CDU/CSU)
+  description: Long-serving CDU digital-policy politician representing Düsseldorf I, currently Parliamentary State Secretary at the Federal Ministry for Digital Affairs and State Modernisation.
+  wikidata: Q97872
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/J/jarzombek_thomas-1045202
+  aliases:
+  - Thomas Jarzombek (CDU/CSU)
+- name: Anna Christmann
+  jurisdiction: DE
+  role: Member of the Bundestag (Bündnis 90/Die Grünen)
+  description: German Green politician representing Stuttgart II, serving on the Committee for Education, Research and Technology Assessment with a focus on innovation policy.
+  wikidata: Q40997480
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/C/christmann_anna-857222
+  aliases:
+  - Anna Christmann (BÜNDNIS 90/DIE GRÜNEN)
+- name: Eugen Schmidt
+  jurisdiction: DE
+  role: Former Member of the Bundestag (AfD), 2021-2025
+  description: German AfD politician and software engineer who represented North Rhine-Westphalia in the 20th Bundestag from 2021 to 2025.
+  wikidata: Q108758075
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/S/schmidt_eugen-861178
+  aliases:
+  - Eugen Schmidt (AfD)
+- name: Holger Mann
+  jurisdiction: DE
+  role: Member of the Bundestag (SPD)
+  description: German SPD politician representing Leipzig, Saxony, in the Bundestag since 2021, previously a member of the Saxon state parliament.
+  wikidata: Q1624565
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/M/mann_holger-1045960
+  aliases:
+  - Holger Mann (SPD)
+- name: Lena Werner
+  jurisdiction: DE
+  role: Former Member of the Bundestag (SPD), 2021-2025
+  description: German SPD politician who represented Bitburg, Rhineland-Palatinate, in the 20th Bundestag from 2021 to 2025 and now serves in the Rhineland-Palatinate state parliament.
+  wikidata: Q108756661
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/W/werner_lena-861196
+  aliases:
+  - Lena Werner (SPD)
+- name: Maximilian Mordhorst
+  jurisdiction: DE
+  role: Former Member of the Bundestag (FDP), 2021-2025
+  description: German FDP politician who represented Kiel, Schleswig-Holstein, in the 20th Bundestag from 2021 to 2025, serving on the Finance and Digital Affairs committees.
+  wikidata: Q108757426
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/M/mordhorst_maximilian-860900
+  aliases:
+  - Maximilian Mordhorst (FDP)
+- name: Parsa Marvi
+  jurisdiction: DE
+  role: Member of the Bundestag (SPD)
+  description: German SPD politician representing Karlsruhe, Baden-Württemberg, in the Bundestag since 2021, serving on the Digital Affairs and Finance committees.
+  wikidata: Q108757124
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/M/marvi_parsa-1045992
+  aliases:
+  - Parsa Marvi (SPD)
+- name: Ralph Brinkhaus
+  jurisdiction: DE
+  role: Member of the Bundestag (CDU); former CDU/CSU Fraktionsvorsitzender
+  description: German CDU politician representing Gütersloh, North Rhine-Westphalia, who chaired the CDU/CSU parliamentary group from 2018 to 2022 and now sits on the Digital Affairs Committee.
+  wikidata: Q2129527
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/B/brinkhaus_ralph-1048460
+  aliases:
+  - Ralph Brinkhaus (CDU/CSU)
+- name: Tabea Rößner
+  jurisdiction: DE
+  role: Former Member of the Bundestag (Bündnis 90/Die Grünen); ex-Chair, Digital Affairs Committee
+  description: German Green politician and journalist who represented Mainz, Rhineland-Palatinate, in the Bundestag from 2009 to 2025, chairing the Digital Affairs Committee from 2021.
+  wikidata: Q1564660
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/R/roessner_tabea-857920
+  aliases:
+  - Tabea Rößner (BÜNDNIS 90/DIE GRÜNEN)
+- name: Volker Wissing
+  jurisdiction: DE
+  role: Former Bundesminister für Digitales und Verkehr (independent, ex-FDP)
+  description: German lawyer and politician who served as Federal Minister for Digital Affairs and Transport from 2021 to 2025, leaving the FDP in 2024 to sit as an independent.
+  wikidata: Q1278715
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/W/wissing_volker-861446
+  aliases:
+  - Volker Wissing (Bundesminister für Digitales und Verkehr)
+  - "Volker Wissing (Bundesminister für\n                                    Digitales und Verkehr)"
+- name: Alexander Bartz
+  jurisdiction: DE
+  role: Former Member of the Bundestag (SPD), 2022-2025
+  description: German SPD politician who represented Cloppenburg-Vechta, Lower Saxony, in the Bundestag from 2022 to 2025 as a substitute member, serving on the Economic Affairs Committee.
+  wikidata: Q108571734
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/B/bartz_alexander-920072
+  aliases:
+  - Alexander Bartz (SPD)
+- name: Alexander Throm
+  jurisdiction: DE
+  role: Member of the Bundestag (CDU); interior-policy spokesperson
+  description: German CDU lawyer and politician representing Heilbronn, Baden-Württemberg, serving as interior-policy spokesperson for the CDU/CSU faction since 2017.
+  wikidata: Q2643140
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/T/throm_alexander-1049290
+  aliases:
+  - Alexander Throm (CDU/CSU)
+- name: Andrea Lübcke
+  jurisdiction: DE
+  role: Member of the Bundestag (Bündnis 90/Die Grünen)
+  description: German Green politician and physicist who entered the Bundestag in July 2025 via the Brandenburg state list, succeeding Annalena Baerbock.
+  wikidata: Q133575298
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/L/luebcke_andrea-1045874
+  aliases:
+  - Andrea Lübcke (BÜNDNIS 90/DIE GRÜNEN)
+- name: Anke Domscheit-Berg
+  jurisdiction: DE
+  role: Former Member of the Bundestag (Die Linke), 2017-2025
+  description: German Die Linke politician and digital-policy activist representing Brandenburg, a Bundestag member from 2017 to 2025 known for her work on digital-agenda issues.
+  wikidata: Q556667
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/D/domscheit_berg_anke-857258
+  aliases:
+  - Anke Domscheit-Berg (DIE LINKE)
+- name: Anna Kassautzki
+  jurisdiction: DE
+  role: Former Member of the Bundestag (SPD), 2021-2025
+  description: German SPD politician who represented Vorpommern in Mecklenburg-Vorpommern in the 20th Bundestag from 2021 to 2025, serving as deputy chair of the Digital Affairs Committee.
+  wikidata: Q108705712
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/K/kassautzki_anna-860822
+  aliases:
+  - Anna Kassautzki (SPD)
+- name: Barbara Benkstein
+  jurisdiction: DE
+  role: Former Member of the Bundestag (AfD), 2021-2025
+  description: German AfD politician (also listed under her maiden name Barbara Lenk), a librarian by profession who represented the Meißen constituency, Saxony, and chaired the Digital Affairs Committee.
+  wikidata: Q108705839
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/L/lenk_barbara-860782
+  aliases:
+  - Barbara Benkstein (AfD)
+  - Barbara Lenk (AfD)
+- name: Catarina dos Santos-Wintz
+  jurisdiction: DE
+  role: Member of the Bundestag (CDU); parliamentary business manager, CDU/CSU
+  description: German CDU lawyer born in Lisbon, representing Aachen, North Rhine-Westphalia, and parliamentary business manager of the CDU/CSU faction since May 2025.
+  wikidata: Q108754086
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/S/santos_wintz_catarina-1046964
+  aliases:
+  - Catarina dos Santos-Wintz (CDU/CSU)
+- name: Enrico Komning
+  jurisdiction: DE
+  role: Member of the Bundestag (AfD); parliamentary business manager
+  description: German AfD politician who has served as a member of the Bundestag since 2017 and as parliamentary business manager of the AfD faction since 2019.
+  wikidata: Q26792878
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/K/komning_enrico-1045516
+  aliases:
+  - Enrico Komning (AfD)
+- name: Fabian Jacobi
+  jurisdiction: DE
+  role: Member of the Bundestag (AfD)
+  description: German lawyer and AfD politician who has represented North Rhine-Westphalia in the Bundestag via the state list since 2017.
+  wikidata: Q40847784
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/J/jacobi_fabian-1045178
+  aliases:
+  - Fabian Jacobi (AfD)
+- name: Falko Droßmann
+  jurisdiction: DE
+  role: Member of the Bundestag (SPD)
+  description: German SPD politician who has represented the Hamburg-Mitte constituency in the Bundestag since 2021.
+  wikidata: Q23063391
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/D/drossmann_falko-1044108
+  aliases:
+  - Falko Droßmann (SPD)
+- name: Franziska Brantner
+  jurisdiction: DE
+  role: MdB (Bündnis 90/Die Grünen); fmr. Parl. State Secretary, Economy & Climate (2021-2025)
+  description: German Green politician who has served as a member of the Bundestag since 2013 and was Parliamentary State Secretary at the Federal Ministry for Economic Affairs and Climate Action from 2021 to 2025.
+  wikidata: Q76265
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/B/brantner_franziska-1043804
+  aliases:
+  - Franziska Brantner (BÜNDNIS 90/DIE GRÜNEN)
+  - Franziska Brantner (Parl. Staatssekretärin beim Bundesminister für Wirtschaft und Klimaschutz)
+- name: Friedrich Merz
+  jurisdiction: DE
+  role: Bundeskanzler (Federal Chancellor of Germany, CDU)
+  description: German CDU politician who has served as Federal Chancellor of Germany since May 2025.
+  wikidata: Q566257
+  profile_url: https://www.bundeskanzler.de/bk-de/friedrich-merz/friedrich-merz
+  aliases:
+  - Friedrich Merz (Bundeskanzler)
+- name: Gerold Otten
+  jurisdiction: DE
+  role: Member of the Bundestag (AfD)
+  description: German AfD politician who has been a member of the Bundestag since 2017, representing Bavaria via the state list.
+  wikidata: Q40880800
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/O/otten_gerold-1046446
+  aliases:
+  - Gerold Otten (AfD)
+- name: Hansjörg Durz
+  jurisdiction: DE
+  role: Member of the Bundestag (CSU); Chair, Digital Affairs Committee
+  description: German CSU politician representing Augsburg-Land, Bavaria, a Bundestag member since 2013 who chairs the Committee for Digital Affairs and State Modernization.
+  wikidata: Q15813798
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/D/durz_hansjoerg-1048536
+  aliases:
+  - Hansjörg Durz (CDU/CSU)
+- name: Jeanne Dillschneider
+  jurisdiction: DE
+  role: Member of the Bundestag (Bündnis 90/Die Grünen)
+  description: German Green politician elected to the Bundestag in 2025 via the Saarland state list, representing the Saarbrücken constituency.
+  wikidata: Q132733079
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/D/dillschneider_jeanne-1044058
+  aliases:
+  - Jeanne Dillschneider (BÜNDNIS 90/DIE GRÜNEN)
+- name: Johannes Rothenberger
+  jurisdiction: DE
+  role: Member of the Bundestag (CDU)
+  description: German lawyer and CDU politician who has represented the Offenburg constituency in the Bundestag since March 2025.
+  wikidata: Q132733578
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/R/rothenberger_johannes-1049136
+  aliases:
+  - Johannes Rothenberger (CDU/CSU)
+- name: Kathrin Vogler
+  jurisdiction: DE
+  role: Former Member of the Bundestag (Die Linke), 2009-2025
+  description: German politician who served as a member of the Bundestag for Die Linke from 2009 to 2025, focusing on health and peace policy.
+  wikidata: Q1736530
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/V/vogler_kathrin-858124
+  aliases:
+  - Kathrin Vogler (Die Linke)
+- name: Katja Keul
+  jurisdiction: DE
+  role: Former Staatsministerin im Auswärtigen Amt (Bündnis 90/Die Grünen)
+  description: German Green politician who was a member of the Bundestag from 2009 to 2025 and served as Minister of State at the Federal Foreign Office from 2021 to 2025.
+  wikidata: Q1736638
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/K/keul_katja-857546
+  aliases:
+  - Katja Keul (Staatsministerin im Auswärtigen Amt)
+- name: Konrad Körner
+  jurisdiction: DE
+  role: Member of the Bundestag (CSU)
+  description: German lawyer and CSU politician who has represented the Erlangen constituency in the Bundestag since March 2025.
+  wikidata: Q132733430
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/K/koerner_konrad-1045550
+  aliases:
+  - Konrad Körner (CDU/CSU)
+- name: Konstantin von Notz
+  jurisdiction: DE
+  role: Member of the Bundestag (Bündnis 90/Die Grünen); intelligence-oversight spokesperson
+  description: German Green politician who has been a member of the Bundestag since 2009, serving as deputy chair of the Parliamentary Control Panel and the party's spokesperson on digital and intelligence policy.
+  wikidata: Q1710769
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/N/notz_konstantin-1046366
+  aliases:
+  - Konstantin von Notz (BÜNDNIS 90/DIE GRÜNEN)
+- name: Maik Außendorf
+  jurisdiction: DE
+  role: Former Member of the Bundestag (Bündnis 90/Die Grünen), 2021-2025
+  description: German Green politician who served as a member of the Bundestag from 2021 to 2025 but did not retain his seat in the 2025 federal election.
+  wikidata: Q108736333
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/A/aussendorf_maik-860932
+  aliases:
+  - Maik Außendorf (BÜNDNIS 90/DIE GRÜNEN)
+- name: Markus Reichel
+  jurisdiction: DE
+  role: Member of the Bundestag (CDU)
+  description: German CDU politician who has represented the Dresden I constituency in the Bundestag since 2021, retaining his seat via the state list after the 2025 election.
+  wikidata: Q108709302
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/R/reichel_markus-1046714
+  aliases:
+  - Markus Reichel (CDU/CSU)
+- name: Matthias David Mieves
+  jurisdiction: DE
+  role: Member of the Bundestag (SPD)
+  description: German SPD politician who has represented the Kaiserslautern constituency in the Bundestag since 2021.
+  wikidata: Q108757269
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/M/mieves_matthias-1046124
+  aliases:
+  - Matthias David Mieves (SPD)
+- name: Michael Georg Link
+  jurisdiction: DE
+  role: Former Member of the Bundestag (FDP); ex-OSCE/ODIHR director
+  description: German FDP politician who served in the Bundestag (2005-2013, 2017-2025) and previously directed the OSCE's ODIHR human rights office from 2014 to 2017.
+  wikidata: Q991377
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/L/link_michael-857678
+  aliases:
+  - Michael Georg Link (FDP)
+- name: Michael Theurer
+  jurisdiction: DE
+  role: Fmr. Parliamentary State Secretary, Digital Affairs and Transport Ministry (FDP)
+  description: German FDP politician who served as Parliamentary State Secretary at the Federal Ministry for Digital Affairs and Transport under Volker Wissing from 2021 to 2024.
+  wikidata: Q109925
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/T/theurer_michael-858104
+  aliases:
+  - Michael Theurer (Parl. Staatssekretär beim Bundesminister für Digitales und Verkehr)
+- name: Michelle Müntefering
+  jurisdiction: DE
+  role: Former Member of the Bundestag (SPD); ex-Staatsministerin für Kulturpolitik
+  description: German SPD politician who served in the Bundestag from 2013 to 2025 and as Minister of State for International Cultural Policy at the Foreign Office from 2018 to 2021.
+  wikidata: Q1404562
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/M/muentefering_michelle-857780
+  aliases:
+  - Michelle Müntefering (SPD)
+- name: Nadine Schön
+  jurisdiction: DE
+  role: Former Member of the Bundestag (CDU); ex-deputy CDU/CSU Fraktionsvorsitzende
+  description: German CDU politician who served in the Bundestag from 2009 to 2025 and was deputy chair of the CDU/CSU parliamentary group, focusing on digital-affairs policy.
+  wikidata: Q105331
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/S/schoen_nadine-858006
+  aliases:
+  - Nadine Schön (CDU/CSU)
+- name: Nicole Gohlke
+  jurisdiction: DE
+  role: Member of the Bundestag (Die Linke); deputy faction chair
+  description: German Die Linke politician from Munich who has been a member of the Bundestag since 2009 and serves as deputy chair of her parliamentary group.
+  wikidata: Q1987000
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/G/gohlke_nicole-1044540
+  aliases:
+  - Nicole Gohlke (Die Linke)
+- name: Nils Schmid
+  jurisdiction: DE
+  role: Parliamentary State Secretary, Ministry of Defence (SPD)
+  description: German SPD politician and former deputy minister-president of Baden-Württemberg who has been a Bundestag member since 2017 and Parliamentary State Secretary at the Ministry of Defence since 2025.
+  wikidata: Q477845
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/S/schmid_nils-1047120
+  aliases:
+  - Nils Schmid (SPD)
+- name: Reinhard Brandl
+  jurisdiction: DE
+  role: Member of the Bundestag (CSU); parliamentary business manager
+  description: German CSU politician from Ingolstadt, Bavaria, a Bundestag member since 2009 known for work on digital and defense policy.
+  wikidata: Q111160
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/B/brandl_reinhard-1048450
+  aliases:
+  - Reinhard Brandl (CDU/CSU)
+- name: Robert Teske
+  jurisdiction: DE
+  role: Member of the Bundestag (AfD)
+  description: German AfD politician who won the direct mandate for a Thuringia constituency in the 2025 federal election.
+  wikidata: Q40588666
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/T/teske_robert-1047700
+  aliases:
+  - Robert Teske (AfD)
+- name: Sabine Grützmacher
+  jurisdiction: DE
+  role: Former Member of the Bundestag (Bündnis 90/Die Grünen), 2021-2025
+  description: German Green politician who served as a member of the Bundestag from 2021 to 2025 but lost her seat in the 2025 federal election.
+  wikidata: Q108733887
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/G/gruetzmacher_sabine-861782
+  aliases:
+  - Sabine Grützmacher (BÜNDNIS 90/DIE GRÜNEN)
+- name: Sandra Detzer
+  jurisdiction: DE
+  role: Member of the Bundestag (Bündnis 90/Die Grünen); Chair, Economy and Energy Committee
+  description: German Green politician representing Ludwigsburg, Baden-Württemberg, who chairs the Bundestag's Committee for Economic Affairs and Energy.
+  wikidata: Q27888351
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/D/detzer_sandra-1044030
+  aliases:
+  - Sandra Detzer (BÜNDNIS 90/DIE GRÜNEN)
+- name: Sebastian Roloff
+  jurisdiction: DE
+  role: Member of the Bundestag (SPD); economic-policy spokesperson
+  description: German SPD politician and attorney representing Munich-South who serves as economic-policy spokesperson for the SPD Bundestag faction.
+  wikidata: Q108757939
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/R/roloff_sebastian-1046828
+  aliases:
+  - Sebastian Roloff (SPD)
+- name: Stefan Rouenhoff
+  jurisdiction: DE
+  role: Parliamentary State Secretary, Economic Affairs and Energy Ministry (CDU)
+  description: German CDU politician and Bundestag member for Kleve who has served as Parliamentary State Secretary at the Federal Ministry for Economic Affairs and Energy since May 2025.
+  wikidata: Q40999099
+  profile_url: https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Dossier/Visitenkarten/visitenkarte-rouenhoff.html
+  aliases:
+  - Stefan Rouenhoff (CDU/CSU)
+- name: Stefanie Hubig
+  jurisdiction: DE
+  role: Bundesministerin der Justiz und für Verbraucherschutz (SPD)
+  description: German SPD politician who has served as Federal Minister of Justice and Consumer Protection since May 2025, previously Rhineland-Palatinate's education minister.
+  wikidata: Q20172451
+  profile_url: https://www.bmjv.de/DE/ministerium/hausleitung/min/bundesjustizministerin_node__hidden.html
+  aliases:
+  - Stefanie Hubig (Bundesministerin der Justiz und für Verbraucherschutz)
+- name: Steffen Janich
+  jurisdiction: DE
+  role: Member of the Bundestag (AfD)
+  description: German AfD politician and former state police officer representing a Saxony constituency in the Bundestag.
+  wikidata: Q108756781
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/J/janich_steffen-1045194
+  aliases:
+  - Steffen Janich (AfD)
+- name: Sven Lehmann
+  jurisdiction: DE
+  role: Member of the Bundestag (Bündnis 90/Die Grünen); Chair, Culture and Media Committee
+  description: German Green politician who served as Germany's first Federal Government Commissioner for the Acceptance of Sexual and Gender Diversity from 2022 to 2025 and now chairs the Committee for Culture and Media.
+  wikidata: Q2371230
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/L/lehmann_sven-1045758
+  aliases:
+  - Sven Lehmann (BÜNDNIS 90/DIE GRÜNEN)
+- name: Tobias B. Bacherle
+  jurisdiction: DE
+  role: Former Member of the Bundestag (Bündnis 90/Die Grünen), 2021-2025
+  description: German Green politician who served in the 20th Bundestag from 2021 to 2025 on the Foreign Affairs and Digital Affairs committees but lost his seat in 2025.
+  wikidata: Q108733371
+  profile_url: https://www.bundestag.de/abgeordnete/biografien/B/bacherle_tobias-860138
+  aliases:
+  - Tobias B. Bacherle (BÜNDNIS 90/DIE GRÜNEN)

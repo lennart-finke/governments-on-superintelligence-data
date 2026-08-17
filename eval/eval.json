@@ -1,0 +1,1340 @@
+{
+ "updated_at": "2026-08-07T21:52:10Z",
+ "keyword_ablation": {
+  "n_candidates": 17194,
+  "n_keywords_hit": 138,
+  "zero_unique_keywords": 65,
+  "keywords": [
+   {
+    "keyword": "人工智能",
+    "candidates": 4159,
+    "unique_candidates": 2546,
+    "unique_accepted_quotes": 27
+   },
+   {
+    "keyword": "AI",
+    "candidates": 4427,
+    "unique_candidates": 2493,
+    "unique_accepted_quotes": 101
+   },
+   {
+    "keyword": "artificial intelligence",
+    "candidates": 3067,
+    "unique_candidates": 1883,
+    "unique_accepted_quotes": 38
+   },
+   {
+    "keyword": "intelligence artificielle",
+    "candidates": 1940,
+    "unique_candidates": 1532,
+    "unique_accepted_quotes": 111
+   },
+   {
+    "keyword": "existential threat*",
+    "candidates": 1179,
+    "unique_candidates": 1047,
+    "unique_accepted_quotes": 1
+   },
+   {
+    "keyword": "KI",
+    "candidates": 761,
+    "unique_candidates": 562,
+    "unique_accepted_quotes": 59
+   },
+   {
+    "keyword": "红线",
+    "candidates": 575,
+    "unique_candidates": 392,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "singularité",
+    "candidates": 397,
+    "unique_candidates": 384,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "可控",
+    "candidates": 767,
+    "unique_candidates": 328,
+    "unique_accepted_quotes": 1
+   },
+   {
+    "keyword": "暴走",
+    "candidates": 257,
+    "unique_candidates": 234,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "监测预警",
+    "candidates": 393,
+    "unique_candidates": 227,
+    "unique_accepted_quotes": 1
+   },
+   {
+    "keyword": "IA",
+    "candidates": 606,
+    "unique_candidates": 218,
+    "unique_accepted_quotes": 26
+   },
+   {
+    "keyword": "künstliche Intelligenz",
+    "candidates": 368,
+    "unique_candidates": 193,
+    "unique_accepted_quotes": 9
+   },
+   {
+    "keyword": "hors de contrôle",
+    "candidates": 145,
+    "unique_candidates": 140,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "*alignment*",
+    "candidates": 149,
+    "unique_candidates": 138,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "incontrôlable*",
+    "candidates": 131,
+    "unique_candidates": 124,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "ＡＩ",
+    "candidates": 160,
+    "unique_candidates": 96,
+    "unique_accepted_quotes": 8
+   },
+   {
+    "keyword": "misaligned",
+    "candidates": 107,
+    "unique_candidates": 93,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "loss of control",
+    "candidates": 113,
+    "unique_candidates": 90,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "misalignment",
+    "candidates": 84,
+    "unique_candidates": 70,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "*kontrollverlust*",
+    "candidates": 67,
+    "unique_candidates": 65,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "大模型",
+    "candidates": 630,
+    "unique_candidates": 44,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "existential risk*",
+    "candidates": 73,
+    "unique_candidates": 40,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "失控",
+    "candidates": 78,
+    "unique_candidates": 40,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "perte de contrôle",
+    "candidates": 47,
+    "unique_candidates": 40,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "außer Kontrolle",
+    "candidates": 29,
+    "unique_candidates": 29,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "unkontrollierbar*",
+    "candidates": 31,
+    "unique_candidates": 29,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "ASI",
+    "candidates": 39,
+    "unique_candidates": 23,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "国际公约",
+    "candidates": 52,
+    "unique_candidates": 22,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "国际条约",
+    "candidates": 31,
+    "unique_candidates": 21,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "AGI",
+    "candidates": 41,
+    "unique_candidates": 19,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "制御不能",
+    "candidates": 20,
+    "unique_candidates": 17,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "catastrophic risk*",
+    "candidates": 34,
+    "unique_candidates": 14,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "前所未有的风险",
+    "candidates": 15,
+    "unique_candidates": 12,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "人類の存続",
+    "candidates": 12,
+    "unique_candidates": 10,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "singularity",
+    "candidates": 18,
+    "unique_candidates": 9,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "extinction risk*",
+    "candidates": 15,
+    "unique_candidates": 9,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "LLM*",
+    "candidates": 26,
+    "unique_candidates": 8,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "frontier AI",
+    "candidates": 10,
+    "unique_candidates": 8,
+    "unique_accepted_quotes": 4
+   },
+   {
+    "keyword": "*singularität*",
+    "candidates": 9,
+    "unique_candidates": 8,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "A.I.",
+    "candidates": 16,
+    "unique_candidates": 6,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "可解释性",
+    "candidates": 24,
+    "unique_candidates": 6,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "对齐",
+    "candidates": 24,
+    "unique_candidates": 6,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "human extinction",
+    "candidates": 12,
+    "unique_candidates": 4,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "large language model*",
+    "candidates": 61,
+    "unique_candidates": 4,
+    "unique_accepted_quotes": 1
+   },
+   {
+    "keyword": "智能向善",
+    "candidates": 139,
+    "unique_candidates": 4,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "欺骗性",
+    "candidates": 8,
+    "unique_candidates": 4,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "kill switch",
+    "candidates": 6,
+    "unique_candidates": 3,
+    "unique_accepted_quotes": 1
+   },
+   {
+    "keyword": "RSI",
+    "candidates": 12,
+    "unique_candidates": 3,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "アライメント",
+    "candidates": 7,
+    "unique_candidates": 3,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "recursive self-improvement",
+    "candidates": 4,
+    "unique_candidates": 2,
+    "unique_accepted_quotes": 1
+   },
+   {
+    "keyword": "out of control",
+    "candidates": 3,
+    "unique_candidates": 2,
+    "unique_accepted_quotes": 1
+   },
+   {
+    "keyword": "安全监管制度",
+    "candidates": 27,
+    "unique_candidates": 2,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "human oversight",
+    "candidates": 2,
+    "unique_candidates": 2,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "control problem",
+    "candidates": 4,
+    "unique_candidates": 2,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "数据中心安全",
+    "candidates": 2,
+    "unique_candidates": 2,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "人間の制御",
+    "candidates": 6,
+    "unique_candidates": 2,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "コントロール不能",
+    "candidates": 3,
+    "unique_candidates": 2,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "end of humanity",
+    "candidates": 2,
+    "unique_candidates": 2,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "superintelligen*",
+    "candidates": 65,
+    "unique_candidates": 1,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "losing control",
+    "candidates": 3,
+    "unique_candidates": 1,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "artificial general intelligence",
+    "candidates": 25,
+    "unique_candidates": 1,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "red line*",
+    "candidates": 1,
+    "unique_candidates": 1,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "power-seeking",
+    "candidates": 2,
+    "unique_candidates": 1,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "early-warning",
+    "candidates": 1,
+    "unique_candidates": 1,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "大语言模型",
+    "candidates": 22,
+    "unique_candidates": 1,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "*sprachmodell*",
+    "candidates": 16,
+    "unique_candidates": 1,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "国際条約",
+    "candidates": 3,
+    "unique_candidates": 1,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "制御できなくなる",
+    "candidates": 2,
+    "unique_candidates": 1,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "人間のコントロール",
+    "candidates": 4,
+    "unique_candidates": 1,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "絶滅リスク",
+    "candidates": 1,
+    "unique_candidates": 1,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "semiconductor export control*",
+    "candidates": 2,
+    "unique_candidates": 1,
+    "unique_accepted_quotes": 1
+   },
+   {
+    "keyword": "Fehlausrichtung",
+    "candidates": 1,
+    "unique_candidates": 1,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "lose control",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "artificial superintelligence",
+    "candidates": 10,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "AI governance",
+    "candidates": 136,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "interpretability",
+    "candidates": 9,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "human control",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "human values",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "machine intelligence",
+    "candidates": 5,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "AI regulation",
+    "candidates": 36,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "general artificial intelligence",
+    "candidates": 3,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "superhuman intelligence",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "extinction of humanity",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "more intelligent than humans",
+    "candidates": 2,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "strong AI",
+    "candidates": 10,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "intelligence explosion",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "smarter-than-human",
+    "candidates": 2,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "transformative AI",
+    "candidates": 6,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "smarter than human*",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "强人工智能",
+    "candidates": 228,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "人工智能治理",
+    "candidates": 344,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "不可控",
+    "candidates": 17,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "机器智能",
+    "candidates": 5,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "人的控制",
+    "candidates": 2,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "通用人工智能",
+    "candidates": 63,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "人工智能监管",
+    "candidates": 22,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "通用智能",
+    "candidates": 8,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "人类控制",
+    "candidates": 14,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "风险测试评估",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "IAG",
+    "candidates": 4,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "régulation de l'intelligence artificielle",
+    "candidates": 11,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "réglementation de l'intelligence artificielle",
+    "candidates": 2,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "gouvernance de l'IA",
+    "candidates": 14,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "régulation de l'IA",
+    "candidates": 2,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "シンギュラリティ",
+    "candidates": 23,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "allgemeine künstliche Intelligenz",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "Regulierung von KI",
+    "candidates": 3,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "KI-Regulierung",
+    "candidates": 9,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "KI-Governance",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "starke KI",
+    "candidates": 2,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "*superintelligen*",
+    "candidates": 2,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "技術的特異点",
+    "candidates": 6,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "大規模言語モデル",
+    "candidates": 7,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "人工知能",
+    "candidates": 17,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "スーパーインテリジェンス",
+    "candidates": 2,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "超知能",
+    "candidates": 7,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "deceptive AI",
+    "candidates": 4,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "人工超知能",
+    "candidates": 4,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "汎用人工知能",
+    "candidates": 5,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "人間レベル",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "LLM",
+    "candidates": 10,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "超级智能",
+    "candidates": 4,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "alignment problem",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "désalignement",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "explosion de l'intelligence",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "gouvernance de l'intelligence artificielle",
+    "candidates": 5,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "contrôle de l'IA",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "IA forte",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "奇点",
+    "candidates": 8,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "engineered intelligence",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "灭绝风险",
+    "candidates": 3,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "芯片出口",
+    "candidates": 2,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "价值对齐",
+    "candidates": 7,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "AI alignment",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "transformative artificial intelligence",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "灾难性风险",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   },
+   {
+    "keyword": "生存风险",
+    "candidates": 1,
+    "unique_candidates": 0,
+    "unique_accepted_quotes": 0
+   }
+  ]
+ },
+ "skeptic_panel": {
+  "model": "anthropic/claude-opus-4.8",
+  "prompt_sha256": "0c2f4df23ac7cbef",
+  "n": 122,
+  "survived": 97,
+  "refuted": 25,
+  "errors": 0,
+  "by_jurisdiction": {
+   "UK": {
+    "n": 115,
+    "survived": 91,
+    "survival_ci95": [
+     0.7082,
+     0.8556
+    ]
+   },
+   "CN": {
+    "n": 7,
+    "survived": 6,
+    "survival_ci95": [
+     0.4869,
+     0.9743
+    ]
+   }
+  },
+  "survival_rate": 0.7950819672131147,
+  "survival_ci95": [
+   0.715,
+   0.8572
+  ]
+ },
+ "refine_consistency": {
+  "sample_size": 120,
+  "seed": 20260804,
+  "judges": [
+   "gemini",
+   "glm"
+  ],
+  "replicates": 2,
+  "prompt_sha256": "2c72d4b2d191f777",
+  "models": {
+   "gemini": "google/gemini-3.1-flash-lite",
+   "glm": "z-ai/glm-5.2"
+  },
+  "self_consistency": {
+   "gemini": {
+    "n": 110,
+    "exact_set_match": 0.864,
+    "mean_jaccard": 0.919,
+    "mean_labels": 1.61,
+    "per_label": {
+     "agi": {
+      "agreement": 0.964,
+      "positive_agreement": 0.833,
+      "asserted_by_either": 24
+     },
+     "asi": {
+      "agreement": 0.973,
+      "positive_agreement": 0.833,
+      "asserted_by_either": 18
+     },
+     "rsi": {
+      "agreement": 1.0,
+      "positive_agreement": 1.0,
+      "asserted_by_either": 12
+     },
+     "x_risk": {
+      "agreement": 0.964,
+      "positive_agreement": 0.905,
+      "asserted_by_either": 42
+     },
+     "regulation": {
+      "agreement": 0.936,
+      "positive_agreement": 0.922,
+      "asserted_by_either": 90
+     }
+    }
+   },
+   "glm": {
+    "n": 105,
+    "exact_set_match": 0.79,
+    "mean_jaccard": 0.863,
+    "mean_labels": 1.24,
+    "per_label": {
+     "agi": {
+      "agreement": 0.99,
+      "positive_agreement": 0.917,
+      "asserted_by_either": 12
+     },
+     "asi": {
+      "agreement": 0.981,
+      "positive_agreement": 0.846,
+      "asserted_by_either": 13
+     },
+     "rsi": {
+      "agreement": 1.0,
+      "positive_agreement": 1.0,
+      "asserted_by_either": 12
+     },
+     "x_risk": {
+      "agreement": 0.895,
+      "positive_agreement": 0.645,
+      "asserted_by_either": 31
+     },
+     "regulation": {
+      "agreement": 0.895,
+      "positive_agreement": 0.853,
+      "asserted_by_either": 75
+     }
+    }
+   }
+  },
+  "cross_judge": {
+   "n": 107,
+   "exact_set_match": 0.589,
+   "mean_jaccard": 0.718,
+   "mean_labels": 1.43,
+   "per_label": {
+    "agi": {
+     "agreement": 0.907,
+     "positive_agreement": 0.5,
+     "asserted_by_either": 20
+    },
+    "asi": {
+     "agreement": 0.963,
+     "positive_agreement": 0.778,
+     "asserted_by_either": 18
+    },
+    "rsi": {
+     "agreement": 0.991,
+     "positive_agreement": 0.917,
+     "asserted_by_either": 12
+    },
+    "x_risk": {
+     "agreement": 0.841,
+     "positive_agreement": 0.585,
+     "asserted_by_either": 41
+    },
+    "regulation": {
+     "agreement": 0.794,
+     "positive_agreement": 0.753,
+     "asserted_by_either": 89
+    }
+   }
+  },
+  "consensus_stability": {
+   "intersection": {
+    "n": 99,
+    "exact_set_match": 0.838,
+    "mean_jaccard": 0.875,
+    "mean_labels": 1.14,
+    "per_label": {
+     "agi": {
+      "agreement": 0.99,
+      "positive_agreement": 0.9,
+      "asserted_by_either": 10
+     },
+     "asi": {
+      "agreement": 0.99,
+      "positive_agreement": 0.917,
+      "asserted_by_either": 12
+     },
+     "rsi": {
+      "agreement": 1.0,
+      "positive_agreement": 1.0,
+      "asserted_by_either": 9
+     },
+     "x_risk": {
+      "agreement": 0.919,
+      "positive_agreement": 0.667,
+      "asserted_by_either": 24
+     },
+     "regulation": {
+      "agreement": 0.909,
+      "positive_agreement": 0.866,
+      "asserted_by_either": 67
+     }
+    }
+   },
+   "union": {
+    "n": 99,
+    "exact_set_match": 0.818,
+    "mean_jaccard": 0.908,
+    "mean_labels": 1.62,
+    "per_label": {
+     "agi": {
+      "agreement": 0.96,
+      "positive_agreement": 0.81,
+      "asserted_by_either": 21
+     },
+     "asi": {
+      "agreement": 0.96,
+      "positive_agreement": 0.765,
+      "asserted_by_either": 17
+     },
+     "rsi": {
+      "agreement": 1.0,
+      "positive_agreement": 1.0,
+      "asserted_by_either": 10
+     },
+     "x_risk": {
+      "agreement": 0.949,
+      "positive_agreement": 0.872,
+      "asserted_by_either": 39
+     },
+     "regulation": {
+      "agreement": 0.929,
+      "positive_agreement": 0.916,
+      "asserted_by_either": 83
+     }
+    }
+   }
+  },
+  "drift_vs_first_stage": {
+   "judge": "gemini",
+   "n": 114,
+   "added": {
+    "regulation": 16
+   },
+   "dropped": {
+    "agi": 33,
+    "rsi": 24,
+    "asi": 18,
+    "regulation": 2,
+    "x_risk": 36
+   },
+   "first_stage_label_counts": {
+    "agi": 60,
+    "asi": 40,
+    "rsi": 42,
+    "x_risk": 84,
+    "regulation": 82
+   }
+  },
+  "errors": {
+   "gemini": 14,
+   "glm": 23
+  },
+  "detail_path": "eval/refine_consistency_sample.json"
+ },
+ "human_validation": {
+  "primary": {
+   "judge": "primary",
+   "seed": 20260728,
+   "scope": {
+    "lang": "en"
+   },
+   "models": [
+    "google/gemini-3.1-flash-lite",
+    "z-ai/glm-5.2"
+   ],
+   "reviewers": [
+    "pc"
+   ],
+   "sample_size": 100,
+   "labelled": 100,
+   "unsure": 0,
+   "blind_labels": 100,
+   "confusion": {
+    "judge_accept_human_accept": 30,
+    "judge_accept_human_reject": 20,
+    "judge_reject_human_reject": 39,
+    "judge_reject_human_accept": 11
+   },
+   "precision": {
+    "k": 30,
+    "n": 50,
+    "rate": 0.6,
+    "ci95": [
+     0.4618,
+     0.7239
+    ]
+   },
+   "npv": {
+    "k": 39,
+    "n": 50,
+    "rate": 0.78,
+    "ci95": [
+     0.6476,
+     0.8725
+    ]
+   },
+   "raw_agreement": {
+    "k": 69,
+    "n": 100,
+    "rate": 0.69,
+    "ci95": [
+     0.5937,
+     0.7722
+    ]
+   },
+   "population": {
+    "n": 27523,
+    "accepts": 3211,
+    "accept_share": 0.1167
+   },
+   "corpus_agreement_estimate": 0.759,
+   "by_jurisdiction": {
+    "AU": {
+     "k": 2,
+     "n": 4,
+     "rate": 0.5,
+     "ci95": [
+      0.15,
+      0.85
+     ],
+     "unsure": 0
+    },
+    "CA": {
+     "k": 2,
+     "n": 4,
+     "rate": 0.5,
+     "ci95": [
+      0.15,
+      0.85
+     ],
+     "unsure": 0
+    },
+    "CN": {
+     "k": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci95": [
+      0.3424,
+      1.0
+     ],
+     "unsure": 0
+    },
+    "EU": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci95": [
+      0.3006,
+      0.9544
+     ],
+     "unsure": 0
+    },
+    "SG": {
+     "k": 3,
+     "n": 6,
+     "rate": 0.5,
+     "ci95": [
+      0.1876,
+      0.8124
+     ],
+     "unsure": 0
+    },
+    "UK": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci95": [
+      0.3006,
+      0.9544
+     ],
+     "unsure": 0
+    },
+    "UN": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci95": [
+      0.0,
+      0.4899
+     ],
+     "unsure": 0
+    },
+    "US": {
+     "k": 51,
+     "n": 66,
+     "rate": 0.7727272727272727,
+     "ci95": [
+      0.6583,
+      0.8571
+     ],
+     "unsure": 0
+    },
+    "ZA": {
+     "k": 3,
+     "n": 6,
+     "rate": 0.5,
+     "ci95": [
+      0.1876,
+      0.8124
+     ],
+     "unsure": 0
+    }
+   },
+   "by_year": {
+    "2022": {
+     "k": 8,
+     "n": 10,
+     "rate": 0.8,
+     "ci95": [
+      0.4902,
+      0.9433
+     ],
+     "unsure": 0
+    },
+    "2023": {
+     "k": 17,
+     "n": 24,
+     "rate": 0.7083333333333334,
+     "ci95": [
+      0.5083,
+      0.8509
+     ],
+     "unsure": 0
+    },
+    "2024": {
+     "k": 14,
+     "n": 24,
+     "rate": 0.5833333333333334,
+     "ci95": [
+      0.3883,
+      0.7553
+     ],
+     "unsure": 0
+    },
+    "2025": {
+     "k": 21,
+     "n": 30,
+     "rate": 0.7,
+     "ci95": [
+      0.5212,
+      0.8334
+     ],
+     "unsure": 0
+    },
+    "2026": {
+     "k": 9,
+     "n": 12,
+     "rate": 0.75,
+     "ci95": [
+      0.4677,
+      0.9111
+     ],
+     "unsure": 0
+    }
+   },
+   "disagreement_notes": []
+  },
+  "confirm": {
+   "judge": "confirm",
+   "seed": 20260728,
+   "scope": {
+    "lang": "en"
+   },
+   "models": [
+    "anthropic/claude-sonnet-5",
+    "google/gemini-3.1-flash-lite"
+   ],
+   "reviewers": [],
+   "sample_size": 100,
+   "labelled": 0,
+   "unsure": 0,
+   "blind_labels": 0,
+   "confusion": {
+    "judge_accept_human_accept": 0,
+    "judge_accept_human_reject": 0,
+    "judge_reject_human_reject": 0,
+    "judge_reject_human_accept": 0
+   },
+   "precision": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci95": [
+     0.0,
+     1.0
+    ]
+   },
+   "npv": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci95": [
+     0.0,
+     1.0
+    ]
+   },
+   "raw_agreement": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci95": [
+     0.0,
+     1.0
+    ]
+   },
+   "population": {
+    "n": 1045,
+    "accepts": 849,
+    "accept_share": 0.8124
+   },
+   "corpus_agreement_estimate": null,
+   "by_jurisdiction": {},
+   "by_year": {},
+   "disagreement_notes": []
+  }
+ }
+}

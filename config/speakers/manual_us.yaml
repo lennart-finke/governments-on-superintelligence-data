@@ -1,0 +1,44 @@
+# US executives surfaced by us_whitehouse / us_fedreg (no native speaker IDs).
+# Aliases must exactly match quote speaker_display values (utterance speaker_raw
+# or the judge-extracted "Name (role)" strings).
+- name: Joe Biden
+  jurisdiction: US
+  wikidata: Q6279
+  role: President (2021-2025)
+  aliases:
+    - "President Joseph R. Biden, Jr."
+    - "Joe Biden (President)"
+    - "Joseph R. Biden, Jr. (President)"
+    - "Joseph R. Biden Jr. (President)"
+    - "President Joe Biden"
+    - "President Biden"
+- name: Donald Trump
+  jurisdiction: US
+  wikidata: Q22686
+  role: President (2025-)
+  aliases:
+    - "President Donald J. Trump"
+    - "Donald Trump (President)"
+    - "Donald J. Trump (President)"
+    - "President Donald Trump"
+    - "President Trump"
+- name: Kamala Harris
+  jurisdiction: US
+  wikidata: Q10853588
+  role: Vice President (2021-2025)
+  aliases:
+    - "Vice President Kamala Harris"
+    - "Kamala Harris (Vice President)"
+- name: JD Vance
+  jurisdiction: US
+  wikidata: Q28935729
+  role: Vice President (2025-)
+  aliases:
+    - "Vice President JD Vance"
+    - "JD Vance (Vice President)"
+- name: The White House
+  jurisdiction: US
+  role: institutional
+  aliases:
+    - "White House"
+    - "The White House (institutional)"

@@ -1,0 +1,70 @@
+# Chinese keyword list v2 — flat list mirroring readme.md §Search, translated;
+# substring matching (segmented: false). Canonical policy phrasings kept as the
+# native renderings of the readme topics: 安全、可靠、可控 (safe/reliable/
+# controllable), 失控 (loss of control), 价值对齐 (value alignment) — signals
+# that get smoothed away in English mirrors.
+lang: zh
+segmented: false
+keywords:
+  # AI 泛指（high recall）
+  - 人工智能
+  - AI
+  - ＡＩ
+  - 机器智能
+  - 大模型
+  - 大语言模型
+  - LLM
+  # AGI — incl. terms from yilin-feedback.md; the concept has no settled Chinese
+  # rendering, so we also carry rarer variants. 通用智能 (substring) covers the
+  # CSET-noted inversion 人工通用智能 and BIGAI's 通用智能体; 通用性的人工智能 is
+  # already covered by the 人工智能 substring.
+  - 通用人工智能
+  - 通用智能
+  - 强人工智能
+  - 人类水平
+  - 变革性人工智能
+  - 自动化编程
+  - 更接近人脑思维          # BIGAI's description of the AGI cognitive aim
+  - 社会常识与规范          # BIGAI multi-agent AGI cognitive target
+  # ASI
+  - 超级智能
+  - 超级人工智能
+  - 超人工智能
+  - 超越人类智能
+  - 超人类智能
+  # RSI / 递归自我改进
+  - 递归自我改进
+  - 自我迭代升级
+  - 自我改进
+  - 奇点
+  - 智能爆炸
+  # 生存性 / 灾难性风险
+  - 生存风险
+  - 存亡风险
+  - 灭绝风险
+  - 人类灭绝
+  - 灾难性风险
+  - 失控
+  - 不可控
+  - 可控                    # covers 安全、可靠、可控 / 安全可控 / 可控性
+  - 人类控制
+  - 人的控制
+  - 价值对齐
+  - 对齐
+  - 欺骗性
+  - 可解释性
+  - 可扩展监督
+  - 前所未有的风险          # "unprecedented risks" (Politburo study session)
+  - 风险测试评估            # risk testing and evaluation (Action Plan)
+  - 安全监管制度            # safety oversight system (Third Plenum)
+  - 监测预警                # monitoring and early warning
+  - 红线                    # red line
+  - 智能向善                # AI for good (paired with safety framing)
+  # 监管 / 治理
+  - 人工智能治理
+  - 人工智能监管
+  - 国际条约
+  - 国际公约
+  - 芯片出口
+  - 芯片管制
+  - 数据中心安全

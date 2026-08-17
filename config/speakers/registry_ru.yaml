@@ -1,0 +1,142 @@
+# Russia speaker registry -- harvested from the Duma stenograms and Kremlin
+# events, which record speakers in Cyrillic as "Surname I. O." with an
+# optional faction or office. Names are transliterated (BGN/PCGN-style);
+# a full given name is only used for figures where it is unambiguous, so
+# everyone else keeps their recorded initials rather than an invented
+# first name. Faction names are translated.
+- name: A. E. Khinshteyn
+  jurisdiction: RU
+  role: Speaker in the State Duma
+  description: Recorded speaker in the State Duma stenographic record.
+  aliases:
+  - Хинштейн А. Е.
+- name: A. K. Lugovoy
+  jurisdiction: RU
+  role: Speaker in the State Duma
+  description: Recorded speaker in the State Duma stenographic record.
+  aliases:
+  - Луговой А. К.
+- name: A. O. Tkachyov
+  jurisdiction: RU
+  role: Member of the State Duma (New People)
+  party: New People
+  description: Russian politician; member of the State Duma for New People.
+  aliases:
+  - Ткачёв А. О.
+  - Ткачёв А. О., фракция "НОВЫЕ ЛЮДИ"
+- name: A. V. Prokofyev
+  jurisdiction: RU
+  role: Member of the State Duma (CPRF)
+  party: CPRF
+  description: Russian politician; member of the State Duma for CPRF.
+  aliases:
+  - Прокофьев А. В., фракция КПРФ
+- name: D. G. Gusev
+  jurisdiction: RU
+  role: Member of the State Duma (A Just Russia)
+  party: A Just Russia
+  description: Russian politician; member of the State Duma for A Just Russia.
+  aliases:
+  - Гусев Д. Г.
+  - Гусев Д. Г., фракция "СПРАВЕДЛИВАЯ РОССИЯ"
+- name: D. Yu. Grigorenko
+  jurisdiction: RU
+  role: Speaker in the State Duma
+  description: Recorded speaker in the State Duma stenographic record.
+  aliases:
+  - Григоренко Д. Ю.
+- name: G20 Leaders
+  jurisdiction: RU
+  role: Speaker at a Russian presidential event
+  description: Recorded speaker at a Kremlin event (G20 Leaders).
+  aliases:
+  - G20 Leaders
+- name: Gennady Zyuganov
+  jurisdiction: RU
+  role: Leader of the CPRF
+  description: Russian politician; leader of the Communist Party of the Russian Federation.
+  aliases:
+  - Г.Зюганов
+  - Зюганов Г. А.
+- name: I. A. Filatova
+  jurisdiction: RU
+  role: Member of the State Duma (CPRF)
+  party: CPRF
+  description: Russian politician; member of the State Duma for CPRF.
+  aliases:
+  - Филатова И. А., фракция КПРФ
+- name: I. K. Sukharev
+  jurisdiction: RU
+  role: Member of the State Duma (LDPR)
+  party: LDPR
+  description: Russian politician; member of the State Duma for LDPR.
+  aliases:
+  - Сухарев И. К., фракция ЛДПР
+- name: I. V. Lebedev
+  jurisdiction: RU
+  role: Speaker in the State Duma
+  description: Recorded speaker in the State Duma stenographic record.
+  aliases:
+  - Лебедев И. В.
+- name: K. A. Goryacheva
+  jurisdiction: RU
+  role: Speaker in the State Duma
+  description: Recorded speaker in the State Duma stenographic record.
+  aliases:
+  - Горячева К. А.
+  - Горячева К. А., фракция "НОВЫЕ ЛЮДИ"
+- name: M. A. Kolesnikov
+  jurisdiction: RU
+  role: Official representative of the Government of the Russian Federation
+  description: Russian office-holder; official representative of the Government of the Russian Federation.
+  aliases:
+  - Колесников М. А., официальный представитель Правительства Российской Федерации, заместитель министра
+    экономического развития Российской Федерации
+- name: Maksut Shadaev
+  jurisdiction: RU
+  role: Minister of Digital Development, Communications and Mass Media
+  description: Russian office-holder; minister of Digital Development, Communications and Mass Media.
+  aliases:
+  - М.Шадаев Шадаев Максут Игоревич Министр цифрового развития, связи и массовых коммуникаций Российской
+    Федерации
+- name: Mikhail Mishustin
+  jurisdiction: RU
+  role: Prime Minister of Russia
+  description: Prime Minister of the Russian Federation.
+  aliases:
+  - Мишустин М. В.
+- name: Narendra Modi
+  jurisdiction: RU
+  role: Prime Minister of India
+  description: Prime Minister of India; recorded speaking at a Russian presidential event.
+  aliases:
+  - Narendra Modi (Prime Minister of India)
+- name: S. M. Boyarskiy
+  jurisdiction: RU
+  role: Member of the State Duma (United Russia)
+  party: United Russia
+  description: Russian politician; member of the State Duma for United Russia.
+  aliases:
+  - Боярский С. М., председатель Комитета Государственной Думы по информационной политике, информационным
+    технологиям и связи, фракция "ЕДИНАЯ РОССИЯ"
+- name: V. M. Markhaev
+  jurisdiction: RU
+  role: Member of the State Duma (CPRF)
+  party: CPRF
+  description: Russian politician; member of the State Duma for CPRF.
+  aliases:
+  - Мархаев В. М., фракция КПРФ
+- name: V. V. Sysoev
+  jurisdiction: RU
+  role: Member of the State Duma (LDPR)
+  party: LDPR
+  description: Russian politician; member of the State Duma for LDPR.
+  aliases:
+  - Сысоев В. В., фракция ЛДПР
+- name: Vladimir Putin
+  jurisdiction: RU
+  role: President of Russia
+  description: President of the Russian Federation.
+  aliases:
+  - Vladimir Putin (President of Russia)
+  - В.Путин

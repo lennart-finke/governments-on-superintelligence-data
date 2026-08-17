@@ -1,0 +1,70 @@
+# Portuguese keyword list — flat list mirroring readme.md §Search, translated
+# (Brazilian Portuguese; br_senado). Word-boundary matching, case-insensitive;
+# '*' = stem wildcard. All-caps acronyms (IA, AGI, ASI) stay case-sensitive so
+# "IA" does not match the imperfect verb "ia". Precision is the judges' job.
+lang: pt
+segmented: true
+keywords:
+  # AI generically (high recall)
+  - IA
+  - I.A.
+  - inteligência artificial
+  - inteligência das máquinas
+  - LLM*
+  - modelo* de linguagem
+  - grande* modelo* de linguagem
+  # AGI
+  - AGI
+  - inteligência artificial geral
+  - inteligência geral artificial
+  - IA de propósito geral
+  - IA de nível humano
+  - nível humano
+  # ASI
+  - ASI
+  - superinteligência*        # superinteligência, superinteligente
+  - super-inteligência*
+  - superinteligência artificial
+  - inteligência sobre-humana
+  - mais inteligente que os humanos
+  - mais inteligentes que os humanos
+  - superar a inteligência humana
+  # RSI / recursive self-improvement
+  - autoaperfeiçoamento recursivo
+  - auto-aperfeiçoamento recursivo
+  - automelhoria recursiva
+  - singularidade tecnológica
+  - explosão de inteligência
+  - IA descontrolada
+  # AI existential / catastrophic risk
+  - risco* existencial*
+  - ameaça* existencial*
+  - risco* catastrófico*
+  - extinção humana
+  - extinção da humanidade
+  - risco de extinção
+  - fim da humanidade
+  - perda de controle
+  - perda de controlo
+  - problema de controle
+  - controle da IA
+  - alinhamento de IA
+  - alinhamento da IA
+  - problema de alinhamento
+  - desalinhament*            # desalinhamento, desalinhamentos
+  - desalinhad*               # desalinhada, desalinhado
+  - IA enganosa
+  - busca por poder
+  - supervisão escalável
+  - interpretabilidade
+  # AI regulation
+  - regulação da IA
+  - regulamentação da IA
+  - regulação da inteligência artificial
+  - governança da IA
+  - governança da inteligência artificial
+  - tratado internacional de IA
+  - controle de exportação de chips
+  - controle de exportação de semicondutores
+  - segurança de data center
+  - segurança de datacenter

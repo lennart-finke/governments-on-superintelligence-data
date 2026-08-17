@@ -1,0 +1,54 @@
+{
+ "SearchTerms": [
+  "\"artificial superintelligence\""
+ ],
+ "SpokenResultCount": 0,
+ "WrittenResultCount": 0,
+ "CorrectionsResultCount": 0,
+ "DivisionsResultCount": 0,
+ "Results": [
+  {
+   "MemberName": "Baroness Doocey",
+   "MemberId": 4197,
+   "AttributedTo": "Baroness Doocey (LD)",
+   "ItemId": 49938745,
+   "ContributionExtId": "49EB98DC-E047-4BD3-80F9-12611A77B9DE",
+   "ContributionText": " My Lords, I will speak to Amendment 5, in my name and that of my noble friend Lord Marks of Henley-on-Thames, and the noble Lord, Lord Alton of Liverpool. This amendment seeks to ensure that our national security framework is not only addressing the thre",
+   "ContributionTextFull": "My Lords, I will speak to Amendment 5, in my name and that of my noble friend Lord Marks of Henley-on-Thames, and the noble Lord, Lord Alton of Liverpool. This amendment seeks to ensure that our national security framework is not only addressing the threats of today but is prepared for what the director-general of MI5 has described as “the next frontier”—the potential risks posed by non-human autonomous AI systems. While our current debate focuses largely on human adversaries and their proxies who seek to undermine our national security, we must now also grapple with the emergence of systems capable of evading human oversight and control.\r\n\r\nWe are drawing a distinction between the AI tools we use today and what experts term artificial superintelligence, or ASI. The amendment defines ASI as a system\r\n\r\n“capable of adapting its behaviour, in response to … its … environment, in ways not fully specified in advance by its developers”.\r\n\r\nAs Lord Browne of Ladyton, a former Secretary of State and expert on non-proliferation, has explained previously, the key distinction is that ASI would be an agent rather than an instrument. While a nuclear weapon cannot improve or replicate itself, or resist being shut down, a superintelligent AI system could, in principle, do all three. We are therefore contemplating a technology that could out-think experts and potentially subvert even our most capable national security apparatus.\r\n\r\nThis is not science fiction. We have recently seen a leading AI company restrict its latest, most capable model to a small group of major technology infrastructure firms, precisely so that they could use it to identify and close security loopholes that it was able to uncover in the core software and system. Officials are now warning that, in the wrong hands, the same kind of system could dramatically speed up cyber attacks against individual companies and, potentially, the critical infrastructure on which the country depends. That is where we are already today. The next level may be artificial superintelligence, where these systems become much more powerful and the risks in the hands of hostile states or state-sponsored actors are correspondingly greater.\r\n\r\nThe implications of that decision go further still. The United States Government have now imposed export controls on Mythos, prohibiting its use outside  <span id=\"960\" class=\"column-number\" data-column-number=\"960\"></span>American jurisdiction. That is a remarkable step. A foreign Government have, in effect, decided that a single AI system is too powerful, too consequential and too potentially dangerous to allow unrestricted international deployment. That tells us that at least one major power has concluded that frontier AI capability is now a matter of national security, not only for the country that hosts it but for every country that might seek access to it. If the United States Government are drawing that line, it would be quite extraordinary if we in Parliament are not asking what our own response should be.\r\n\r\nThe AI Security Institute has warned that our current trajectory risks an irrevocable loss of control over systems that are becoming deeply embedded in our national infrastructure, economy and defence. Yet the AI Security Institute lacks the statutory authority to require disclosure, compel compliance or impose any binding obligations on the companies developing these systems. We have a body that can see the risks but cannot act upon them.\r\n\r\nMore importantly, the Government’s own <em>AI Scenario</em><em>s</em><em> 2030</em> report, published earlier this month, acknowledges that highly capable AI could give rise to\r\n\r\n“serious, potentially even existential harms”,\r\n\r\nand, in the absence of effective intervention, highlights autonomous risks in which advanced systems may develop objectives that “resist human control”. My amendment would bring the development of such systems by a foreign power within the definition of “foreign power threat activity” under the National Security Act 2023. It is directed at systems capable of neutralising or subverting our relevant human authorities, which I have defined as our Armed Forces, intelligence services, police and the Government themselves.",
+   "HRSTag": "hs_para",
+   "HansardSection": "AQ-AR",
+   "Timecode": null,
+   "DebateSection": "National Security (State Threats) Bill",
+   "DebateSectionId": 5375031,
+   "DebateSectionExtId": "A9B3AF3E-F1BD-4588-90E6-FE3100192187",
+   "SittingDate": "2026-06-30T00:00:00",
+   "Section": "Lords Chamber",
+   "House": "Lords",
+   "OrderInDebateSection": 23,
+   "DebateSectionOrder": 8,
+   "Rank": 88
+  },
+  {
+   "MemberName": "Lord Hanson of Flint",
+   "MemberId": 533,
+   "AttributedTo": "Lord Hanson of Flint (Lab)",
+   "ItemId": 49938768,
+   "ContributionExtId": "A88273A2-F29D-4D82-A72F-A85423858FB5",
+   "ContributionText": " I am grateful for that welcome from the noble Lord, Lord Alton.\r\n\r\nI will touch on Amendment 5, from the noble Baroness, Lady Doocey, who—again contrary to what the noble Lord, Lord Cameron of Lochiel, has said—  I have tried to engage with a number of t",
+   "ContributionTextFull": "I am grateful for that welcome from the noble Lord, Lord Alton.\r\n\r\nI will touch on Amendment 5, from the noble Baroness, Lady Doocey, who—again contrary to what the noble Lord, Lord Cameron of Lochiel, has said— <span id=\"971\" class=\"column-number\" data-column-number=\"971\"></span>I have tried to engage with a number of times this week, including, at short notice, in discussions across the board. I am trying my best to achieve those objectives.\r\n\r\nAmendment 5 seeks to expand the scope of the preparatory conduct offence and the definition of foreign threat activity to incorporate the development of artificial superintelligence. The noble Baroness has a strong point. She is right to identify the risks posed by advanced AI models. As the picture is rapidly evolving, it is vital that the Government step up to this challenge, and we are already trying to do so. We have the AI Security Institute, the most advanced capability of any Government in the world for understanding AI. The National Cyber Security Centre, part of GCHQ, is providing world-leading defensive capabilities. The Cyber Security and Resilience Bill, which is currently progressing through Parliament, will strengthen protections, and we are shortly to produce a national cyber action plan setting out the steps that the Government want to take.\r\n\r\nHowever, I recognise that the noble Baroness has made important points, and I will go as far as I can to reassure her on those issues. The Government recognise that the development by foreign powers of highly advanced artificial intelligence systems poses a risk to our cyber security and our national security. We will therefore—I hope this helps the noble Baroness—ask the Independent Reviewer of State Threats Legislation to expressly consider whether amendments to legislation are necessary to redefine “foreign power threat activity”. Accordingly, we will do that. In response to the points that the noble Baroness has made, it is up to the independent reviewer to consult who they think is necessary, but I anticipate—I hope this is helpful to the noble Baroness—that they may wish to consult with a range of experts, as she has suggested, relating to AI.\r\n\r\nMy noble friend Lord Beamish is in the Committee today and, while it is a matter for the ISC itself, I am happy that we involve the ISC in that as appropriate. The Government always welcome the views of relevant committees, and I encourage my noble friend Lord Beamish to look at any AI issues if he requires it. I hope that reassures the noble Baroness on the experts that we can bring in, alongside the Independent Reviewer of State Threats Legislation and the ISC examining these important areas. I hope that will help the noble Baroness.",
+   "HRSTag": "hs_para",
+   "HansardSection": "BA-BB",
+   "Timecode": null,
+   "DebateSection": "National Security (State Threats) Bill",
+   "DebateSectionId": 5375031,
+   "DebateSectionExtId": "A9B3AF3E-F1BD-4588-90E6-FE3100192187",
+   "SittingDate": "2026-06-30T00:00:00",
+   "Section": "Lords Chamber",
+   "House": "Lords",
+   "OrderInDebateSection": 50,
+   "DebateSectionOrder": 8,
+   "Rank": 50
+  }
+ ],
+ "TotalResultCount": 2
+}

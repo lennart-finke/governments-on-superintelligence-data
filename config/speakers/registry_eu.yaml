@@ -1,0 +1,1569 @@
+- name: Ursula von der Leyen
+  jurisdiction: EU
+  role: President of the European Commission
+  description: German politician who has served as President of the European Commission since 2019.
+  wikidata: Q60772
+  aliases:
+  - Ursula von der Leyen
+  - Ursula von der Leyen (Commission President)
+- name: Margrethe Vestager
+  jurisdiction: EU
+  role: Executive Vice-President, European Commission
+  description: Danish politician who served as European Commissioner and Executive Vice-President of the European Commission for Digital Age matters (2019-2024).
+  wikidata: Q270820
+  aliases:
+  - Margrethe Vestager
+  - Margrethe Vestager, Executive Vice-President of the Commission
+  - Executive Vice-President Vestager
+- name: Henna Virkkunen
+  jurisdiction: EU
+  role: Executive Vice-President (Tech Sovereignty, Security and Democracy)
+  description: Finnish politician serving as European Commission Executive Vice-President for Tech Sovereignty, Security and Democracy since 2024.
+  wikidata: Q2983767
+  aliases:
+  - Henna Virkkunen, Executive Vice-President of the Commission
+  - Henna Virkkunen
+  - Executive Vice-President Virkkunen
+  - Henna Virkkunen (Executive Vice-President of the European Commission)
+- name: Thierry Breton
+  jurisdiction: EU
+  role: Commissioner (Internal Market), 2019-2024
+  description: French politician who served as European Commissioner for the Internal Market from 2019 to 2024.
+  wikidata: Q2142823
+  aliases:
+  - Thierry Breton
+  - Mr Breton
+- name: Michael McGrath
+  jurisdiction: EU
+  role: Commissioner (Democracy, Justice, Rule of Law)
+  description: Irish politician serving as European Commissioner for Democracy, Justice and the Rule of Law since 2024.
+  wikidata: Q6832712
+  aliases:
+  - Michael McGrath
+  - Michael McGrath, Member of the Commission
+  - Mr McGrath
+- name: Mairead McGuinness
+  jurisdiction: EU
+  role: Commissioner (Financial Services), 2020-2024
+  description: Irish politician who served as European Commissioner for Financial Services from 2020 to 2024.
+  wikidata: Q467633
+  aliases:
+  - Mairead McGuinness
+- name: Věra Jourová
+  jurisdiction: EU
+  role: Vice-President (Values and Transparency), 2019-2024
+  description: Czech politician who served as European Commission Vice-President for Values and Transparency from 2019 to 2024.
+  wikidata: Q12001809
+  aliases:
+  - Věra Jourová
+  - Věra Jourová, Vice-President of the Commission
+- name: Hadja Lahbib
+  jurisdiction: EU
+  role: Commissioner (Preparedness, Crisis Management and Equality)
+  description: Belgian politician and former journalist serving as European Commissioner since 2024.
+  wikidata: Q3125551
+  aliases:
+  - Hadja Lahbib
+- name: Teresa Ribera
+  jurisdiction: EU
+  role: Executive Vice-President (Clean, Just and Competitive Transition)
+  description: Spanish politician serving as European Commission Executive Vice-President for a Clean, Just and Competitive Transition since 2024.
+  wikidata: Q54806936
+  aliases:
+  - Teresa Ribera
+  - Executive Vice-President Ribera
+- name: Valdis Dombrovskis
+  jurisdiction: EU
+  role: Executive Vice-President, European Commission (Economy and Productivity)
+  description: Latvian politician who has served as a European Commission Executive Vice-President since 2019.
+  aliases:
+  - Valdis Dombrovskis
+  - Valdis Dombrovskis, Executive Vice-President of the Commission
+  - Mr Dombrovskis
+- name: Didier Reynders
+  jurisdiction: EU
+  role: Commissioner (Justice), 2019-2024
+  description: Belgian politician who served as European Commissioner for Justice from 2019 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Didier_Reynders
+  aliases:
+  - Didier Reynders
+- name: Maroš Šefčovič
+  jurisdiction: EU
+  role: Executive Vice-President, European Commission (Trade and Economic Security)
+  description: Slovak politician who has served in successive European Commission portfolios, including Trade, since 2009.
+  profile_url: https://en.wikipedia.org/wiki/Maro%C5%A1_%C5%A0ef%C4%8Dovi%C4%8D
+  aliases:
+  - Maroš Šefčovič, Member of the Commission
+  - Mr Šefčovič
+- name: Apostolos Tzitzikostas
+  jurisdiction: EU
+  role: Commissioner (Sustainable Transport and Tourism)
+  description: Greek politician serving as European Commissioner for Sustainable Transport and Tourism since 2024.
+  profile_url: https://en.wikipedia.org/wiki/Apostolos_Tzitzikostas
+  aliases:
+  - Apostolos Tzitzikostas, Member of the Commission
+- name: Dubravka Šuica
+  jurisdiction: EU
+  role: Executive Vice-President (Democracy and Demography), 2019-2024
+  description: Croatian politician who served as a European Commission Executive Vice-President from 2019 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Dubravka_%C5%A0uica
+  aliases:
+  - Dubravka Šuica
+- name: Ekaterina Zaharieva
+  jurisdiction: EU
+  role: Commissioner (Startups, Research and Innovation)
+  description: Bulgarian politician serving as European Commissioner for Startups, Research and Innovation since 2024.
+  profile_url: https://en.wikipedia.org/wiki/Ekaterina_Zaharieva
+  aliases:
+  - Ekaterina Zaharieva
+- name: Frans Timmermans
+  jurisdiction: EU
+  role: Executive Vice-President (European Green Deal), 2019-2023
+  description: Dutch politician who served as a European Commission Executive Vice-President from 2019 to 2023 before returning to national politics.
+  profile_url: https://en.wikipedia.org/wiki/Frans_Timmermans
+  aliases:
+  - Frans Timmermans
+- name: Nicolas Schmit
+  jurisdiction: EU
+  role: Commissioner (Jobs and Social Rights), 2019-2024
+  description: Luxembourgish politician who served as European Commissioner for Jobs and Social Rights from 2019 to 2024, and was the S&D lead candidate in the 2024 European elections.
+  profile_url: https://en.wikipedia.org/wiki/Nicolas_Schmit
+  aliases:
+  - Nicolas Schmit
+  - Mr Schmit
+- name: Maria Luís Albuquerque
+  jurisdiction: EU
+  role: Commissioner (Financial Services and the Savings and Investments Union)
+  description: Portuguese politician serving as European Commissioner for Financial Services since 2024.
+  profile_url: https://en.wikipedia.org/wiki/Maria_Lu%C3%ADs_Albuquerque
+  aliases:
+  - Maria Luís Albuquerque
+- name: Roxana Mînzatu
+  jurisdiction: EU
+  role: Executive Vice-President (Social Rights, Skills, Quality Jobs and Preparedness)
+  description: Romanian politician serving as a European Commission Executive Vice-President since 2024.
+  profile_url: https://en.wikipedia.org/wiki/Roxana_M%C3%AEnzatu
+  aliases:
+  - Roxana Mînzatu
+  - Executive Vice-President Mînzatu
+- name: Marilena Raouna
+  jurisdiction: EU
+  role: Cypriot government official; President-in-Office of the Council
+  description: Cypriot official who addressed the European Parliament on behalf of the rotating Council presidency.
+  aliases:
+  - Marilena Raouna, President-in-Office of the Council
+  - Marilena Raouna (Deputy Minister for European affairs of the Republic of Cyprus)
+- name: Marie Bjerre
+  jurisdiction: EU
+  role: Danish Minister for Digital Affairs; President-in-Office of the Council
+  description: Danish government minister who addressed the European Parliament on behalf of the Council during Denmark's 2025 EU presidency.
+  aliases:
+  - Marie Bjerre, President-in-Office of the Council
+- name: Margrethe Vestager and Valdis Dombrovskis (joint statement)
+  jurisdiction: EU
+  role: institutional
+  description: Joint statement issued in the names of European Commission Executive Vice-Presidents Margrethe Vestager and Valdis Dombrovskis.
+  aliases:
+  - Margrethe Vestager, Valdis Dombrovskis
+- name: Margrethe Vestager, Valdis Dombrovskis and Thierry Breton (joint statement)
+  jurisdiction: EU
+  role: institutional
+  description: Joint statement issued in the names of European Commissioners Margrethe Vestager, Valdis Dombrovskis and Thierry Breton.
+  aliases:
+  - Margrethe Vestager, Valdis Dombrovskis, Thierry Breton
+- name: Maroš Šefčovič and Henna Virkkunen (joint statement)
+  jurisdiction: EU
+  role: institutional
+  description: Joint statement issued in the names of European Commissioners Maroš Šefčovič and Henna Virkkunen.
+  aliases:
+  - Maroš Šefčovič, Henna Virkkunen
+- name: Michael McGrath, Valdis Dombrovskis and Henna Virkkunen (joint statement)
+  jurisdiction: EU
+  role: institutional
+  description: Joint statement issued in the names of European Commissioners Michael McGrath, Valdis Dombrovskis and Henna Virkkunen.
+  aliases:
+  - Michael McGrath, Valdis Dombrovskis, Henna Virkkunen
+- name: Ursula von der Leyen, Josep Borrell Fontelles, Valdis Dombrovskis and Věra Jourová (joint statement)
+  jurisdiction: EU
+  role: institutional
+  description: Joint statement issued in the names of Commission President Ursula von der Leyen, High Representative Josep Borrell Fontelles, and Commissioners Valdis Dombrovskis and Věra Jourová.
+  aliases:
+  - Ursula von der Leyen, Josep Borrell Fontelles, Valdis Dombrovskis, Věra Jourová
+- name: European Union and United States (EU-US Trade and Technology Council)
+  jurisdiction: EU
+  role: institutional
+  description: Joint EU-US forum, launched in 2021, for coordinating transatlantic trade and technology policy including artificial intelligence.
+  aliases:
+  - European Union and United States (EU-US Trade and Technology Council)
+  - State Council (EU-US Trade and Technology Council)
+  - European Commission and United States Government (Joint Statement)
+  - European Commission and United States government (Co-chairs of the TTC)
+- name: President
+  jurisdiction: EU
+  role: institutional / ambiguous
+  description: Generic reference to whoever was chairing the European Parliament sitting at the time; not a specific identifiable individual.
+  aliases:
+  - President
+- name: Andrius Kubilius
+  jurisdiction: EU
+  role: Commissioner (Defence and Space)
+  description: Lithuanian politician, twice Prime Minister of Lithuania, serving as European Commissioner for Defence and Space since 2024.
+  profile_url: https://commission.europa.eu/about/organisation/college-commissioners/andrius-kubilius_en
+  aliases:
+  - Andrius Kubilius
+  - Mr Kubilius
+- name: Magnus Brunner
+  jurisdiction: EU
+  role: Commissioner (Internal Affairs and Migration)
+  description: Austrian politician serving as European Commissioner for Internal Affairs and Migration since 2024.
+  profile_url: https://commission.europa.eu/about/organisation/college-commissioners/magnus-brunner_en
+  aliases:
+  - Mr Brunner
+- name: Olivér Várhelyi
+  jurisdiction: EU
+  role: Commissioner (Health and Animal Welfare)
+  description: Hungarian diplomat serving as European Commissioner for Health and Animal Welfare since 2024, previously Commissioner for Neighbourhood and Enlargement.
+  profile_url: https://commission.europa.eu/about/organisation/college-commissioners/oliver-varhelyi_en
+  aliases:
+  - Mr Várhelyi
+- name: Kaja Kallas
+  jurisdiction: EU
+  role: High Representative for Foreign Affairs and Security Policy; Vice-President of the Commission
+  description: Estonian politician, formerly Prime Minister of Estonia, serving as the EU High Representative for Foreign Affairs and Security Policy since 2024.
+  profile_url: https://commission.europa.eu/about/organisation/college-commissioners/kaja-kallas_en
+  aliases:
+  - High Representative/Vice-President Kallas
+- name: Wopke Hoekstra
+  jurisdiction: EU
+  role: Commissioner (Climate, Net Zero and Clean Growth); Dutch Minister of Foreign Affairs, 2022-2023
+  description: Dutch politician who served as Minister of Foreign Affairs of the Netherlands before becoming European Commissioner for Climate Action in 2023.
+  profile_url: https://commission.europa.eu/about/organisation/college-commissioners/wopke-hoekstra_en
+  aliases:
+  - Wopke Hoekstra
+- name: Kadri Simson
+  jurisdiction: EU
+  role: Commissioner (Energy), 2019-2024
+  description: Estonian politician who served as European Commissioner for Energy from 2019 to 2024.
+  aliases:
+  - Ms Simson
+- name: Iliana Ivanova
+  jurisdiction: EU
+  role: Commissioner (Innovation, Research, Culture, Education and Youth), 2023-2024
+  description: Bulgarian politician who served as European Commissioner for Innovation, Research, Culture, Education and Youth from 2023 to 2024.
+  aliases:
+  - Iliana Ivanova
+- name: António Costa
+  jurisdiction: EU
+  role: President of the European Council
+  description: Portuguese politician, formerly Prime Minister of Portugal, serving as President of the European Council since 2024.
+  aliases:
+  - President António Costa
+- name: Kyriakos Pierrakakis
+  jurisdiction: EU
+  role: Greek Minister of National Economy and Finance; President of the Eurogroup
+  description: Greek politician serving as Minister of National Economy and Finance and, since December 2025, President of the Eurogroup.
+  aliases:
+  - Kyriakos Pierrakakis
+- name: Christina Egelund
+  jurisdiction: EU
+  role: Danish Minister for Higher Education and Science; President-in-Office of the Council
+  description: Danish politician who chaired Council business on research and digital files during Denmark's 2025 Council presidency.
+  aliases:
+  - Christina Egelund (Danish Minister for Higher Education and Science)
+- name: Council of the European Union
+  jurisdiction: EU
+  role: institutional
+  description: The EU institution in which member-state governments are represented; co-legislator with the European Parliament on files including the AI Act.
+  aliases:
+  - Council of the EU
+  - Council of the European Union
+- name: G7 Leaders
+  jurisdiction: EU
+  role: institutional
+  description: Joint statements issued by the leaders of the G7, in which the EU participates, including those endorsing the Hiroshima AI Process.
+  aliases:
+  - G7 Leaders
+- name: Henna Virkkunen and Evan Solomon (joint statement)
+  jurisdiction: EU
+  role: institutional
+  description: Joint EU-Canada statement by the Commission Executive Vice-President for Tech Sovereignty and Canada's AI and Digital Innovation minister.
+  aliases:
+  - Henna Virkkunen (Executive Vice-President of the European Commission) and Evan Solomon (Canada's Minister for Artificial Intelligence and Digital Innovation)
+- name: Kim Van Sparrentak
+  jurisdiction: EU
+  role: MEP (Greens/EFA), Netherlands
+  description: Dutch member of the European Parliament sitting with the Greens/EFA group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197870
+  aliases:
+  - Kim Van Sparrentak (Verts/ALE)
+  - Kim Van Sparrentak, namens de Verts/ALE-Fractie
+  - Kim Van Sparrentak, on behalf of the Verts/ALE Group
+  - Kim Van Sparrentak (Verts/ALE), Brando Benifei (S&D), Dragoş Tudorache (Renew), Sergey Lagodinsky (Verts/ALE), Svenja Hahn (Renew), Maria Walsh (PPE), Pernando Barrena Arza (The Left), Frances Fitzger
+  - Kim Van Sparrentak (Verts/ALE), Brando Benifei (S&D), Svenja Hahn (Renew), Birgit Sippel (S&D), Leila Chaibi (The Left), Maria Walsh (PPE), Markéta Gregorová (Verts/ALE), Pernando Barrena Arza (The Le
+  - Kim Van Sparrentak (Verts/ALE), Svenja Hahn (Renew), Axel Voss (PPE)
+- name: Alexandra Geese
+  jurisdiction: EU
+  role: MEP (Greens/EFA), Germany
+  description: German member of the European Parliament sitting with the Greens/EFA group.
+  profile_url: https://www.europarl.europa.eu/meps/en/183916
+  aliases:
+  - Alexandra Geese (Verts/ALE)
+  - Alexandra Geese, on behalf of the Verts/ALE Group
+- name: Sergey Lagodinsky
+  jurisdiction: EU
+  role: MEP (Greens/EFA), Germany
+  description: German member of the European Parliament sitting with the Greens/EFA group, active on AI Act legislative work.
+  profile_url: https://www.europarl.europa.eu/meps/en/197460
+  aliases:
+  - Sergey Lagodinsky (Verts/ALE)
+  - Sergey Lagodinsky, Verfasser der Stellungnahme des JURI-Ausschusses
+  - Sergey Lagodinsky, on behalf of the Verts/ALE Group
+  - Sergey Lagodinsky, rapporteur for the opinion of the JURI Committee
+  - Sergey Lagodinsky (Verts/ALE), Kim Van Sparrentak (Verts/ALE), Alexandra Geese (Verts/ALE), Anna Cavazzini (Verts/ALE), Veronika Cifrová Ostrihoňová (Renew)
+- name: Svenja Hahn
+  jurisdiction: EU
+  role: MEP (Renew), Germany
+  description: German member of the European Parliament sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197444
+  aliases:
+  - Svenja Hahn (Renew)
+  - Svenja Hahn, im Namen der Renew-Fraktion
+- name: Brando Benifei
+  jurisdiction: EU
+  role: MEP (S&D), Italy
+  description: Italian member of the European Parliament sitting with the S&D group; co-rapporteur for the EU Artificial Intelligence Act.
+  profile_url: https://www.europarl.europa.eu/meps/en/124867
+  aliases:
+  - Brando Benifei (S&D)
+  - Brando Benifei, rapporteur
+  - Brando Benifei, Relatore
+  - Brando Benifei, on behalf of the S&D Group
+  - Brando Benifei (S&D), blue-card answer
+  - Brando Benifei, relatore
+  - Brando Benifei (S&D), Kim Van Sparrentak (Verts/ALE), Emma Rafowicz (S&D), Elio Di Rupo (S&D), Dan Barna (Renew), Alessandra Moretti (S&D), Pierre Jouvet (S&D), Veronika Cifrová Ostrihoňová (Renew), K
+- name: João Oliveira
+  jurisdiction: EU
+  role: MEP (The Left), Portugal
+  description: Portuguese member of the European Parliament sitting with The Left group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257083
+  aliases:
+  - João Oliveira (The Left)
+- name: Bart Groothuis
+  jurisdiction: EU
+  role: MEP (Renew), Netherlands
+  description: Dutch member of the European Parliament sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197780
+  aliases:
+  - Bart Groothuis, on behalf of the Renew Group
+  - Bart Groothuis (Renew)
+  - Bart Groothuis (Renew), blue-card question
+  - Bart Groothuis (Renew), “blauwe kaart”-antwoord
+- name: Kosma Złotowski
+  jurisdiction: EU
+  role: MEP (ECR), Poland
+  description: Polish member of the European Parliament sitting with the ECR group.
+  profile_url: https://www.europarl.europa.eu/meps/en/124884
+  aliases:
+  - Kosma Złotowski, w imieniu grupy ECR
+  - Kosma Złotowski (ECR)
+- name: Adam Bielan
+  jurisdiction: EU
+  role: MEP (ECR), Poland
+  description: Polish member of the European Parliament sitting with the ECR group.
+  profile_url: https://www.europarl.europa.eu/meps/en/23788
+  aliases:
+  - Adam Bielan (ECR)
+- name: Andreas Schwab
+  jurisdiction: EU
+  role: MEP (EPP), Germany
+  description: German member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/28223
+  aliases:
+  - Andreas Schwab (PPE)
+  - Andreas Schwab (PPE), Antwort auf eine Frage nach dem Verfahren der „blauen Karte“
+- name: Aura Salla
+  jurisdiction: EU
+  role: MEP (EPP), Finland
+  description: Finnish member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/98219
+  aliases:
+  - Aura Salla (PPE)
+- name: Axel Voss
+  jurisdiction: EU
+  role: MEP (EPP), Germany
+  description: German member of the European Parliament sitting with the EPP group, active in JURI Committee opinion work on the AI Act.
+  profile_url: https://www.europarl.europa.eu/meps/en/96761
+  aliases:
+  - Axel Voss, Verfasser der Stellungnahme des mitberatenden Rechtsausschusses
+  - Axel Voss, im Namen der PPE-Fraktion
+  - Axel Voss, on behalf of the PPE Group
+  - Axel Voss (PPE), Svenja Hahn (Renew)
+  - Axel Voss (PPE), Svenja Hahn (Renew), Kim Van Sparrentak (Verts/ALE)
+- name: Christel Schaldemose
+  jurisdiction: EU
+  role: MEP (S&D), Denmark
+  description: Danish member of the European Parliament sitting with the S&D group; co-rapporteur for the EU Artificial Intelligence Act.
+  profile_url: https://www.europarl.europa.eu/meps/en/37312
+  aliases:
+  - Christel Schaldemose (S&D)
+- name: Eva Maydell
+  jurisdiction: EU
+  role: MEP (EPP), Bulgaria
+  description: Bulgarian member of the European Parliament sitting with the EPP group; rapporteur for the ITRE Committee opinion on the AI Act.
+  profile_url: https://www.europarl.europa.eu/meps/en/98341
+  aliases:
+  - Eva Maydell, rapporteur for the opinion of the Committee on Industry, Research and Energy
+  - Eva Maydell, on behalf of the PPE Group
+- name: Isabel Wiseler-Lima
+  jurisdiction: EU
+  role: MEP (EPP), Luxembourg
+  description: Luxembourgish member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197421
+  aliases:
+  - Isabel Wiseler-Lima (PPE)
+- name: Ivars Ijabs
+  jurisdiction: EU
+  role: MEP (Renew), Latvia
+  description: Latvian member of the European Parliament sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197624
+  aliases:
+  - Ivars Ijabs (Renew)
+- name: João Cotrim De Figueiredo
+  jurisdiction: EU
+  role: MEP (Renew), Portugal
+  description: Portuguese member of the European Parliament sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257057
+  aliases:
+  - João Cotrim De Figueiredo (Renew)
+- name: Juan Fernando López Aguilar
+  jurisdiction: EU
+  role: MEP (S&D), Spain
+  description: Spanish member of the European Parliament sitting with the S&D group.
+  profile_url: https://www.europarl.europa.eu/meps/en/96812
+  aliases:
+  - Juan Fernando López Aguilar (S&D)
+- name: Jörgen Warborn
+  jurisdiction: EU
+  role: MEP (EPP), Sweden
+  description: Swedish member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197405
+  aliases:
+  - Jörgen Warborn (PPE)
+- name: Kamila Gasiuk-Pihowicz
+  jurisdiction: EU
+  role: MEP (EPP), Poland
+  description: Polish member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257032
+  aliases:
+  - Kamila Gasiuk-Pihowicz (PPE)
+- name: Laura Ballarín Cereza
+  jurisdiction: EU
+  role: MEP (S&D), Spain
+  description: Spanish member of the European Parliament sitting with the S&D group.
+  profile_url: https://www.europarl.europa.eu/meps/en/247735
+  aliases:
+  - Laura Ballarín Cereza (S&D)
+- name: Laurence Farreng
+  jurisdiction: EU
+  role: MEP (Renew), France
+  description: French member of the European Parliament sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197589
+  aliases:
+  - Laurence Farreng (Renew)
+- name: Maria Guzenina
+  jurisdiction: EU
+  role: MEP (S&D), Finland
+  description: Finnish member of the European Parliament sitting with the S&D group.
+  profile_url: https://www.europarl.europa.eu/meps/en/256803
+  aliases:
+  - Maria Guzenina (S&D)
+- name: Morten Løkkegaard
+  jurisdiction: EU
+  role: MEP (Renew), Denmark
+  description: Danish member of the European Parliament sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/96709
+  aliases:
+  - Morten Løkkegaard (Renew)
+- name: Nina Carberry
+  jurisdiction: EU
+  role: MEP (EPP), Ireland
+  description: Irish member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257296
+  aliases:
+  - Nina Carberry (PPE)
+- name: Paulius Saudargas
+  jurisdiction: EU
+  role: MEP (EPP), Lithuania
+  description: Lithuanian member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/256809
+  aliases:
+  - Paulius Saudargas (PPE)
+- name: Paulo Cunha
+  jurisdiction: EU
+  role: MEP (EPP), Portugal
+  description: Portuguese member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257078
+  aliases:
+  - Paulo Cunha (PPE)
+- name: Pilar del Castillo Vera
+  jurisdiction: EU
+  role: MEP (EPP), Spain
+  description: Spanish member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/28390
+  aliases:
+  - Pilar del Castillo Vera (PPE)
+- name: Reinier Van Lanschot
+  jurisdiction: EU
+  role: MEP (Greens/EFA - Volt), Netherlands
+  description: Dutch member of the European Parliament, elected for Volt, sitting with the Greens/EFA group.
+  profile_url: https://www.europarl.europa.eu/meps/en/256978
+  aliases:
+  - Reinier Van Lanschot (Verts/ALE)
+  - Reinier Van Lanschot, on behalf of the Verts/ALE Group
+- name: Sebastian Tynkkynen
+  jurisdiction: EU
+  role: MEP (ECR), Finland
+  description: Finnish member of the European Parliament sitting with the ECR group.
+  profile_url: https://www.europarl.europa.eu/meps/en/256806
+  aliases:
+  - Sebastian Tynkkynen (ECR)
+- name: Seán Kelly
+  jurisdiction: EU
+  role: MEP (EPP), Ireland
+  description: Irish member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/96668
+  aliases:
+  - Seán Kelly (PPE)
+- name: Stéphanie Yon-Courtin
+  jurisdiction: EU
+  role: MEP (Renew), France
+  description: French member of the European Parliament sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197581
+  aliases:
+  - Stéphanie Yon-Courtin (Renew)
+  - Stéphanie Yon-Courtin, rapporteure
+- name: Virginie Joron
+  jurisdiction: EU
+  role: MEP (Patriots for Europe), France
+  description: French member of the European Parliament sitting with the Patriots for Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197627
+  aliases:
+  - Virginie Joron, au nom du groupe PfE
+  - Virginie Joron (PfE)
+- name: Adnan Dibrani
+  jurisdiction: EU
+  role: MEP (S&D), Sweden
+  description: Swedish member of the European Parliament sitting with the S&D group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257087
+  aliases:
+  - Adnan Dibrani (S&D)
+- name: Aleksandar Nikolic
+  jurisdiction: EU
+  role: MEP (Patriots for Europe)
+  description: Member of the European Parliament sitting with the Patriots for Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/256883
+  aliases:
+  - Aleksandar Nikolic, au nom du groupe PfE
+- name: Alessandro Ciriani
+  jurisdiction: EU
+  role: MEP (ECR), Italy
+  description: Italian member of the European Parliament sitting with the ECR group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257147
+  aliases:
+  - Alessandro Ciriani (ECR)
+- name: Alex Agius Saliba
+  jurisdiction: EU
+  role: MEP (S&D), Malta
+  description: Maltese member of the European Parliament sitting with the S&D group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197403
+  aliases:
+  - Alex Agius Saliba, on behalf of the S&D Group
+- name: Ana Catarina Mendes
+  jurisdiction: EU
+  role: MEP (S&D), Portugal
+  description: Portuguese member of the European Parliament sitting with the S&D group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257053
+  aliases:
+  - Ana Catarina Mendes (S&D)
+- name: Ana Miguel Pedro
+  jurisdiction: EU
+  role: MEP (EPP), Portugal
+  description: Portuguese member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/110673
+  aliases:
+  - Ana Miguel Pedro, em nome do Grupo PPE
+- name: Ana Vasconcelos
+  jurisdiction: EU
+  role: MEP (Renew), Portugal
+  description: Portuguese member of the European Parliament sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257061
+  aliases:
+  - Ana Vasconcelos (Renew)
+- name: András Gyürk
+  jurisdiction: EU
+  role: MEP (Non-attached), Hungary
+  description: Hungarian member of the European Parliament, elected for Fidesz, sitting as non-attached.
+  profile_url: https://www.europarl.europa.eu/meps/en/23816
+  aliases:
+  - András Gyürk (NI), írásban
+- name: András László
+  jurisdiction: EU
+  role: MEP (Patriots for Europe), Hungary
+  description: Hungarian member of the European Parliament, elected for Fidesz, sitting with the Patriots for Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/256860
+  aliases:
+  - András László (PfE), blue-card answer
+- name: Angelika Winzig
+  jurisdiction: EU
+  role: MEP (EPP), Austria
+  description: Austrian member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197652
+  aliases:
+  - Angelika Winzig (PPE)
+- name: Arba Kokalari
+  jurisdiction: EU
+  role: MEP (EPP), Sweden
+  description: Swedish member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197406
+  aliases:
+  - Arba Kokalari (PPE)
+  - Arba Kokalari, rapporteur
+  - Arba Kokalari (PPE), Axel Voss (PPE), Markus Ferber (PPE)
+  - Arba Kokalari, Föredragande
+- name: Assita Kanko
+  jurisdiction: EU
+  role: MEP (ECR), Belgium
+  description: Belgian member of the European Parliament sitting with the ECR group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197469
+  aliases:
+  - Assita Kanko (ECR)
+- name: Barbara Bonte
+  jurisdiction: EU
+  role: MEP (Patriots for Europe), Belgium
+  description: Belgian member of the European Parliament sitting with the Patriots for Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/256881
+  aliases:
+  - Barbara Bonte (PfE)
+- name: Barry Andrews
+  jurisdiction: EU
+  role: MEP (Renew), Ireland
+  description: Irish member of the European Parliament sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/204332
+  aliases:
+  - Barry Andrews (Renew)
+- name: Birgit Sippel
+  jurisdiction: EU
+  role: MEP (S&D), Germany
+  description: German member of the European Parliament sitting with the S&D group.
+  profile_url: https://www.europarl.europa.eu/meps/en/96932
+  aliases:
+  - Birgit Sippel (S&D)
+- name: Borys Budka
+  jurisdiction: EU
+  role: MEP (EPP), Poland
+  description: Polish member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257047
+  aliases:
+  - Borys Budka, autor
+- name: Bruno Gonçalves
+  jurisdiction: EU
+  role: MEP (S&D), Portugal
+  description: Portuguese member of the European Parliament sitting with the S&D group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257059
+  aliases:
+  - Bruno Gonçalves (S&D)
+- name: Catarina Martins
+  jurisdiction: EU
+  role: MEP (The Left), Portugal
+  description: Portuguese member of the European Parliament sitting with The Left group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257063
+  aliases:
+  - Catarina Martins (The Left)
+- name: Cristian Terheş
+  jurisdiction: EU
+  role: MEP (ECR), Romania
+  description: Romanian member of the European Parliament sitting with the ECR group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197655
+  aliases:
+  - Cristian Terheş (ECR)
+- name: Damian Boeselager
+  jurisdiction: EU
+  role: MEP (Greens/EFA - Volt), Germany
+  description: German member of the European Parliament, elected for Volt, sitting with the Greens/EFA group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197439
+  aliases:
+  - Damian Boeselager, on behalf of the Verts/ALE Group
+  - Damian Boeselager (Verts/ALE)
+- name: Dirk Gotink
+  jurisdiction: EU
+  role: MEP (EPP), Netherlands
+  description: Dutch member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/97399
+  aliases:
+  - Dirk Gotink (PPE), blue-card answer
+- name: Eszter Lakos
+  jurisdiction: EU
+  role: MEP (EPP), Hungary
+  description: Hungarian member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/256865
+  aliases:
+  - Eszter Lakos (PPE)
+- name: Elena Sancho Murillo
+  jurisdiction: EU
+  role: MEP (S&D), Spain
+  description: Spanish member of the European Parliament sitting with the S&D group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257001
+  aliases:
+  - Elena Sancho Murillo (S&D)
+- name: Emma Rafowicz
+  jurisdiction: EU
+  role: MEP (S&D), France
+  description: French member of the European Parliament sitting with the S&D group; rapporteur for the CULT Committee opinion on the AI Act.
+  profile_url: https://www.europarl.europa.eu/meps/en/256902
+  aliases:
+  - Emma Rafowicz (S&D)
+  - Emma Rafowicz, rapporteure pour avis de la commission CULT
+- name: Fabienne Keller
+  jurisdiction: EU
+  role: MEP (Renew), France
+  description: French member of the European Parliament sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/22858
+  aliases:
+  - Fabienne Keller (Renew)
+- name: Fidias Panayiotou
+  jurisdiction: EU
+  role: MEP (Non-attached), Cyprus
+  description: Cypriot member of the European Parliament, a social-media personality elected in 2024, sitting as non-attached.
+  profile_url: https://www.europarl.europa.eu/meps/en/256989
+  aliases:
+  - Fidias Panayiotou (NI)
+- name: François Kalfon
+  jurisdiction: EU
+  role: MEP (S&D), France
+  description: French member of the European Parliament sitting with the S&D group.
+  profile_url: https://www.europarl.europa.eu/meps/en/256908
+  aliases:
+  - François Kalfon (S&D)
+- name: Hans Neuhoff
+  jurisdiction: EU
+  role: MEP (Europe of Sovereign Nations), Germany
+  description: German member of the European Parliament sitting with the Europe of Sovereign Nations group.
+  profile_url: https://www.europarl.europa.eu/meps/en/256944
+  aliases:
+  - Hans Neuhoff (ESN)
+- name: Helmut Brandstätter
+  jurisdiction: EU
+  role: MEP (Renew), Austria
+  description: Austrian member of the European Parliament sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/256841
+  aliases:
+  - Helmut Brandstätter (Renew)
+- name: Javier Zarzalejos
+  jurisdiction: EU
+  role: MEP (EPP), Spain
+  description: Spanish member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197606
+  aliases:
+  - Javier Zarzalejos (PPE)
+- name: José Cepeda
+  jurisdiction: EU
+  role: MEP (S&D), Spain
+  description: Spanish member of the European Parliament sitting with the S&D group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257002
+  aliases:
+  - José Cepeda (S&D)
+  - José Cepeda (S&D), Elio Di Rupo (S&D), Nacho Sánchez Amor (S&D), Sven Mikser (S&D)
+- name: Jüri Ratas
+  jurisdiction: EU
+  role: MEP (EPP), Estonia
+  description: Estonian member of the European Parliament sitting with the EPP group; former Prime Minister of Estonia.
+  profile_url: https://www.europarl.europa.eu/meps/en/188096
+  aliases:
+  - Jüri Ratas (PPE)
+- name: Kateřina Konečná
+  jurisdiction: EU
+  role: MEP (Non-attached), Czechia
+  description: Czech member of the European Parliament, elected for KSČM, sitting as non-attached.
+  profile_url: https://www.europarl.europa.eu/meps/en/23699
+  aliases:
+  - Kateřina Konečná (NI)
+- name: Kristian Vigenin
+  jurisdiction: EU
+  role: MEP (S&D), Bulgaria
+  description: Bulgarian member of the European Parliament sitting with the S&D group.
+  profile_url: https://www.europarl.europa.eu/meps/en/34232
+  aliases:
+  - Kristian Vigenin (S&D)
+- name: Leila Chaibi
+  jurisdiction: EU
+  role: MEP (The Left), France
+  description: French member of the European Parliament sitting with The Left group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197529
+  aliases:
+  - Leila Chaibi (The Left)
+  - Leila Chaibi, au nom du groupe The Left
+  - Leila Chaibi (The Left), Kim Van Sparrentak (Verts/ALE), Manon Aubry (The Left), David Cormand (Verts/ALE), Damien Carême (The Left), Pernando Barrena Arza (The Left), Elena Kountoura (The Left), Emma
+- name: Lukas Mandl
+  jurisdiction: EU
+  role: MEP (EPP), Austria
+  description: Austrian member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/190713
+  aliases:
+  - Lukas Mandl (PPE)
+- name: Lukas Sieper
+  jurisdiction: EU
+  role: MEP (Renew), Germany
+  description: German member of the European Parliament for the Partei des Fortschritts, non-attached from 2024 until joining the Renew Europe group in March 2026.
+  profile_url: https://www.europarl.europa.eu/meps/en/256971
+  aliases:
+  - Lukas Sieper (NI)
+  - Lukas Sieper (Renew)
+- name: Malik Azmani
+  jurisdiction: EU
+  role: MEP (Renew), Netherlands
+  description: Dutch member of the European Parliament sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197781
+  aliases:
+  - Malik Azmani (Renew)
+- name: Marc Angel
+  jurisdiction: EU
+  role: MEP (S&D), Luxembourg
+  description: Luxembourgish member of the European Parliament sitting with the S&D group.
+  profile_url: https://www.europarl.europa.eu/meps/en/202073
+  aliases:
+  - Marc Angel, on behalf of the S&D Group
+- name: Marcin Sypniewski
+  jurisdiction: EU
+  role: MEP (Europe of Sovereign Nations), Poland
+  description: Polish member of the European Parliament sitting with the Europe of Sovereign Nations group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257070
+  aliases:
+  - Marcin Sypniewski (ESN)
+- name: Maria Walsh
+  jurisdiction: EU
+  role: MEP (EPP), Ireland
+  description: Irish member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197863
+  aliases:
+  - Maria Walsh (PPE)
+- name: Markéta Gregorová
+  jurisdiction: EU
+  role: MEP (Greens/EFA), Czechia
+  description: Czech member of the European Parliament, elected for the Pirate Party, sitting with the Greens/EFA group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197549
+  aliases:
+  - Markéta Gregorová (Verts/ALE)
+  - Markéta Gregorová, on behalf of the Verts/ALE Group
+  - Markéta Gregorová (Verts/ALE), Leila Chaibi (The Left), David Cormand (Verts/ALE)
+- name: Matthias Ecke
+  jurisdiction: EU
+  role: MEP (S&D), Germany
+  description: German member of the European Parliament sitting with the S&D group.
+  profile_url: https://www.europarl.europa.eu/meps/en/237465
+  aliases:
+  - Matthias Ecke (S&D)
+  - Matthias Ecke, im Namen der S&D-Fraktion
+- name: Michael McNamara
+  jurisdiction: EU
+  role: MEP (Renew), Ireland
+  description: Irish member of the European Parliament sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257300
+  aliases:
+  - Michael McNamara, rapporteur
+  - Michael McNamara (Renew)
+  - Michael McNamara, on behalf of the Renew Group
+- name: Michał Wawrykiewicz
+  jurisdiction: EU
+  role: MEP (EPP), Poland
+  description: Polish member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257045
+  aliases:
+  - Michał Wawrykiewicz (PPE)
+  - Michał Wawrykiewicz, on behalf of the PPE Group
+- name: Mirosława Nykiel
+  jurisdiction: EU
+  role: MEP (EPP), Poland
+  description: Polish member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257049
+  aliases:
+  - Mirosława Nykiel (PPE)
+- name: Oihane Agirregoitia Martínez
+  jurisdiction: EU
+  role: MEP (Renew), Spain
+  description: Spanish member of the European Parliament sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/256987
+  aliases:
+  - Oihane Agirregoitia Martínez (Renew)
+- name: Pablo Arias Echeverría
+  jurisdiction: EU
+  role: MEP (EPP), Spain
+  description: Spanish member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/96808
+  aliases:
+  - Pablo Arias Echeverría (PPE)
+- name: Pernando Barrena Arza
+  jurisdiction: EU
+  role: MEP (The Left), Spain
+  description: Spanish member of the European Parliament sitting with The Left group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197684
+  aliases:
+  - Pernando Barrena Arza, on behalf of The Left Group
+- name: Rada Laykova
+  jurisdiction: EU
+  role: MEP (Europe of Sovereign Nations), Bulgaria
+  description: Bulgarian member of the European Parliament sitting with the Europe of Sovereign Nations group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257262
+  aliases:
+  - Rada Laykova (ESN)
+  - Rada Laykova, on behalf of the ESN Group
+- name: Regina Doherty
+  jurisdiction: EU
+  role: MEP (EPP), Ireland
+  description: Irish member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257237
+  aliases:
+  - Regina Doherty (PPE)
+- name: René Aust
+  jurisdiction: EU
+  role: MEP (Europe of Sovereign Nations), Germany
+  description: German member of the European Parliament, elected for the AfD, sitting with the Europe of Sovereign Nations group.
+  profile_url: https://www.europarl.europa.eu/meps/en/256929
+  aliases:
+  - René Aust, im Namen der ESN-Fraktion
+- name: Rihards Kols
+  jurisdiction: EU
+  role: MEP (ECR), Latvia
+  description: Latvian member of the European Parliament sitting with the ECR group.
+  profile_url: https://www.europarl.europa.eu/meps/en/220871
+  aliases:
+  - Rihards Kols, on behalf of the ECR Group
+- name: Sandro Gozi
+  jurisdiction: EU
+  role: MEP (Renew), Italy
+  description: Italian-born member of the European Parliament, elected on a French Renaissance list, sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/204419
+  aliases:
+  - Sandro Gozi (Renew)
+- name: Sunčana Glavak
+  jurisdiction: EU
+  role: MEP (EPP), Croatia
+  description: Croatian member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/202036
+  aliases:
+  - Sunčana Glavak (PPE)
+- name: Susana Solís Pérez
+  jurisdiction: EU
+  role: MEP (Renew), Spain
+  description: Spanish member of the European Parliament sitting with the Renew Europe group; rapporteur for the ITRE Committee opinion on the AI Act.
+  profile_url: https://www.europarl.europa.eu/meps/en/197784
+  aliases:
+  - Susana Solís Pérez, ponente de opinión de la Comisión de Industria, Investigación y Energía
+- name: Sven Simon
+  jurisdiction: EU
+  role: MEP (EPP), Germany
+  description: German member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197426
+  aliases:
+  - Sven Simon (PPE)
+- name: Vasile Dîncu
+  jurisdiction: EU
+  role: MEP (S&D), Romania
+  description: Romanian member of the European Parliament sitting with the S&D group; former Deputy Prime Minister of Romania.
+  profile_url: https://www.europarl.europa.eu/meps/en/33998
+  aliases:
+  - Vasile Dîncu (S&D)
+- name: Virginijus Sinkevičius
+  jurisdiction: EU
+  role: MEP (Greens/EFA), Lithuania
+  description: Lithuanian member of the European Parliament sitting with the Greens/EFA group; former European Commissioner for Environment (2019-2024).
+  profile_url: https://www.europarl.europa.eu/meps/en/201945
+  aliases:
+  - Virginijus Sinkevičius, on behalf of the Verts/ALE Group
+- name: Vytenis Povilas Andriukaitis
+  jurisdiction: EU
+  role: MEP (S&D), Lithuania
+  description: Lithuanian member of the European Parliament sitting with the S&D group; former European Commissioner for Health and Food Safety (2014-2019).
+  profile_url: https://www.europarl.europa.eu/meps/en/119652
+  aliases:
+  - Vytenis Povilas Andriukaitis (S&D)
+- name: Karen Melchior
+  jurisdiction: EU
+  role: Former MEP (Renew), Denmark
+  description: Danish politician who served as a member of the European Parliament from 2019 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Karen_Melchior
+  aliases:
+  - Karen Melchior (Renew)
+- name: Deirdre Clune
+  jurisdiction: EU
+  role: Former MEP (EPP), Ireland
+  description: Irish politician who served as a member of the European Parliament from 2014 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Deirdre_Clune
+  aliases:
+  - Deirdre Clune, on behalf of the PPE Group
+  - Deirdre Clune (PPE)
+- name: Carlos Zorrinho
+  jurisdiction: EU
+  role: Former MEP (S&D), Portugal
+  description: Portuguese politician who served as a member of the European Parliament from 2019 to 2024.
+  aliases:
+  - Carlos Zorrinho (S&D), por escrito
+- name: Cornelia Ernst
+  jurisdiction: EU
+  role: Former MEP (The Left), Germany
+  description: German politician who served as a member of the European Parliament from 2009 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Cornelia_Ernst
+  aliases:
+  - Cornelia Ernst (The Left)
+- name: Dragoş Tudorache
+  jurisdiction: EU
+  role: Former MEP (Renew), Romania
+  description: Romanian politician who served as a member of the European Parliament from 2019 to 2024 and was lead co-rapporteur for the EU Artificial Intelligence Act.
+  profile_url: https://en.wikipedia.org/wiki/Drago%C8%99_Tudorache
+  aliases:
+  - Dragoş Tudorache, rapporteur
+  - Dragoş Tudorache (Renew)
+  - Dragoş Tudorache, on behalf of the Renew Group
+- name: Petar Vitanov
+  jurisdiction: EU
+  role: Former MEP (S&D), Bulgaria
+  description: Bulgarian politician who served as a member of the European Parliament from 2019 to 2024.
+  aliases:
+  - Petar Vitanov, on behalf of the S&D Group
+  - Petar Vitanov (S&D)
+- name: Alessandro Panza
+  jurisdiction: EU
+  role: Former MEP (ID), Italy
+  description: Italian politician who served as a member of the European Parliament from 2019 to 2024.
+  aliases:
+  - Alessandro Panza (ID)
+- name: Dita Charanzová
+  jurisdiction: EU
+  role: Former MEP (Renew), Czechia
+  description: Czech politician who served as a member of the European Parliament from 2014 to 2024 and as an EP Vice-President.
+  profile_url: https://en.wikipedia.org/wiki/Dita_Charanzov%C3%A1
+  aliases:
+  - Dita Charanzová (Renew)
+- name: Eugen Jurzyca
+  jurisdiction: EU
+  role: Former MEP (ECR), Slovakia
+  description: Slovak politician who served as a member of the European Parliament from 2019 to 2024.
+  aliases:
+  - Eugen Jurzyca (ECR), písomne
+- name: Geoffroy Didier
+  jurisdiction: EU
+  role: Former MEP (EPP), France
+  description: French politician who served as a member of the European Parliament from 2019 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Geoffroy_Didier
+  aliases:
+  - Geoffroy Didier (PPE)
+- name: Gilles Lebreton
+  jurisdiction: EU
+  role: Former MEP (ID), France
+  description: French politician who served as a member of the European Parliament from 2014 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Gilles_Lebreton
+  aliases:
+  - Gilles Lebreton (ID)
+- name: Josianne Cutajar
+  jurisdiction: EU
+  role: Former MEP (S&D), Malta
+  description: Maltese politician who served as a member of the European Parliament from 2019 to 2024.
+  aliases:
+  - Josianne Cutajar, rapporteur for the opinion of the Committee on Transport and Tourism
+  - Josianne Cutajar (S&D), in writing
+- name: Clare Daly
+  jurisdiction: EU
+  role: Former MEP (The Left), Ireland
+  description: Irish politician who served as a member of the European Parliament from 2019 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Clare_Daly
+  aliases:
+  - Clare Daly (The Left)
+- name: Maria da Graça Carvalho
+  jurisdiction: EU
+  role: Former MEP (EPP), Portugal
+  description: Portuguese politician and former government minister who served as a member of the European Parliament through 2024.
+  profile_url: https://en.wikipedia.org/wiki/Maria_da_Gra%C3%A7a_Carvalho
+  aliases:
+  - Maria da Graça Carvalho (PPE)
+- name: Marian-Jean Marinescu
+  jurisdiction: EU
+  role: Former MEP (EPP), Romania
+  description: Romanian politician who served as a member of the European Parliament from 2007 to 2024.
+  aliases:
+  - Marian-Jean Marinescu (PPE), în scris
+- name: Miapetra Kumpula-Natri
+  jurisdiction: EU
+  role: Former MEP (S&D), Finland
+  description: Finnish politician who served as a member of the European Parliament from 2014 to 2024.
+  aliases:
+  - Miapetra Kumpula-Natri (S&D)
+  - Miapetra Kumpula-Natri (S&D), in writing
+- name: Patrick Breyer
+  jurisdiction: EU
+  role: Former MEP (Greens/EFA), Germany
+  description: German politician, elected for the Pirate Party, who served as a member of the European Parliament from 2019 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Patrick_Breyer
+  aliases:
+  - Patrick Breyer (Verts/ALE)
+- name: Mick Wallace
+  jurisdiction: EU
+  role: Former MEP (The Left), Ireland
+  description: Irish politician who served as a member of the European Parliament from 2019 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Mick_Wallace
+  aliases:
+  - Mick Wallace (The Left)
+- name: Sabrina Pignedoli
+  jurisdiction: EU
+  role: Former MEP (Non-attached), Italy
+  description: Italian politician, elected for the Five Star Movement, who served as a member of the European Parliament through 2024.
+  aliases:
+  - Sabrina Pignedoli (NI)
+- name: Sandra Pereira
+  jurisdiction: EU
+  role: Former MEP (The Left), Portugal
+  description: Portuguese politician, elected for the Portuguese Communist Party, who served as a member of the European Parliament through 2024.
+  aliases:
+  - Sandra Pereira (The Left)
+- name: Sara Skyttedal
+  jurisdiction: EU
+  role: Former MEP (EPP), Sweden
+  description: Swedish politician who served as a member of the European Parliament from 2019 to 2024 before becoming a government minister.
+  profile_url: https://en.wikipedia.org/wiki/Sara_Skyttedal
+  aliases:
+  - Sara Skyttedal (PPE)
+- name: Tom Vandenkendelaere
+  jurisdiction: EU
+  role: Former MEP (EPP), Belgium
+  description: Belgian politician who served as a member of the European Parliament from 2016 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/Tom_Vandenkendelaere
+  aliases:
+  - Tom Vandenkendelaere (PPE)
+  - Tom Vandenkendelaere (PPE), schriftelijk
+- name: Włodzimierz Cimoszewicz
+  jurisdiction: EU
+  role: Former MEP (S&D), Poland
+  description: Polish politician and former Prime Minister of Poland who served as a member of the European Parliament through 2024.
+  profile_url: https://en.wikipedia.org/wiki/W%C5%82odzimierz_Cimoszewicz
+  aliases:
+  - Włodzimierz Cimoszewicz (S&D)
+- name: Barbara Thaler
+  jurisdiction: EU
+  role: Former MEP (EPP), Austria
+  description: Austrian politician who served as a member of the European Parliament for the Austrian People's Party from 2019 to 2024, sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197667
+  aliases:
+  - Barbara Thaler (PPE)
+- name: Carlo Fidanza
+  jurisdiction: EU
+  role: MEP (ECR), Italy
+  description: Italian member of the European Parliament for Fratelli d'Italia, sitting with the ECR group.
+  profile_url: https://www.europarl.europa.eu/meps/en/96810
+  aliases:
+  - Carlo Fidanza (ECR)
+- name: Dino Giarrusso
+  jurisdiction: EU
+  role: Former MEP (Non-attached), Italy
+  description: Italian politician elected for the Five Star Movement who served as a non-attached member of the European Parliament from 2019 to 2024.
+  profile_url: https://www.europarl.europa.eu/meps/en/197804
+  aliases:
+  - Dino Giarrusso (NI)
+- name: Edina Tóth
+  jurisdiction: EU
+  role: Former MEP (Non-attached), Hungary
+  description: Hungarian politician who served as a member of the European Parliament from 2019 to 2024, leaving the EPP group with Fidesz in 2021 to sit as non-attached.
+  profile_url: https://www.europarl.europa.eu/meps/en/27714
+  aliases:
+  - Edina Tóth (NI)
+- name: Fabio Massimo Castaldo
+  jurisdiction: EU
+  role: Former MEP (Renew), Italy
+  description: Italian politician who was a Vice-President of the European Parliament from 2017 to 2022 and a member until 2024, sitting as non-attached before joining the Renew Europe group in February 2024.
+  profile_url: https://www.europarl.europa.eu/meps/en/124812
+  aliases:
+  - Fabio Massimo Castaldo (Renew)
+- name: Francesca Donato
+  jurisdiction: EU
+  role: Former MEP (Non-attached), Italy
+  description: Italian politician elected on the Lega list who left the Identity and Democracy group in 2021 and sat as a non-attached member of the European Parliament until 2024.
+  profile_url: https://www.europarl.europa.eu/meps/en/197822
+  aliases:
+  - Francesca Donato (NI)
+- name: Hannes Heide
+  jurisdiction: EU
+  role: MEP (S&D), Austria
+  description: Austrian member of the European Parliament for the Social Democratic Party of Austria, sitting with the S&D group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197682
+  aliases:
+  - Hannes Heide (S&D)
+- name: Jean-Lin Lacapelle
+  jurisdiction: EU
+  role: Former MEP (ID), France
+  description: French politician of the Rassemblement national who served as a member of the European Parliament from 2020 to 2024, sitting with the Identity and Democracy group.
+  profile_url: https://www.europarl.europa.eu/meps/en/204421
+  aliases:
+  - Jean-Lin Lacapelle, au nom du groupe ID
+- name: Jeroen Lenaers
+  jurisdiction: EU
+  role: MEP (EPP), Netherlands
+  description: Dutch member of the European Parliament for the Christian Democratic Appeal, sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/95074
+  aliases:
+  - Jeroen Lenaers (PPE)
+- name: Jordan Bardella
+  jurisdiction: EU
+  role: MEP (Patriots for Europe), France
+  description: French member of the European Parliament and president of the Rassemblement national, chairing the Patriots for Europe group since 2024.
+  profile_url: https://www.europarl.europa.eu/meps/en/131580
+  aliases:
+  - Jordan Bardella, au nom du groupe ID
+- name: Magdalena Adamowicz
+  jurisdiction: EU
+  role: MEP (EPP), Poland
+  description: Polish member of the European Parliament sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197490
+  aliases:
+  - Magdalena Adamowicz (PPE)
+- name: Mario Mantovani
+  jurisdiction: EU
+  role: MEP (ECR), Italy
+  description: Italian member of the European Parliament for Fratelli d'Italia, sitting with the ECR group since 2024.
+  profile_url: https://www.europarl.europa.eu/meps/en/4395
+  aliases:
+  - Mario Mantovani (ECR)
+- name: Mélanie Disdier
+  jurisdiction: EU
+  role: MEP (Patriots for Europe), France
+  description: French member of the European Parliament for the Rassemblement national, sitting with the Patriots for Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/256874
+  aliases:
+  - Mélanie Disdier (PfE)
+- name: Ondřej Krutílek
+  jurisdiction: EU
+  role: MEP (ECR), Czechia
+  description: Czech member of the European Parliament for the Civic Democratic Party, sitting with the ECR group.
+  profile_url: https://www.europarl.europa.eu/meps/en/256845
+  aliases:
+  - Ondřej Krutílek (ECR)
+- name: Philippe Olivier
+  jurisdiction: EU
+  role: MEP (Patriots for Europe), France
+  description: French member of the European Parliament for the Rassemblement national, in the Identity and Democracy group until 2024 and the Patriots for Europe group since.
+  profile_url: https://www.europarl.europa.eu/meps/en/197687
+  aliases:
+  - Philippe Olivier (ID)
+- name: Rob Rooken
+  jurisdiction: EU
+  role: Former MEP (ECR), Netherlands
+  description: Dutch politician who served as a member of the European Parliament from 2019 to 2024, sitting with the ECR group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197776
+  aliases:
+  - Rob Rooken (ECR)
+- name: Samira Rafaela
+  jurisdiction: EU
+  role: Former MEP (Renew), Netherlands
+  description: Dutch politician elected for D66 who served as a member of the European Parliament from 2019 to 2024, sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197868
+  aliases:
+  - Samira Rafaela (Renew)
+- name: Vincenzo Sofo
+  jurisdiction: EU
+  role: Former MEP (ECR), Italy
+  description: Italian politician who served as a member of the European Parliament from 2020 to 2024, moving with Fratelli d'Italia from the Identity and Democracy group to the ECR group.
+  profile_url: https://www.europarl.europa.eu/meps/en/204334
+  aliases:
+  - Vincenzo Sofo (ECR)
+- name: Rovana Plumb
+  jurisdiction: EU
+  role: Former MEP (S&D), Romania
+  description: Romanian politician and former minister who served as a member of the European Parliament with the S&D group, and was rapporteur for the Transport Committee opinion on the AI Act.
+  profile_url: https://www.europarl.europa.eu/meps/en/38595
+  aliases:
+  - Rovana Plumb, rapporteur for the opinion of the Committee on Transport and Tourism
+- name: Emmanuel Maurel
+  jurisdiction: EU
+  role: Former MEP (The Left), France
+  description: French politician who served as a member of the European Parliament until 2024 sitting with The Left group, and is now a member of the French National Assembly.
+  profile_url: https://www.europarl.europa.eu/meps/en/24505
+  aliases:
+  - Emmanuel Maurel, au nom du groupe The Left
+- name: Alvise Pérez
+  jurisdiction: EU
+  role: MEP (Non-attached), Spain
+  description: Spanish member of the European Parliament for Se Acabó la Fiesta, sitting as a non-attached member.
+  profile_url: https://www.europarl.europa.eu/meps/en/257019
+  aliases:
+  - Alvise Pérez (NI)
+- name: Annika Bruna
+  jurisdiction: EU
+  role: Former MEP (ID), France
+  description: French politician who served as a member of the European Parliament for Rassemblement national, sitting with the Identity and Democracy group.
+  profile_url: https://www.europarl.europa.eu/meps/en/182995
+  aliases:
+  - Annika Bruna (ID)
+- name: Aurélia Beigneux
+  jurisdiction: EU
+  role: Former MEP (ID), France
+  description: French politician who served as a member of the European Parliament for Rassemblement national, sitting with the Identity and Democracy group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197680
+  aliases:
+  - Aurélia Beigneux (ID)
+- name: Catherine Griset
+  jurisdiction: EU
+  role: MEP (PfE), France
+  description: French member of the European Parliament for Rassemblement national, sitting with the Patriots for Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/94649
+  aliases:
+  - Catherine Griset (PfE)
+- name: Charlie Weimers
+  jurisdiction: EU
+  role: MEP (ECR), Sweden
+  description: Swedish member of the European Parliament for Sverigedemokraterna, sitting with the ECR group.
+  profile_url: https://www.europarl.europa.eu/meps/en/123562
+  aliases:
+  - Charlie Weimers (ECR)
+- name: Christine Anderson
+  jurisdiction: EU
+  role: MEP (ESN), Germany
+  description: German member of the European Parliament for Alternative für Deutschland, sitting with the Europe of Sovereign Nations group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197475
+  aliases:
+  - Christine Anderson (ESN)
+- name: Dan-Ştefan Motreanu
+  jurisdiction: EU
+  role: MEP (EPP), Romania
+  description: Romanian member of the European Parliament for Partidul Naţional Liberal, sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197647
+  aliases:
+  - Dan-Ştefan Motreanu (PPE)
+- name: David Cormand
+  jurisdiction: EU
+  role: MEP (Greens/EFA), France
+  description: French member of the European Parliament for Les Écologistes, sitting with the Greens/EFA group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197503
+  aliases:
+  - David Cormand (Verts/ALE)
+- name: Emil Radev
+  jurisdiction: EU
+  role: MEP (EPP), Bulgaria
+  description: Bulgarian member of the European Parliament for Citizens for European Development of Bulgaria, sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/124850
+  aliases:
+  - Emil Radev (PPE)
+- name: Eva Kaili
+  jurisdiction: EU
+  role: Former MEP (Non-attached), Greece
+  description: Greek politician who sat with the S&D group in the European Parliament from 2019 until December 2022 and as a non-attached member until 2024.
+  profile_url: https://www.europarl.europa.eu/meps/en/125109
+  aliases:
+  - Eva Kaili (S&D)
+- name: Fabio De Masi
+  jurisdiction: EU
+  role: MEP (Non-attached), Germany
+  description: German member of the European Parliament for BSW, sitting as a non-attached member.
+  profile_url: https://www.europarl.europa.eu/meps/en/124858
+  aliases:
+  - Fabio De Masi (NI)
+- name: Fernand Kartheiser
+  jurisdiction: EU
+  role: MEP (Non-attached), Luxembourg
+  description: Luxembourgish member of the European Parliament for Alternativ Demokratesch Reformpartei, sitting as a non-attached member.
+  profile_url: https://www.europarl.europa.eu/meps/en/256900
+  aliases:
+  - Fernand Kartheiser (NI)
+  - Fernand Kartheiser (NI), Friedrich Pürner (NI), Alexander Jungbluth (ESN), Alvise Pérez (NI)
+- name: Gianantonio Da Re
+  jurisdiction: EU
+  role: Former MEP (ID), Italy
+  description: Italian politician who served as a member of the European Parliament for Lega, sitting with the Identity and Democracy group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197608
+  aliases:
+  - Gianantonio Da Re (ID)
+- name: Günther Sidl
+  jurisdiction: EU
+  role: MEP (S&D), Austria
+  description: Austrian member of the European Parliament for Sozialdemokratische Partei Österreichs, sitting with the S&D group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197677
+  aliases:
+  - Günther Sidl (S&D)
+- name: Henrik Dahl
+  jurisdiction: EU
+  role: MEP (EPP), Denmark
+  description: Danish member of the European Parliament for Liberal Alliance, sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257028
+  aliases:
+  - Henrik Dahl (PPE)
+- name: Jean-Paul Garraud
+  jurisdiction: EU
+  role: MEP (PfE), France
+  description: French member of the European Parliament for Rassemblement national, sitting with the Patriots for Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197628
+  aliases:
+  - Jean-Paul Garraud (PfE)
+- name: Lara Magoni
+  jurisdiction: EU
+  role: MEP (ECR), Italy
+  description: Italian member of the European Parliament for Fratelli d'Italia, sitting with the ECR group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257149
+  aliases:
+  - Lara Magoni (ECR)
+- name: Maite Pagazaurtundúa
+  jurisdiction: EU
+  role: Former MEP (Renew), Spain
+  description: Spanish politician who served as a member of the European Parliament for Ciudadanos, sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/125038
+  aliases:
+  - Maite Pagazaurtundúa (Renew)
+- name: Mathilde Androuët
+  jurisdiction: EU
+  role: MEP (PfE), France
+  description: French member of the European Parliament for Rassemblement national, sitting with the Patriots for Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197691
+  aliases:
+  - Mathilde Androuët (PfE)
+- name: Michalis Hadjipantela
+  jurisdiction: EU
+  role: MEP (EPP), Cyprus
+  description: Cypriot member of the European Parliament for Democratic Rally, sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/256985
+  aliases:
+  - Michalis Hadjipantela (PPE)
+- name: Moritz Körner
+  jurisdiction: EU
+  role: MEP (Renew), Germany
+  description: German member of the European Parliament for Freie Demokratische Partei, sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197445
+  aliases:
+  - Moritz Körner (Renew)
+- name: Nadine Morano
+  jurisdiction: EU
+  role: MEP (EPP), France
+  description: French member of the European Parliament for Les Républicains, sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/72779
+  aliases:
+  - Nadine Morano (PPE)
+- name: Nicolás González Casares
+  jurisdiction: EU
+  role: MEP (S&D), Spain
+  description: Spanish member of the European Parliament for Partido Socialista Obrero Español, sitting with the S&D group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197718
+  aliases:
+  - Nicolás González Casares (S&D)
+- name: Olivier Chastel
+  jurisdiction: EU
+  role: MEP (Renew), Belgium
+  description: Belgian member of the European Parliament for Mouvement Réformateur, sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197463
+  aliases:
+  - Olivier Chastel (Renew)
+- name: Piotr Müller
+  jurisdiction: EU
+  role: MEP (ECR), Poland
+  description: Polish member of the European Parliament for Prawo i Sprawiedliwość, sitting with the ECR group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257080
+  aliases:
+  - Piotr Müller (ECR)
+- name: Sander Smit
+  jurisdiction: EU
+  role: MEP (ECR), Netherlands
+  description: Dutch member of the European Parliament for BoerBurgerBeweging, sitting with the EPP group until March 2026 and with the ECR group since.
+  profile_url: https://www.europarl.europa.eu/meps/en/125325
+  aliases:
+  - Sander Smit (PPE)
+- name: Sergio Berlato
+  jurisdiction: EU
+  role: MEP (ECR), Italy
+  description: Italian member of the European Parliament for Fratelli d'Italia, sitting with the ECR group.
+  profile_url: https://www.europarl.europa.eu/meps/en/4746
+  aliases:
+  - Sergio Berlato (ECR)
+- name: Tobiasz Bocheński
+  jurisdiction: EU
+  role: MEP (ECR), Poland
+  description: Polish member of the European Parliament for Prawo i Sprawiedliwość, sitting with the ECR group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257073
+  aliases:
+  - Tobiasz Bocheński (ECR)
+- name: Ştefan Muşoiu
+  jurisdiction: EU
+  role: MEP (S&D), Romania
+  description: Romanian member of the European Parliament for Partidul Social Democrat, sitting with the S&D group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257103
+  aliases:
+  - Ştefan Muşoiu (S&D)
+- name: Dimitris Tsiodras (Δημήτρης Τσιόδρας)
+  jurisdiction: EU
+  role: MEP (EPP), Greece
+  description: Greek member of the European Parliament for Nea Demokratia, sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/256950
+  aliases:
+  - Δημήτρης Τσιόδρας (PPE)
+- name: Maria Zacharia (Μαρία Ζαχαρία)
+  jurisdiction: EU
+  role: MEP (Non-attached), Greece
+  description: Greek member of the European Parliament for Plefsi Eleftherias, sitting as a non-attached member.
+  profile_url: https://www.europarl.europa.eu/meps/en/256955
+  aliases:
+  - Μαρία Ζαχαρία (NI)
+- name: Elena Donazzan
+  jurisdiction: EU
+  role: MEP (ECR), Italy
+  description: Italian member of the European Parliament for Fratelli d'Italia, sitting with the ECR group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257095
+  aliases:
+  - Elena Donazzan (ECR), Alessandro Ciriani (ECR), Pietro Fiocchi (ECR), Mariateresa Vivaldini (ECR), Carlo Ciccioli (ECR), Nicola Procaccini (ECR)
+- name: Martin Hojsík
+  jurisdiction: EU
+  role: MEP (Renew), Slovakia
+  description: Slovak member of the European Parliament for Progresívne Slovensko, sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/197770
+  aliases:
+  - Martin Hojsík (Renew), Ľudovít Ódor (Renew), Veronika Cifrová Ostrihoňová (Renew), Ľubica Karvašová (Renew), Michal Wiezik (Renew), Lucia Yar (Renew), Svenja Hahn (Renew), Kim Van Sparrentak (Verts/AL
+- name: Stefano Cavedagna
+  jurisdiction: EU
+  role: MEP (ECR), Italy
+  description: Italian member of the European Parliament for Fratelli d'Italia, sitting with the ECR group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257096
+  aliases:
+  - Stefano Cavedagna (ECR), Francesco Torselli (ECR)
+- name: Veronika Cifrová Ostrihoňová
+  jurisdiction: EU
+  role: MEP (Renew), Slovakia
+  description: Slovak member of the European Parliament for Progresívne Slovensko, sitting with the Renew Europe group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257014
+  aliases:
+  - Veronika Cifrová Ostrihoňová (Renew)
+  - Veronika Cifrová Ostrihoňová (Renew), Sandro Gozi (Renew), Anna-Maja Henriksson (Renew), Nathalie Loiseau (Renew), Oihane Agirregoitia Martínez (Renew), Michael McNamara (Renew), Dan Barna (Renew)
+  - Veronika Cifrová Ostrihoňová (Renew), Sophie Wilmès (Renew), Yvan Verougstraete (Renew), Olivier Chastel (Renew), Sandro Gozi (Renew), Hristo Petrov (Renew), Grégory Allione (Renew), Dainius Žalimas (
+- name: Liesbet Sommen
+  jurisdiction: EU
+  role: MEP (EPP), Belgium
+  description: Belgian member of the European Parliament for Christen-Democratisch & Vlaams, sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/256889
+  aliases:
+  - Liesbet Sommen (PPE), Pascal Arimont (PPE)
+- name: Maria Ohisalo
+  jurisdiction: EU
+  role: MEP (Greens/EFA), Finland
+  description: Finnish member of the European Parliament for Vihreä liitto, sitting with the Greens/EFA group.
+  profile_url: https://www.europarl.europa.eu/meps/en/198076
+  aliases:
+  - Maria Ohisalo (Verts/ALE), Villy Søvndal (Verts/ALE)
+- name: Miriam Lexmann
+  jurisdiction: EU
+  role: MEP (EPP), Slovakia
+  description: Slovak member of the European Parliament for Kresťanskodemokratické hnutie, sitting with the EPP group.
+  profile_url: https://www.europarl.europa.eu/meps/en/204336
+  aliases:
+  - Miriam Lexmann (PPE), Matej Tonin (PPE), Loránt Vincze (PPE), Davor Ivo Stier (PPE), Christophe Gomart (PPE), Paulius Saudargas (PPE)
+- name: Estrella Galán
+  jurisdiction: EU
+  role: MEP (The Left), Spain
+  description: Spanish member of the European Parliament for Movimiento Sumar, sitting with The Left group.
+  profile_url: https://www.europarl.europa.eu/meps/en/257012
+  aliases:
+  - Estrella Galán (The Left), Jaume Asens Llodrà (Verts/ALE), Vicent Marzà Ibáñez (Verts/ALE), Saskia Bricmont (Verts/ALE), Aodhán Ó Ríordáin (S&D), Jonas Sjöstedt (The Left), Hanna Gedin (The Left), Kim
+- name: Committee on Industry, Research and Energy (ITRE)
+  jurisdiction: EU
+  role: institutional
+  description: Standing committee of the European Parliament responsible for industry, research and energy files, which tables questions in its own name.
+  aliases:
+  - on behalf of the Committee on Industry, Research and Energy

@@ -1,0 +1,92 @@
+# Dutch keyword list v1 — flat list mirroring readme.md §Search, translated.
+# Word-boundary matching; '*' = stem wildcard, and a leading '*' also matches
+# inside compounds, which Dutch forms as freely as German ("AI-veiligheid",
+# "chipexportcontroles"). Precision is the judges' job; this optimizes recall.
+#
+# Two Dutch-specific traps, both left in deliberately (high recall is the point,
+# and _compile_term keeps all-caps terms case-sensitive, which blunts them):
+#   AGI  — also "aantoonbaar geleverde inspanningen", an inburgering-law term.
+#          Every AGI hit in 4.5 years of plenary Handelingen is that, not AI.
+#   ASI  — appears inside "asiel" only in lowercase, so the case-sensitive
+#          acronym rule already excludes the common false friend.
+lang: nl
+segmented: true
+keywords:
+  # AI generiek (high recall)
+  - AI
+  - A.I.
+  - kunstmatige intelligentie
+  - artificiële intelligentie
+  - artificiele intelligentie
+  - machine-intelligentie
+  - machinale intelligentie
+  - LLM
+  - '*taalmodel*'
+  - generatieve AI
+  # AGI
+  - AGI                        # see header: also an inburgering acronym
+  - algemene kunstmatige intelligentie
+  - kunstmatige algemene intelligentie
+  - artificial general intelligence
+  - sterke AI
+  - AI op menselijk niveau
+  - menselijk niveau
+  - transformatieve AI
+  - geautomatiseerd programmeren
+  - geavanceerde AI
+  - frontier AI
+  # ASI
+  - ASI
+  - superintelligentie
+  - kunstmatige superintelligentie
+  - '*superintelligen*'
+  - bovenmenselijke intelligentie
+  - slimmer dan de mens
+  - slimmer dan mensen
+  - intelligenter dan mensen
+  # RSI / recursieve zelfverbetering
+  - recursieve zelfverbetering
+  - '*zelfverbeter*'
+  - zelflerende AI
+  - '*singulariteit*'
+  - '*intelligentie-explosie*'
+  - intelligentie explosie
+  # Existentiële / catastrofale risico's
+  - existentieel risico
+  - existentiële risico*
+  - existentiele risico*
+  - '*existentieel*'
+  - existentiële dreiging
+  - catastrofaal risico
+  - catastrofale risico*
+  - '*controleverlies*'
+  - verlies van controle
+  - uit de hand lopen
+  - onbeheersbaar*
+  - oncontroleerbaar*
+  - uitsterven van de mensheid
+  - uitroeiing van de mensheid
+  - '*alignment*'              # Dutch policy discourse uses the English term
+  - misleidende AI
+  - '*interpreteerbaarheid*'
+  - AI-veiligheid
+  - veiligheid van AI
+  # Regulering
+  - AI-verordening
+  - AI Act
+  - AI-regulering
+  - regulering van AI
+  - regulering van kunstmatige intelligentie
+  - AI-governance
+  - internationale AI-afspraken
+  - '*exportcontrole*'
+  - '*exportvergunning*'
+  - '*chipexport*'
+  - exportcontroles op chips
+  - '*halfgeleiderexport*'
+  - beveiliging van datacenters
+  - '*datacenterbeveiliging*'
+  - autonome wapensystemen
+  - autonome wapens
+  - betekenisvolle menselijke controle
+  - REAIM

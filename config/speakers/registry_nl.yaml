@@ -1,0 +1,1664 @@
+# Netherlands speaker registry.
+#
+# Harvested from the speaker labels that actually appear in the NL quotes, the
+# way the other jurisdictions' registries were built -- not from a static list
+# of sitting members. The previous version only covered currently seated Tweede
+# Kamer MPs under the single label shape nl_tweedekamer emits, which left the
+# officielebekendmakingen quotes almost entirely unlinked: that source has no
+# speaker IDs and writes people as office+surname, initials+surname+office, bare
+# surname, or honorific+surname+party -- and many of its speakers are ministers
+# or former members who were never in the list at all.
+#
+# Canonical identity comes from the VLOS <spreker> block (name, fractie,
+# functie), which is why ministers appear here alongside members. A surname that
+# matches more than one person is left unmatched rather than guessed.
+- name: Alexander Hammelburg
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (D66)
+  party: D66
+  description: Dutch politician; member of the tweede kamer for D66.
+  aliases:
+  - Alexander Hammelburg
+  - Alexander Hammelburg (D66)
+  - De heer Hammelburg (D66)
+  - Hammelburg
+  - Hammelburg (D66)
+- name: Alexander van Waveren
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (NSC)
+  party: NSC
+  description: Dutch politician; member of the tweede kamer for NSC.
+  aliases:
+  - Alexander van Waveren
+  - Alexander van Waveren (NSC)
+  - De heer Van Waveren (NSC)
+  - Van Waveren (NSC)
+- name: Alexandra van Huffelen
+  jurisdiction: NL
+  role: Staatssecretaris Koninkrijksrelaties en Digitalisering
+  description: Dutch office-holder; staatssecretaris Koninkrijksrelaties en Digitalisering.
+  aliases:
+  - A.C. van Huffelen (De Staatssecretaris van Binnenlandse Zaken en Koninkrijksrelaties – Digitalisering
+    en Koninkrijksrelaties)
+  - A.C. van Huffelen (De Staatssecretaris van Binnenlandse Zaken en Koninkrijksrelaties)
+  - A.C. van Huffelen (De Staatssecretaris van Binnenlandse Zaken en Koninkrijksrelaties, Digitalisering
+    en Koninkrijksrelaties)
+  - Alexandra van Huffelen
+  - Staatssecretaris Van Huffelen
+  - Van Huffelen
+- name: Arno Rutte
+  jurisdiction: NL
+  role: Staatssecretaris van Justitie en Veiligheid
+  party: VVD
+  description: Dutch office-holder; staatssecretaris van Justitie en Veiligheid (2025-2026) and previously
+    a member of the tweede kamer for the VVD.
+  aliases:
+  - A.C.L. Rutte (De Staatssecretaris van Justitie en Veiligheid)
+- name: Attje Kuiken
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (PvdA)
+  party: PvdA
+  description: Dutch politician; member of the tweede kamer for PvdA.
+  aliases:
+  - Attje Kuiken
+  - Attje Kuiken (PvdA)
+  - Kuiken (De voorzitter van de commissie)
+  - Kuiken (PvdA)
+  - Mevrouw Kuiken (PvdA)
+- name: Aukje de Vries
+  jurisdiction: NL
+  role: Staatssecretaris Buitenlandse Handel en Ontwikkelingshulp
+  party: VVD
+  description: Dutch office-holder; staatssecretaris Buitenlandse Handel en Ontwikkelingshulp.
+  aliases:
+  - A. de Vries (De Staatssecretaris van Financiën)
+  - Aukje de Vries
+  - Aukje de Vries (VVD)
+  - De Vries (VVD)
+  - Mevrouw De Vries (VVD)
+- name: Barbara Kathmann
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (GroenLinks-PvdA)
+  party: GroenLinks-PvdA
+  description: Dutch politician; member of the tweede kamer for GroenLinks-PvdA.
+  aliases:
+  - Barbara Kathmann
+  - Barbara Kathmann (GroenLinks-PvdA)
+  - Kathmann
+  - Kathmann (De fungerend voorzitter van de commissie)
+  - Kathmann (De voorzitter van de commissie)
+  - Kathmann (GroenLinks-PvdA)
+  - Mevrouw Kathmann (GroenLinks-PvdA)
+  - Mevrouw Kathmann (PvdA)
+- name: Bart Smals
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (VVD)
+  party: VVD
+  description: Dutch politician; member of the tweede kamer for VVD.
+  aliases:
+  - Bart Smals
+  - Bart Smals (VVD)
+  - De heer Smals (VVD)
+  - Smals (De voorzitter van de commissie)
+  - Smals (VVD)
+- name: Bergman (committee clerk)
+  jurisdiction: NL
+  role: Clerk, Eerste Kamer standing committee for the Interior
+  description: Clerk of an Eerste Kamer standing committee; the record gives a surname and an office,
+    no first name.
+  aliases:
+  - Bergman (De griffier van de vaste commissie voor Binnenlandse Zaken)
+- name: Bruijn
+  jurisdiction: NL
+  role: Minister van Volksgezondheid, Welzijn en Sport
+  description: Dutch office-holder; minister van Volksgezondheid, Welzijn en Sport.
+  aliases:
+  - Bruijn
+  - J.A. Bruijn (De Minister van Volksgezondheid, Welzijn en Sport)
+- name: Caspar Veldkamp
+  jurisdiction: NL
+  role: Minister van Buitenlandse Zaken
+  party: NSC
+  description: Dutch office-holder; minister van Buitenlandse Zaken.
+  aliases:
+  - C.C.J. Veldkamp (De Minister van Buitenlandse Zaken)
+  - Caspar Veldkamp
+  - Caspar Veldkamp (NSC)
+  - De heer Veldkamp (NSC)
+  - Veldkamp (NSC)
+- name: Chris Stoffer
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (SGP)
+  party: SGP
+  description: Dutch politician; member of the tweede kamer for SGP.
+  aliases:
+  - Chris Stoffer
+  - Chris Stoffer (SGP)
+  - De heer Stoffer (SGP)
+  - Stoffer
+  - Stoffer (SGP)
+- name: Christine Teunissen
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (PvdD)
+  party: PvdD
+  description: Dutch politician; member of the tweede kamer for PvdD.
+  aliases:
+  - Christine Teunissen
+  - Christine Teunissen (PvdD)
+  - Mevrouw Teunissen (PvdD)
+  - Teunissen (PvdD)
+- name: Christophe van der Maat
+  jurisdiction: NL
+  role: Staatssecretaris van Defensie
+  description: Dutch office-holder; staatssecretaris van Defensie.
+  aliases:
+  - C.A. van der Maat (De Staatssecretaris van Defensie)
+  - Christophe van der Maat
+- name: Claire Martens-America
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (VVD)
+  party: VVD
+  description: Dutch politician; member of the tweede kamer for VVD.
+  aliases:
+  - Claire Martens-America
+  - Claire Martens-America (VVD)
+  - Martens-america (VVD)
+  - Mevrouw Martens-america (VVD)
+- name: Claudia van Bruggen
+  jurisdiction: NL
+  role: Staatssecretaris van Justitie en Veiligheid
+  description: Dutch office-holder; staatssecretaris van Justitie en Veiligheid.
+  aliases:
+  - Claudia van Bruggen
+- name: Conny Helder
+  jurisdiction: NL
+  role: Minister voor Langdurige Zorg en Sport
+  party: VVD
+  description: Dutch office-holder; minister for Long-term Care and Sport at the ministry of Volksgezondheid,
+    Welzijn en Sport (2022-2024).
+  aliases:
+  - C. Helder (De Minister van Volksgezondheid, Welzijn en Sport)
+- name: Danai van Weerdenburg
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (PVV)
+  party: PVV
+  description: Dutch politician; member of the tweede kamer for PVV.
+  aliases:
+  - Danai van Weerdenburg
+  - Danai van Weerdenburg (PVV)
+  - Mevrouw Van Weerdenburg (PVV)
+  - Van Weerdenburg (PVV)
+- name: Daniël van den Berg
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (JA21)
+  party: JA21
+  description: Dutch politician; member of the tweede kamer for JA21.
+  aliases:
+  - Daniël van den Berg
+  - Daniël van den Berg (JA21)
+  - De heer Van den Berg (JA21)
+  - Van den Berg (JA21)
+- name: Daniëlle Jansen
+  jurisdiction: NL
+  role: Minister van Volksgezondheid, Welzijn en Sport
+  party: NSC
+  description: Dutch office-holder; minister van Volksgezondheid, Welzijn en Sport in 2025, and previously
+    a member of the tweede kamer for NSC.
+  aliases:
+  - D.E.M.C. Jansen (De Minister van Volksgezondheid, Welzijn en Sport)
+- name: David van Weel
+  jurisdiction: NL
+  role: Minister van Buitenlandse Zaken, minister van Asiel en Migratie
+  description: Dutch office-holder; minister van Buitenlandse Zaken, minister van Asiel en Migratie.
+  # Curated because the name search cannot choose: Wikidata also holds a David
+  # van Weel who sat on Rotterdam's council, born 1838.
+  wikidata: Q111051482
+  aliases:
+  - D.M. van Weel (De Minister van Buitenlandse Zaken)
+  - D.M. van Weel (De Minister van Justitie en Veiligheid)
+  - David van Weel
+  - Minister Van Weel
+  - Van Weel
+- name: Margreet de Boer
+  jurisdiction: NL
+  role: Member of the Eerste Kamer (GroenLinks-PvdA); Chair, standing committee for Justice and Security
+  party: GroenLinks-PvdA
+  description: Dutch senator chairing the Eerste Kamer standing committee for justice and security.
+  aliases:
+  - De Boer (De Voorzitter van de vaste commissie voor Justitie en Veiligheid)
+  - M.M. de Boer (De Voorzitter van de vaste commissie voor Justitie en Veiligheid)
+- name: De Vries (committee chair)
+  jurisdiction: NL
+  role: Chair of an Eerste Kamer committee
+  description: Chair of an Eerste Kamer committee; the record gives a surname and an office, and more
+    than one senator shares the surname.
+  aliases:
+  - A. de Vries (De voorzitter van de commissie)
+  - De Vries (De voorzitter van de commissie)
+- name: De voorzitter
+  jurisdiction: NL
+  role: institutional
+  description: Institutional or procedural attribution in the Dutch parliamentary record (De voorzitter).
+  aliases:
+  - De voorzitter
+- name: Dennis Wiersma
+  jurisdiction: NL
+  role: Minister voor Primair en Voortgezet Onderwijs
+  description: Dutch office-holder; minister voor Primair en Voortgezet Onderwijs.
+  aliases:
+  - Dennis Wiersma
+  - F.M. Wiersma (De Minister van Landbouw, Visserij, Voedselzekerheid en Natuur)
+- name: Derk Boswijk
+  jurisdiction: NL
+  role: Staatssecretaris van Defensie
+  party: CDA
+  description: Dutch office-holder; staatssecretaris van Defensie.
+  aliases:
+  - Boswijk
+  - Boswijk (CDA)
+  - De heer Boswijk (CDA)
+  - Derk Boswijk
+  - Derk Boswijk (CDA)
+- name: Dick Schoof
+  jurisdiction: NL
+  role: Minister-president, minister van Algemene Zaken
+  description: Dutch office-holder; minister-president, minister van Algemene Zaken.
+  aliases:
+  - Dick Schoof
+  - Minister Schoof
+- name: Diederik van Dijk
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (SGP)
+  party: SGP
+  description: Dutch politician; member of the tweede kamer for SGP.
+  aliases:
+  - De heer Diederik van Dijk (SGP)
+  - De heer Van Dijk (SGP)
+  - Diederik van Dijk
+  - Diederik van Dijk (SGP)
+  - Van Dijk (SGP)
+- name: Dilan Yeşilgöz-Zegerius
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (VVD)
+  party: VVD
+  description: Dutch politician; member of the tweede kamer for VVD.
+  aliases:
+  - D. Yeşilgöz-Zegerius
+  - D. Yeşilgöz-Zegerius (De Minister van Justitie en Veiligheid)
+  - Dilan Yeşilgöz-Zegerius
+  - Dilan Yeşilgöz-Zegerius (VVD)
+  - Mevrouw Yeşilgöz-zegerius (VVD)
+  - Minister Yeşilgöz-Zegerius
+  - Yeşilgöz-Zegerius
+  - Yeşilgöz-zegerius (VVD)
+- name: Dion Graus
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (PVV)
+  party: PVV
+  description: Dutch politician; member of the tweede kamer for PVV.
+  aliases:
+  - De heer Graus (PVV)
+  - Dion Graus
+  - Dion Graus (PVV)
+  - Graus (De fungerend voorzitter van de commissie)
+  - Graus (PVV)
+- name: Dirk Beljaarts
+  jurisdiction: NL
+  role: Minister van Economische Zaken
+  description: Dutch office-holder; minister van Economische Zaken.
+  aliases:
+  - Beljaarts
+  - D.S. Beljaarts (De Minister van Economische Zaken)
+  - Dirk Beljaarts
+  - Minister Beljaarts
+- name: Don Ceder
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (ChristenUnie)
+  party: ChristenUnie
+  description: Dutch politician; member of the tweede kamer for ChristenUnie.
+  aliases:
+  - Ceder
+  - Ceder (ChristenUnie)
+  - De heer Ceder (ChristenUnie)
+  - Don Ceder
+  - Don Ceder (ChristenUnie)
+- name: Doğukan Ergin
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (DENK)
+  party: DENK
+  description: Dutch politician; member of the tweede kamer for DENK.
+  aliases:
+  - De heer Ergin (DENK)
+  - Doğukan Ergin
+  - Doğukan Ergin (DENK)
+  - Ergin
+  - Ergin (DENK)
+- name: Eddie van Marum
+  jurisdiction: NL
+  role: Staatssecretaris van Binnenlandse Zaken en Koninkrijksrelaties
+  description: Dutch office-holder; staatssecretaris van Binnenlandse Zaken en Koninkrijksrelaties.
+  aliases:
+  - E. van Marum (De Staatssecretaris van Binnenlandse Zaken en Koninkrijksrelaties)
+  - E. van Marum (De Staatssecretaris van Binnenlandse Zaken en Koninkrijksrelaties, Herstel Groningen,
+    Koninkrijksrelaties en Digitalisering)
+  - Eddie van Marum
+  - Staatssecretaris Van Marum
+  - Van Marum
+- name: Eddy van Hijum
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (NSC)
+  party: NSC
+  description: Dutch politician; member of the tweede kamer for NSC.
+  aliases:
+  - De heer Van Hijum (NSC)
+  - Eddy van Hijum
+  - Eddy van Hijum (NSC)
+  - Van Hijum (NSC)
+  - Y.J. van Hijum (De Minister van Sociale Zaken en Werkgelegenheid)
+- name: Eelco Heinen
+  jurisdiction: NL
+  role: Minister van Financiën
+  party: VVD
+  description: Dutch office-holder; minister van Financiën.
+  aliases:
+  - De heer Heinen (VVD)
+  - E. Heinen (De Minister van Financiën)
+  - Eelco Heinen
+  - Eelco Heinen (VVD)
+  - Heinen
+  - Heinen (VVD)
+- name: Eerste Kamer der Staten-Generaal
+  jurisdiction: NL
+  role: institutional
+  description: Institutional or procedural attribution in the Dutch parliamentary record (Eerste Kamer
+    der Staten-Generaal).
+  aliases:
+  - Eerste Kamer der Staten-Generaal
+- name: Eheinen
+  jurisdiction: NL
+  role: Minister van Financiën
+  description: Dutch office-holder; minister van Financiën.
+  aliases:
+  - EHeinen (De minister van Financiën)
+  - Eheinen
+- name: Elanor Boekholt-O'Sullivan
+  jurisdiction: NL
+  role: Minister van Volkshuisvesting en Ruimtelijke Ordening
+  description: Dutch office-holder; minister van Volkshuisvesting en Ruimtelijke Ordening.
+  aliases:
+  - E. Boekholt-O'Sullivan (De Minister van Volkshuisvesting en Ruimtelijke Ordening)
+  - Elanor Boekholt-O'Sullivan
+- name: Eppo Bruins
+  jurisdiction: NL
+  role: Minister van Onderwijs, Cultuur en Wetenschap
+  description: Dutch office-holder; minister van Onderwijs, Cultuur en Wetenschap.
+  aliases:
+  - E.E.W. Bruins (De Minister van Onderwijs, Cultuur en Wetenschap)
+  - Eppo Bruins
+  - Minister Bruins
+- name: Ernie van Dooren
+  jurisdiction: NL
+  role: Speaker in the Tweede Kamer
+  description: Dutch office-holder; speaker in the Tweede Kamer.
+  aliases:
+  - Ernie van Dooren
+  - Van Dooren (De griffier van de vaste commissie voor Digitalisering)
+  - Van Dooren (De griffier voor dit verslag)
+- name: Farah Karimi
+  jurisdiction: NL
+  role: Speaker in the Tweede Kamer
+  description: Dutch office-holder; speaker in the Tweede Kamer.
+  aliases:
+  - Farah Karimi
+  - Farah Karimi (Senator)
+- name: Fleur Agema
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (PVV)
+  party: PVV
+  description: Dutch politician; member of the tweede kamer for PVV.
+  aliases:
+  - Agema (PVV)
+  - Fleur Agema
+  - Fleur Agema (PVV)
+  - M. Agema (De Minister van Volksgezondheid, Welzijn en Sport)
+  - M.F. Agema (De Minister van Volksgezondheid, Welzijn en Sport)
+  - Mevrouw Agema (PVV)
+  - Minister Agema
+- name: Foort van Oosten
+  jurisdiction: NL
+  role: Minister van Justitie en Veiligheid
+  description: Dutch office-holder; minister van Justitie en Veiligheid.
+  aliases:
+  - Foort van Oosten
+  - Van Oosten
+- name: Franc Weerwind
+  jurisdiction: NL
+  role: Minister voor Rechtsbescherming
+  description: Dutch office-holder; minister voor Rechtsbescherming.
+  aliases:
+  - F.M. Weerwind (De Minister voor Rechtsbescherming)
+  - Franc Weerwind
+  - Minister Weerwind
+  - Weerwind
+- name: Frank Futselaar
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (SP)
+  party: SP
+  description: Dutch politician; member of the tweede kamer for SP.
+  aliases:
+  - De heer Futselaar (SP)
+  - Frank Futselaar
+  - Frank Futselaar (SP)
+  - Futselaar
+  - Futselaar (SP)
+- name: Frank Rijkaart
+  jurisdiction: NL
+  role: Minister van Binnenlandse Zaken en Koninkrijksrelaties
+  description: Dutch office-holder; minister van Binnenlandse Zaken en Koninkrijksrelaties.
+  aliases:
+  - Frank Rijkaart
+  - Minister Rijkaart
+- name: Freek Frederik Jansen
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (FVD)
+  party: FVD
+  description: Dutch politician; member of the tweede kamer for FVD.
+  aliases:
+  - De heer Frederik Jansen (FVD)
+  - Frederik Jansen (FVD)
+  - Freek Frederik Jansen
+  - Freek Frederik Jansen (FVD)
+- name: Geoffrey van Leeuwen
+  jurisdiction: NL
+  role: Minister voor Buitenlandse Handel en Ontwikkelingssamenwerking
+  description: Dutch office-holder; minister voor Buitenlandse Handel en Ontwikkelingssamenwerking.
+  aliases:
+  - Geoffrey van Leeuwen
+- name: Gideon van Meijeren
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (FVD)
+  party: FVD
+  description: Dutch politician; member of the tweede kamer for FVD.
+  aliases:
+  - De heer Van Meijeren (FVD)
+  - Gideon van Meijeren
+  - Gideon van Meijeren (FVD)
+  - Van Meijeren (FVD)
+- name: Gijs Tuinman
+  jurisdiction: NL
+  role: Staatssecretaris van Defensie
+  party: BBB
+  description: Dutch office-holder; staatssecretaris van Defensie.
+  aliases:
+  - De heer Tuinman (BBB)
+  - G.P. Tuinman (De Staatssecretaris van Defensie)
+  - Gijs Tuinman
+  - Gijs Tuinman (BBB)
+  - Tuinman (BBB)
+- name: Gouke Moes
+  jurisdiction: NL
+  role: Minister van Onderwijs, Cultuur en Wetenschap
+  description: Dutch office-holder; minister van Onderwijs, Cultuur en Wetenschap.
+  aliases:
+  - G. Moes (De Minister van Onderwijs, Cultuur en Wetenschap)
+  - Gouke Moes
+  - Moes
+- name: Hanke Bruins Slot
+  jurisdiction: NL
+  role: Minister van Buitenlandse Zaken
+  description: Dutch office-holder; minister van Buitenlandse Zaken.
+  aliases:
+  - Bruins Slot
+  - H.G.J. Bruins Slot (De Minister van Binnenlandse Zaken en Koninkrijksrelaties)
+  - H.G.J. Bruins Slot (De Minister van Buitenlandse Zaken)
+  - H.G.J. Bruins Slot (Minister van Binnenlandse Zaken en Koninkrijksrelaties)
+  - Hanke Bruins Slot
+  - Minister Bruins Slot
+- name: Hanneke van der Werf
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (D66)
+  party: D66
+  description: Dutch politician; member of the tweede kamer for D66.
+  aliases:
+  - Hanneke van der Werf
+  - Hanneke van der Werf (D66)
+  - Mevrouw Van der Werf (D66)
+  - Van der Werf (D66)
+- name: Hans Vijlbrief
+  jurisdiction: NL
+  role: Staatssecretaris Mijnbouw
+  party: D66
+  description: Dutch office-holder; staatssecretaris Mijnbouw.
+  aliases:
+  - De heer Vijlbrief (D66)
+  - Hans Vijlbrief
+  - Hans Vijlbrief (D66)
+  - J.A. Vijlbrief (De Minister van Sociale Zaken en Werkgelegenheid)
+  - Vijlbrief (D66)
+- name: Harmen Krul
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (CDA)
+  party: CDA
+  description: Dutch politician; member of the tweede kamer for CDA.
+  aliases:
+  - De heer Krul (CDA)
+  - Harmen Krul
+  - Harmen Krul (CDA)
+  - Krul (CDA)
+- name: Heleen Herbert
+  jurisdiction: NL
+  role: Minister van Economische Zaken en Klimaat
+  description: Dutch office-holder; minister van Economische Zaken en Klimaat.
+  aliases:
+  - H.G. Herbert (De Minister van Economische Zaken en Klimaat)
+  - Heleen Herbert
+- name: Henk Vermeer
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (BBB)
+  party: BBB
+  description: Dutch politician; member of the tweede kamer for BBB.
+  aliases:
+  - De heer Vermeer (BBB)
+  - Henk Vermeer
+  - Henk Vermeer (BBB)
+  - Vermeer (BBB)
+- name: Henk de Vree
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (PVV)
+  party: PVV
+  description: Dutch politician; member of the tweede kamer for PVV.
+  aliases:
+  - De Vree (De voorzitter van de commissie)
+  - De Vree (PVV)
+  - De heer De Vree (PVV)
+  - Henk de Vree
+  - Henk de Vree (PVV)
+- name: Henri Bontenbal
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (CDA)
+  party: CDA
+  description: Dutch politician; member of the tweede kamer for CDA.
+  aliases:
+  - Bontenbal (CDA)
+  - De heer Bontenbal (CDA)
+  - Henri Bontenbal
+  - Henri Bontenbal (CDA)
+- name: Hilde Palland
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (CDA)
+  party: CDA
+  description: Dutch politician; member of the tweede kamer for CDA.
+  aliases:
+  - Hilde Palland
+  - Hilde Palland (CDA)
+  - Mevrouw Palland (CDA)
+  - Palland
+  - Palland (CDA)
+- name: Hind Dekker-Abdulaziz
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (D66)
+  party: D66
+  description: Dutch politician; member of the tweede kamer for D66.
+  aliases:
+  - Dekker-Abdulaziz
+  - Dekker-abdulaziz (D66)
+  - Hind Dekker-Abdulaziz
+  - Hind Dekker-Abdulaziz (D66)
+  - Mevrouw Dekker-Abdulaziz (D66)
+  - Mevrouw Dekker-abdulaziz (D66)
+- name: Hugo de Jonge
+  jurisdiction: NL
+  role: Minister voor Volkshuisvesting en Ruimtelijke Ordening
+  description: Dutch office-holder; minister voor Volkshuisvesting en Ruimtelijke Ordening.
+  aliases:
+  - H.M. de Jonge (De Minister van Binnenlandse Zaken en Koninkrijksrelaties)
+  - H.M. de Jonge (De minister van Binnenlandse Zaken en Koninkrijksrelaties)
+  - H.M. de Jonge (Minister van Binnenlandse Zaken en Koninkrijksrelaties)
+  - Hugo de Jonge
+- name: Hülya Kat
+  jurisdiction: NL
+  role: Committee member (D66)
+  party: D66
+  description: Dutch politician; committee member for D66.
+  aliases:
+  - Hülya Kat
+  - Hülya Kat (D66)
+  - Kat (D66)
+  - Kat (De voorzitter van de commissie)
+  - Mevrouw Kat (D66)
+- name: Ilana Rooderkerk
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (D66)
+  party: D66
+  description: Dutch politician; member of the tweede kamer for D66.
+  aliases:
+  - Ilana Rooderkerk
+  - Ilana Rooderkerk (D66)
+  - Mevrouw Rooderkerk (D66)
+  - Rooderkerk (D66)
+- name: Ingrid Michon-Derkzen
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (VVD)
+  party: VVD
+  description: Dutch politician; member of the tweede kamer for VVD.
+  aliases:
+  - Ingrid Michon-Derkzen
+  - Ingrid Michon-Derkzen (VVD)
+  - Mevrouw Michon-derkzen (VVD)
+  - Michon-Derkzen (De fungerend voorzitter van de commissie)
+  - Michon-Derkzen (De voorzitter van de commissie)
+  - Michon-derkzen (VVD)
+- name: Jan Anthonie Bruijn
+  jurisdiction: NL
+  role: President of the Eerste Kamer (2019-2023)
+  party: VVD
+  description: Dutch pathologist and VVD senator who presided over the Eerste Kamer from 2019 to 2023.
+  aliases:
+  - J.A. Bruijn (De voorzitter van de Eerste Kamer der Staten-Generaal)
+- name: Jacco Janssen
+  jurisdiction: NL
+  role: Speaker in the Tweede Kamer
+  description: Dutch office-holder; speaker in the Tweede Kamer.
+  aliases:
+  - Jacco Janssen
+  - Janssen (Namens de delegatie van de Eerste Kamer)
+- name: Jan Klink
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (VVD)
+  party: VVD
+  description: Dutch politician; member of the tweede kamer for VVD.
+  aliases:
+  - De heer Klink (VVD)
+  - Jan Klink
+  - Jan Klink (VVD)
+  - Klink (VVD)
+- name: Jan Struijs
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (50PLUS)
+  party: 50PLUS
+  description: Dutch politician; member of the tweede kamer for 50PLUS.
+  aliases:
+  - De heer Struijs (50PLUS)
+  - Jan Struijs
+  - Jan Struijs (50PLUS)
+  - Struijs (50PLUS)
+- name: Jan Valize
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (PVV)
+  party: PVV
+  description: Dutch politician; member of the tweede kamer for PVV.
+  aliases:
+  - De heer Valize (PVV)
+  - Jan Valize
+  - Jan Valize (PVV)
+  - Valize
+  - Valize (PVV)
+- name: Jansen (committee chair)
+  jurisdiction: NL
+  role: Chair of an Eerste Kamer committee
+  description: Chair of an Eerste Kamer committee; the record gives a surname and an office, no first
+    name.
+  aliases:
+  - Jansen (De voorzitter van de commissie)
+- name: Jantine Zwinkels
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (CDA)
+  party: CDA
+  description: Dutch politician; member of the tweede kamer for CDA.
+  aliases:
+  - Jantine Zwinkels
+  - Jantine Zwinkels (CDA)
+  - Mevrouw Zwinkels (CDA)
+  - Zwinkels
+  - Zwinkels (CDA)
+- name: Jasper van Dijk
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (SP)
+  party: SP
+  description: Dutch politician; member of the tweede kamer for SP.
+  aliases:
+  - De heer Jasper van Dijk (SP)
+  - De heer Van Dijk (SP)
+  - Jasper van Dijk
+  - Jasper van Dijk (SP)
+  - Van Dijk (SP)
+- name: Jeltje Straatman
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (CDA)
+  party: CDA
+  description: Dutch politician; member of the tweede kamer for CDA.
+  aliases:
+  - Jeltje Straatman
+  - Jeltje Straatman (CDA)
+  - Mevrouw Straatman (CDA)
+  - Straatman (CDA)
+- name: Jesse Klaver
+  jurisdiction: NL
+  role: Voorzitter van de commissie voor Buitenlandse Zaken
+  party: GroenLinks-PvdA
+  description: Dutch office-holder; voorzitter van de commissie voor Buitenlandse Zaken.
+  aliases:
+  - De heer Klaver (GroenLinks-PvdA)
+  - Jesse Klaver
+  - Jesse Klaver (GroenLinks-PvdA)
+  - Klaver (De fungerend voorzitter van de commissie)
+  - Klaver (De voorzitter van de commissie)
+  - Klaver (De voorzitter van de delegatie)
+  - Klaver (GroenLinks-PvdA)
+- name: Jesse Six Dijkstra
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (NSC)
+  party: NSC
+  description: Dutch politician; member of the tweede kamer for NSC.
+  aliases:
+  - De heer Six Dijkstra (NSC)
+  - Jesse Six Dijkstra
+  - Jesse Six Dijkstra (NSC)
+  - Six Dijkstra (NSC)
+- name: Jimmy Dijk
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (SP)
+  party: SP
+  description: Dutch politician; member of the tweede kamer for SP.
+  aliases:
+  - De heer Dijk (SP)
+  - Dijk (SP)
+  - Jimmy Dijk
+  - Jimmy Dijk (SP)
+- name: Joeri Pool
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (PVV)
+  party: PVV
+  description: Dutch politician; member of the tweede kamer for PVV.
+  aliases:
+  - De heer Pool (PVV)
+  - Joeri Pool
+  - Joeri Pool (PVV)
+  - Pool (De voorzitter van de commissie)
+  - Pool (PVV)
+- name: Joost Sneller
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (D66)
+  party: D66
+  description: Dutch politician; member of the tweede kamer for D66.
+  aliases:
+  - De heer Sneller (D66)
+  - Joost Sneller
+  - Joost Sneller (D66)
+  - Sneller
+  - Sneller (D66)
+- name: Joris Thijssen
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (GroenLinks-PvdA)
+  party: GroenLinks-PvdA
+  description: Dutch politician; member of the tweede kamer for GroenLinks-PvdA.
+  aliases:
+  - De heer Thijssen (GroenLinks-PvdA)
+  - Joris Thijssen
+  - Joris Thijssen (GroenLinks-PvdA)
+  - Thijssen (De fungerend voorzitter van de commissie)
+  - Thijssen (GroenLinks-PvdA)
+- name: Judith Tielen
+  jurisdiction: NL
+  role: Staatssecretaris Jeugd, Preventie en Sport
+  party: VVD
+  description: Dutch office-holder; staatssecretaris Jeugd, Preventie en Sport.
+  aliases:
+  - Judith Tielen
+  - Judith Tielen (VVD)
+  - Mevrouw Tielen (VVD)
+  - Tielen
+  - Tielen (VVD)
+- name: Judith Uitermark
+  jurisdiction: NL
+  role: Minister van Binnenlandse Zaken en Koninkrijksrelaties
+  party: NSC
+  description: Dutch office-holder; minister van Binnenlandse Zaken en Koninkrijksrelaties.
+  aliases:
+  - J.J.M. Uitermark (De Minister van Binnenlandse Zaken en Koninkrijksrelaties)
+  - J.J.M. Uitermark (De minister van Binnenlandse Zaken en Koninkrijksrelaties)
+  - J.J.M.Uitermark (De minister van Binnenlandse Zaken en Koninkrijksrelaties)
+  - Judith Uitermark
+  - Judith Uitermark (NSC)
+  - Mevrouw Uitermark (NSC)
+  - Minister Uitermark
+  - Uitermark
+  - Uitermark (NSC)
+- name: Julian Bushoff
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (PvdA)
+  party: PvdA
+  description: Dutch politician; member of the tweede kamer for PvdA.
+  aliases:
+  - Bushoff (De voorzitter van de tijdelijke commissie Grondrechten en Constitutionele toetsing)
+  - Bushoff (PvdA)
+  - De heer Bushoff (PvdA)
+  - Julian Bushoff
+  - Julian Bushoff (PvdA)
+- name: Jurgen Nobel
+  jurisdiction: NL
+  role: Staatssecretaris Participatie en Integratie
+  party: VVD
+  description: Dutch office-holder; staatssecretaris Participatie en Integratie.
+  aliases:
+  - De heer Nobel (VVD)
+  - J.N.J. Nobel (De Staatssecretaris van Sociale Zaken en Werkgelegenheid)
+  - Jurgen Nobel
+  - Jurgen Nobel (VVD)
+  - Nobel (VVD)
+- name: Kajsa Ollongren
+  jurisdiction: NL
+  role: Minister van Defensie
+  description: Dutch office-holder; minister van Defensie.
+  aliases:
+  - K.H. Ollongren (De Minister van Defensie)
+  - Kajsa Ollongren
+  - Minister Ollongren
+  - Ollongren
+- name: Karien van Gennip
+  jurisdiction: NL
+  role: Minister van Sociale Zaken en Werkgelegenheid
+  description: Dutch office-holder; minister van Sociale Zaken en Werkgelegenheid.
+  aliases:
+  - C.E.G. van Gennip (De Minister van Sociale Zaken en Werkgelegenheid)
+  - Karien van Gennip
+- name: Kauthar Bouchallikh
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (GroenLinks)
+  party: GroenLinks
+  description: Dutch politician; member of the tweede kamer for GroenLinks.
+  aliases:
+  - Bouchallikh (GroenLinks)
+  - Kauthar Bouchallikh
+  - Kauthar Bouchallikh (GroenLinks)
+  - Mevrouw Bouchallikh (GroenLinks)
+- name: Koorevaar (committee chair)
+  jurisdiction: NL
+  role: Chair of an Eerste Kamer committee
+  description: Chair of an Eerste Kamer committee; the record gives a surname and an office, no first
+    name.
+  aliases:
+  - Koorevaar (De voorzitter van de commissie)
+- name: Lammert van Raan
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (PvdD)
+  party: PvdD
+  description: Dutch politician; member of the tweede kamer for PvdD.
+  aliases:
+  - De heer Van Raan (PvdD)
+  - Lammert van Raan
+  - Lammert van Raan (PvdD)
+  - Van Raan
+  - Van Raan (PvdD)
+- name: Laura Bromet
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (GroenLinks-PvdA)
+  party: GroenLinks-PvdA
+  description: Dutch politician; member of the tweede kamer for GroenLinks-PvdA.
+  aliases:
+  - Bromet (De fungerend voorzitter van de commissie)
+  - Bromet (De voorzitter van de commissie)
+  - Bromet (GroenLinks-PvdA)
+  - Laura Bromet
+  - Laura Bromet (GroenLinks-PvdA)
+  - Mevrouw Bromet (GroenLinks-PvdA)
+- name: Laurens Dassen
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (Volt)
+  party: Volt
+  description: Dutch politician; member of the tweede kamer for Volt.
+  aliases:
+  - Dassen
+  - Dassen (Volt)
+  - De heer Dassen (Volt)
+  - Laurens Dassen
+  - Laurens Dassen (Volt)
+- name: Liesje Schreinemacher
+  jurisdiction: NL
+  role: Minister voor Buitenlandse Handel en Ontwikkelingssamenwerking
+  description: Dutch office-holder; minister voor Buitenlandse Handel en Ontwikkelingssamenwerking.
+  aliases:
+  - E.N.A.J. Schreinemacher (Minster voor Buitenlandse Handel en Ontwikkelingssamenwerking)
+  - Liesje Schreinemacher
+  - Liesje Schreinemacher (De Minister voor Buitenlandse Handel en Ontwikkelingssamenwerking)
+  - Minister Schreinemacher
+- name: Lisa Westerveld
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (GroenLinks)
+  party: GroenLinks
+  description: Dutch politician; member of the tweede kamer for GroenLinks.
+  aliases:
+  - Lisa Westerveld
+  - Lisa Westerveld (GroenLinks)
+  - Mevrouw Westerveld (GroenLinks)
+  - Westerveld
+  - Westerveld (GroenLinks)
+- name: Lisa van Ginneken
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (D66)
+  party: D66
+  description: Dutch politician; member of the tweede kamer for D66.
+  aliases:
+  - Lisa van Ginneken
+  - Lisa van Ginneken (D66)
+  - Mevrouw Van Ginneken (D66)
+  - Van Ginneken (D66)
+- name: M-f. Agema
+  jurisdiction: NL
+  role: Minister van Volksgezondheid, Welzijn en Sport
+  description: Dutch office-holder; minister van Volksgezondheid, Welzijn en Sport.
+  aliases:
+  - M-F. Agema (De Minister van Volksgezondheid, Welzijn en Sport)
+  - M-f. Agema
+- name: Mei Li Vos
+  jurisdiction: NL
+  role: President of the Eerste Kamer
+  party: GroenLinks-PvdA
+  description: Dutch politician who has presided over the Eerste Kamer since 2023.
+  aliases:
+  - M.L. Vos (De Voorzitter van de Eerste Kamer der Staten-Generaal)
+- name: Maes van Lanschot
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (CDA)
+  party: CDA
+  description: Dutch politician; member of the tweede kamer for CDA.
+  aliases:
+  - De heer Van Lanschot (CDA)
+  - Maes van Lanschot
+  - Maes van Lanschot (CDA)
+  - Van Lanschot (CDA)
+- name: Marieke Koekkoek
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (Volt)
+  party: Volt
+  description: Dutch politician; member of the tweede kamer for Volt.
+  aliases:
+  - Koekkoek (Volt)
+  - Marieke Koekkoek
+  - Marieke Koekkoek (Volt)
+  - Mevrouw Koekkoek (Volt)
+- name: Mariëlle Paul
+  jurisdiction: NL
+  role: Minister voor Primair en Voortgezet Onderwijs
+  party: VVD
+  description: Dutch office-holder; minister voor Primair en Voortgezet Onderwijs.
+  aliases:
+  - M.L.J. Paul (De Staatssecretaris van Onderwijs, Cultuur en Wetenschap)
+  - Mariëlle Paul
+  - Mariëlle Paul (VVD)
+  - Mevrouw Paul (VVD)
+  - Paul
+  - Paul (VVD)
+  - Staatssecretaris Paul
+- name: Mariëllepaul
+  jurisdiction: NL
+  role: Minister van Sociale Zaken en Werkgelegenheid
+  description: Dutch office-holder; minister van Sociale Zaken en Werkgelegenheid.
+  aliases:
+  - MariëllePaul (De Minister van Sociale Zaken en Werkgelegenheid)
+  - Mariëllepaul
+- name: Marjolein Moorman
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (GroenLinks-PvdA)
+  party: GroenLinks-PvdA
+  description: Dutch politician; member of the tweede kamer for GroenLinks-PvdA.
+  aliases:
+  - Marjolein Moorman
+  - Marjolein Moorman (GroenLinks-PvdA)
+  - Mevrouw Moorman (GroenLinks-PvdA)
+  - Moorman (GroenLinks-PvdA)
+- name: Mark Harbers
+  jurisdiction: NL
+  role: Minister van Infrastructuur en Waterstaat
+  description: Dutch office-holder; minister van Infrastructuur en Waterstaat.
+  aliases:
+  - M.G.J. Harbers (De Minister van Infrastructuur en Waterstaat)
+  - Mark Harbers
+- name: Mark Rutte
+  jurisdiction: NL
+  role: Minister-president, minister van Algemene Zaken
+  description: Dutch office-holder; minister-president, minister van Algemene Zaken.
+  aliases:
+  - Mark Rutte
+- name: Marnix van Rij
+  jurisdiction: NL
+  role: Staatssecretaris Fiscaliteit en Belastingdienst
+  description: Dutch office-holder; staatssecretaris Fiscaliteit en Belastingdienst.
+  aliases:
+  - Marnix van Rij
+  - Van Rij
+- name: Maroš Šefčovič (European Commission)
+  jurisdiction: NL
+  role: Executive Vice-President of the European Commission
+  description: Slovak diplomat and European Commissioner, quoted in the Dutch parliamentary record.
+  aliases:
+  - Maroš Šefčovič, (Vicevoorzitter)
+- name: Martijn Buijsse
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (VVD)
+  party: VVD
+  description: Dutch politician; member of the tweede kamer for VVD.
+  aliases:
+  - Buijsse (VVD)
+  - De heer Buijsse (VVD)
+  - Martijn Buijsse
+  - Martijn Buijsse (VVD)
+- name: Michelle Jagtenberg
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (D66)
+  party: D66
+  description: Dutch politician; member of the tweede kamer for D66.
+  aliases:
+  - Jagtenberg
+  - Jagtenberg (D66)
+  - Mevrouw Jagtenberg (D66)
+  - Michelle Jagtenberg
+  - Michelle Jagtenberg (D66)
+- name: Micky Adriaansens
+  jurisdiction: NL
+  role: Minister van Economische Zaken en Klimaat
+  description: Dutch office-holder; minister van Economische Zaken en Klimaat.
+  aliases:
+  - Adriaansens
+  - M.A.M. Adriaansens (De Minister van Economische Zaken en Klimaat)
+  - M.A.M. Adriaansens (Minister van Economische Zaken en Klimaat)
+  - Micky Adriaansens
+  - Minister Adriaansens
+- name: Mirjam Bikker
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (ChristenUnie)
+  party: ChristenUnie
+  description: Dutch politician; member of the tweede kamer for ChristenUnie.
+  aliases:
+  - Bikker
+  - Bikker (ChristenUnie)
+  - Mevrouw Bikker (ChristenUnie)
+  - Mirjam Bikker
+  - Mirjam Bikker (ChristenUnie)
+- name: Mona Keijzer
+  jurisdiction: NL
+  role: Minister van Volkshuisvesting en Ruimtelijke Ordening, viceminister-president
+  party: Lid Keijzer
+  description: Dutch office-holder; minister van Volkshuisvesting en Ruimtelijke Ordening, viceminister-president.
+  aliases:
+  - Keijzer (Lid Keijzer)
+  - M.C.G. Keijzer (De Minister van Volkshuisvesting en Ruimtelijke Ordening)
+  - Mevrouw Keijzer (Lid Keijzer)
+  - Mona Keijzer
+  - Mona Keijzer (Lid Keijzer)
+- name: Mpanzu Bamenga
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (D66)
+  party: D66
+  description: Dutch politician; member of the tweede kamer for D66.
+  aliases:
+  - Bamenga (D66)
+  - De heer Bamenga (D66)
+  - Mpanzu Bamenga
+  - Mpanzu Bamenga (D66)
+- name: Mustafa Amhaouch
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (CDA)
+  party: CDA
+  description: Dutch politician; member of the tweede kamer for CDA.
+  aliases:
+  - Amhaouch (CDA)
+  - De heer Amhaouch (CDA)
+  - Mustafa Amhaouch
+  - Mustafa Amhaouch (CDA)
+- name: Natascha Wingelaar
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (NSC)
+  party: NSC
+  description: Dutch politician; member of the tweede kamer for NSC.
+  aliases:
+  - Mevrouw Wingelaar (NSC)
+  - Natascha Wingelaar
+  - Natascha Wingelaar (NSC)
+  - Wingelaar (De voorzitter van de commissie)
+  - Wingelaar (NSC)
+  - Wingelaar (Voorzitter van de commissie)
+- name: Nilüfer Gündoğan
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (Lid Gündoğan)
+  party: Lid Gündoğan
+  description: Dutch politician; member of the tweede kamer for Lid Gündoğan.
+  aliases:
+  - Gündoğan (Lid Gündoğan)
+  - Mevrouw Gündoğan (Lid Gündoğan)
+  - Nilüfer Gündoğan
+  - Nilüfer Gündoğan (Lid Gündoğan)
+- name: Olaf Ephraim
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (Groep Van Haga)
+  party: Groep Van Haga
+  description: Dutch politician; member of the tweede kamer for Groep Van Haga.
+  aliases:
+  - De heer Ephraim (Groep Van Haga)
+  - Ephraim
+  - Ephraim (Groep Van Haga)
+  - Olaf Ephraim
+  - Olaf Ephraim (Groep Van Haga)
+- name: Olger van Dijk
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (NSC)
+  party: NSC
+  description: Dutch politician; member of the tweede kamer for NSC.
+  aliases:
+  - De heer Van Dijk (NSC)
+  - Olger van Dijk
+  - Olger van Dijk (NSC)
+  - Van Dijk (NSC)
+- name: Ouafa Oualhadj
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (D66)
+  party: D66
+  description: Dutch politician; member of the tweede kamer for D66.
+  aliases:
+  - Mevrouw Oualhadj (D66)
+  - Ouafa Oualhadj
+  - Ouafa Oualhadj (D66)
+  - Oualhadj
+  - Oualhadj (D66)
+- name: Paul van Meenen
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (D66)
+  party: D66
+  description: Dutch politician; member of the tweede kamer for D66.
+  aliases:
+  - De heer Van Meenen (D66)
+  - Paul van Meenen
+  - Paul van Meenen (D66)
+  - Van Meenen (D66)
+  - Van Meenen (De voorzitter van de commissie)
+- name: Peter Valstar
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (VVD)
+  party: VVD
+  description: Dutch politician; member of the tweede kamer for VVD.
+  aliases:
+  - De heer Valstar (VVD)
+  - Peter Valstar
+  - Peter Valstar (VVD)
+  - Valstar (De voorzitter van de commissie)
+  - Valstar (VVD)
+- name: Peter van Duijvenvoorde
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (FVD)
+  party: FVD
+  description: Dutch politician; member of the tweede kamer for FVD.
+  aliases:
+  - De heer Van Duijvenvoorde (FVD)
+  - Peter van Duijvenvoorde
+  - Peter van Duijvenvoorde (FVD)
+  - Van Duijvenvoorde (FVD)
+- name: Piet Adema
+  jurisdiction: NL
+  role: Minister van Landbouw, Natuur en Voedselkwaliteit
+  description: Dutch office-holder; minister van Landbouw, Natuur en Voedselkwaliteit.
+  aliases:
+  - P. Adema (De Minister van Landbouw, Natuur en Voedselkwaliteit)
+  - Piet Adema
+- name: Pieter Heerma
+  jurisdiction: NL
+  role: Minister van Binnenlandse Zaken en Koninkrijksrelaties
+  party: CDA
+  description: Dutch office-holder; minister van Binnenlandse Zaken en Koninkrijksrelaties.
+  aliases:
+  - De heer Heerma (CDA)
+  - Heerma
+  - Heerma (CDA)
+  - Pieter Heerma
+  - Pieter Heerma (CDA)
+- name: Pieter Omtzigt
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (Lid Omtzigt)
+  party: Lid Omtzigt
+  description: Dutch politician; member of the tweede kamer for Lid Omtzigt.
+  aliases:
+  - De heer Omtzigt (Lid Omtzigt)
+  - Omtzigt (Lid Omtzigt)
+  - Pieter Omtzigt
+  - Pieter Omtzigt (Lid Omtzigt)
+- name: Queeny Rajkowski
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (VVD)
+  party: VVD
+  description: Dutch politician; member of the tweede kamer for VVD.
+  aliases:
+  - Mevrouw Rajkowski (VVD)
+  - Queeny Rajkowski
+  - Queeny Rajkowski (VVD)
+  - Rajkowski
+  - Rajkowski (VVD)
+- name: Raymond de Roon
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (PVV)
+  party: PVV
+  description: Dutch politician; member of the tweede kamer for PVV.
+  aliases:
+  - De Roon (De fungerend voorzitter van de commissie)
+  - De Roon (De voorzitter van de commissie)
+  - De Roon (PVV)
+  - De heer De Roon (PVV)
+  - Raymond de Roon
+  - Raymond de Roon (PVV)
+- name: Jeroen Recourt
+  jurisdiction: NL
+  role: Member of the Eerste Kamer (GroenLinks-PvdA)
+  party: GroenLinks-PvdA
+  description: Dutch judge and senator for GroenLinks-PvdA.
+  aliases:
+  - De heer Recourt (GroenLinks-PvdA)
+  - Recourt (GroenLinks-PvdA)
+- name: Reinette Klever
+  jurisdiction: NL
+  role: Minister voor Buitenlandse Handel en Ontwikkelingshulp
+  description: Dutch office-holder; minister voor Buitenlandse Handel en Ontwikkelingshulp.
+  aliases:
+  - Reinette Klever
+- name: Renske Leijten
+  jurisdiction: NL
+  role: Committee chair (SP)
+  party: SP
+  description: Dutch politician; committee chair for SP.
+  aliases:
+  - Leijten
+  - Leijten (SP)
+  - Mevrouw Leijten (SP)
+  - Renske Leijten
+  - Renske Leijten (SP)
+- name: Robbert Dijkgraaf
+  jurisdiction: NL
+  role: Minister van Onderwijs, Cultuur en Wetenschap
+  description: Dutch office-holder; minister van Onderwijs, Cultuur en Wetenschap.
+  aliases:
+  - R.H. Dijkgraaf (De Minister van Onderwijs, Cultuur en Wetenschap)
+  - Robbert Dijkgraaf
+- name: Robert Tieman
+  jurisdiction: NL
+  role: Minister van Infrastructuur en Waterstaat
+  description: Dutch office-holder; minister van Infrastructuur en Waterstaat.
+  aliases:
+  - R. Tieman (De Minister van Infrastructuur en Waterstaat)
+  - Robert Tieman
+- name: Roelien Kamminga
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (VVD)
+  party: VVD
+  description: Dutch politician; member of the tweede kamer for VVD.
+  aliases:
+  - Kamminga (De voorzitter van de commissie)
+  - Kamminga (VVD)
+  - Mevrouw Kamminga (VVD)
+  - Roelien Kamminga
+  - Roelien Kamminga (VVD)
+- name: Ruben Brekelmans
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (VVD)
+  party: VVD
+  description: Dutch politician; member of the tweede kamer for VVD.
+  aliases:
+  - Brekelmans (VVD)
+  - De heer Brekelmans (VVD)
+  - Minister Brekelmans
+  - R.P. Brekelmans (De Minister van Defensie)
+  - Ruben Brekelmans
+  - Ruben Brekelmans (VVD)
+- name: Rudmer Heerema
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (VVD)
+  party: VVD
+  description: Dutch politician; member of the tweede kamer for VVD.
+  aliases:
+  - De heer Heerema (VVD)
+  - Heerema (VVD)
+  - R. Heerema (De voorzitter van de commissie)
+  - Rudmer Heerema
+  - Rudmer Heerema (De voorzitter van de commissie)
+  - Rudmer Heerema (VVD)
+- name: Salima Belhaj
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (D66)
+  party: D66
+  description: Dutch politician; member of the tweede kamer for D66.
+  aliases:
+  - Belhaj (D66)
+  - Mevrouw Belhaj (D66)
+  - Salima Belhaj
+  - Salima Belhaj (D66)
+- name: Sandra Beckerman
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (SP)
+  party: SP
+  description: Dutch politician; member of the tweede kamer for SP.
+  aliases:
+  - Beckerman
+  - Beckerman (SP)
+  - Mevrouw Beckerman (SP)
+  - Sandra Beckerman
+  - Sandra Beckerman (SP)
+- name: Sandra Palmen
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (NSC)
+  party: NSC
+  description: Dutch politician; member of the tweede kamer for NSC.
+  aliases:
+  - Mevrouw Palmen (NSC)
+  - Palmen (De voorzitter van de commissie)
+  - Palmen (NSC)
+  - Sandra Palmen
+  - Sandra Palmen (NSC)
+- name: Sarah El Boujdaini
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (D66)
+  party: D66
+  description: Dutch politician; member of the tweede kamer for D66.
+  aliases:
+  - El Boujdaini
+  - El Boujdaini (D66)
+  - Mevrouw El Boujdaini (D66)
+  - Sarah El Boujdaini
+  - Sarah El Boujdaini (D66)
+- name: Schippers
+  jurisdiction: NL
+  role: Speaker in the Tweede Kamer
+  description: Dutch office-holder; speaker in the Tweede Kamer.
+  aliases:
+  - Mevrouw Schippers (VVD)
+  - Schippers
+- name: Sigrid Kaag
+  jurisdiction: NL
+  role: Minister van Financiën
+  description: Dutch office-holder; minister van Financiën.
+  aliases:
+  - Kaag
+  - Sigrid Kaag
+- name: Silvio Erkens
+  jurisdiction: NL
+  role: Staatssecretaris van Landbouw, Visserij, Voedselzekerheid en Natuur
+  party: VVD
+  description: Dutch office-holder; staatssecretaris van Landbouw, Visserij, Voedselzekerheid en Natuur.
+  aliases:
+  - De heer Erkens (VVD)
+  - Erkens
+  - Erkens (VVD)
+  - Silvio Erkens
+  - Silvio Erkens (VVD)
+- name: Sjoerd Sjoerdsma
+  jurisdiction: NL
+  role: Minister van Buitenlandse Handel en Ontwikkelingssamenwerking
+  party: D66
+  description: Dutch office-holder; minister van Buitenlandse Handel en Ontwikkelingssamenwerking.
+  aliases:
+  - De heer Sjoerdsma (D66)
+  - Sjoerd Sjoerdsma
+  - Sjoerd Sjoerdsma (D66)
+  - Sjoerdsma
+  - Sjoerdsma (D66)
+- name: Stephan Neijenhuis
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (D66)
+  party: D66
+  description: Dutch politician; member of the tweede kamer for D66.
+  aliases:
+  - De heer Neijenhuis (D66)
+  - Neijenhuis (D66)
+  - Stephan Neijenhuis
+  - Stephan Neijenhuis (D66)
+- name: Stephan van Baarle
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (DENK)
+  party: DENK
+  description: Dutch politician; member of the tweede kamer for DENK.
+  aliases:
+  - De heer Van Baarle (DENK)
+  - Stephan van Baarle
+  - Stephan van Baarle (DENK)
+  - Van Baarle (DENK)
+- name: Steven van Weyenberg
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (D66)
+  party: D66
+  description: Dutch politician; member of the tweede kamer for D66.
+  aliases:
+  - De heer Van Weyenberg (D66)
+  - S.P.R.A. van Weyenberg (De Minister van Financiën)
+  - Steven van Weyenberg
+  - Steven van Weyenberg (D66)
+  - Van Weyenberg (D66)
+- name: Stientje van Veldhoven-van der Meer
+  jurisdiction: NL
+  role: Minister van Klimaat en Groene Groei
+  description: Dutch office-holder; minister van Klimaat en Groene Groei.
+  aliases:
+  - Stientje van Veldhoven-van der Meer
+  - Van Veldhoven-van der Meer
+- name: Hendrik-Jan Talsma
+  jurisdiction: NL
+  role: Member of the Eerste Kamer (ChristenUnie); Chair of the delegation
+  party: ChristenUnie
+  description: Dutch senator chairing an Eerste Kamer interparliamentary delegation.
+  aliases:
+  - Talsma (De voorzitter van de delegatie)
+- name: Teun Struycken
+  jurisdiction: NL
+  role: Staatssecretaris Rechtsbescherming
+  description: Dutch office-holder; staatssecretaris Rechtsbescherming.
+  # Three Dutch office-holders of this name, one per generation. This is the
+  # one born in 1969; the ministers born 1873 and 1906 are his forebears.
+  wikidata: Q115673914
+  aliases:
+  - Staatssecretaris Struycken
+  - T.H.D. Struycken (De Staatssecretaris van Justitie en Veiligheid)
+  - Teun Struycken
+- name: Th.m. Hermans
+  jurisdiction: NL
+  role: Minister van Klimaat en Groene Groei
+  description: Dutch office-holder; minister van Klimaat en Groene Groei.
+  aliases:
+  - S.Th.M. Hermans (De Minister van Klimaat en Groene Groei)
+  - Th.m. Hermans
+- name: Tijs van den Brink
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (CDA)
+  party: CDA
+  description: Dutch politician; member of the tweede kamer for CDA.
+  aliases:
+  - De heer Van den Brink (CDA)
+  - Tijs van den Brink
+  - Tijs van den Brink (CDA)
+  - Van den Brink (CDA)
+- name: Tjebbe van Oostenbruggen
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (NSC)
+  party: NSC
+  description: Dutch politician; member of the tweede kamer for NSC.
+  aliases:
+  - De heer Van Oostenbruggen (NSC)
+  - Staatssecretaris Van Oostenbruggen
+  - T. van Oostenbruggen (De Staatssecretaris van Financiën)
+  - Tjebbe van Oostenbruggen
+  - Tjebbe van Oostenbruggen (NSC)
+  - Van Oostenbruggen (NSC)
+- name: Tom Berendsen
+  jurisdiction: NL
+  role: Minister van Buitenlandse Zaken
+  party: EP/CDA
+  description: Dutch office-holder; minister van Buitenlandse Zaken.
+  aliases:
+  - Berendsen (EP/CDA)
+  - De heer Berendsen (EP/CDA)
+  - T.B.W. Berendsen (De Minister van Buitenlandse Zaken)
+  - Tom Berendsen
+  - Tom Berendsen (EP/CDA)
+- name: Tom van der Lee
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (GroenLinks-PvdA)
+  party: GroenLinks-PvdA
+  description: Dutch politician; member of the tweede kamer for GroenLinks-PvdA.
+  aliases:
+  - De heer Van der Lee (GroenLinks-PvdA)
+  - Tom van der Lee
+  - Tom van der Lee (GroenLinks-PvdA)
+  - Van der Lee (GroenLinks-PvdA)
+- name: Tunahan Kuzu
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (DENK)
+  party: DENK
+  description: Dutch politician; member of the tweede kamer for DENK.
+  aliases:
+  - De heer Kuzu (DENK)
+  - Kuzu (DENK)
+  - Kuzu (De voorzitter van de commissie)
+  - Tunahan Kuzu
+  - Tunahan Kuzu (DENK)
+- name: Tweede Kamer der Staten-Generaal
+  jurisdiction: NL
+  role: institutional
+  description: Institutional or procedural attribution in the Dutch parliamentary record (Tweede Kamer
+    der Staten-Generaal).
+  aliases:
+  - Tweede Kamer der Staten-Generaal
+- name: Ulysse Ellian
+  jurisdiction: NL
+  role: Committee chair (VVD)
+  party: VVD
+  description: Dutch politician; committee chair for VVD.
+  aliases:
+  - De heer Ellian (VVD)
+  - Ellian (De fungerend voorzitter van de commissie)
+  - Ellian (VVD)
+  - Ulysse Ellian
+  - Ulysse Ellian (VVD)
+- name: Bert van Ballekom
+  jurisdiction: NL
+  role: Member of the Eerste Kamer (VVD); Chair, standing committee for Finance
+  party: VVD
+  description: Dutch senator chairing the Eerste Kamer standing committee for finance.
+  aliases:
+  - Van Ballekom (De voorzitter van de vaste commissie voor Financiën)
+- name: Van Binnenlandse Zaken en Koninkrijksrelaties
+  jurisdiction: NL
+  role: Minister
+  description: Dutch office-holder; minister.
+  aliases:
+  - Minister van Binnenlandse Zaken en Koninkrijksrelaties
+  - Van Binnenlandse Zaken en Koninkrijksrelaties
+- name: Alexander van Hattem
+  jurisdiction: NL
+  role: Member of the Eerste Kamer (PVV)
+  party: PVV
+  description: Dutch senator speaking on behalf of the Eerste Kamer delegation.
+  aliases:
+  - Van Hattem (Namens de delegatie van de Eerste Kamer)
+- name: Gala Veldhoen
+  jurisdiction: NL
+  role: Member of the Eerste Kamer (GroenLinks-PvdA); Chair, Committee on Digitalisation
+  party: GroenLinks-PvdA
+  description: Dutch lawyer and senator; chair of the Eerste Kamer committee on digitalisation.
+  aliases:
+  - G. Veldhoen (De voorzitter van de commissie Digitalisering)
+  - G.V.M. Veldhoen (De voorzitter van de vaste commissie voor Digitalisering)
+  - Mevrouw Veldhoen (Eerste Kamerlid, GroenLinks)
+  - Veldhoen (De voorzitter van de commissie Digitalisering)
+  - Veldhoen (De voorzitter van de vaste commissie voor Digitalisering)
+  - Veldhoen (Eerste Kamerlid, GroenLinks)
+- name: Vincent Karremans
+  jurisdiction: NL
+  role: Staatssecretaris Jeugd, Preventie en Sport
+  description: Dutch office-holder; staatssecretaris Jeugd, Preventie en Sport.
+  aliases:
+  - Minister Karremans
+  - V.P.G. Karremans (De Minister van Economische Zaken)
+  - V.P.G. Karremans (Minister van Infrastructuur en Waterstaat)
+  - V.P.G.Karremans (De Minister van Economische Zaken)
+  - Vincent Karremans
+- name: Vogels (delegation chair)
+  jurisdiction: NL
+  role: Chair of an Eerste Kamer delegation
+  description: Chair of an Eerste Kamer interparliamentary delegation; the record gives a surname and
+    an office.
+  aliases:
+  - Vogels (De voorzitter van de delegatie)
+- name: Willemijn Aerdts
+  jurisdiction: NL
+  role: Staatssecretaris Digitale Economie en Soevereiniteit
+  description: Dutch office-holder; staatssecretaris Digitale Economie en Soevereiniteit.
+  aliases:
+  - Aerdts
+  - Staatssecretaris Aerdts
+  - W.J.M. Aerdts (De Staatssecretaris Digitale Economie en Soevereiniteit)
+  - W.J.M. Aerdts (De Staatssecretaris van Economische Zaken en Klimaat)
+  - W.J.M. Aerdts (De Staatssecretaris van Economische Zaken – Digitale Economie en Soevereiniteit)
+  - Willemijn Aerdts
+- name: Wittich-de Ridder (delegation clerk)
+  jurisdiction: NL
+  role: Clerk of the Eerste Kamer delegation
+  description: Clerk of an Eerste Kamer interparliamentary delegation; the record gives a surname and
+    an office.
+  aliases:
+  - Wittich-de Ridder (De griffier van de delegatie van de Eerste Kamer)
+- name: Wopke Hoekstra
+  jurisdiction: NL
+  role: Minister van Buitenlandse Zaken
+  description: Dutch office-holder; minister van Buitenlandse Zaken.
+  aliases:
+  - Hoekstra
+  - Minister Hoekstra
+  - W.B. Hoekstra (De Minister van Buitenlandse Zaken)
+  - Wopke Hoekstra
+- name: Wybren van Haga
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (Groep Van Haga)
+  party: Groep Van Haga
+  description: Dutch politician; member of the tweede kamer for Groep Van Haga.
+  aliases:
+  - De heer Van Haga (Groep Van Haga)
+  - Van Haga
+  - Van Haga (Groep Van Haga)
+  - Wybren van Haga
+  - Wybren van Haga (Groep Van Haga)
+- name: Wytske Postma
+  jurisdiction: NL
+  role: Member of the Tweede Kamer (NSC)
+  party: NSC
+  description: Dutch politician; member of the tweede kamer for NSC.
+  aliases:
+  - Mevrouw Postma (NSC)
+  - Postma
+  - Postma (NSC)
+  - Wytske Postma
+  - Wytske Postma (NSC)
+- name: Yesilgöz-zegerius
+  jurisdiction: NL
+  role: Minister van Justitie en Veiligheid
+  description: Dutch office-holder; minister van Justitie en Veiligheid.
+  aliases:
+  - D. Yesilgöz-Zegerius (De Minister van Justitie en Veiligheid)
+  - Yesilgöz-zegerius
+- name: Zsolt Szabó
+  jurisdiction: NL
+  role: Staatssecretaris Koninkrijksrelaties en Digitalisering
+  description: Dutch office-holder; staatssecretaris Koninkrijksrelaties en Digitalisering.
+  aliases:
+  - F.Z. Szabó (De Staatssecretaris van Binnenlandse Zaken en Koninkrijksrelaties)
+  - Staatssecretaris Szabó
+  - Szabó
+  - Zsolt Szabó
+- name: Šefčovič
+  jurisdiction: NL
+  role: Speaker in the Tweede Kamer
+  description: Dutch office-holder; speaker in the Tweede Kamer.
+  aliases:
+  - M.Šefčovič
+  - Šefčovič
+- name: Marc de Vries
+  jurisdiction: NL
+  role: Member of the Eerste Kamer (SGP)
+  party: SGP
+  description: Dutch politician and professor of Christian philosophy at Delft University of Technology;
+    SGP senator since December 2023.
+  profile_url: https://www.eerstekamer.nl/persoon/prof_dr_m_j_de_vries_sgp
+  aliases:
+  - De heer De Vries (SGP)

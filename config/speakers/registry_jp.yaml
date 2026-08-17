@@ -1,0 +1,216 @@
+- name: Kae Miki (三木圭恵)
+  jurisdiction: JP
+  role: Member, House of Representatives (Nippon Ishin no Kai)
+  description: Japanese politician who has served in the House of Representatives for the Japan Innovation Party (Ishin).
+  profile_url: https://ja.wikipedia.org/wiki/三木圭恵
+  aliases:
+  - 三木圭恵 (日本維新の会)
+- name: Koichiro Ichimura (市村浩一郎)
+  jurisdiction: JP
+  role: Member, House of Representatives (Nippon Ishin no Kai)
+  description: Japanese politician who has served in the House of Representatives for the Japan Innovation Party (Ishin).
+  profile_url: https://ja.wikipedia.org/wiki/市村浩一郎
+  aliases:
+  - 市村浩一郎 (日本維新の会)
+- name: Shoji Watanabe (渡邊昇治)
+  jurisdiction: JP
+  role: Director-General, Science, Technology and Innovation Promotion Secretariat, Cabinet Office
+  description: Japanese government official heading the Cabinet Office secretariat responsible for coordinating national science, technology and innovation policy.
+  aliases:
+  - 渡邊昇治 (内閣府科学技術・イノベーション推進事務局統括官)
+- name: Hideaki Uemura (上村英明)
+  jurisdiction: JP
+  role: Member, House of Representatives (Reiwa Shinsengumi)
+  description: Japanese scholar of indigenous peoples' rights and politician who has served in the House of Representatives for Reiwa Shinsengumi.
+  profile_url: https://ja.wikipedia.org/wiki/上村英明
+  aliases:
+  - 上村英明 (れいわ新選組)
+- name: Seiichi Kushida (串田誠一)
+  jurisdiction: JP
+  role: Member, House of Representatives (Nippon Ishin no Kai / Kyoiku Musho-ka wo Jitsugen suru Kai)
+  description: Japanese lawyer and politician who has served in the House of Representatives, affiliated with the Japan Innovation Party parliamentary group.
+  profile_url: https://ja.wikipedia.org/wiki/串田誠一
+  aliases:
+  - 串田誠一 (日本維新の会・教育無償化を実現する会)
+- name: Minoru Kiuchi (城内実)
+  jurisdiction: JP
+  role: Member, House of Representatives (Liberal Democratic Party); former Minister of State for Economic Security
+  description: Japanese politician representing Shizuoka in the House of Representatives for the Liberal Democratic Party, and a former minister of state for economic security.
+  profile_url: https://ja.wikipedia.org/wiki/城内実
+  aliases:
+  - 城内実 (自由民主党・無所属の会)
+- name: Masaaki Taira (平将明)
+  jurisdiction: JP
+  role: Member, House of Representatives (Liberal Democratic Party); former Minister for Digital Transformation
+  description: Japanese politician representing Tokyo in the House of Representatives for the Liberal Democratic Party, and a former minister for digital transformation.
+  profile_url: https://ja.wikipedia.org/wiki/平将明
+  aliases:
+  - 平将明 (自由民主党・無所属の会)
+- name: Shu Watanabe (渡辺周)
+  jurisdiction: JP
+  role: Member, House of Representatives (Constitutional Democratic Party)
+  description: Japanese politician representing Shizuoka in the House of Representatives for the Constitutional Democratic Party, and a former senior vice-minister of defense.
+  profile_url: https://ja.wikipedia.org/wiki/渡辺周
+  aliases:
+  - 渡辺周 (立憲民主党・無所属)
+- name: Daisuke Katayama (片山大介)
+  jurisdiction: JP
+  role: Member, House of Councillors (Nippon Ishin no Kai)
+  description: Japanese politician representing Hyogo in the House of Councillors for the Japan Innovation Party.
+  profile_url: https://ja.wikipedia.org/wiki/片山大介
+  aliases:
+  - 片山大介 (日本維新の会)
+- name: Rie Otake (おおたけりえ)
+  jurisdiction: JP
+  role: Member, House of Representatives (Constitutional Democratic Party)
+  description: Japanese politician who has served in the House of Representatives, elected from the Tokai proportional block for the Constitutional Democratic Party.
+  profile_url: https://ja.wikipedia.org/wiki/おおたけりえ
+  aliases:
+  - おおたけりえ (立憲民主党・無所属)
+- name: Masayoshi Okumura (奥村政佳)
+  jurisdiction: JP
+  role: Member, House of Councillors (Constitutional Democratic Party)
+  description: Japanese politician who has served in the House of Councillors for the Constitutional Democratic Party.
+  profile_url: https://ja.wikipedia.org/wiki/奥村政佳
+  aliases:
+  - 奥村政佳 (立憲民主・社民・無所属)
+- name: Soichiro Okuno (奥野総一郎)
+  jurisdiction: JP
+  role: Member, House of Representatives (Constitutional Democratic Party)
+  description: Japanese politician representing Chiba in the House of Representatives for the Constitutional Democratic Party.
+  profile_url: https://ja.wikipedia.org/wiki/奥野総一郎
+  aliases:
+  - 奥野総一郎 (立憲民主党・無所属)
+- name: Nobuhiro Koyama (小山展弘)
+  jurisdiction: JP
+  role: Member, House of Representatives (Constitutional Democratic Party)
+  description: Japanese politician representing Shizuoka in the House of Representatives for the Constitutional Democratic Party.
+  profile_url: https://ja.wikipedia.org/wiki/小山展弘
+  aliases:
+  - 小山展弘 (立憲民主党・無所属)
+- name: Tomo Iwabuchi (岩渕友)
+  jurisdiction: JP
+  role: Member, House of Councillors (Japanese Communist Party)
+  description: Japanese politician who has served in the House of Councillors for the Japanese Communist Party.
+  profile_url: https://ja.wikipedia.org/wiki/岩渕友
+  aliases:
+  - 岩渕友 (日本共産党)
+- name: Daisaku Hiraki (平木大作)
+  jurisdiction: JP
+  role: Member, House of Councillors (Komeito)
+  description: Japanese politician who has served in the House of Councillors for Komeito.
+  profile_url: https://ja.wikipedia.org/wiki/平木大作
+  aliases:
+  - 平木大作 (公明党)
+- name: Akira Hirabayashi (平林晃)
+  jurisdiction: JP
+  role: Member, House of Representatives (Komeito)
+  description: Japanese politician who has served in the House of Representatives for Komeito, elected from the Chugoku proportional block.
+  profile_url: https://ja.wikipedia.org/wiki/平林晃
+  aliases:
+  - 平林晃 (公明党)
+- name: Alex Saito (斎藤アレックス)
+  jurisdiction: JP
+  role: Member, House of Representatives (Democratic Party for the People)
+  description: Japanese politician representing Shiga in the House of Representatives for the Democratic Party for the People.
+  profile_url: https://ja.wikipedia.org/wiki/斎藤アレックス
+  aliases:
+  - 斎藤アレックス (国民民主党・無所属クラブ)
+- name: Hideya Sugio (杉尾秀哉)
+  jurisdiction: JP
+  role: Member, House of Councillors (Constitutional Democratic Party)
+  description: Japanese politician and former television newscaster who has served in the House of Councillors for the Constitutional Democratic Party.
+  profile_url: https://ja.wikipedia.org/wiki/杉尾秀哉
+  aliases:
+  - 杉尾秀哉 (立憲民主・社民・無所属)
+- name: Mizuho Umemura (梅村みずほ)
+  jurisdiction: JP
+  role: Member, House of Councillors (Nippon Ishin no Kai)
+  description: Japanese politician representing Osaka in the House of Councillors for the Japan Innovation Party.
+  profile_url: https://ja.wikipedia.org/wiki/梅村みずほ
+  aliases:
+  - 梅村みずほ (日本維新の会)
+- name: Mamoru Umetani (梅谷守)
+  jurisdiction: JP
+  role: Member, House of Representatives (Constitutional Democratic Party)
+  description: Japanese politician representing Niigata in the House of Representatives for the Constitutional Democratic Party.
+  profile_url: https://ja.wikipedia.org/wiki/梅谷守
+  aliases:
+  - 梅谷守 (立憲民主党・無所属)
+- name: Koichi Kawanishi (河西宏一)
+  jurisdiction: JP
+  role: Member, House of Representatives (Komeito)
+  description: Japanese politician who has served in the House of Representatives for Komeito, elected from the Tokyo proportional block.
+  profile_url: https://ja.wikipedia.org/wiki/河西宏一
+  aliases:
+  - 河西宏一 (公明党)
+- name: Hitoshi Asada (浅田均)
+  jurisdiction: JP
+  role: Member, House of Councillors (Nippon Ishin no Kai)
+  description: Japanese politician and a founding member of the Japan Innovation Party who has served in the House of Councillors representing Osaka.
+  profile_url: https://ja.wikipedia.org/wiki/浅田均
+  aliases:
+  - 浅田均 (日本維新の会)
+  - 浅田均 (日本維新の会・教育無償化を実現する会)
+- name: Masayoshi Hamada (浜田昌良)
+  jurisdiction: JP
+  role: Former Member, House of Councillors (Komeito)
+  description: Japanese politician who formerly served in the House of Councillors for Komeito.
+  profile_url: https://ja.wikipedia.org/wiki/浜田昌良
+  aliases:
+  - 浜田昌良 (公明党)
+- name: Satsuki Katayama (片山さつき)
+  jurisdiction: JP
+  role: Member, House of Councillors (Liberal Democratic Party); former Minister of State for Regional Revitalization
+  description: Japanese politician who has served in the House of Councillors for the Liberal Democratic Party and held several cabinet minister posts.
+  profile_url: https://en.wikipedia.org/wiki/Satsuki_Katayama
+  aliases:
+  - 片山さつき (自由民主党・無所属の会)
+- name: Noriko Ishigaki (石垣のりこ)
+  jurisdiction: JP
+  role: Member, House of Councillors (Constitutional Democratic Party)
+  description: Japanese politician representing Miyagi in the House of Councillors for the Constitutional Democratic Party.
+  profile_url: https://ja.wikipedia.org/wiki/石垣のりこ
+  aliases:
+  - 石垣のりこ (立憲民主・社民・無所属)
+- name: Fumitake Fujita (藤田文武)
+  jurisdiction: JP
+  role: Member, House of Representatives; Co-Leader, Nippon Ishin no Kai
+  description: Japanese politician representing Osaka in the House of Representatives and co-representative (deputy leader) of the Japan Innovation Party.
+  profile_url: https://en.wikipedia.org/wiki/Fumitake_Fujita
+  aliases:
+  - 藤田文武 (日本維新の会)
+- name: Kazuhiko Shigetoku (重徳和彦)
+  jurisdiction: JP
+  role: Member, House of Representatives (Constitutional Democratic Party)
+  description: Japanese politician representing Aichi in the House of Representatives for the Constitutional Democratic Party.
+  profile_url: https://ja.wikipedia.org/wiki/重徳和彦
+  aliases:
+  - 重徳和彦 (立憲民主党・無所属)
+- name: Yoshihiro Suzuki (鈴木義弘)
+  jurisdiction: JP
+  role: Member, House of Representatives (Democratic Party for the People)
+  description: Japanese politician who has served in the House of Representatives for the Democratic Party for the People, elected from the North Kanto proportional block.
+  profile_url: https://ja.wikipedia.org/wiki/鈴木義弘
+  aliases:
+  - 鈴木義弘 (国民民主党・無所属クラブ)
+- name: Akira Nagatsuma (長妻昭)
+  jurisdiction: JP
+  role: Member, House of Representatives (Chudo Kaikaku Rengo / Centrist Reform Alliance); former Minister of Health, Labour and Welfare
+  description: Japanese politician representing Tokyo in the House of Representatives, a former Constitutional Democratic Party leader and former health minister.
+  profile_url: https://en.wikipedia.org/wiki/Akira_Nagatsuma
+  aliases:
+  - 長妻昭 (中道改革連合・無所属)
+- name: Yuji Sekiguchi (関口祐司)
+  jurisdiction: JP
+  role: Deputy Director-General (Councillor), Cabinet Secretariat
+  description: Japanese government official serving as a councillor (shingikan) in the Cabinet Secretariat.
+  aliases:
+  - 関口祐司 (内閣官房内閣審議官)
+- name: Makoto Oniki (鬼木誠)
+  jurisdiction: JP
+  role: Member, House of Representatives (Constitutional Democratic Party)
+  description: Japanese politician representing Fukuoka in the House of Representatives for the Constitutional Democratic Party.
+  profile_url: https://ja.wikipedia.org/wiki/鬼木誠
+  aliases:
+  - 鬼木誠 (立憲民主・無所属)

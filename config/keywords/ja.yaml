@@ -1,0 +1,53 @@
+# Japanese keyword list v2 — flat list mirroring readme.md §Search, translated;
+# substring matching (segmented: false).
+lang: ja
+segmented: false
+keywords:
+  # AI 一般（high recall）
+  - 人工知能
+  - AI
+  - ＡＩ
+  - 大規模言語モデル
+  - LLM
+  # AGI
+  - AGI
+  - 汎用人工知能
+  - 強いAI
+  - 強いＡＩ
+  - 人間レベル
+  # ASI
+  - ASI
+  - 超知能
+  - 人工超知能
+  - スーパーインテリジェンス
+  - 超人的な知能
+  # RSI / 再帰的自己改善
+  - 再帰的自己改善
+  - 自己改善するAI
+  - シンギュラリティ
+  - 技術的特異点
+  - 知能爆発
+  - 暴走                    # runaway (also cars/reactors; judges filter)
+  # 実存的 / 破滅的リスク
+  - 実存的リスク
+  - 存亡リスク
+  - 人類滅亡
+  - 人類の絶滅
+  - 絶滅リスク
+  - 破滅的リスク
+  - 壊滅的リスク
+  - 制御不能
+  - 制御を失う
+  - 制御できなくなる
+  - 人間の制御
+  - 人間のコントロール
+  - コントロール不能
+  - アライメント
+  - 価値整合
+  - キルスイッチ
+  - 人類の存続
+  - 解釈可能性
+  # 規制 / ガバナンス
+  - 国際条約
+  - 半導体輸出
+  - データセンターの安全

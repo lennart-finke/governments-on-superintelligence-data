@@ -1,0 +1,255 @@
+# Per-source ingestion settings. backfill_start is the global project floor.
+backfill_start: "2022-01-01"
+
+# Sources whose rows must never reach quotes or the site. Enforced in promote (no new quotes) and export (nothing served),
+# and asserted by tests/test_quote_export.py.
+excluded_sources:
+  - us_govinfo_bills
+  - au_hansard   # aph.gov.au terms do not permit republishing the Hansard text; keep ingesting, do not serve
+  - intl_un_webtv  # likewise the UN Web TV transcripts; the intl_un verbatim records are unaffected
+
+sources:
+  uk_hansard:
+    enabled: true
+    jurisdiction: UK
+    rate_per_host: 2.0
+    window_days: 90
+    languages: [en]
+  us_govinfo_crec:
+    enabled: true
+    jurisdiction: US
+    rate_per_host: 2.0
+    window_days: 30
+    languages: [en]
+    requires_env: GOVINFO_API_KEY
+  us_govinfo_chrg:         # hearings: months-years lag; backfill-only, flagged
+    enabled: true
+    jurisdiction: US
+    rate_per_host: 2.0
+    window_days: 90
+    languages: [en]
+    requires_env: GOVINFO_API_KEY
+  us_house_hearings:       # House hearings ~1 year before GPO prints them
+    enabled: true
+    jurisdiction: US
+    rate_per_host: 2.0
+    window_days: 30
+    languages: [en]
+    requires_env: GOVINFO_API_KEY
+    document_types:
+      - "Hearing: Transcript"
+      - "Member Statements"
+      - "Witness Statement"
+  us_whitehouse:           # briefings, remarks, statements, fact sheets
+    enabled: true
+    jurisdiction: US
+    rate_per_host: 2.0
+    languages: [en]
+    max_articles: 20000
+  us_fedreg:               # presidential documents via Federal Register API
+    enabled: true
+    jurisdiction: US
+    rate_per_host: 2.0
+    window_days: 90
+    languages: [en]
+  fr_elysee:               # Élysée publications (speeches, communiqués)
+    enabled: true
+    jurisdiction: FR
+    rate_per_host: 1.0
+    languages: [fr]
+  jp_kokkai:
+    enabled: true
+    jurisdiction: JP
+    rate_per_host: 1.0
+    window_days: 180
+    languages: [ja]
+  sg_parliament:            # SPRS Hansard JSON backend; weekday walk, skip empties
+    enabled: true
+    jurisdiction: SG
+    rate_per_host: 1.5
+    window_days: 90
+    languages: [en]
+  au_hansard:               # House+Senate via the aph.gov.au fragment JSON API
+    enabled: true           # (parlinfo.aph.gov.au itself is Azure-WAF blocked)
+    jurisdiction: AU
+    rate_per_host: 4.0      # the host answers in ~1s, so a sequential walk is
+    concurrency: 6          # latency-bound long before it is rate-bound
+    window_days: 7          # the index is keyed by week commencing
+    languages: [en]
+    timeout: 60             # ToC pages for long sitting days are slow to render
+  tw_ly:                    # Legislative Yuan gazette records via LYAPI v2 (g0v)
+    enabled: true
+    jurisdiction: TW
+    rate_per_host: 0.333    # 1 req / 3 s: v2.ly.govapi.tw robots.txt asks for
+                            # Crawl-delay: 3, and it is a volunteer g0v re-host.
+                            # This is the whole budget for the host, not a
+                            # per-process one -- the throttle is per process, so
+                            # run the backfill as ONE process; date shards in
+                            # parallel would multiply the rate by the shard count
+    window_days: 30
+    languages: [zh-TW]
+    publication_lag_days: 30  # gazette publishing + LYAPI doc-conversion lag
+  br_senado:                # Senado bulk discursos-by-date; metadata-prescreened
+    enabled: true
+    jurisdiction: BR
+    rate_per_host: 2.0
+    window_days: 28         # bulk endpoint caps a query at 1 month
+    languages: [pt]
+  mx_senado:                # Senado plenary versiones estenográficas; month
+    enabled: true           # calendar for discovery, one fetch per sitting
+    jurisdiction: MX
+    rate_per_host: 1.5
+    window_days: 31         # advisory only: windows() is month-aligned, because
+                            # the calendar endpoint is keyed by (year, month)
+    timeout: 120            # sitting transcripts are 100-260 kB of HTML
+    languages: [es]
+  za_pmg:                   # PMG API: hansard + ministerial Q&A + committee minutes
+    enabled: true
+    jurisdiction: ZA
+    rate_per_host: 0.00833  # 1 req / 120 s: pmg.org.za and api.pmg.org.za both
+                            # set Crawl-delay: 120. A window is ~370 searches
+                            # plus its hits, so a run is measured in hours --
+                            # that is the host's stated price for the data
+    window_days: 365        # search takes any date range; wide windows cut the
+                            # per-term query count from thousands to hundreds
+    languages: [en]
+  nl_tweedekamer:           # Gegevensmagazijn OData; plenary + committee VLOS XML
+    enabled: true
+    jurisdiction: NL
+    rate_per_host: 4.0      # keyless public API, no published quota; stay polite
+    concurrency: 6          # bodies are ~1.4 MB each — latency, not rate, is the cost
+    window_days: 180
+    timeout: 120
+    languages: [nl]
+  nl_officielebekendmakingen:  # KOOP SRU: Kamerstukken + Kamervragen, keyword-prescreened
+    enabled: true
+    jurisdiction: NL
+    rate_per_host: 1.0
+    concurrency: 4
+    window_days: 90         # one OR'd full-text query per window; ~200 hits/quarter
+    timeout: 240            # SRU searchRetrieve routinely takes 20-120s
+    languages: [nl]
+  ru_kremlin:               # kremlin.ru by-date archive; robots allows it, /search doesn't
+    enabled: true
+    jurisdiction: RU
+    rate_per_host: 0.4
+    window_days: 30
+    languages: [ru]
+  ru_duma:                  # State Duma stenograms; see module docstring re robots.txt
+    enabled: true
+    jurisdiction: RU
+    rate_per_host: 0.5
+    window_days: 90         # ~25 stenograms/quarter, under the 30/page pager
+    languages: [ru]
+  ca_commons:
+    enabled: true
+    jurisdiction: CA
+    rate_per_host: 1.0
+    languages: [en]
+  ch_parlament:             # Amtliches Bulletin via the parlament.ch OData service
+    enabled: true
+    jurisdiction: CH
+    rate_per_host: 2.0
+    window_days: 90         # ~3 pages/window; the service answers in <1s
+    languages: [de, fr, it] # one stream, untranslated; per-utterance language
+    timeout: 120            # 1000-row pages are ~2.5 MB
+  ep_plenary:
+    enabled: true
+    jurisdiction: EU
+    rate_per_host: 1.0
+    languages: [mul]      # per-utterance language, as delivered
+    timeout: 300          # unpinned xml_fragment pages are ~6 MB
+    reingest: false
+  ep_questions:           # parliamentary questions + the answers to them
+    enabled: true
+    jurisdiction: EU
+    rate_per_host: 1.5    # API ceiling is 500 requests / 5 min = 1.67/s
+    languages: [mul]      # tabled language per question; answers mostly en
+  eu_consilium:            # Council + European Council press releases
+    enabled: true
+    jurisdiction: EU
+    rate_per_host: 1.0
+    concurrency: 4
+    timeout: 120
+    languages: [en]
+  ec_presscorner:
+    enabled: true
+    jurisdiction: EU
+    rate_per_host: 2.0
+    window_days: 90
+    languages: [en]
+  intl_nato:
+    enabled: true
+    jurisdiction: NATO
+    rate_per_host: 1.0
+    languages: [en]
+  intl_un:
+    enabled: true
+    jurisdiction: UN
+    rate_per_host: 1.0
+    languages: [en]
+  intl_un_webtv:            # UN Web TV automatic transcripts; extraction_method='asr'
+    enabled: true
+    jurisdiction: UN
+    rate_per_host: 1.0
+    window_days: 30         # ~160 AI-mentioning meetings/month clear the search
+    languages: [en]         # only the /en transcript track is read
+    timeout: 120
+  de_bundestag:
+    enabled: true
+    jurisdiction: DE
+    rate_per_host: 1.0
+    languages: [de]
+  fr_assemblee:
+    enabled: true
+    jurisdiction: FR
+    rate_per_host: 0.5
+    languages: [fr]
+  fr_senat:
+    enabled: true
+    jurisdiction: FR
+    rate_per_host: 0.5
+    languages: [fr]
+  cn_cac:
+    enabled: true
+    jurisdiction: CN
+    rate_per_host: 1.0
+    tolerant_tls: true
+    window_days: 30
+    languages: [zh]
+    max_articles: 30000     # first run tripped the 4000 valve with ~15k left
+    timeout: 20             # CDX-era URLs often hang at origin; fail fast
+  cn_mfa:
+    enabled: true
+    jurisdiction: CN
+    rate_per_host: 0.5
+    tolerant_tls: true
+    window_days: 30
+    languages: [zh, en]
+  cn_gov:
+    enabled: true
+    jurisdiction: CN
+    rate_per_host: 0.5
+    tolerant_tls: true
+    window_days: 30
+    languages: [zh, en]
+  cn_most:
+    enabled: true
+    jurisdiction: CN
+    rate_per_host: 0.5
+    tolerant_tls: true
+    window_days: 30
+    languages: [zh]
+  cn_miit:
+    enabled: true
+    jurisdiction: CN
+    rate_per_host: 0.5
+    tolerant_tls: true
+    window_days: 30
+    languages: [zh]
+  cn_people:                # People's Daily front page; pre-2024-12 via Wayback
+    enabled: true
+    jurisdiction: CN
+    rate_per_host: 1.0
+    window_days: 30
+    languages: [zh]

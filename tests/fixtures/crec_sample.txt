@@ -1,0 +1,20 @@
+[Congressional Record Volume 172, Number 98 (Wednesday, June 3, 2026)]
+[Senate]
+[Pages S3011-S3013]
+From the Congressional Record Online through the Government Publishing Office [www.gpo.gov]
+
+                     ARTIFICIAL INTELLIGENCE SAFETY
+
+  Mr. ROUNDS. Mr. President, I rise today to speak about the future of
+artificial intelligence. Experts in the field tell us that artificial
+general intelligence may arrive within this decade. We are not
+prepared for systems that could match or exceed human capabilities
+across the board. If we lose control of a superintelligent system,
+there is no second chance.
+  The PRESIDING OFFICER. The Senator from South Dakota has the floor.
+  Mr. ROUNDS. Thank you. As I was saying, recursive self-improvement
+is no longer science fiction.
+  Ms. CANTWELL of Washington. Will the Senator yield for a question?
+I share the concern about AGI, but I want to focus on the near-term
+harms of these AI systems as well.
+  Mr. ROUNDS. I yield to the Senator from Washington.

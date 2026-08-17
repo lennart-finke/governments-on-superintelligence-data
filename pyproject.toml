@@ -1,0 +1,70 @@
+[project]
+name = "ai-safety-policy-tracker"
+version = "0.1.0"
+description = "Reproducible tracker of AGI/superintelligence/AI-x-risk statements by lawmakers and senior officials (US, EU, UK, China)"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27",
+    "pydantic>=2.7",
+    "typer>=0.12",
+    "lxml>=5.2",
+    "beautifulsoup4>=4.12",
+    "regex>=2024.5.15",
+    "pyyaml>=6.0",
+    "jinja2>=3.1",
+    "pyarrow>=16.0",
+    "charset-normalizer>=3.3",
+    "pypdf>=4.2",
+    "matplotlib>=3.11.1",
+    "pandas>=3.0.5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.2", "pytest-httpx>=0.30", "ruff>=0.16"]
+
+[project.scripts]
+tracker = "tracker.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tracker"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+# Only the formatter reads this; E501 is deliberately not enforced (see below).
+# It is set so a stray `ruff format` does not reflow the tree to the 88-column
+# default.
+line-length = 100
+
+[tool.ruff.lint]
+# Ruff's default set (E4/E7/E9 + F) plus bugbear. Bugbear costs nothing here --
+# with the three rules below excluded it reports zero violations across the
+# tree -- and it catches the mutable-default and except-clause mistakes that
+# the default set does not.
+select = ["E4", "E7", "E9", "F", "B"]
+
+ignore = [
+    # Line length is not a convention this tree follows: the median line is 34
+    # characters and the tail is long source URLs and regexes that are worse
+    # when wrapped. 347 lines exceed 88 and 50 exceed 100, so enforcing any
+    # column here would mean reflowing the corpus-facing parsers for no gain.
+    "E501",
+    # `for _i, x in ...` over an index that is genuinely unused. Nine sites,
+    # all deliberate.
+    "B007",
+    # False positives in this tree. Every flagged closure -- the `_round_robin`
+    # helpers in validate/labels.py, the tag closure in analyze_tags.py -- is
+    # both defined and called inside the same loop iteration, so the late
+    # binding the rule warns about cannot happen.
+    "B023",
+    # zip() without strict=. The seventeen call sites zip sequences that are
+    # built together and are equal by construction.
+    "B905",
+    # `l` as a local in two comprehensions in analysis/analyze.py.
+    "E741",
+]

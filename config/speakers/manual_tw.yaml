@@ -1,0 +1,218 @@
+# Taiwan executive-branch and other non-legislator speakers, hand-verified
+# (Wikipedia / ministry English pages). Officials without a verifiable English
+# name deliberately stay unlinked (native display) rather than risk a wrong
+# romanization. Legislators live in the generated registry_tw.yaml.
+- name: Presiding Chair (Legislative Yuan)
+  jurisdiction: TW
+  role: Presiding chair of a Legislative Yuan sitting
+  description: Gazette turns recorded only as 主席 (the chair); different people across sittings, grouped for display.
+  aliases:
+  - 主席
+- name: Cho Jung-tai
+  jurisdiction: TW
+  role: Premier of the Republic of China (Taiwan)
+  description: Premier since May 2024; DPP politician (卓榮泰).
+  aliases:
+  - 卓榮泰 (院長)
+- name: Chen Chien-jen
+  jurisdiction: TW
+  role: Former Premier of the Republic of China (Taiwan), 2023-2024
+  description: Epidemiologist and politician; Premier 2023-2024, Vice President 2016-2020 (陳建仁).
+  aliases:
+  - 陳建仁 (院長)
+- name: Audrey Tang
+  jurisdiction: TW
+  role: Former Minister of Digital Affairs, 2022-2024
+  description: Taiwan's first Minister of Digital Affairs (唐鳳).
+  aliases:
+  - 唐鳳 (部長)
+- name: Huang Yen-nun
+  jurisdiction: TW
+  role: Former Minister of Digital Affairs, 2024-2025
+  description: Information scientist; Minister of Digital Affairs 2024-2025 (黃彥男).
+  aliases:
+  - 黃彥男 (部長)
+- name: Lin Yi-jing
+  jurisdiction: TW
+  role: Minister of Digital Affairs
+  description: Computer scientist and entrepreneur; MODA deputy minister 2024-2025, minister since September 2025 (林宜敬).
+  aliases:
+  - 林宜敬 (部長)
+  - 林宜敬 (次長)
+- name: Yeh Ning
+  jurisdiction: TW
+  role: Administrative Deputy Minister of Digital Affairs
+  description: Career official; MODA administrative deputy minister (葉寧).
+  aliases:
+  - 葉寧 (次長)
+- name: Isabel Hou
+  jurisdiction: TW
+  role: Deputy Minister of Digital Affairs
+  description: Lawyer and open-source advocate; MODA deputy minister (侯宜秀).
+  aliases:
+  - 侯宜秀 (次長)
+- name: Wu Tsung-tsong
+  jurisdiction: TW
+  role: Former Minister, National Science and Technology Council, 2022-2024
+  description: First NSTC minister (吳政忠).
+  aliases:
+  - 吳政忠 (主任委員)
+- name: Wu Cheng-wen
+  jurisdiction: TW
+  role: Minister, National Science and Technology Council
+  description: NSTC minister since 2024 (吳誠文).
+  aliases:
+  - 吳誠文 (主任委員)
+- name: Wang Mei-hua
+  jurisdiction: TW
+  role: Former Minister of Economic Affairs, 2020-2024
+  description: Minister of Economic Affairs 2020-2024 (王美花).
+  aliases:
+  - 王美花 (部長)
+- name: Wellington Koo
+  jurisdiction: TW
+  role: Minister of National Defense
+  description: Defense minister since 2024; previously NSC secretary-general (顧立雄).
+  aliases:
+  - 顧立雄 (部長)
+- name: Cheng Ming-chien
+  jurisdiction: TW
+  role: Minister of Justice
+  description: Justice minister since 2024 (鄭銘謙).
+  aliases:
+  - 鄭銘謙 (部長)
+- name: Tsai Ming-yen
+  jurisdiction: TW
+  role: Director-General, National Security Bureau
+  description: NSB director-general since 2023 (蔡明彥).
+  aliases:
+  - 蔡明彥 (局長)
+- name: Huang Tien-mu
+  jurisdiction: TW
+  role: Former Chairperson, Financial Supervisory Commission, 2020-2024
+  description: FSC chairperson 2020-2024 (黃天牧).
+  aliases:
+  - 黃天牧 (主任委員)
+- name: Peng Jin-lung
+  jurisdiction: TW
+  role: Chairperson, Financial Supervisory Commission
+  description: FSC chairperson since 2024 (彭金隆).
+  aliases:
+  - 彭金隆 (主任委員)
+- name: Liu Chin-ching
+  jurisdiction: TW
+  role: Minister, National Development Council
+  description: NDC minister since 2024 (劉鏡清).
+  aliases:
+  - 劉鏡清 (主任委員)
+- name: James Liao
+  jurisdiction: TW
+  role: President of Academia Sinica
+  description: Biochemical engineer; Academia Sinica president since 2016 (廖俊智).
+  aliases:
+  - 廖俊智 (院長)
+# Executive officials the Legislative Yuan gazette records as 姓名 (職稱) -- a
+# name and a job title, no ministry and no English. Splitting them out of the
+# raw label is worth doing on its own: the title moves into `role`, where the
+# site renders it in English beside the name, instead of riding along inside the
+# name as "(司長)". Where the official's own ministry publishes an English name,
+# that is the canonical; where it does not, the canonical is the native name
+# alone, per the rule at the top of this file -- a romanization invented here
+# would be a different person's name as often as not.
+- name: Chiueh Her-ming
+  jurisdiction: TW
+  role: Political Deputy Minister of Digital Affairs
+  description: MODA political deputy minister since the ministry's founding in 2022 (闕河鳴).
+  aliases:
+  - 闕河鳴 (次長)
+- name: Chen Bing-yu
+  jurisdiction: TW
+  role: Deputy Minister, National Science and Technology Council
+  description: Computer scientist and NSTC deputy minister; professor at National Taiwan University (陳炳宇).
+  aliases:
+  - 陳炳宇 (副主任委員)
+- name: Kao Shien-quey
+  jurisdiction: TW
+  role: Deputy Minister, National Development Council
+  description: Economist and NDC deputy minister (高仙桂).
+  profile_url: https://en.wikipedia.org/wiki/Kao_Shien-quey
+  aliases:
+  - 高仙桂 (副主任委員)
+- name: Chu Chun-chang
+  jurisdiction: TW
+  role: Administrative Deputy Minister of Education
+  description: Career education official; MOE administrative deputy minister since 2025 (朱俊彰).
+  aliases:
+  - 朱俊彰 (次長)
+- name: 張元斌
+  jurisdiction: TW
+  role: Deputy Director-General, National Security Bureau
+  description: NSB deputy director-general with a technology background; the gazette gives no English name.
+  aliases:
+  - 張元斌 (副局長)
+- name: 王時思
+  jurisdiction: TW
+  role: Political Deputy Minister of Culture
+  description: Ministry of Culture political deputy minister; the gazette gives no English name.
+  aliases:
+  - 王時思 (次長)
+- name: 李懷仁
+  jurisdiction: TW
+  role: Deputy Minister
+  description: Taiwanese deputy minister; the gazette records the title without the ministry or an English name.
+  aliases:
+  - 李懷仁 (次長)
+- name: 黃新薰
+  jurisdiction: TW
+  role: Director-General, Ministry of Transportation and Communications
+  description: MOTC department director-general; the gazette gives no English name.
+  aliases:
+  - 黃新薰 (司長)
+- name: 呂文玉
+  jurisdiction: TW
+  role: Director-General
+  description: Taiwanese ministry department head appearing before the Legislative Yuan Transportation Committee; the gazette gives no English name.
+  aliases:
+  - 呂文玉 (司長)
+- name: 蔡壽洤
+  jurisdiction: TW
+  role: Director-General
+  description: Taiwanese ministry department head; the gazette records the title without the ministry or an English name.
+  aliases:
+  - 蔡壽洤 (司長)
+- name: 魏秋宜
+  jurisdiction: TW
+  role: Director-General
+  description: Taiwanese ministry department head appearing before the Legislative Yuan Education and Culture Committee; the gazette gives no English name.
+  aliases:
+  - 魏秋宜 (司長)
+- name: 簡美慧
+  jurisdiction: TW
+  role: Deputy Director-General
+  description: Taiwanese ministry deputy department head appearing before the Legislative Yuan Judiciary Committee; the gazette gives no English name.
+  aliases:
+  - 簡美慧 (副司長)
+- name: 蔡福隆
+  jurisdiction: TW
+  role: Director-General of an executive agency
+  description: Head of a Taiwanese executive agency appearing before the Legislative Yuan Transportation Committee; the gazette gives no English name.
+  aliases:
+  - 蔡福隆 (署長)
+- name: 邱文聰
+  jurisdiction: TW
+  role: Department Director
+  description: Witness at the Legislative Yuan public hearing on the draft Artificial Intelligence Basic Act; the gazette gives no English name.
+  aliases:
+  - 邱文聰 (處長)
+- name: 陳為祥
+  jurisdiction: TW
+  role: Deputy Minister
+  description: Taiwanese deputy minister speaking on information security in government procurement; the gazette gives no English name.
+  aliases:
+  - 陳為祥 (副主任委員)
+- name: 李世強
+  jurisdiction: TW
+  role: Institute President
+  description: Head of a Taiwanese institute speaking on the ethics of military AI; the gazette gives no English name.
+  aliases:
+  - 李世強 (院長)

@@ -1,0 +1,41 @@
+# EU Commissioners appearing in EP plenary / EC presscorner records.
+- name: Margrethe Vestager
+  jurisdiction: EU
+  wikidata: Q270820
+  role: Executive Vice-President, European Commission
+  aliases: ["Margrethe Vestager, Executive Vice-President", "Vestager"]
+- name: Thierry Breton
+  jurisdiction: EU
+  wikidata: Q2142823
+  role: Commissioner (Internal Market)
+  aliases: ["Thierry Breton, membre de la Commission", "Thierry Breton, Member of the Commission"]
+- name: Michael McGrath
+  jurisdiction: EU
+  wikidata: Q6832712
+  role: Commissioner (Democracy, Justice, Rule of Law)
+  aliases: ["Michael McGrath, Member of the Commission"]
+- name: Henna Virkkunen
+  jurisdiction: EU
+  wikidata: Q2983767
+  role: Executive Vice-President (Tech Sovereignty, Security and Democracy)
+  aliases: ["Henna Virkkunen, Executive Vice-President"]
+- name: Mairead McGuinness
+  jurisdiction: EU
+  wikidata: Q467633
+  role: Commissioner (Financial Services)
+  aliases: ["Mairead McGuinness, Member of the Commission"]
+- name: Věra Jourová
+  jurisdiction: EU
+  wikidata: Q12001809
+  role: Vice-President (Values and Transparency)
+  aliases: ["Vera Jourova", "Věra Jourová, Vice-President"]
+- name: Hadja Lahbib
+  jurisdiction: EU
+  wikidata: Q3125551
+  role: Commissioner
+  aliases: ["Hadja Lahbib, Member of the Commission"]
+- name: Teresa Ribera
+  jurisdiction: EU
+  wikidata: Q54806936
+  role: Executive Vice-President (Clean, Just and Competitive Transition)
+  aliases: ["Teresa Ribera, Executive Vice-President"]

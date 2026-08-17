@@ -1,0 +1,633 @@
+- name: Emmanuel Macron
+  jurisdiction: FR
+  role: President of the French Republic (since 2017)
+  description: Emmanuel Macron is the President of the French Republic, in office since May 2017.
+  wikidata: Q3052772
+  profile_url: https://www.elysee.fr/emmanuel-macron
+  aliases:
+  - Emmanuel Macron (President of the Republic)
+  - Emmanuel Macron (Président de la République française)
+  - Emmanuel Macron (President of the French Republic)
+  - Emmanuel Macron (President of the Republic, France)
+  - Emmanuel Macron (President of France)
+- name: Élysée
+  jurisdiction: FR
+  role: institutional
+  description: The Élysée Palace is the official residence and office of the President of the French Republic, and the source of presidential statements.
+  aliases:
+  - Élysée
+  - Élysée (on behalf of France and Germany)
+  - Élysée (on behalf of France, Germany, and the European Commission)
+  - Élysée / France (on behalf of signatory states)
+- name: France–Japan Joint Statement
+  jurisdiction: FR
+  role: institutional
+  description: A joint statement issued by the President of the French Republic and the Prime Minister of Japan.
+  aliases:
+  - Président de la République française et Première ministre du Japon
+- name: G7 Heads of State and Government
+  jurisdiction: FR
+  role: institutional
+  description: A joint communiqué or statement issued collectively by the leaders of the Group of Seven (G7) major economies.
+  aliases:
+  - G7 Heads of State and Government
+- name: Unknown
+  jurisdiction: FR
+  role: unidentified speaker
+  description: Speaker identity not specified in the source parliamentary or government record.
+  aliases:
+  - Unknown
+- name: Marc Ferracci
+  jurisdiction: FR
+  role: French Minister of Labour, Health and Solidarity; previously Minister Delegate for Industry and Energy
+  description: Marc Ferracci is a French economist and politician who has served as a minister in several governments since 2024, including Labour and Industry portfolios.
+  profile_url: https://en.wikipedia.org/wiki/Marc_Ferracci
+  aliases:
+  - M. Marc Ferracci
+- name: Paul Midy
+  jurisdiction: FR
+  role: French Secretary of State for Artificial Intelligence and Digital Technologies; deputy for Essonne (Renaissance)
+  description: Paul Midy is a French entrepreneur and politician who has served as Secretary of State for AI and Digital Technologies since December 2024.
+  profile_url: https://en.wikipedia.org/wiki/Paul_Midy
+  aliases:
+  - M. Paul Midy
+- name: Catherine Morin-Desailly
+  jurisdiction: FR
+  role: French Senator (Seine-Maritime, UC); chair of the Senate Culture, Education and Communication Committee
+  description: Catherine Morin-Desailly is a French senator representing Seine-Maritime since 2004 and a longtime chair of the Senate's Culture Committee, active on digital sovereignty issues.
+  profile_url: https://en.wikipedia.org/wiki/Catherine_Morin-Desailly
+  aliases:
+  - Mme Catherine MORIN-DESAILLY
+- name: Jean-Noël Barrot
+  jurisdiction: FR
+  role: French Minister for Europe and Foreign Affairs; previously Minister Delegate for Digital Affairs
+  description: Jean-Noël Barrot is a French economist and politician who has served as Minister for Europe and Foreign Affairs since September 2024, after serving as Minister Delegate for Digital Affairs.
+  profile_url: https://en.wikipedia.org/wiki/Jean-No%C3%ABl_Barrot
+  aliases:
+  - M. Jean-Noël Barrot
+  - M. Jean-Noël BARROT
+- name: Clara Chappaz
+  jurisdiction: FR
+  role: French Secretary of State / Minister Delegate for Artificial Intelligence and Digital Technologies
+  description: Clara Chappaz is a French entrepreneur and politician who has served as Secretary of State and later Minister Delegate for AI and Digital Technologies since September 2024.
+  profile_url: https://en.wikipedia.org/wiki/Clara_Chappaz
+  aliases:
+  - Mme Clara CHAPPAZ
+  - Mme Clara Chappaz
+- name: Guillaume Vuilletet
+  jurisdiction: FR
+  role: French deputy, Val-d'Oise (Renaissance)
+  description: Guillaume Vuilletet is a member of the French National Assembly representing Val-d'Oise.
+  aliases:
+  - M. Guillaume Vuilletet
+- name: Gérald Darmanin
+  jurisdiction: FR
+  role: French Minister of Justice; previously Minister of the Interior
+  description: Gérald Darmanin is a French politician who has served as Minister of Justice since December 2024, after serving as Minister of the Interior from 2020 to 2024.
+  profile_url: https://en.wikipedia.org/wiki/G%C3%A9rald_Darmanin
+  aliases:
+  - M. Gérald Darmanin
+- name: Stéphane Lenormand
+  jurisdiction: FR
+  role: French deputy, Hautes-Alpes (LIOT)
+  description: Stéphane Lenormand is a member of the French National Assembly representing Hautes-Alpes.
+  aliases:
+  - M. Stéphane Lenormand
+- name: Élisa Martin
+  jurisdiction: FR
+  role: French deputy, Isère (LFI-NFP)
+  description: Élisa Martin is a member of the French National Assembly representing Isère, affiliated with La France insoumise.
+  aliases:
+  - Mme Élisa Martin
+  - Mme Élisa Martin (LFI-NFP)
+- name: Jean-Marie Cavada
+  jurisdiction: FR
+  role: French Senator (French residents abroad, UC); journalist
+  description: Jean-Marie Cavada was a French journalist and politician who served as a member of the European Parliament and later as a French senator until his death in 2021.
+  profile_url: https://en.wikipedia.org/wiki/Jean-Marie_Cavada
+  aliases:
+  - M. Jean-Marie Cavada
+- name: Philippe Latombe
+  jurisdiction: FR
+  role: French deputy, Vendée (Les Démocrates)
+  description: Philippe Latombe is a member of the French National Assembly representing Vendée, known for his work on digital sovereignty and data protection.
+  aliases:
+  - M. Philippe Latombe
+  - M. Philippe Latombe (Dem)
+- name: Ugo Bernalicis
+  jurisdiction: FR
+  role: French deputy, Nord (LFI-NFP)
+  description: Ugo Bernalicis is a member of the French National Assembly representing Nord, affiliated with La France insoumise.
+  aliases:
+  - M. Ugo Bernalicis
+- name: Catherine Hervieu
+  jurisdiction: FR
+  role: French deputy, Côte-d'Or (Écologiste et Social)
+  description: Catherine Hervieu is a member of the French National Assembly representing Côte-d'Or, affiliated with the Ecologist group.
+  aliases:
+  - Mme Catherine Hervieu
+- name: Isabelle Rauch
+  jurisdiction: FR
+  role: French deputy, Moselle (Horizons)
+  description: Isabelle Rauch is a member of the French National Assembly representing Moselle.
+  aliases:
+  - Mme Isabelle Rauch
+- name: Marie-Lise Housseau
+  jurisdiction: FR
+  role: French official/expert witness
+  description: Marie-Lise Housseau has appeared as a speaker in French parliamentary proceedings; her precise institutional role is not confidently established.
+  aliases:
+  - Mme Marie-Lise HOUSSEAU
+- name: Aurélien Lopez-Liguori
+  jurisdiction: FR
+  role: French deputy, Pyrénées-Orientales (RN)
+  description: Aurélien Lopez-Liguori is a member of the French National Assembly, affiliated with the Rassemblement National.
+  aliases:
+  - M. Aurélien Lopez-Liguori
+- name: Aurélien Saintoul
+  jurisdiction: FR
+  role: French deputy, Hauts-de-Seine (LFI-NFP)
+  description: Aurélien Saintoul is a member of the French National Assembly representing Hauts-de-Seine, affiliated with La France insoumise.
+  aliases:
+  - M. Aurélien Saintoul
+- name: Bruno Studer
+  jurisdiction: FR
+  role: French deputy, Bas-Rhin (Renaissance)
+  description: Bruno Studer is a member of the French National Assembly representing Bas-Rhin and a former chair of the Cultural Affairs Committee, known for work on child online protection.
+  aliases:
+  - M. Bruno Studer
+- name: Erwan Balanant
+  jurisdiction: FR
+  role: French deputy, Finistère (Les Démocrates)
+  description: Erwan Balanant is a member of the French National Assembly representing Finistère.
+  aliases:
+  - M. Erwan Balanant
+  - M. Erwan Balanant (Dem)
+- name: Hervé Saulignac
+  jurisdiction: FR
+  role: French deputy, Ardèche (Socialistes)
+  description: Hervé Saulignac is a member of the French National Assembly representing Ardèche.
+  aliases:
+  - M. Hervé Saulignac
+- name: Hervé de Lépinau
+  jurisdiction: FR
+  role: French deputy, Vaucluse (RN)
+  description: Hervé de Lépinau is a member of the French National Assembly representing Vaucluse, affiliated with the Rassemblement National.
+  aliases:
+  - M. Hervé de Lépinau
+- name: Jean-Claude Raux
+  jurisdiction: FR
+  role: French deputy, Loire-Atlantique (Écologiste et Social)
+  description: Jean-Claude Raux is a member of the French National Assembly representing Loire-Atlantique.
+  aliases:
+  - M. Jean-Claude Raux
+- name: Jean-Félix Acquaviva
+  jurisdiction: FR
+  role: French deputy, Haute-Corse (LIOT)
+  description: Jean-Félix Acquaviva is a member of the French National Assembly representing Haute-Corse, a Corsican regionalist politician.
+  aliases:
+  - M. Jean-Félix Acquaviva
+- name: José Gonzalez
+  jurisdiction: FR
+  role: French deputy, Bouches-du-Rhône (RN)
+  description: José Gonzalez is a member of the French National Assembly representing Bouches-du-Rhône, affiliated with the Rassemblement National.
+  aliases:
+  - M. José Gonzalez
+- name: Laurent Croizier
+  jurisdiction: FR
+  role: French deputy, Doubs (Les Démocrates)
+  description: Laurent Croizier is a member of the French National Assembly representing Doubs.
+  aliases:
+  - M. Laurent Croizier (Dem)
+- name: Paul Molac
+  jurisdiction: FR
+  role: French deputy, Morbihan (LIOT)
+  description: Paul Molac is a member of the French National Assembly representing Morbihan, a Breton regionalist politician.
+  aliases:
+  - M. Paul Molac
+- name: Sébastien Martin
+  jurisdiction: FR
+  role: French deputy, Saône-et-Loire (Horizons); chair of the Economic Affairs Committee
+  description: Sébastien Martin is a member of the French National Assembly representing Saône-et-Loire.
+  aliases:
+  - M. Sébastien MARTIN
+  - M. Sébastien Martin
+- name: Thomas Dossus
+  jurisdiction: FR
+  role: French Senator (Rhône, Écologiste et Social)
+  description: Thomas Dossus is a French senator representing Rhône since 2020, affiliated with the Ecologist group.
+  profile_url: https://fr.wikipedia.org/wiki/Thomas_Dossus
+  aliases:
+  - M. Thomas DOSSUS
+- name: Xavier Breton
+  jurisdiction: FR
+  role: French deputy, Ain (Les Républicains)
+  description: Xavier Breton is a member of the French National Assembly representing Ain.
+  aliases:
+  - M. Xavier Breton
+- name: Catherine Vautrin
+  jurisdiction: FR
+  role: French Minister; has held Health, Labour, Territorial and Solidarity portfolios
+  description: Catherine Vautrin is a French politician who has served in several ministerial roles since 2024, including Labour, Health and Territorial Cohesion.
+  profile_url: https://en.wikipedia.org/wiki/Catherine_Vautrin
+  aliases:
+  - Mme Catherine Vautrin
+- name: Cyrielle Chatelain
+  jurisdiction: FR
+  role: French deputy, Isère; chair of the Écologiste et Social group
+  description: Cyrielle Chatelain is a member of the French National Assembly representing Isère and chair of the Ecologist parliamentary group.
+  aliases:
+  - Mme Cyrielle Chatelain
+  - Mme Cyrielle Chatelain (EcoS)
+- name: Ghislaine Senée
+  jurisdiction: FR
+  role: French Senator (Yvelines, Écologiste et Social)
+  description: Ghislaine Senée is a French senator representing Yvelines, elected in 2023.
+  aliases:
+  - Mme Ghislaine SENÉE
+- name: Marina Ferrari
+  jurisdiction: FR
+  role: French deputy, Savoie (Les Démocrates); former Secretary of State for Digital Affairs
+  description: Marina Ferrari is a French politician and deputy for Savoie who served as Secretary of State for Digital Transition and Telecommunications from 2024 to 2024.
+  profile_url: https://fr.wikipedia.org/wiki/Marina_Ferrari
+  aliases:
+  - Mme Marina Ferrari
+- name: Anne Bouverot
+  jurisdiction: FR
+  role: France's Special Envoy for Artificial Intelligence
+  description: Anne Bouverot is a French business executive who served as France's Special Envoy for the AI Action Summit and chairs the Fondation Abeona; formerly CEO of Morpho and the GSMA.
+  profile_url: https://en.wikipedia.org/wiki/Anne_Bouverot
+  aliases:
+  - Anne Bouverot (Envoyée Spéciale du Président pour l'IA)
+  - Anne Bouverot (envoyée spéciale pour l'IA)
+- name: Alexandre Basquin
+  jurisdiction: FR
+  role: French deputy, Nord
+  description: Alexandre Basquin is a member of the French National Assembly, elected in 2024.
+  aliases:
+  - M. Alexandre BASQUIN
+- name: Alexandre Sabatou
+  jurisdiction: FR
+  role: French deputy, Oise (RN)
+  description: Alexandre Sabatou is a member of the French National Assembly representing Oise, affiliated with the Rassemblement National.
+  aliases:
+  - M. Alexandre Sabatou
+- name: Arnaud Saint-Martin
+  jurisdiction: FR
+  role: French deputy, Seine-et-Marne (LFI-NFP); sociologist
+  description: Arnaud Saint-Martin is a member of the French National Assembly representing Seine-et-Marne and a sociologist by training.
+  aliases:
+  - M. Arnaud Saint-Martin
+  - M. Arnaud Saint-Martin (LFI-NFP)
+- name: Benjamin Lucas
+  jurisdiction: FR
+  role: French deputy, Yvelines (Écologiste et Social / Génération.s)
+  description: Benjamin Lucas is a member of the French National Assembly representing Yvelines.
+  aliases:
+  - M. Benjamin Lucas
+- name: Christophe Naegelen
+  jurisdiction: FR
+  role: French deputy, Vosges (LIOT)
+  description: Christophe Naegelen is a member of the French National Assembly representing Vosges.
+  aliases:
+  - M. Christophe Naegelen (LIOT)
+- name: Dany Wattebled
+  jurisdiction: FR
+  role: French Senator (Nord, Les Indépendants)
+  description: Dany Wattebled is a French senator representing Nord.
+  aliases:
+  - M. Dany WATTEBLED
+- name: Emmanuel Maurel
+  jurisdiction: FR
+  role: French deputy, Val-d'Oise (GDR); former MEP
+  description: Emmanuel Maurel is a member of the French National Assembly and a former member of the European Parliament.
+  aliases:
+  - M. Emmanuel Maurel
+- name: François Piquemal
+  jurisdiction: FR
+  role: French deputy, Haute-Garonne (LFI-NFP)
+  description: François Piquemal is a member of the French National Assembly representing Haute-Garonne, affiliated with La France insoumise.
+  aliases:
+  - M. François Piquemal
+- name: Jean-Claude Requier
+  jurisdiction: FR
+  role: French Senator (Lot, RDSE); president of the RDSE group
+  description: Jean-Claude Requier is a French senator representing Lot and president of the Radical (RDSE) group in the Senate.
+  profile_url: https://en.wikipedia.org/wiki/Jean-Claude_Requier
+  aliases:
+  - M. Jean-Claude REQUIER
+- name: Jean-François Portarrieu
+  jurisdiction: FR
+  role: French politician
+  description: Jean-François Portarrieu is a French politician who has appeared as a speaker in parliamentary proceedings; his precise current role is not confidently established.
+  aliases:
+  - M. Jean-François Portarrieu
+- name: Jean-Michel Arnaud
+  jurisdiction: FR
+  role: French Senator (Hautes-Alpes, UC)
+  description: Jean-Michel Arnaud is a French senator representing Hautes-Alpes.
+  aliases:
+  - M. Jean-Michel ARNAUD
+- name: Jean-Paul Lecoq
+  jurisdiction: FR
+  role: French deputy, Seine-Maritime (GDR)
+  description: Jean-Paul Lecoq is a member of the French National Assembly representing Seine-Maritime, affiliated with the Communist-linked GDR group.
+  aliases:
+  - M. Jean-Paul Lecoq (GDR)
+- name: Joël Bruneau
+  jurisdiction: FR
+  role: French deputy, Calvados (LIOT); mayor of Caen
+  description: Joël Bruneau is a member of the French National Assembly representing Calvados and the mayor of Caen.
+  aliases:
+  - M. Joël Bruneau (LIOT)
+- name: Jérémy Bacchi
+  jurisdiction: FR
+  role: French Senator (Bouches-du-Rhône, CRCE)
+  description: Jérémy Bacchi is a French senator representing Bouches-du-Rhône, affiliated with the Communist-linked CRCE group.
+  aliases:
+  - M. Jérémy BACCHI
+- name: Maxime Minot
+  jurisdiction: FR
+  role: French deputy, Oise (Les Républicains)
+  description: Maxime Minot is a member of the French National Assembly representing Oise.
+  aliases:
+  - M. Maxime Minot
+  - M. Maxime Minot (LR)
+- name: Michel Guiniot
+  jurisdiction: FR
+  role: French deputy, Somme (RN)
+  description: Michel Guiniot is a member of the French National Assembly representing Somme, affiliated with the Rassemblement National.
+  aliases:
+  - M. Michel Guiniot
+- name: Nicolas Bonnet
+  jurisdiction: FR
+  role: French politician (Écologiste et Social)
+  description: Nicolas Bonnet is a French politician affiliated with the Ecologist group who has appeared as a speaker in parliamentary proceedings.
+  aliases:
+  - M. Nicolas Bonnet (EcoS)
+- name: Nicolas Dragon
+  jurisdiction: FR
+  role: French deputy, Nièvre (RN)
+  description: Nicolas Dragon is a member of the French National Assembly representing Nièvre, affiliated with the Rassemblement National.
+  aliases:
+  - M. Nicolas Dragon (RN)
+- name: Nicolas Sansu
+  jurisdiction: FR
+  role: French deputy, Cher (GDR)
+  description: Nicolas Sansu is a member of the French National Assembly representing Cher, affiliated with the Communist-linked GDR group.
+  aliases:
+  - M. Nicolas Sansu (GDR)
+- name: Philippe Pradal
+  jurisdiction: FR
+  role: French deputy, Alpes-Maritimes (Horizons)
+  description: Philippe Pradal is a member of the French National Assembly representing Alpes-Maritimes.
+  aliases:
+  - M. Philippe Pradal (HOR)
+- name: Pierre Pribetich
+  jurisdiction: FR
+  role: French deputy, Côte-d'Or (Socialistes)
+  description: Pierre Pribetich is a member of the French National Assembly representing Côte-d'Or.
+  aliases:
+  - M. Pierre Pribetich
+- name: Pouria Amirshahi
+  jurisdiction: FR
+  role: French deputy, Hérault (left-wing coalition); journalist
+  description: Pouria Amirshahi is a member of the French National Assembly representing Hérault and a former editor of the magazine Politis.
+  aliases:
+  - M. Pouria Amirshahi
+- name: Rodrigo Arenas
+  jurisdiction: FR
+  role: French deputy, Paris (LFI-NFP)
+  description: Rodrigo Arenas is a member of the French National Assembly representing Paris, formerly president of the FCPE parents' association.
+  aliases:
+  - M. Rodrigo Arenas
+- name: Roger Vicot
+  jurisdiction: FR
+  role: French deputy, Nord (Socialistes)
+  description: Roger Vicot is a member of the French National Assembly representing Nord.
+  aliases:
+  - M. Roger Vicot
+- name: Roland Lescure
+  jurisdiction: FR
+  role: French deputy for French residents in the Americas; has served as Minister Delegate for Industry and Minister of the Economy
+  description: Roland Lescure is a French politician who has served as a deputy and held ministerial posts covering industry and the economy since 2023.
+  profile_url: https://en.wikipedia.org/wiki/Roland_Lescure
+  aliases:
+  - M. Roland Lescure
+- name: Stanislas Guerini
+  jurisdiction: FR
+  role: French deputy, Paris; former Minister of Public Sector Transformation and Civil Service
+  description: Stanislas Guerini is a French politician who served as Minister of Public Sector Transformation and the Civil Service from 2022 to 2024, and leads the Renaissance party.
+  profile_url: https://en.wikipedia.org/wiki/Stanislas_Guerini
+  aliases:
+  - M. Stanislas Guerini
+- name: Stéphane Piednoir
+  jurisdiction: FR
+  role: French Senator (Maine-et-Loire, Les Républicains)
+  description: Stéphane Piednoir is a French senator representing Maine-et-Loire, known for his work on Senate reports concerning generative artificial intelligence.
+  profile_url: https://fr.wikipedia.org/wiki/St%C3%A9phane_Piednoir
+  aliases:
+  - M. Stéphane PIEDNOIR
+- name: Stéphane Ravier
+  jurisdiction: FR
+  role: French Senator (Bouches-du-Rhône)
+  description: Stéphane Ravier is a French senator representing Bouches-du-Rhône, a former member of the European Parliament and Marseille city councillor.
+  profile_url: https://en.wikipedia.org/wiki/St%C3%A9phane_Ravier
+  aliases:
+  - M. Stéphane RAVIER
+- name: Sébastien Lecornu
+  jurisdiction: FR
+  role: Prime Minister of France; previously Minister of the Armed Forces
+  description: Sébastien Lecornu is a French politician who became Prime Minister of France in September 2025, after serving as Minister of the Armed Forces from 2022 to 2025.
+  profile_url: https://en.wikipedia.org/wiki/S%C3%A9bastien_Lecornu
+  aliases:
+  - M. Sébastien Lecornu
+- name: Timothée Houssin
+  jurisdiction: FR
+  role: French deputy, Eure (RN)
+  description: Timothée Houssin is a member of the French National Assembly representing Eure, affiliated with the Rassemblement National.
+  aliases:
+  - M. Timothée Houssin
+- name: Xavier Albertini
+  jurisdiction: FR
+  role: French deputy, Moselle (Horizons)
+  description: Xavier Albertini is a member of the French National Assembly representing Moselle.
+  aliases:
+  - M. Xavier Albertini
+- name: Édouard Geffray
+  jurisdiction: FR
+  role: French senior civil servant; former Secretary-General and President of CNIL
+  description: Édouard Geffray is a French senior civil servant who has led the CNIL data-protection authority and the Directorate-General for School Education (DGESCO).
+  aliases:
+  - M. Édouard Geffray
+- name: Éric Pauget
+  jurisdiction: FR
+  role: French deputy, Alpes-Maritimes (Les Républicains)
+  description: Éric Pauget is a member of the French National Assembly representing Alpes-Maritimes.
+  aliases:
+  - M. Éric Pauget
+- name: Alexandra Martin
+  jurisdiction: FR
+  role: French deputy, Alpes-Maritimes (Les Républicains)
+  description: Alexandra Martin is a member of the French National Assembly representing Alpes-Maritimes.
+  aliases:
+  - Mme Alexandra Martin (Alpes-Maritimes)
+- name: Annaïg Le Meur
+  jurisdiction: FR
+  role: French deputy, Finistère (Renaissance)
+  description: Annaïg Le Meur is a member of the French National Assembly representing Finistère.
+  aliases:
+  - Mme Annaïg Le Meur
+- name: Anne Le Hénanff
+  jurisdiction: FR
+  role: French Secretary of State for Artificial Intelligence and Digital Technologies; deputy for Morbihan (Horizons)
+  description: Anne Le Hénanff is a French politician and deputy for Morbihan who has served as Secretary of State for AI and Digital Technologies since December 2024.
+  profile_url: https://fr.wikipedia.org/wiki/Anne_Le_H%C3%A9nanff
+  aliases:
+  - Mme Anne LE HÉNANFF
+  - Mme Anne Le Hénanff
+- name: Catherine Pégard
+  jurisdiction: FR
+  role: President of the Château de Versailles public establishment
+  description: Catherine Pégard is a French journalist and civil servant who has been president of the public establishment of the Château de Versailles since 2011.
+  aliases:
+  - Mme Catherine Pégard
+- name: Claire Lejeune
+  jurisdiction: FR
+  role: French expert witness
+  description: Claire Lejeune has appeared as a speaker in French parliamentary proceedings; her precise institutional role is not confidently established.
+  aliases:
+  - Mme Claire Lejeune
+- name: Constance Le Grip
+  jurisdiction: FR
+  role: French deputy, Hauts-de-Seine (Renaissance)
+  description: Constance Le Grip is a member of the French National Assembly representing Hauts-de-Seine and a former member of the European Parliament.
+  aliases:
+  - Mme Constance Le Grip
+- name: Cécile Untermaier
+  jurisdiction: FR
+  role: French deputy, Saône-et-Loire (Socialistes)
+  description: Cécile Untermaier is a member of the French National Assembly representing Saône-et-Loire.
+  aliases:
+  - Mme Cécile Untermaier
+- name: Céline Calvez
+  jurisdiction: FR
+  role: French deputy, Hauts-de-Seine (Renaissance)
+  description: Céline Calvez is a member of the French National Assembly representing Hauts-de-Seine.
+  aliases:
+  - Mme Céline Calvez
+- name: Dominique Faure
+  jurisdiction: FR
+  role: French Minister Delegate for Local Authorities and Rural Life
+  description: Dominique Faure is a French politician who has served as Secretary of State and Minister Delegate for local authorities and rural affairs since 2022.
+  profile_url: https://fr.wikipedia.org/wiki/Dominique_Faure
+  aliases:
+  - Mme Dominique FAURE
+- name: Esther Benbassa
+  jurisdiction: FR
+  role: French Senator (Val-de-Marne, 2011–2023); historian
+  description: Esther Benbassa is a French historian and former senator for Val-de-Marne, a specialist in Jewish history.
+  profile_url: https://en.wikipedia.org/wiki/Esther_Benbassa
+  aliases:
+  - Mme Esther BENBASSA
+- name: Isabelle Santiago
+  jurisdiction: FR
+  role: French deputy, Val-de-Marne (Socialistes)
+  description: Isabelle Santiago is a member of the French National Assembly representing Val-de-Marne.
+  aliases:
+  - Mme Isabelle Santiago (SOC)
+- name: Josy Poueyto
+  jurisdiction: FR
+  role: French deputy, Pyrénées-Atlantiques (Les Démocrates)
+  description: Josy Poueyto is a member of the French National Assembly representing Pyrénées-Atlantiques.
+  aliases:
+  - Mme Josy Poueyto (Dem)
+- name: Karine Daniel
+  jurisdiction: FR
+  role: French politician
+  description: Karine Daniel is a French politician and academic who has appeared as a speaker in parliamentary proceedings; her precise current role is not confidently established.
+  aliases:
+  - Mme Karine DANIEL
+- name: Laure Darcos
+  jurisdiction: FR
+  role: French Senator (Essonne, Les Républicains)
+  description: Laure Darcos is a French senator representing Essonne.
+  aliases:
+  - Mme Laure DARCOS
+- name: Lisa Belluco
+  jurisdiction: FR
+  role: French deputy, Vienne (Écologiste et Social)
+  description: Lisa Belluco is a member of the French National Assembly representing Vienne.
+  aliases:
+  - Mme Lisa Belluco
+- name: Marie-Claire Carrère-Gée
+  jurisdiction: FR
+  role: French Senator (Paris, Les Républicains)
+  description: Marie-Claire Carrère-Gée is a French senator representing Paris and an economist by background.
+  aliases:
+  - Mme Marie-Claire CARRÈRE-GÉE
+- name: Marie-Pierre Vedrenne
+  jurisdiction: FR
+  role: Member of the European Parliament (France, Renew Europe)
+  description: Marie-Pierre Vedrenne is a French member of the European Parliament, sitting with the Renew Europe group.
+  profile_url: https://en.wikipedia.org/wiki/Marie-Pierre_Vedrenne
+  aliases:
+  - Mme Marie-Pierre Vedrenne
+- name: Mireille Clapot
+  jurisdiction: FR
+  role: French deputy, Drôme (Renaissance)
+  description: Mireille Clapot is a member of the French National Assembly representing Drôme, active on digital ethics and AI issues.
+  aliases:
+  - Mme Mireille Clapot
+  - Mme Mireille Clapot (RE)
+- name: Nadège Havet
+  jurisdiction: FR
+  role: French Senator (Finistère, RDPI)
+  description: Nadège Havet is a French senator representing Finistère, affiliated with the presidential-majority RDPI group.
+  aliases:
+  - Mme Nadège HAVET
+- name: Rachida Dati
+  jurisdiction: FR
+  role: French Minister of Culture; mayor of the 7th arrondissement of Paris
+  description: Rachida Dati is a French politician who has served as Minister of Culture since 2024 and is the mayor of the 7th arrondissement of Paris.
+  profile_url: https://en.wikipedia.org/wiki/Rachida_Dati
+  aliases:
+  - Mme Rachida Dati
+- name: Sandra Regol
+  jurisdiction: FR
+  role: French deputy, Bas-Rhin (Écologiste et Social)
+  description: Sandra Regol is a member of the French National Assembly representing Bas-Rhin.
+  aliases:
+  - Mme Sandra Regol
+- name: Sophie Taillé-Polian
+  jurisdiction: FR
+  role: French deputy, Val-de-Marne (Écologiste et Social); former Senator
+  description: Sophie Taillé-Polian is a member of the French National Assembly representing Val-de-Marne and a former French senator.
+  aliases:
+  - Mme Sophie Taillé-Polian
+- name: Soumya Bourouaha
+  jurisdiction: FR
+  role: French deputy, Seine-Saint-Denis (GDR)
+  description: Soumya Bourouaha is a member of the French National Assembly representing Seine-Saint-Denis, affiliated with the Communist-linked GDR group.
+  aliases:
+  - Mme Soumya Bourouaha
+- name: Vanina Paoli-Gagin
+  jurisdiction: FR
+  role: French Senator (Aube, Les Indépendants)
+  description: Vanina Paoli-Gagin is a French senator representing Aube.
+  aliases:
+  - Mme Vanina PAOLI-GAGIN
+- name: Virginie Duby-Muller
+  jurisdiction: FR
+  role: French deputy, Haute-Savoie (Droite Républicaine); vice-president of the National Assembly
+  description: Virginie Duby-Muller is a member of the French National Assembly representing Haute-Savoie and a vice-president of the Assembly's Bureau.
+  aliases:
+  - Mme Virginie Duby-Muller
+  - Mme Virginie Duby-Muller (DR)
+- name: Élisabeth Borne
+  jurisdiction: FR
+  role: French Minister of National Education, Higher Education and Research; former Prime Minister
+  description: Élisabeth Borne is a French politician who served as Prime Minister of France from 2022 to 2024, and has since served as Minister of National Education, Higher Education and Research.
+  profile_url: https://en.wikipedia.org/wiki/%C3%89lisabeth_Borne
+  aliases:
+  - Mme Élisabeth Borne

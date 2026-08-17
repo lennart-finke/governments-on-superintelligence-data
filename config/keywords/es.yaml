@@ -1,0 +1,144 @@
+# Spanish keyword list — flat list mirroring readme.md §Search, translated
+# (Mexican usage; mx_senado, mx_diputados). Word-boundary matching,
+# case-insensitive; '*' = stem wildcard. All-caps acronyms (IA, AGI, ASI) stay
+# case-sensitive so "IA" does not match the -ia ending of ordinary nouns.
+# Precision is the judges' job.
+#
+# Spanish needs more scoping than the other Latin-script lists, because three
+# of the English list's bare terms are ordinary legislative vocabulary here and
+# would otherwise carry the whole corpus into adjudication:
+#
+#   extinción    — "Ley Nacional de Extinción de Dominio" (asset forfeiture) is
+#                  read into the record constantly, plus species extinction and
+#                  "extinción de fideicomisos". Only humanity-scoped forms here.
+#   alineación   — means policy alignment ("alineación con los ODS"), and in one
+#                  sampled session a row of planted trees. Only AI-scoped forms.
+#   nivel humano — "a nivel humano" is idiomatic for "on a personal level", so
+#                  only the AI-scoped forms are listed (this matches en.yaml,
+#                  which also scopes it, rather than pt.yaml's bare form).
+#   búsqueda de  — "power-seeking" is a technical term in English but ordinary
+#   poder          political vocabulary in a parliament, so it is scoped too.
+#
+# Measured on 34 sampled Senate plenary sittings (4.9M chars, 2022-2026): this
+# list produces 6 hits in 2 documents, all genuine `inteligencia artificial`.
+# The same corpus with the bare English-style terms adds 9 spurious hits across
+# 6 further documents (6 × extinción, 3 × alineación) that contain no AI content
+# at all -- i.e. a naive translation would roughly double candidate volume with
+# pure noise. `singularidad`, `nivel humano` and `búsqueda de poder` happened not
+# to fire in the sample but are scoped on the same reasoning.
+#
+# `pérdida de control` is kept bare, as in en.yaml: the administrative sense in
+# Mexican usage is the plural "pérdida de controles", which word-boundary
+# matching already excludes (verified). `ASI` does match all-caps "ASI COMO"
+# when the accent is dropped; it did not occur in the sample, and this is the
+# same tolerated-noise trade-off en.yaml documents for `RSI`.
+lang: es
+segmented: true
+keywords:
+  # AI generically (high recall)
+  - IA
+  - I.A.
+  - inteligencia artificial
+  - inteligencia de las máquinas
+  - inteligencia maquinal
+  - LLM*
+  - modelo* de lenguaje
+  - modelo* grande* de lenguaje
+  - grande* modelo* de lenguaje
+  # AGI
+  - AGI
+  - inteligencia artificial general
+  - inteligencia general artificial
+  - IA general
+  - IA de propósito general
+  - inteligencia artificial de propósito general
+  - IA de nivel humano
+  - inteligencia artificial de nivel humano
+  - IA transformadora
+  - inteligencia artificial transformadora
+  - IA fuerte
+  - codificación automatizada
+  - programación automatizada
+  # ASI
+  - ASI                        # collides with all-caps "ASÍ" when the accent is
+                               # dropped in headings; judges filter, as with RSI
+  - superinteligencia artificial
+  - superinteligen*            # superinteligencia, superinteligente
+  - súperinteligen*
+  - super-inteligen*
+  - inteligencia sobrehumana
+  - inteligencia sobre-humana
+  - más inteligente* que los humanos
+  - más inteligente* que el ser humano
+  - más inteligente* que los seres humanos
+  - superar la inteligencia humana
+  - superar a la inteligencia humana
+  - sobrepasar la inteligencia humana
+  - exceder la inteligencia humana
+  # RSI / recursive self-improvement
+  - RSI
+  - autosuperación recursiva
+  - automejora recursiva
+  - auto-mejora recursiva
+  - automejoramiento recursivo
+  - superación recursiva
+  - mejora recursiva
+  - IA que se automejora
+  - singularidad tecnológica
+  - explosión de inteligencia
+  - explosión de la inteligencia
+  - despegue de la IA
+  - IA descontrolada
+  - IA fuera de control
+  # AI existential / catastrophic risk
+  - riesgo* existencial*
+  - amenaza* existencial*
+  - riesgo* catastrófico*
+  - catástrofe* existencial*
+  - extinción humana
+  - extinción de la humanidad
+  - extinción del ser humano
+  - extinción de la especie humana
+  - riesgo de extinción
+  - fin de la humanidad
+  - pérdida de control       # "pérdida de controles" (administrative) is
+                             # excluded by the trailing word boundary
+  - pérdida del control humano
+  - perder el control de la IA
+  - problema de control
+  - problema del control
+  - control de la IA
+  - alineación de la IA
+  - alineación de la inteligencia artificial
+  - alineamiento de la IA
+  - alineamiento de la inteligencia artificial
+  - problema de alineación
+  - problema de alineamiento
+  - desalineación
+  - desalineamiento
+  - desalinead*              # desalineada, desalineado
+  - autoexfiltración
+  - auto-exfiltración
+  - búsqueda de poder por la IA    # bare "búsqueda de poder" is ordinary
+  - IA que busca poder             # political vocabulary in a parliament
+  - comportamiento de búsqueda de poder
+  - IA engañosa
+  - engaño de la IA
+  - supervisión escalable
+  - interpretabilidad
+  # AI regulation
+  - regulación de la IA
+  - regulación de la inteligencia artificial
+  - regulación en materia de inteligencia artificial
+  - gobernanza de la IA
+  - gobernanza de la inteligencia artificial
+  - ley de inteligencia artificial
+  - ley general de inteligencia artificial
+  - ley nacional de inteligencia artificial
+  - tratado internacional de IA
+  - tratado internacional sobre inteligencia artificial
+  - control* de exportación de chips
+  - control* de exportación de semiconductores
+  - seguridad de los centros de datos
+  - seguridad de centros de datos
+  - seguridad del centro de datos

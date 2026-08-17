@@ -1,0 +1,84 @@
+# Italian keyword list v1 — flat list mirroring readme.md §Search, translated.
+# Added for CH (Amtliches Bulletin carries untranslated Italian speeches);
+# also applies to any future IT/Ticino source.
+#
+# Three acronyms from the other lists are deliberately omitted, because in Swiss
+# records they are overwhelmingly something else and the judges would pay for
+# every one of them:
+#   AI  — assicurazione invalidità (and the canton Appenzello Interno)
+#   RSI — Radiotelevisione svizzera italiana; regolamento sanitario internazionale
+#   ASI — Agenzia Spaziale Italiana
+# "AGI" is kept despite the Italian news agency of that name: it is the core
+# term and matching is case-sensitive, so lowercase prose cannot trip it.
+#
+# NB: wildcards only work at the start or end of a whole term — the compiler
+# escapes any '*' in between, so a term like "rischi* esistenzial*" can never
+# match (see de.yaml/fr.yaml, which have entries in that shape). Multi-word
+# inflections are therefore spelled out here.
+lang: it
+segmented: true
+keywords:
+  # IA generica (high recall)
+  - IA
+  - I.A.
+  - intelligenza artificiale
+  - intelligenza delle macchine
+  - intelligenza meccanica
+  - LLM
+  - grandi modelli linguistici
+  - grande modello linguistico
+  - modello linguistico
+  - modelli linguistici
+  # AGI
+  - AGI
+  - IAG
+  - intelligenza artificiale generale
+  - IA generale
+  - IA di livello umano
+  - IA forte
+  - intelligenza artificiale forte
+  - IA trasformativa
+  - programmazione automatizzata
+  # ASI
+  - '*superintelligen*'
+  - intelligenza sovrumana
+  - intelligenza superumana
+  # RSI / auto-miglioramento ricorsivo
+  - auto-miglioramento ricorsivo
+  - automiglioramento ricorsivo
+  - '*singolarità*'
+  - esplosione di intelligenza
+  - esplosione dell'intelligenza
+  - IA incontrollabile
+  # Rischi esistenziali / catastrofici
+  - rischio esistenziale
+  - rischi esistenziali
+  - minaccia esistenziale
+  - minacce esistenziali
+  - rischio catastrofico
+  - rischi catastrofici
+  - perdita di controllo
+  - fuori controllo
+  - incontrollabil*
+  - controllo dell'IA
+  - allineamento dell'IA
+  - problema dell'allineamento
+  - disallineamento
+  - IA ingannevole
+  - auto-esfiltrazione
+  - interpretabilità
+  # Regolamentazione
+  - regolamentazione dell'IA
+  - regolamentazione dell'intelligenza artificiale
+  - regolazione dell'IA
+  - regolazione dell'intelligenza artificiale
+  - governance dell'IA
+  - governance dell'intelligenza artificiale
+  - trattato internazionale sull'IA
+  - trattato internazionale sull'intelligenza artificiale
+  - controllo delle esportazioni di chip
+  - controlli delle esportazioni di chip
+  - controllo delle esportazioni di semiconduttori
+  - controlli delle esportazioni di semiconduttori
+  - sicurezza dei centri di dati
+  - sicurezza dei data center
