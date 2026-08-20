@@ -718,8 +718,9 @@ def test_schema_version_is_semver_the_site_can_parse():
     assert m, f"not semver: {QUOTES_DATA_VERSION!r}"
     major, minor, _ = (int(g) for g in m.groups())
     assert major == 2, "a MAJOR bump breaks every deployed page -- see SCHEMA.md"
-    assert minor >= 4, (
-        "id landed in 2.1.0, the portrait in 2.2.0, `asr` in 2.3.0, `nv` in 2.4.0"
+    assert minor >= 6, (
+        "id landed in 2.1.0, the portrait in 2.2.0, `asr` in 2.3.0, `nv` in 2.4.0, "
+        "the utterance sidecar in 2.5.0, `collected` in 2.6.0"
     )
 
 
@@ -759,12 +760,14 @@ def test_site_payload_is_a_versioned_envelope():
     is the spec.
     """
     import json
+    import re
 
     from tracker.export.quotes import QUOTES_DATA_VERSION
 
     payload = {
         "v": QUOTES_DATA_VERSION,
         "generated": "2026-01-01T00:00:00Z",
+        "collected": "2026-01-01",
         "rows": [_compact_row(_row())],
     }
     # round-trip exactly as run_export writes it
@@ -777,6 +780,123 @@ def test_site_payload_is_a_versioned_envelope():
     # the reader tells v1 from v2 with Array.isArray, so the envelope must not
     # itself be a list under any circumstance
     assert not isinstance(back, list)
+    # `collected` is a plain date, not a timestamp: the page compares it against
+    # "YYYY-MM" month keys and validates the shape before trusting it, so an
+    # ISO-8601 datetime here would be dropped on the floor at the other end.
+    assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", back["collected"])
+
+
+def _tmp_db_with_watermarks(*rows):
+    """A throwaway DB whose watermark table holds `(source, start, end, status)`."""
+    import tempfile
+    from pathlib import Path
+
+    from tracker import db
+
+    dbfile = Path(tempfile.mkdtemp()) / "t.db"
+    with db.session(dbfile) as conn:
+        for source, start, end, status in rows:
+            conn.execute(
+                "INSERT INTO watermarks (source, window_start, window_end, status, updated_at) "
+                "VALUES (?,?,?,?,?)",
+                (source, start, end, status, db.utcnow()),
+            )
+    return dbfile
+
+
+def test_collected_through_is_the_newest_day_any_source_was_read():
+    """`collected` is the crawl's reach, so the furthest source sets it.
+
+    Sources are walked independently and stop at different dates, so there is
+    no single date they all share -- and the honest floor (the *least* covered
+    source) is whichever one was abandoned first, which would put the corpus
+    end a year behind the statements it already holds. The ceiling is the
+    claim the page actually needs: nothing past here has been read.
+    """
+    from tracker import db
+    from tracker.export.quotes import _collected_through
+
+    dbfile = _tmp_db_with_watermarks(
+        ("early", "2026-01-01", "2026-01-31", "done"),
+        ("late", "2026-02-01", "2026-02-28", "done"),
+        ("stalled", "2025-01-01", "2025-01-31", "done"),
+    )
+    with db.session(dbfile) as conn:
+        assert _collected_through(conn) == "2026-02-28"
+
+
+def test_collected_through_ignores_windows_that_did_not_finish():
+    """A window that errored was not read, whatever date it was aiming at.
+
+    `windows()` hands the same range back on the next run, so counting it would
+    publish coverage the corpus does not have -- and keep publishing it for as
+    long as the source stays broken.
+    """
+    from tracker import db
+    from tracker.export.quotes import _collected_through
+
+    dbfile = _tmp_db_with_watermarks(
+        ("src", "2026-01-01", "2026-01-31", "done"),
+        ("src", "2026-02-01", "2026-02-28", "error"),
+        ("src", "2026-03-01", "2026-03-31", "partial"),
+    )
+    with db.session(dbfile) as conn:
+        assert _collected_through(conn) == "2026-01-31"
+
+
+def test_collected_through_never_points_into_the_future():
+    """A watermark ahead of today is a clock, not coverage.
+
+    Fetch windows are clamped to `date.today()`, so this cannot arise from a
+    real run -- but the site draws its time axis to this date, and an axis
+    running into next year is a worse failure than a missing key.
+    """
+    import datetime as dt
+
+    from tracker import db
+    from tracker.export.quotes import _collected_through
+
+    ahead = (dt.date.today() + dt.timedelta(days=400)).isoformat()
+    dbfile = _tmp_db_with_watermarks(("src", "2026-01-01", ahead, "done"))
+    with db.session(dbfile) as conn:
+        assert _collected_through(conn) == dt.date.today().isoformat()
+
+
+def test_collected_through_is_absent_rather_than_guessed():
+    """Nothing fetched means no claim about coverage.
+
+    The key is omitted rather than filled in from the quote dates: a payload
+    without it makes the page fall back to the newest statement's month, which
+    is the pre-2.6.0 behaviour and the right answer for a corpus whose reach is
+    genuinely unknown.
+    """
+    from tracker import db
+    from tracker.export.quotes import _collected_through
+
+    dbfile = _tmp_db_with_watermarks()
+    with db.session(dbfile) as conn:
+        assert _collected_through(conn) is None
+
+
+def test_ui_draws_its_time_axis_to_the_collection_date():
+    """The consumer half of 2.6.0: the page must read `collected` and use it.
+
+    Producing the key changes nothing on its own -- the axis would still stop
+    at the newest quote, and a corpus that stopped being fetched would still
+    read as a quiet one. See _site_index_html for why this check lives here.
+    """
+    html = _site_index_html()
+
+    assert "payload.collected" in html, (
+        "the page never reads `collected` -- schema 2.6.0's envelope key is "
+        "published and ignored"
+    )
+    # the axis end, and the guard that it only ever extends the month domain:
+    # trimming it would drop quotes out of the directory, which filters on the
+    # same list (see SCHEMA.md).
+    assert "if (cutoff && cutoff > hi) hi = cutoff;" in html, (
+        "the month domain no longer runs to the collection date, or trims to it"
+    )
 
 
 def test_export_no_longer_ships_the_page():
@@ -840,3 +960,256 @@ def test_export_writes_no_stand_in_payload():
             "policy-tracker-site is committing a stand-in payload again -- the "
             "page runs against the real export only, see its readme"
         )
+
+
+# --- the generated counts block in SCHEMA.md ---------------------------------
+
+
+def test_schema_counts_block_is_current():
+    """SCHEMA.md's corpus figures must match the payload they describe.
+
+    They used to be prose, and every one had drifted: 5,500 rows against 4,372,
+    688 `nv` against 541, "4,267 of 4,267" sidecar records against 3,630, `si`
+    absent on "nearly 40%" against 29%. Nobody had broken anything -- the
+    description simply aged, silently, which is the worst kind of number to put
+    in a spec because a consumer validates their parse against it.
+
+    So the figures are generated into one delimited block and this fails when the
+    block is behind the export. Skips before a first export, since the block is
+    measured from the written payload rather than from the database.
+    """
+    import pytest
+
+    from tracker import config
+    from tracker.export import schema_counts
+
+    site = config.EXPORT_DIR / "site"
+    if not (site / "quotes-data.json").is_file():
+        pytest.skip("no export yet -- run `tracker export` to populate the counts block")
+
+    expected = schema_counts.render(schema_counts.measure(site))
+    paths = schema_counts.schema_paths()
+    assert paths, "SCHEMA.md not found"
+    for path in paths:
+        text = path.read_text(encoding="utf-8")
+        assert schema_counts.BEGIN in text and schema_counts.END in text, (
+            f"{path} has no generated-counts block; add the BEGIN/END markers"
+        )
+        found = text[text.index(schema_counts.BEGIN) : text.index(schema_counts.END) + len(
+            schema_counts.END
+        )]
+        assert found == expected, (
+            f"{path}'s generated-counts block is stale -- re-run `tracker export`"
+        )
+
+
+def test_schema_copies_are_identical():
+    """The two SCHEMA.md copies are one document; a diff between them is a bug.
+
+    CLAUDE.md requires it and nothing enforced it. The generated counts block
+    makes it worse to leave unchecked, because an export run from a checkout
+    without the site repo beside it would update only one of them.
+    """
+    import pytest
+
+    from tracker.export import schema_counts
+
+    paths = schema_counts.schema_paths()
+    if len(paths) < 2:
+        pytest.skip("site repo not found -- set POLICY_TRACKER_SITE for the cross-repo check")
+    first, second = (p.read_text(encoding="utf-8") for p in paths[:2])
+    assert first == second, f"{paths[0]} and {paths[1]} have diverged -- they must be identical"
+
+
+# --- statutory text presented as somebody's statement ------------------------
+
+
+def test_statutory_provisions_are_dropped_only_when_unauthored():
+    """A numbered provision goes only when the speaker plainly did not write it.
+
+    The corpus published "Sec. 10232. Artificial intelligence." as a quote by the
+    Speaker pro tempore and three articles of Taiwan's draft AI Basic Law as
+    quotes by the chair of the sitting considering them. Nobody said those words
+    as their own.
+
+    The reason this is a rule about authorship rather than about shape is that the
+    same shape is usually attributed correctly, and the corpus's most substantive
+    Chinese material has it: an article of the Cyberspace Administration's
+    Generative AI Measures is that institution's authoritative text, and "Sec. 5."
+    of an executive order is the President's. Dropping those would be a far worse
+    error than the one being fixed, so both directions are pinned here.
+    """
+    from tracker.export.quotes import _is_statutory_provision as drops
+
+    # not the author -> dropped
+    assert drops("Speaker pro tempore", "US", "us_govinfo_crec", "Sec. 10232. AI.", "Sec. 10232. AI.")
+    assert drops(
+        "Presiding Chair (Legislative Yuan)", "TW", "tw_ly",
+        "第十三條 政府應建立資料開放", "Article 13: The government shall establish",
+    )
+    assert drops("The Chair", "US", "us_govinfo_crec", "SEC. 220. PROCESS", "SEC. 220. PROCESS")
+    assert drops(
+        "Patrick Leahy", "US", "us_govinfo_crec",
+        "NIST is directed to develop resources",
+        "The agreement provides an increase of no less than $4,000,000",
+    )
+
+    # the author -> kept
+    assert not drops(
+        "Cyberspace Administration of China", "CN", "cn_cac",
+        "第三条 国家坚持发展和安全并重", "Article 3: The State adheres to the principles",
+    )
+    assert not drops(
+        "Donald Trump", "US", "us_fedreg",
+        "``Sec. 5. Promoting Security", "Sec. 5. Promoting Security with and in AI",
+    )
+    # a deputy explaining her own amendment is her statement, not drafting
+    assert not drops(
+        "Marie-Lise Housseau", "FR", "fr_assemblee",
+        "L’amendement n° 446 vise à définir",
+        "Amendment No. 446 aims to define the roles of the DGCCRF",
+    )
+    # and a section number in ordinary prose must survive: drafting punctuation
+    # is required, so a lowercase verb after the number is not a provision
+    assert not drops(
+        "Ted Cruz", "US", "us_govinfo_crec",
+        "Section 230 has been abused by big tech", "Section 230 has been abused by big tech",
+    )
+
+
+# --- the English guarantee, truncation, and containment merges ---------------
+
+
+def test_a_tagged_language_with_no_english_rendering_is_flagged_untranslated():
+    """The record's `language` tag decides whether `tr: raw` is owed.
+
+    A row whose display quote came through refine with no English beside it
+    publishes the original, so the page is showing Dutch in the field the schema
+    promises is English -- and must say so. The tag is what says it: text
+    heuristics used to make this call and answered False for any Dutch sentence
+    carrying a word English also uses ("was"), so 21 rows shipped silently.
+    A 'mul' record is the one case left unclaimed, since it tags English
+    speeches too.
+    """
+    from tracker.export.quotes import _translation
+
+    dutch = (
+        "Ik denk ook dat de heftige reactie van China te verwachten was, zelfs de aard "
+        "van de reactie, omdat maatregelen in de exportcontrole eerder zijn toegepast"
+    )
+    assert _translation("nl", "nl", "nl_tweedekamer", None, dutch, dutch, False) == "raw"
+
+    english = (
+        "Now, the European Commission currently believes that the best way forward "
+        "is a blueprint which does not impose new obligations."
+    )
+    assert (
+        _translation("mul", "mul", "ep_plenary", None, english, english, False) is None
+    ), "an English speech in a mul record is not claimed as untranslated"
+
+
+def test_displayed_pair_is_the_only_place_that_picks_the_shown_strings():
+    """Two functions deriving this separately is a bug that already happened twice.
+
+    `_compact_row` shows `display_quote` for an English original; `_extend_or_mark`
+    read `quote_en` instead, so it tested whether a *different* string ended
+    mid-sentence and left 54 quotes truncated. Pin that they agree.
+    """
+    from tracker.export.quotes import displayed_pair
+
+    row = _prov(
+        language="en",
+        quote_original="The unrefined original sentence, which ends properly.",
+        quote_en="The unrefined original sentence, which ends properly.",
+        display_quote="A refined excerpt that stops mid",
+        display_quote_en=None,
+    )
+    orig, en = displayed_pair(row)
+    assert orig == en == "A refined excerpt that stops mid"
+    assert _compact_row(row)["q"] == en
+
+
+def test_a_quote_cut_mid_sentence_is_finished_or_marked():
+    from tracker.export.quotes import _extend_or_mark
+
+    # English original: the record can finish the sentence, so it does
+    row = {
+        "quote_original": "we are in a completely new world",
+        "quote_en": "we are in a completely new world",
+        "language": "en",
+        "display_quote": "we are in a completely new world",
+        "display_quote_en": None,
+    }
+    _extend_or_mark(row, "Once machines improve themselves we are in a completely new world "
+                         "and nobody knows what follows. Then the debate changes.")
+    assert row["display_quote"] == "we are in a completely new world and nobody knows what follows."
+
+    # translated quote: the record holds no more English, so say it was cut
+    row = {
+        "quote_original": "wij zijn in een volledig nieuwe wereld",
+        "quote_en": "we are in a completely new world",
+        "language": "nl",
+        "display_quote": "wij zijn in een volledig nieuwe wereld",
+        "display_quote_en": "we are in a completely new world",
+    }
+    _extend_or_mark(row, "irrelevant Dutch record text")
+    assert row["display_quote_en"].endswith(" [...]")
+    assert row["display_quote"].endswith(" [...]")
+
+    # already ends cleanly: untouched
+    row = {"quote_original": "It ends properly.", "quote_en": "It ends properly.",
+           "language": "en", "display_quote": "It ends properly.", "display_quote_en": None}
+    _extend_or_mark(row, "It ends properly. And more follows.")
+    assert row["display_quote"] == "It ends properly."
+
+
+def test_nested_spans_merge_only_within_one_speaker():
+    """Containment merging is gated on the speaker, from a review of all 37 pairs.
+
+    32 were one statement the judge cut twice, or one debate published by two
+    sources, or the Dutch written-question cycle reprinting a member's question
+    inside the minister's answer. 5 were one person reusing another's words --
+    Mark Green repeating a line of Andrew Garbarino's, two ministers giving the
+    same departmental answer, a motion filed under both its mover and the
+    chamber. Merging those would attribute a sentence to somebody who did not
+    say it, so the speaker decides.
+    """
+    from tracker.export.quotes import _dedupe_mirrors
+
+    short_text = (
+        "The creation of machines that can write their own computing code or algorithms "
+        "without human intervention will quickly lead to code that is only understood by AI"
+    )
+    long_text = short_text + ", and oversight stops being possible at that point."
+
+    def row(qid, speaker, text):
+        return {"id": qid, "jurisdiction": "US", "speaker": speaker, "date": "2024-01-01",
+                "quote_original": text, "display_quote": text, "source_url": f"u/{qid}",
+                "statement_key": qid, "provenance": {"source": "us_govinfo_chrg"}}
+
+    same = _dedupe_mirrors([row("a", "Mark Green", long_text), row("b", "Mark Green", short_text)])
+    assert len(same) == 1, "one speaker, nested spans -> one row"
+    assert same[0]["display_quote"] == long_text, "the longer text is a superset; keep it"
+    assert [m["id"] for m in same[0]["mirrors"]] == ["b"]
+
+    differ = _dedupe_mirrors(
+        [row("a", "Mark Green", long_text), row("b", "Andrew Garbarino", short_text)]
+    )
+    assert len(differ) == 2, "different speakers saying the same words are different statements"
+
+
+def test_a_multilingual_tag_is_not_published_as_a_language():
+    """`mul` is 'multiple languages' and no browser can act on it.
+
+    ep_plenary tags every speech in a debate `mul`, English ones included, and it
+    reached 216 rows -- while SCHEMA.md tells a consumer to set `lang` from this
+    field. Nothing here reads the text, so the tag alone decides: a row tagged for
+    no single language publishes as `en`, which is what most of it is and the only
+    value a browser can use; a row that names its language keeps it.
+    """
+    from tracker.export.quotes import _display_language
+
+    assert _display_language(False, "mul") == "en"
+    assert _display_language(False, "und") == "en"
+    assert _display_language(False, "nl") == "nl"
+    assert _display_language(True, "nl") == "en", "an English original is English"

@@ -8,6 +8,8 @@ import pytest
 from lxml import etree
 
 from tracker.filter.keywords import KeywordFilter
+from tracker import http
+from tracker.ingest import nl_officielebekendmakingen as obk
 from tracker.ingest.nl_officielebekendmakingen import NLOfficieleBekendmakingenIngester
 from tracker.ingest.nl_tweedekamer import NLTweedeKamerIngester
 
@@ -281,6 +283,93 @@ def test_obk_written_questions_attribute_answer_to_minister(conn):
 )
 def test_obk_scope_filter(rec, expected):
     assert NLOfficieleBekendmakingenIngester._in_scope(rec) is expected
+
+
+SRU_RECORD = """<record xmlns="http://docs.oasis-open.org/ns/search-ws/sruResponse"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:gzd="http://standaarden.overheid.nl/sru"
+        xmlns:ow="http://standaarden.overheid.nl/wetgeving/">
+ <recordData><gzd:gzd><gzd:originalData><dcterms:identifier>{ident}</dcterms:identifier>
+   <dcterms:title>Brief van de minister</dcterms:title>
+   <dcterms:date>2026-06-17</dcterms:date>
+   <dcterms:creator>Tweede Kamer der Staten-Generaal</dcterms:creator>
+   <ow:publicatienaam>Kamerstuk</ow:publicatienaam>
+   <ow:dossiernummer>26643</ow:dossiernummer></gzd:originalData>
+  <gzd:enrichedData><gzd:url>{url}</gzd:url></gzd:enrichedData></gzd:gzd></recordData>
+</record>"""
+
+REPO_XML = (
+    "https://repository.overheid.nl/frbr/officielepublicaties/"
+    "kst/26643/kst-26643-842/1/xml/kst-26643-842.xml"
+)
+
+
+def _record(ident="kst-26643-842", url=REPO_XML):
+    return NLOfficieleBekendmakingenIngester._record(
+        etree.fromstring(SRU_RECORD.format(ident=ident, url=url).encode())
+    )
+
+
+def test_obk_bodies_are_fetched_from_the_allowed_host():
+    """repository.overheid.nl is a blanket robots.txt Disallow; zoek is not.
+
+    The two hosts serve the identical XML, so the body URL is rebuilt on zoek
+    from the repository URL's filename, which is the publication identifier.
+    """
+    rec = _record()
+    assert rec["url"] == "https://zoek.officielebekendmakingen.nl/kst-26643-842.xml"
+    assert "repository.overheid.nl" not in rec["url"]
+    assert rec["native_id"] == "kst-26643-842"
+
+
+@pytest.mark.parametrize(
+    "name",
+    [
+        "kst-35913-F.xml",
+        "ah-tk-20212022-1712.xml",
+        "kv-tk-2022Z01227.xml",
+        "nds-tk-2022D07485.xml",
+        "h-ek-20212022-21-11.xml",
+    ],
+)
+def test_obk_every_publication_family_resolves_on_the_body_host(name):
+    """One of each was fetched from both hosts and compared: sha256 identical."""
+    ident = name[:-4]
+    rec = _record(ident=ident, url=f"https://repository.overheid.nl/frbr/x/1/xml/{name}")
+    assert rec["url"] == f"https://zoek.officielebekendmakingen.nl/{name}"
+
+
+def test_obk_pdf_attachments_are_still_dropped_on_the_sru_url():
+    """The `.xml` test has to run against what SRU reported, not the rebuilt URL."""
+    assert _record(url="https://repository.overheid.nl/frbr/x/1/pdf/blg-1114270.pdf") is None
+
+
+def test_obk_body_host_has_its_own_rate(conn):
+    """zoek states 10 requests / 30 s; the SRU host is not held to that."""
+    assert obk.BODY_RATE == pytest.approx(0.3)
+    waits = []
+    monkey = http.time
+    real_sleep = monkey.sleep
+    monkey.sleep = lambda s: waits.append(s)
+    try:
+        with http.Fetcher(
+            conn, "t", rate_per_host=100.0, host_rates={"slow.invalid": obk.BODY_RATE}
+        ) as f:
+            f._throttle("slow.invalid")
+            f._throttle("slow.invalid")
+            f._throttle("fast.invalid")
+            f._throttle("fast.invalid")
+    finally:
+        monkey.sleep = real_sleep
+    assert waits[0] > 3.0  # 1 / 0.3 s apart on the override host
+    assert waits[1] < 0.1  # the source rate still applies everywhere else
+
+
+def test_obk_is_served(conn):
+    """The robots.txt objection was to the crawl, and the crawl moved hosts."""
+    from tracker import config
+
+    assert "nl_officielebekendmakingen" not in config.excluded_sources()
 
 
 def test_obk_search_query_drops_wildcards_and_stopwords(conn):

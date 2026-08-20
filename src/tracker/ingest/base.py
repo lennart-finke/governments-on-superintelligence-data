@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import re
 from datetime import date, timedelta
+from typing import NamedTuple
 
 from .. import config, db
 from ..ids import sha256_text
@@ -20,6 +21,42 @@ from ..ids import sha256_text
 # NUL and other C0 control chars (GPO .txt files embed \x00) truncate SQLite
 # string functions and corrupt exports; \n\t stay
 _CONTROL_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
+
+
+class DocDate(NamedTuple):
+    """A document's date, carrying how precisely the source actually stated it.
+
+    Some sources publish only a year and month -- gov.cn's zh article URLs are
+    `/YYYYMM/content_<n>.htm` with no day anywhere in the path.  A function
+    returning a bare `date` has three options there and only two are honest: say
+    the day is unknown, or refuse the document.  The third is to pick a day, and
+    because picking is indistinguishable from knowing once the value is a
+    `date`, that is what happens by accident: 11,006 gov.cn documents claimed
+    the first of the month, and 72 published quotes carried a date that was
+    wrong by up to five weeks while looking exactly as precise as every other.
+
+    So precision travels with the value.  `month` means the day in `.date` is a
+    placeholder for ordering only and must never be shown to a reader as a day;
+    `export.quotes` ships it as `dp` so the page can render "July 2024".
+    Recovering a real day later is `tracker resolve-dates` (see ../../dates.py),
+    which reads the archived body -- most sources state the date in the markup
+    even when the URL does not.
+    """
+
+    date: date
+    precision: str = "day"
+
+    @classmethod
+    def of_day(cls, year: int, month: int, day: int) -> "DocDate":
+        return cls(date(year, month, day), "day")
+
+    @classmethod
+    def of_month(cls, year: int, month: int) -> "DocDate":
+        """Day unknown. `.date` is the 1st so windows and sorts still work."""
+        return cls(date(year, month, 1), "month")
+
+    def isoformat(self) -> str:
+        return self.date.isoformat()
 
 
 class Ingester:
@@ -81,6 +118,8 @@ class Ingester:
         *,
         url: str | None = None,
         doc_date: str | None = None,
+        date_precision: str = "day",
+        citation_url: str | None = None,
         title: str | None = None,
         language: str | None = None,
         doc_type: str | None = None,
@@ -98,13 +137,17 @@ class Ingester:
         if row:
             return row["id"], False
         cur = self.conn.execute(
-            "INSERT INTO documents (source, native_id, url, doc_date, title, language, doc_type, "
-            "version_hash, is_provisional, raw_fetch_id, parsed_at, meta) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+            "INSERT INTO documents (source, native_id, url, citation_url, doc_date, date_precision, "
+            "title, language, doc_type, "
+            "version_hash, is_provisional, raw_fetch_id, parsed_at, meta) "
+            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
             (
                 self.source,
                 native_id,
                 url,
+                citation_url,
                 doc_date,
+                date_precision,
                 title,
                 language or self.default_language,
                 doc_type,

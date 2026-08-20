@@ -2,6 +2,16 @@
 # (Wikipedia / ministry English pages). Officials without a verifiable English
 # name deliberately stay unlinked (native display) rather than risk a wrong
 # romanization. Legislators live in the generated registry_tw.yaml.
+#
+# That last rule is the reason ten entries below are still written in hanzi and
+# show that way on the page. It is a deliberate trade, not an oversight: a
+# transliteration we invent is not the name the person answers to, and it makes
+# them harder to look up rather than easier -- the gazette is the only source
+# that names most of these officials at all, and it names them in Chinese.
+# Two were resolved by finding a name they publish under themselves rather than
+# by romanising: Wen-Tsong Chiou from Academia Sinica's own English pages, and
+# Lee Huai-jen from English-language reporting on MODA's founding. That is the
+# bar -- an attested English name, not a plausible spelling of a Chinese one.
 - name: Presiding Chair (Legislative Yuan)
   jurisdiction: TW
   role: Presiding chair of a Legislative Yuan sitting
@@ -156,10 +166,12 @@
   description: Ministry of Culture political deputy minister; the gazette gives no English name.
   aliases:
   - 王時思 (次長)
-- name: 李懷仁
+- name: Lee Huai-jen
   jurisdiction: TW
-  role: Deputy Minister
-  description: Taiwanese deputy minister; the gazette records the title without the ministry or an English name.
+  role: Political Deputy Minister, Ministry of Digital Affairs
+  description: Taiwanese official (李懷仁), founding political deputy minister of the Ministry
+    of Digital Affairs from its establishment in August 2022. The gazette gave the title
+    without the ministry; both are attested in English-language reporting.
   aliases:
   - 李懷仁 (次長)
 - name: 黃新薰
@@ -198,10 +210,13 @@
   description: Head of a Taiwanese executive agency appearing before the Legislative Yuan Transportation Committee; the gazette gives no English name.
   aliases:
   - 蔡福隆 (署長)
-- name: 邱文聰
+- name: Wen-Tsong Chiou
   jurisdiction: TW
-  role: Department Director
-  description: Witness at the Legislative Yuan public hearing on the draft Artificial Intelligence Basic Act; the gazette gives no English name.
+  role: Research Professor, Institutum Iurisprudentiae, Academia Sinica
+  description: Taiwanese legal scholar (邱文聰), research professor at Academia Sinica's Institutum
+    Iurisprudentiae, appearing as a witness at the Legislative Yuan public hearing on the
+    draft Artificial Intelligence Basic Act. English name from the institute's own English pages.
+  profile_url: https://www.iias.sinica.edu.tw/en/member_post/8?class=12
   aliases:
   - 邱文聰 (處長)
 - name: 陳為祥

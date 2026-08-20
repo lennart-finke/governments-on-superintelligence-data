@@ -1,5 +1,6 @@
 from datetime import date
 
+from tracker.ingest.base import DocDate
 from tracker.ingest.cn.crawl import CNMIITIngester, CNMOSTIngester, CNPeopleIngester
 
 MIIT_FRAGMENT = """
@@ -28,7 +29,7 @@ RMRB_LAYOUT = """
 def test_most_url_date():
     assert CNMOSTIngester._url_date(
         None, "https://www.most.gov.cn/kjbgz/202607/t20260710_197036.html"
-    ) == date(2026, 7, 10)
+    ) == DocDate(date(2026, 7, 10), "day")
 
 
 def test_miit_item_re_pairs_href_and_date():
@@ -65,8 +66,8 @@ def test_people_url_dates(conn):
     inner_page = (
         "http://paper.people.com.cn/rmrb/html/2022-03/15/" "nw.D110000renmrb_20220315_2-04.htm"
     )
-    assert ing._url_date(old) == date(2022, 3, 15)
-    assert ing._url_date(new) == date(2026, 7, 12)
+    assert ing._url_date(old) == DocDate(date(2022, 3, 15), "day")
+    assert ing._url_date(new) == DocDate(date(2026, 7, 12), "day")
     # inner pages parse via OLD_FRONT_RE only for page 01; -04 is not front page
     assert CNPeopleIngester.OLD_FRONT_RE.search(inner_page) is None
 

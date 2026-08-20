@@ -2,6 +2,8 @@
 name = "ai-safety-policy-tracker"
 version = "0.1.0"
 description = "Reproducible tracker of AGI/superintelligence/AI-x-risk statements by lawmakers and senior officials (US, EU, UK, China)"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
 requires-python = ">=3.11"
 dependencies = [
     "httpx>=0.27",

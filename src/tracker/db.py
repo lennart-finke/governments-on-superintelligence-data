@@ -31,8 +31,10 @@ CREATE TABLE IF NOT EXISTS documents (
     id INTEGER PRIMARY KEY,
     source TEXT NOT NULL,
     native_id TEXT NOT NULL,
-    url TEXT,
+    url TEXT,                      -- where the bytes were fetched from (provenance)
+    citation_url TEXT,             -- where a reader verifies the quote; NULL = use url
     doc_date TEXT,                 -- ISO date of the proceedings/publication
+    date_precision TEXT NOT NULL DEFAULT 'day',  -- day | month (see ingest/base.DocDate)
     title TEXT,
     language TEXT,
     doc_type TEXT,                 -- debate | crec | hearing | speech | press | readout | ...
@@ -122,6 +124,8 @@ CREATE TABLE IF NOT EXISTS quotes (
     body TEXT,
     language TEXT,
     quote_original TEXT NOT NULL,  -- verbatim span in source language
+    statement_key TEXT,            -- identity of the STATEMENT, url-independent (see ids.statement_key)
+    speaker_resolution TEXT NOT NULL DEFAULT 'resolved',  -- resolved | ambiguous | unidentified
     quote_en TEXT,                 -- English (same as original if EN)
     date TEXT,
     source_url TEXT,
@@ -251,6 +255,27 @@ def utcnow() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+# Every table in SCHEMA is CREATE TABLE IF NOT EXISTS, which is what lets
+# connect() run it unconditionally -- but it also means a column added to SCHEMA
+# never reaches a database that already exists.  Adding one therefore needs an
+# entry here as well.  Additive only: a column, with a default that makes the
+# pre-migration rows mean what they meant before.  Anything that has to rewrite
+# existing values is a one-off pass with a CLI command, not a migration.
+_MIGRATIONS: tuple[tuple[str, str, str], ...] = (
+    ("documents", "citation_url", "TEXT"),
+    ("documents", "date_precision", "TEXT NOT NULL DEFAULT 'day'"),
+    ("quotes", "statement_key", "TEXT"),
+    ("quotes", "speaker_resolution", "TEXT NOT NULL DEFAULT 'resolved'"),
+)
+
+
+def _migrate(conn: sqlite3.Connection) -> None:
+    for table, column, decl in _MIGRATIONS:
+        cols = {r["name"] for r in conn.execute(f"PRAGMA table_info({table})")}
+        if cols and column not in cols:
+            conn.execute(f"ALTER TABLE {table} ADD COLUMN {column} {decl}")
+
+
 def connect(path: Path | None = None) -> sqlite3.Connection:
     db_path = path or config.DB_PATH
     db_path.parent.mkdir(parents=True, exist_ok=True)
@@ -262,6 +287,7 @@ def connect(path: Path | None = None) -> sqlite3.Connection:
     conn.execute("PRAGMA busy_timeout=120000")
     conn.execute("PRAGMA foreign_keys=ON")
     conn.executescript(SCHEMA)
+    _migrate(conn)
     return conn
 
 

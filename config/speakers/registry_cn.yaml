@@ -818,10 +818,10 @@
   profile_url: https://en.wikipedia.org/wiki/Zhou_Xiaochuan
   aliases:
   - 周小川（博鳌亚洲论坛副理事长、中方首席代表）
-- name: Heyin (和音)
+- name: Heyin
   jurisdiction: CN
   role: institutional
-  description: Pen name used for international-affairs commentary in People's Daily.
+  description: Pen name (和音) used for international-affairs commentary in People's Daily.
   aliases:
   - 和音
 - name: General Office of the State Council

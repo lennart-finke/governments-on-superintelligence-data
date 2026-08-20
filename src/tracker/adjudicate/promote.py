@@ -15,9 +15,11 @@ import re
 
 from pydantic import ValidationError
 
-from .. import config, db
+from .. import config, db, ids
 from ..ids import sha256_text
 from ..models import AdjudicationVerdict
+from ..speakers import resolution
+from ..speakers.registry import canonical_from_yaml
 from .client import LLMClient
 from .runner import jurisdiction_of, normalize_ws, verbatim_ok
 
@@ -69,10 +71,48 @@ def _translate_many(client: LLMClient, spans: list[str], concurrency: int) -> di
     return out
 
 
+def span_key_for(canonical_speaker: str, quote_span: str | None) -> str:
+    """The cross-candidate dedup key: one person, one statement.
+
+    Both halves were too literal before, and each let duplicates through:
+
+    - The speaker half used the raw label the source printed. cac.gov.cn writes
+      "Xi Jinping (President)"; gov.cn writes "Xi Jinping (General Secretary
+      and ...)". Same man, same sentence, two keys -- 155 of 175 duplicate
+      clusters in the corpus. Canonicalisation happens in `link`, which runs
+      *after* promote, so promote reads the registry YAML directly.
+    - The text half used `normalize_ws`, which collapses runs of whitespace and
+      nothing else, so a footnote marker printed "AI-verordening 1 Verordening"
+      in one copy and "AI-verordening1Verordening" in the other did not match.
+      `ids.statement_key` folds width, case and all whitespace.
+
+    An unknown speaker keeps its raw label: a label the registry cannot place
+    must not merge with anybody.
+    """
+    return sha256_text(canonical_speaker + "\x1f" + (ids.statement_key(quote_span) or ""))[:32]
+
+
 def clean_speaker(raw: str | None) -> str:
     if not raw:
         return "Unknown"
     return re.sub(r"\s*\[V\]\s*$", "", raw).strip()
+
+
+def _record_mirror(conn, existing, row) -> None:
+    """Note on the surviving quote that this document published the same words."""
+    try:
+        blob = json.loads(existing["trigger_phrases"] or "{}")
+    except (ValueError, TypeError):
+        return
+    mirrors = blob.setdefault("mirrors", [])
+    entry = {"source": row["source"], "url": row["utt_url"] or row["url"], "date": row["doc_date"]}
+    if entry in mirrors:
+        return
+    mirrors.append(entry)
+    conn.execute(
+        "UPDATE quotes SET trigger_phrases=? WHERE id=?",
+        (json.dumps(blob, ensure_ascii=False), existing["id"]),
+    )
 
 
 def run_promote(
@@ -174,14 +214,21 @@ def run_promote(
             stats["skipped_verbatim"] += 1
             continue
         speaker = clean_speaker(row["speaker_raw"] or verdict.speaker_name)
-        span_key = sha256_text(speaker + "\x1f" + normalize_ws(verdict.quote_span))[:32]
-        if (
-            span_key in seen_spans
-            or conn.execute(
-                "SELECT 1 FROM quotes WHERE json_extract(trigger_phrases,'$.span_key')=?",
-                (span_key,),
-            ).fetchone()
-        ):
+        jur = jurisdiction_of(row["source"])
+        canonical = canonical_from_yaml(jur, speaker) or speaker
+        span_key = span_key_for(canonical, verdict.quote_span)
+        existing = conn.execute(
+            "SELECT id, trigger_phrases FROM quotes "
+            "WHERE json_extract(trigger_phrases,'$.span_key')=?",
+            (span_key,),
+        ).fetchone()
+        if span_key in seen_spans or existing:
+            # Skipping the row must not lose the fact that a second government
+            # site published the same words: that is the provenance the export's
+            # `mirrors` field carries, and the reason a reader can see a statement
+            # was issued in four places. Record it on the copy that survives.
+            if existing:
+                _record_mirror(conn, existing, row)
             stats["skipped_dup"] += 1
             continue
         seen_spans.add(span_key)
@@ -217,8 +264,9 @@ def run_promote(
         conn.execute(
             "INSERT INTO quotes (candidate_id, adjudication_id, speaker_display, jurisdiction, "
             "body, language, quote_original, quote_en, date, source_url, context, concepts, "
-            "stance, quote_type, review_status, trigger_phrases, extraction_method, created_at) "
-            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            "stance, quote_type, review_status, trigger_phrases, extraction_method, created_at, "
+            "speaker_resolution, statement_key) "
+            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
             (
                 row["candidate_id"],
                 adj["id"],
@@ -237,9 +285,7 @@ def run_promote(
                 # An utterance flagged `continues_previous` starts mid-sentence
                 # under a speaker label that changed, so the record contradicts
                 # itself about who said these words (ASR diarization — see
-                # ingest/intl_un_webtv.py). Retained but marked, per LABELS §8,
-                # rather than published as a settled attribution. Derived here so
-                # a re-promote after re-adjudication cannot silently lose it.
+                # ingest/intl_un_webtv.py).
                 "disputed" if row["continues_previous"] else "accepted",
                 json.dumps(
                     {
@@ -251,6 +297,14 @@ def run_promote(
                 ),
                 extraction["extraction_method"] if extraction else "direct",
                 db.utcnow(),
+                # link() recomputes this with the registry role, which is the
+                # stronger signal; this covers an export that follows promote
+                # without a link in between.
+                resolution.classify(speaker),
+                # identity of the statement independent of where it was published,
+                # so mirrors of one speech are groupable in SQL. The export
+                # recomputes it from the normalized text; this is the same value.
+                ids.statement_key(normalize_ws(verdict.quote_span)),
             ),
         )
         stats["promoted"] += 1

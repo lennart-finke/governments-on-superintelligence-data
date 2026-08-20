@@ -8,6 +8,8 @@ committee debates. Those live in officielebekendmakingen, searchable over SRU:
   GET https://repository.overheid.nl/sru?operation=searchRetrieve&version=2.0
       &query=<CQL>&maximumRecords=N&startRecord=M
 
+Search and body come from different hosts on purpose — see BODY_HOST below.
+
 This is a metadata-search source like Hansard/GovInfo/Senado: the endpoint is
 slow (20-120 s per query) and the full corpus is ~115k Kamerstukken since 2022,
 so we do NOT walk it. We push the Dutch keyword list into the query as one OR'd
@@ -43,7 +45,23 @@ from ..http import Fetcher
 from .base import Ingester
 
 SRU = "https://repository.overheid.nl/sru"
-PUBLIC_URL = "https://zoek.officielebekendmakingen.nl/{id}.html"
+# Bodies come from zoek.officielebekendmakingen.nl, not from the repository host
+# the SRU record points at. repository.overheid.nl answers `robots.txt` with a
+# blanket `Disallow: /` (notes/SOURCE-POLICIES.md), while zoek allows everything
+# but its own search-result paths — and serves the byte-identical XML: one
+# publication of every family we ingest (kst, ah-tk, kv-tk, nds-tk, h-ek) was
+# fetched from both hosts and compared sha256, all five identical. So the search
+# stays on SRU, which KOOP documents as its open-data interface and which is one
+# call per 100 records, and the ~30-bodies-per-call majority of the traffic moves
+# to the host that invites it.
+BODY_HOST = "zoek.officielebekendmakingen.nl"
+BODY_URL = "https://" + BODY_HOST + "/{name}"
+PUBLIC_URL = "https://" + BODY_HOST + "/{id}.html"
+# zoek answers 10 requests per 30 s and says so on every response
+# (`x-rate-limit-limit: 30s`, `x-rate-limit-remaining`), so 1 req / 3.3 s. It is
+# hardcoded rather than configured for the reason the two Crawl-delay hosts are:
+# dropping a config entry must not quietly restore a faster rate.
+BODY_RATE = 0.3
 _PAGE = 100  # SRU maximumRecords per call
 
 SRU_NS = {
@@ -117,6 +135,7 @@ class NLOfficieleBekendmakingenIngester(Ingester):
             self.conn,
             self.source,
             rate_per_host=float(self.settings.get("rate_per_host", 1.0)),
+            host_rates={BODY_HOST: BODY_RATE},
             timeout=float(self.settings.get("timeout", 240)),
         ) as f:
             try:
@@ -206,7 +225,14 @@ class NLOfficieleBekendmakingenIngester(Ingester):
 
     @staticmethod
     def _record(rec) -> dict | None:
-        """Flatten one SRU record; None if it has no XML body (blg attachments)."""
+        """Flatten one SRU record; None if it has no XML body (blg attachments).
+
+        `url` is the body URL we will actually fetch, rebuilt on BODY_HOST from
+        the repository URL's filename — which is the publication identifier, so
+        `.../1/xml/kst-26643-842.xml` becomes `/kst-26643-842.xml`. The `.xml`
+        test still runs against what SRU reported, because that is what tells a
+        real publication apart from a `blg-` PDF attachment.
+        """
         find = lambda p: rec.findtext(".//" + p, namespaces=SRU_NS)  # noqa: E731
         url = find("gzd:enrichedData/gzd:url") or ""
         if not url.endswith(".xml"):
@@ -215,7 +241,7 @@ class NLOfficieleBekendmakingenIngester(Ingester):
         if not native_id:
             return None
         return {
-            "url": url,
+            "url": BODY_URL.format(name=url.rsplit("/", 1)[-1]),
             "native_id": native_id,
             "title": (find("dcterms:title") or "").strip(),
             "date": find("dcterms:date") or find("dcterms:modified"),

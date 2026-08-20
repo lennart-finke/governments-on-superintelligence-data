@@ -40,6 +40,14 @@ surrounds these words, and the first 12,000 characters of a day's Hansard
 surround somebody else's. The window is marked `x` and carries an ellipsis at
 each cut end.
 
+## Why the offsets are a list
+
+A quote is not always one run of the record. Refine may abridge it -- verbatim
+substrings in source order, joined by `[...]` -- and a third of the corpus is
+abridged that way, so the honest highlight is one mark per segment with the
+elided material plain between them. `s` gives the whole quote end to end, for a
+consumer that wants one span, and `ss` the segments inside it.
+
 ## What it does not do
 
 It does not translate. The utterance is the source text, in the source
@@ -77,6 +85,10 @@ MIN_EXTRA = 200
 
 _ELLIPSIS = "…"
 
+# What refine joins the segments of an abridged quote with; `refine.SEP` is the
+# same string, and this is the reading end of that convention.
+SEP = "[...]"
+
 
 def shard_of(quote_id: str) -> int:
     """Which shard a quote's utterance lives in.
@@ -106,18 +118,23 @@ def paragraphs(text: str) -> str:
     return "\n\n".join(p for p in parts if p)
 
 
-def _locate(text: str, needle: str | None) -> tuple[int, int] | None:
-    """Character offsets of the quote inside its utterance, or None.
+def _locate(text: str, needle: str | None, start: int = 0) -> tuple[int, int] | None:
+    """Character offsets of one verbatim run inside the utterance, or None.
 
     None is a normal outcome, not a failure: `display_quote` is the refine
     judge's *rewrite* of the span into something that reads standalone, so it
-    routinely no longer appears verbatim in the record it came from. The caller
-    tries the verbatim span first and falls back to the display text; when
+    can no longer appear verbatim in the record it came from. The caller tries
+    the displayed text first and falls back to the first-stage span; when
     neither matches, the passage still renders, just without the highlight.
+
+    `start` is where the search begins, which is what keeps the segments of an
+    abridged quote in source order and off each other: each one is looked for
+    after the end of the one before it, so a phrase the speaker repeated cannot
+    send the second segment backwards into the first one's text.
     """
     if not needle:
         return None
-    i = text.find(needle)
+    i = text.find(needle, start)
     if i >= 0:
         return i, i + len(needle)
     # The quote was flattened and the record was not, so a span that crosses a
@@ -126,15 +143,48 @@ def _locate(text: str, needle: str | None) -> tuple[int, int] | None:
     # keeps the highlight on those, and costs nothing on the ones already found
     # above. Case-insensitively on the last pass, for records that print a
     # speaker's words in a header in caps and again in the body in sentence
-    # case. Offsets come from the match, so no assumption about folding length.
+    # case -- and for the one editorial liberty refine allows, a segment whose
+    # first letter was capitalised to open the quote. Offsets come from the
+    # match, so no assumption about folding length.
     pattern = r"\s+".join(re.escape(w) for w in needle.split())
     if not pattern:
         return None
     for flags in (0, re.IGNORECASE):
-        m = re.search(pattern, text, flags)
+        m = re.compile(pattern, flags).search(text, start)
         if m:
             return m.start(), m.end()
     return None
+
+
+def _locate_segments(text: str, display: str | None) -> list[tuple[int, int]] | None:
+    """Offsets of every segment the displayed quote is spliced from, or None.
+
+    A display quote is not always one run of the record. Refine may abridge it
+    -- verbatim substrings of the utterance, in source order, joined by
+    `[...]` -- and a third of the corpus is abridged that way. Marking such a
+    quote as a single span highlights the elided material along with it, and
+    marking only where the first-stage span landed highlights whichever part of
+    the record that was, which is often neither the opening of what the card
+    shows nor all of it.
+
+    So every segment is located separately and they are all returned. All or
+    nothing: a splice the record only half accounts for would put the highlight
+    on some of the quote and silently drop the rest, which reads as though the
+    missing half were not in the record at all. The caller falls back to the
+    first-stage span instead.
+    """
+    segments = [p.strip() for p in (display or "").split(SEP) if p.strip()]
+    if not segments:
+        return None
+    spans: list[tuple[int, int]] = []
+    at = 0
+    for seg in segments:
+        found = _locate(text, seg, at)
+        if found is None:
+            return None
+        spans.append(found)
+        at = found[1]
+    return spans
 
 
 def _snap(text: str, i: int, forward: bool) -> int:
@@ -161,17 +211,21 @@ def _snap(text: str, i: int, forward: bool) -> int:
     return i
 
 
-def window(text: str, span: tuple[int, int] | None, cap: int = CAP):
-    """Cut `text` down to `cap` characters around `span`.
+def window(text: str, spans: list[tuple[int, int]] | None, cap: int = CAP):
+    """Cut `text` down to `cap` characters around `spans`.
 
-    Returns `(text, span, truncated)` with the span moved into the new string's
-    coordinates. An untruncated record comes back untouched, which is the
-    common case -- see the module docstring on the shape of the distribution.
+    Returns `(text, spans, truncated)` with the spans moved into the new
+    string's coordinates. An untruncated record comes back untouched, which is
+    the common case -- see the module docstring on the shape of the
+    distribution.
+
+    The window is placed around the whole quote, first segment to last, so an
+    abridged one is not cut in half by centring on either end of it.
     """
     if len(text) <= cap:
-        return text, span, False
-    if span:
-        start, end = span
+        return text, spans, False
+    if spans:
+        start, end = spans[0][0], spans[-1][1]
         # Centre the window on the quote, then push it back inside the record at
         # whichever end it overhangs, so a quote near the top or the bottom
         # still gets a full window rather than a half-empty one.
@@ -193,14 +247,20 @@ def window(text: str, span: tuple[int, int] | None, cap: int = CAP):
     tail = " " + _ELLIPSIS if hi < len(text) else ""
     out = head + text[lo:hi] + tail
     moved = None
-    if span and lo <= span[0] < hi:
-        # The end is clamped for the one case the centring cannot serve: a quote
+    if spans:
+        # Each span is clipped to the window rather than dropped when it
+        # overhangs it, for the one case the centring cannot serve: a quote
         # longer than the window itself. The highlight then runs to the cut,
         # which is true -- the quote does continue past it -- where dropping it
-        # would leave the reader hunting for words that are on the screen.
-        s0 = span[0] - lo + len(head)
-        s1 = min(span[1] - lo + len(head), len(out) - len(tail))
-        moved = (s0, s1)
+        # would leave the reader hunting for words that are on the screen. A
+        # segment the window misses entirely does go, and can only be one of an
+        # abridged quote whose spliced-together segments outrun the cap.
+        kept = []
+        for a, b in spans:
+            a, b = max(a, lo), min(b, hi)
+            if a < b:
+                kept.append((a - lo + len(head), b - lo + len(head)))
+        moved = kept or None
     return out, moved, True
 
 
@@ -238,20 +298,35 @@ def build(conn, rows: list[dict]) -> dict[str, dict]:
         text = paragraphs(src["text"])
         if not text:
             continue
-        # The verbatim span is what is actually in the record; the display quote
-        # is the rewrite. Try them in that order and take the first that lands.
+        # The display quote is what the card shows and so what the highlight is
+        # for; the first-stage span is the fallback for the rows where refine
+        # rewrote the words far enough that the record no longer contains them.
+        # That order matters: refine splices from a wide window around the
+        # first-stage span, so the two routinely name different stretches of the
+        # record, and the first-stage one is not the text on the screen.
         display = _normalize_text(row.get("display_quote"))
-        span = _locate(text, row.get("quote_original")) or _locate(text, display)
+        spans = _locate_segments(text, display)
+        if spans is None:
+            one = _locate(text, _normalize_text(row.get("quote_original")))
+            spans = [one] if one else None
         # Measured against the original-language quote, because that is what the
         # window is made of -- comparing to the English would ship a record for
         # every quote whose translation happens to be shorter than its source.
         quote_len = len(display or row.get("quote_original") or "")
-        text, span, truncated = window(text, span)
+        text, spans, truncated = window(text, spans)
         if len(text) - quote_len < MIN_EXTRA:
             continue
         rec: dict = {"t": text}
-        if span:
-            rec["s"] = list(span)
+        if spans:
+            # `s` is the whole quote end to end and `ss` the segments inside it,
+            # the second only when there is more than one. A consumer that knows
+            # nothing of `ss` marks the extent, which includes the elided
+            # material -- more than the quote, but a contiguous block that
+            # contains all of it, where the old single span was frequently a
+            # piece of the record the card does not show at all.
+            rec["s"] = [spans[0][0], spans[-1][1]]
+            if len(spans) > 1:
+                rec["ss"] = [list(sp) for sp in spans]
         if src["language"]:
             rec["l"] = src["language"]
         if truncated:

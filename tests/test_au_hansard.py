@@ -307,6 +307,28 @@ def test_final_day_replays_from_archive_but_a_proof_does_not(conn):
     )
 
 
+def test_hansard_excerpts_are_served():
+    """CC BY-NC-ND 4.0 licenses what the site does with Hansard.
+
+    aph.gov.au states CC BY-NC-ND 4.0 (verified against the 2026-08-14 archived
+    copy of Help/Disclaimer_Privacy_Copyright — the live page 403s the fetcher).
+    §2(a)(1)(A) of that licence grants the right to "reproduce and Share the
+    Licensed Material, in whole or in part, for NonCommercial purposes only";
+    the ND term withholds only *Sharing* Adapted Material, which §1 defines as
+    material "translated, altered, arranged, transformed, or otherwise
+    modified". An attributed verbatim excerpt on a non-commercial site is a
+    partial reproduction, not an adaptation. Hansard is English, so no
+    translation step intervenes — which is what the language assertion pins:
+    the moment this source carried a translated quote it would need the ND
+    question reopened. The older 3.0 AU port granted no "in whole or in part",
+    so a licence change on the site is a change in this reasoning.
+    """
+    from tracker import config
+
+    assert "au_hansard" not in config.excluded_sources()
+    assert config.sources_config()["sources"]["au_hansard"]["languages"] == ["en"]
+
+
 def test_source_is_registered_and_enabled():
     from tracker import config
     from tracker.ingest import get_registry

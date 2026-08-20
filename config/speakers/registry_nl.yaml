@@ -35,7 +35,7 @@
   - Van Waveren (NSC)
 - name: Alexandra van Huffelen
   jurisdiction: NL
-  role: Staatssecretaris Koninkrijksrelaties en Digitalisering
+  role: State Secretary for Kingdom Relations and Digitalisation
   description: Dutch office-holder; staatssecretaris Koninkrijksrelaties en Digitalisering.
   aliases:
   - A.C. van Huffelen (De Staatssecretaris van Binnenlandse Zaken en Koninkrijksrelaties – Digitalisering
@@ -48,7 +48,7 @@
   - Van Huffelen
 - name: Arno Rutte
   jurisdiction: NL
-  role: Staatssecretaris van Justitie en Veiligheid
+  role: State Secretary for Justice and Security
   party: VVD
   description: Dutch office-holder; staatssecretaris van Justitie en Veiligheid (2025-2026) and previously
     a member of the tweede kamer for the VVD.
@@ -67,7 +67,7 @@
   - Mevrouw Kuiken (PvdA)
 - name: Aukje de Vries
   jurisdiction: NL
-  role: Staatssecretaris Buitenlandse Handel en Ontwikkelingshulp
+  role: State Secretary for Foreign Trade and Development Aid
   party: VVD
   description: Dutch office-holder; staatssecretaris Buitenlandse Handel en Ontwikkelingshulp.
   aliases:
@@ -110,14 +110,14 @@
   - Bergman (De griffier van de vaste commissie voor Binnenlandse Zaken)
 - name: Bruijn
   jurisdiction: NL
-  role: Minister van Volksgezondheid, Welzijn en Sport
+  role: Minister of Health, Welfare and Sport
   description: Dutch office-holder; minister van Volksgezondheid, Welzijn en Sport.
   aliases:
   - Bruijn
   - J.A. Bruijn (De Minister van Volksgezondheid, Welzijn en Sport)
 - name: Caspar Veldkamp
   jurisdiction: NL
-  role: Minister van Buitenlandse Zaken
+  role: Minister of Foreign Affairs
   party: NSC
   description: Dutch office-holder; minister van Buitenlandse Zaken.
   aliases:
@@ -149,7 +149,7 @@
   - Teunissen (PvdD)
 - name: Christophe van der Maat
   jurisdiction: NL
-  role: Staatssecretaris van Defensie
+  role: State Secretary for Defence
   description: Dutch office-holder; staatssecretaris van Defensie.
   aliases:
   - C.A. van der Maat (De Staatssecretaris van Defensie)
@@ -166,7 +166,7 @@
   - Mevrouw Martens-america (VVD)
 - name: Claudia van Bruggen
   jurisdiction: NL
-  role: Staatssecretaris van Justitie en Veiligheid
+  role: State Secretary for Justice and Security
   description: Dutch office-holder; staatssecretaris van Justitie en Veiligheid.
   aliases:
   - Claudia van Bruggen
@@ -200,7 +200,7 @@
   - Van den Berg (JA21)
 - name: Daniëlle Jansen
   jurisdiction: NL
-  role: Minister van Volksgezondheid, Welzijn en Sport
+  role: Minister of Health, Welfare and Sport
   party: NSC
   description: Dutch office-holder; minister van Volksgezondheid, Welzijn en Sport in 2025, and previously
     a member of the tweede kamer for NSC.
@@ -208,7 +208,7 @@
   - D.E.M.C. Jansen (De Minister van Volksgezondheid, Welzijn en Sport)
 - name: David van Weel
   jurisdiction: NL
-  role: Minister van Buitenlandse Zaken, minister van Asiel en Migratie
+  role: Minister of Foreign Affairs; Minister of Asylum and Migration
   description: Dutch office-holder; minister van Buitenlandse Zaken, minister van Asiel en Migratie.
   # Curated because the name search cannot choose: Wikidata also holds a David
   # van Weel who sat on Rotterdam's council, born 1838.
@@ -250,7 +250,7 @@
   - F.M. Wiersma (De Minister van Landbouw, Visserij, Voedselzekerheid en Natuur)
 - name: Derk Boswijk
   jurisdiction: NL
-  role: Staatssecretaris van Defensie
+  role: State Secretary for Defence
   party: CDA
   description: Dutch office-holder; staatssecretaris van Defensie.
   aliases:
@@ -261,7 +261,7 @@
   - Derk Boswijk (CDA)
 - name: Dick Schoof
   jurisdiction: NL
-  role: Minister-president, minister van Algemene Zaken
+  role: Prime Minister; Minister of General Affairs
   description: Dutch office-holder; minister-president, minister van Algemene Zaken.
   aliases:
   - Dick Schoof
@@ -304,7 +304,7 @@
   - Graus (PVV)
 - name: Dirk Beljaarts
   jurisdiction: NL
-  role: Minister van Economische Zaken
+  role: Minister of Economic Affairs
   description: Dutch office-holder; minister van Economische Zaken.
   aliases:
   - Beljaarts
@@ -335,7 +335,7 @@
   - Ergin (DENK)
 - name: Eddie van Marum
   jurisdiction: NL
-  role: Staatssecretaris van Binnenlandse Zaken en Koninkrijksrelaties
+  role: State Secretary for the Interior and Kingdom Relations
   description: Dutch office-holder; staatssecretaris van Binnenlandse Zaken en Koninkrijksrelaties.
   aliases:
   - E. van Marum (De Staatssecretaris van Binnenlandse Zaken en Koninkrijksrelaties)
@@ -357,7 +357,7 @@
   - Y.J. van Hijum (De Minister van Sociale Zaken en Werkgelegenheid)
 - name: Eelco Heinen
   jurisdiction: NL
-  role: Minister van Financiën
+  role: Minister of Finance
   party: VVD
   description: Dutch office-holder; minister van Financiën.
   aliases:
@@ -376,21 +376,21 @@
   - Eerste Kamer der Staten-Generaal
 - name: Eheinen
   jurisdiction: NL
-  role: Minister van Financiën
+  role: Minister of Finance
   description: Dutch office-holder; minister van Financiën.
   aliases:
   - EHeinen (De minister van Financiën)
   - Eheinen
 - name: Elanor Boekholt-O'Sullivan
   jurisdiction: NL
-  role: Minister van Volkshuisvesting en Ruimtelijke Ordening
+  role: Minister of Housing and Spatial Planning
   description: Dutch office-holder; minister van Volkshuisvesting en Ruimtelijke Ordening.
   aliases:
   - E. Boekholt-O'Sullivan (De Minister van Volkshuisvesting en Ruimtelijke Ordening)
   - Elanor Boekholt-O'Sullivan
 - name: Eppo Bruins
   jurisdiction: NL
-  role: Minister van Onderwijs, Cultuur en Wetenschap
+  role: Minister of Education, Culture and Science
   description: Dutch office-holder; minister van Onderwijs, Cultuur en Wetenschap.
   aliases:
   - E.E.W. Bruins (De Minister van Onderwijs, Cultuur en Wetenschap)
@@ -426,7 +426,7 @@
   - Minister Agema
 - name: Foort van Oosten
   jurisdiction: NL
-  role: Minister van Justitie en Veiligheid
+  role: Minister of Justice and Security
   description: Dutch office-holder; minister van Justitie en Veiligheid.
   aliases:
   - Foort van Oosten
@@ -453,7 +453,7 @@
   - Futselaar (SP)
 - name: Frank Rijkaart
   jurisdiction: NL
-  role: Minister van Binnenlandse Zaken en Koninkrijksrelaties
+  role: Minister of the Interior and Kingdom Relations
   description: Dutch office-holder; minister van Binnenlandse Zaken en Koninkrijksrelaties.
   aliases:
   - Frank Rijkaart
@@ -486,7 +486,7 @@
   - Van Meijeren (FVD)
 - name: Gijs Tuinman
   jurisdiction: NL
-  role: Staatssecretaris van Defensie
+  role: State Secretary for Defence
   party: BBB
   description: Dutch office-holder; staatssecretaris van Defensie.
   aliases:
@@ -497,7 +497,7 @@
   - Tuinman (BBB)
 - name: Gouke Moes
   jurisdiction: NL
-  role: Minister van Onderwijs, Cultuur en Wetenschap
+  role: Minister of Education, Culture and Science
   description: Dutch office-holder; minister van Onderwijs, Cultuur en Wetenschap.
   aliases:
   - G. Moes (De Minister van Onderwijs, Cultuur en Wetenschap)
@@ -505,7 +505,7 @@
   - Moes
 - name: Hanke Bruins Slot
   jurisdiction: NL
-  role: Minister van Buitenlandse Zaken
+  role: Minister of Foreign Affairs
   description: Dutch office-holder; minister van Buitenlandse Zaken.
   aliases:
   - Bruins Slot
@@ -526,7 +526,7 @@
   - Van der Werf (D66)
 - name: Hans Vijlbrief
   jurisdiction: NL
-  role: Staatssecretaris Mijnbouw
+  role: State Secretary for Mining
   party: D66
   description: Dutch office-holder; staatssecretaris Mijnbouw.
   aliases:
@@ -547,7 +547,7 @@
   - Krul (CDA)
 - name: Heleen Herbert
   jurisdiction: NL
-  role: Minister van Economische Zaken en Klimaat
+  role: Minister of Economic Affairs and Climate Policy
   description: Dutch office-holder; minister van Economische Zaken en Klimaat.
   aliases:
   - H.G. Herbert (De Minister van Economische Zaken en Klimaat)
@@ -734,7 +734,7 @@
   - Straatman (CDA)
 - name: Jesse Klaver
   jurisdiction: NL
-  role: Voorzitter van de commissie voor Buitenlandse Zaken
+  role: Chair of the Foreign Affairs Committee
   party: GroenLinks-PvdA
   description: Dutch office-holder; voorzitter van de commissie voor Buitenlandse Zaken.
   aliases:
@@ -800,7 +800,7 @@
   - Thijssen (GroenLinks-PvdA)
 - name: Judith Tielen
   jurisdiction: NL
-  role: Staatssecretaris Jeugd, Preventie en Sport
+  role: State Secretary for Youth, Prevention and Sport
   party: VVD
   description: Dutch office-holder; staatssecretaris Jeugd, Preventie en Sport.
   aliases:
@@ -811,7 +811,7 @@
   - Tielen (VVD)
 - name: Judith Uitermark
   jurisdiction: NL
-  role: Minister van Binnenlandse Zaken en Koninkrijksrelaties
+  role: Minister of the Interior and Kingdom Relations
   party: NSC
   description: Dutch office-holder; minister van Binnenlandse Zaken en Koninkrijksrelaties.
   aliases:
@@ -837,7 +837,7 @@
   - Julian Bushoff (PvdA)
 - name: Jurgen Nobel
   jurisdiction: NL
-  role: Staatssecretaris Participatie en Integratie
+  role: State Secretary for Participation and Integration
   party: VVD
   description: Dutch office-holder; staatssecretaris Participatie en Integratie.
   aliases:
@@ -848,7 +848,7 @@
   - Nobel (VVD)
 - name: Kajsa Ollongren
   jurisdiction: NL
-  role: Minister van Defensie
+  role: Minister of Defence
   description: Dutch office-holder; minister van Defensie.
   aliases:
   - K.H. Ollongren (De Minister van Defensie)
@@ -857,7 +857,7 @@
   - Ollongren
 - name: Karien van Gennip
   jurisdiction: NL
-  role: Minister van Sociale Zaken en Werkgelegenheid
+  role: Minister of Social Affairs and Employment
   description: Dutch office-holder; minister van Sociale Zaken en Werkgelegenheid.
   aliases:
   - C.E.G. van Gennip (De Minister van Sociale Zaken en Werkgelegenheid)
@@ -945,7 +945,7 @@
   - Van Ginneken (D66)
 - name: M-f. Agema
   jurisdiction: NL
-  role: Minister van Volksgezondheid, Welzijn en Sport
+  role: Minister of Health, Welfare and Sport
   description: Dutch office-holder; minister van Volksgezondheid, Welzijn en Sport.
   aliases:
   - M-F. Agema (De Minister van Volksgezondheid, Welzijn en Sport)
@@ -992,7 +992,7 @@
   - Staatssecretaris Paul
 - name: Mariëllepaul
   jurisdiction: NL
-  role: Minister van Sociale Zaken en Werkgelegenheid
+  role: Minister of Social Affairs and Employment
   description: Dutch office-holder; minister van Sociale Zaken en Werkgelegenheid.
   aliases:
   - MariëllePaul (De Minister van Sociale Zaken en Werkgelegenheid)
@@ -1009,20 +1009,20 @@
   - Moorman (GroenLinks-PvdA)
 - name: Mark Harbers
   jurisdiction: NL
-  role: Minister van Infrastructuur en Waterstaat
+  role: Minister of Infrastructure and Water Management
   description: Dutch office-holder; minister van Infrastructuur en Waterstaat.
   aliases:
   - M.G.J. Harbers (De Minister van Infrastructuur en Waterstaat)
   - Mark Harbers
 - name: Mark Rutte
   jurisdiction: NL
-  role: Minister-president, minister van Algemene Zaken
+  role: Prime Minister; Minister of General Affairs
   description: Dutch office-holder; minister-president, minister van Algemene Zaken.
   aliases:
   - Mark Rutte
 - name: Marnix van Rij
   jurisdiction: NL
-  role: Staatssecretaris Fiscaliteit en Belastingdienst
+  role: State Secretary for Taxation and the Tax Administration
   description: Dutch office-holder; staatssecretaris Fiscaliteit en Belastingdienst.
   aliases:
   - Marnix van Rij
@@ -1056,7 +1056,7 @@
   - Michelle Jagtenberg (D66)
 - name: Micky Adriaansens
   jurisdiction: NL
-  role: Minister van Economische Zaken en Klimaat
+  role: Minister of Economic Affairs and Climate Policy
   description: Dutch office-holder; minister van Economische Zaken en Klimaat.
   aliases:
   - Adriaansens
@@ -1077,7 +1077,7 @@
   - Mirjam Bikker (ChristenUnie)
 - name: Mona Keijzer
   jurisdiction: NL
-  role: Minister van Volkshuisvesting en Ruimtelijke Ordening, viceminister-president
+  role: Minister of Housing and Spatial Planning; Deputy Prime Minister
   party: Lid Keijzer
   description: Dutch office-holder; minister van Volkshuisvesting en Ruimtelijke Ordening, viceminister-president.
   aliases:
@@ -1194,14 +1194,14 @@
   - Van Duijvenvoorde (FVD)
 - name: Piet Adema
   jurisdiction: NL
-  role: Minister van Landbouw, Natuur en Voedselkwaliteit
+  role: Minister of Agriculture, Nature and Food Quality
   description: Dutch office-holder; minister van Landbouw, Natuur en Voedselkwaliteit.
   aliases:
   - P. Adema (De Minister van Landbouw, Natuur en Voedselkwaliteit)
   - Piet Adema
 - name: Pieter Heerma
   jurisdiction: NL
-  role: Minister van Binnenlandse Zaken en Koninkrijksrelaties
+  role: Minister of the Interior and Kingdom Relations
   party: CDA
   description: Dutch office-holder; minister van Binnenlandse Zaken en Koninkrijksrelaties.
   aliases:
@@ -1270,14 +1270,14 @@
   - Renske Leijten (SP)
 - name: Robbert Dijkgraaf
   jurisdiction: NL
-  role: Minister van Onderwijs, Cultuur en Wetenschap
+  role: Minister of Education, Culture and Science
   description: Dutch office-holder; minister van Onderwijs, Cultuur en Wetenschap.
   aliases:
   - R.H. Dijkgraaf (De Minister van Onderwijs, Cultuur en Wetenschap)
   - Robbert Dijkgraaf
 - name: Robert Tieman
   jurisdiction: NL
-  role: Minister van Infrastructuur en Waterstaat
+  role: Minister of Infrastructure and Water Management
   description: Dutch office-holder; minister van Infrastructuur en Waterstaat.
   aliases:
   - R. Tieman (De Minister van Infrastructuur en Waterstaat)
@@ -1369,14 +1369,14 @@
   - Schippers
 - name: Sigrid Kaag
   jurisdiction: NL
-  role: Minister van Financiën
+  role: Minister of Finance
   description: Dutch office-holder; minister van Financiën.
   aliases:
   - Kaag
   - Sigrid Kaag
 - name: Silvio Erkens
   jurisdiction: NL
-  role: Staatssecretaris van Landbouw, Visserij, Voedselzekerheid en Natuur
+  role: State Secretary for Agriculture, Fisheries, Food Security and Nature
   party: VVD
   description: Dutch office-holder; staatssecretaris van Landbouw, Visserij, Voedselzekerheid en Natuur.
   aliases:
@@ -1387,7 +1387,7 @@
   - Silvio Erkens (VVD)
 - name: Sjoerd Sjoerdsma
   jurisdiction: NL
-  role: Minister van Buitenlandse Handel en Ontwikkelingssamenwerking
+  role: Minister for Foreign Trade and Development Cooperation
   party: D66
   description: Dutch office-holder; minister van Buitenlandse Handel en Ontwikkelingssamenwerking.
   aliases:
@@ -1429,7 +1429,7 @@
   - Van Weyenberg (D66)
 - name: Stientje van Veldhoven-van der Meer
   jurisdiction: NL
-  role: Minister van Klimaat en Groene Groei
+  role: Minister of Climate and Green Growth
   description: Dutch office-holder; minister van Klimaat en Groene Groei.
   aliases:
   - Stientje van Veldhoven-van der Meer
@@ -1443,7 +1443,7 @@
   - Talsma (De voorzitter van de delegatie)
 - name: Teun Struycken
   jurisdiction: NL
-  role: Staatssecretaris Rechtsbescherming
+  role: State Secretary for Legal Protection
   description: Dutch office-holder; staatssecretaris Rechtsbescherming.
   # Three Dutch office-holders of this name, one per generation. This is the
   # one born in 1969; the ministers born 1873 and 1906 are his forebears.
@@ -1454,7 +1454,7 @@
   - Teun Struycken
 - name: Th.m. Hermans
   jurisdiction: NL
-  role: Minister van Klimaat en Groene Groei
+  role: Minister of Climate and Green Growth
   description: Dutch office-holder; minister van Klimaat en Groene Groei.
   aliases:
   - S.Th.M. Hermans (De Minister van Klimaat en Groene Groei)
@@ -1483,7 +1483,7 @@
   - Van Oostenbruggen (NSC)
 - name: Tom Berendsen
   jurisdiction: NL
-  role: Minister van Buitenlandse Zaken
+  role: Minister of Foreign Affairs
   party: EP/CDA
   description: Dutch office-holder; minister van Buitenlandse Zaken.
   aliases:
@@ -1566,7 +1566,7 @@
   - Veldhoen (Eerste Kamerlid, GroenLinks)
 - name: Vincent Karremans
   jurisdiction: NL
-  role: Staatssecretaris Jeugd, Preventie en Sport
+  role: State Secretary for Youth, Prevention and Sport
   description: Dutch office-holder; staatssecretaris Jeugd, Preventie en Sport.
   aliases:
   - Minister Karremans
@@ -1583,7 +1583,7 @@
   - Vogels (De voorzitter van de delegatie)
 - name: Willemijn Aerdts
   jurisdiction: NL
-  role: Staatssecretaris Digitale Economie en Soevereiniteit
+  role: State Secretary for the Digital Economy and Sovereignty
   description: Dutch office-holder; staatssecretaris Digitale Economie en Soevereiniteit.
   aliases:
   - Aerdts
@@ -1601,7 +1601,7 @@
   - Wittich-de Ridder (De griffier van de delegatie van de Eerste Kamer)
 - name: Wopke Hoekstra
   jurisdiction: NL
-  role: Minister van Buitenlandse Zaken
+  role: Minister of Foreign Affairs
   description: Dutch office-holder; minister van Buitenlandse Zaken.
   aliases:
   - Hoekstra
@@ -1632,14 +1632,14 @@
   - Wytske Postma (NSC)
 - name: Yesilgöz-zegerius
   jurisdiction: NL
-  role: Minister van Justitie en Veiligheid
+  role: Minister of Justice and Security
   description: Dutch office-holder; minister van Justitie en Veiligheid.
   aliases:
   - D. Yesilgöz-Zegerius (De Minister van Justitie en Veiligheid)
   - Yesilgöz-zegerius
 - name: Zsolt Szabó
   jurisdiction: NL
-  role: Staatssecretaris Koninkrijksrelaties en Digitalisering
+  role: State Secretary for Kingdom Relations and Digitalisation
   description: Dutch office-holder; staatssecretaris Koninkrijksrelaties en Digitalisering.
   aliases:
   - F.Z. Szabó (De Staatssecretaris van Binnenlandse Zaken en Koninkrijksrelaties)

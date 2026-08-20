@@ -33,14 +33,14 @@ import re
 from datetime import date, timedelta
 
 from ...http import Fetcher
-from ..base import Ingester
+from ..base import DocDate, Ingester
 from .parse import extract_article
 
 WAYBACK_CDX = "https://web.archive.org/cdx/search/cdx"
 
 
-def _date_ok(d: date | None, start: date, end: date) -> bool:
-    return d is not None and start <= d <= end
+def _date_ok(d: DocDate | None, start: date, end: date) -> bool:
+    return d is not None and start <= d.date <= end
 
 
 class CNCrawlIngester(Ingester):
@@ -60,7 +60,12 @@ class CNCrawlIngester(Ingester):
     def windows(self, start=None, end=None):
         return [(start or self.backfill_start, end or date.today())]
 
-    def _url_date(self, url: str) -> date | None:
+    def _url_date(self, url: str) -> DocDate | None:
+        """Date the source states for this article, with its precision.
+
+        Returning DocDate rather than `date` is deliberate: a source that gives
+        only a month must say so rather than quietly pick a day. See base.DocDate.
+        """
         raise NotImplementedError
 
     def _listing_urls(self, f: Fetcher, start: date, end: date):
@@ -164,10 +169,12 @@ class CNCrawlIngester(Ingester):
             return False, res.from_cache
         native_id = url.rsplit("/", 1)[-1].rsplit(".", 1)[0]
         lang = "en" if ("english" in url or "mfa_eng" in url) else "zh"
+        dd = self._url_date(url)
         doc_id, _ = self.upsert_document(
             native_id,
             url=url,
-            doc_date=self._url_date(url).isoformat(),
+            doc_date=dd.isoformat() if dd else None,
+            date_precision=dd.precision if dd else "day",
             title=title,
             language=lang,
             doc_type="readout",
@@ -238,9 +245,9 @@ class CNMFAIngester(CNCrawlIngester):
     # static pagination only retains ~2 years; older editions come from CDX
     HIST_PREFIXES = ["www.mfa.gov.cn/web/zyxw/", "www.mfa.gov.cn/mfa_eng/xw/"]
 
-    def _url_date(self, url: str) -> date | None:
+    def _url_date(self, url: str) -> DocDate | None:
         m = re.search(r"/t(\d{4})(\d{2})(\d{2})_", url)
-        return date(*map(int, m.groups())) if m else None
+        return DocDate.of_day(*map(int, m.groups())) if m else None
 
     def _listing_urls(self, f, start, end):
         newest_reached = None
@@ -285,13 +292,17 @@ class CNGovIngester(CNCrawlIngester):
         r'href="(?:https?:)?(//english\.www\.gov\.cn/policies/[a-z]+/(\d{6})/(\d{2})/content_WS[0-9a-f]+\.html)"'
     )
 
-    def _url_date(self, url: str) -> date | None:
+    def _url_date(self, url: str) -> DocDate | None:
         m = re.search(r"/(\d{4})(\d{2})/(\d{2})/content_WS", url)
-        if m:
-            return date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        if m:  # english URLs carry the day
+            return DocDate.of_day(int(m.group(1)), int(m.group(2)), int(m.group(3)))
         m = re.search(r"/(\d{4})(\d{2})/content_\d+\.htm", url)
-        if m:  # zh URLs carry only YYYYMM; exact day comes from the JSON feed
-            return date(int(m.group(1)), int(m.group(2)), 1)
+        if m:
+            # zh URLs carry only YYYYMM. The JSON feed has the day but covers
+            # only the recent window, so backfilled articles have none here --
+            # `tracker resolve-dates` recovers it from the archived body, which
+            # states it in a <meta name="firstpublishedtime"> and in .pages-date.
+            return DocDate.of_month(int(m.group(1)), int(m.group(2)))
         return None
 
     def _listing_urls(self, f, start, end):
@@ -318,7 +329,8 @@ class CNGovIngester(CNCrawlIngester):
             newest = None
             for path, _, _ in links:
                 yield "https:" + path
-                d = self._url_date(path)
+                dd = self._url_date(path)
+                d = dd.date if dd else None
                 newest = max(newest, d) if newest and d else (d or newest)
             if newest and newest < start:
                 break
@@ -338,9 +350,9 @@ class CNCACIngester(CNCrawlIngester):
         r"href=(?:\"|')?(?:https?:)?(//www\.cac\.gov\.cn/(\d{4})-(\d{2})/(\d{2})/c_\d+\.htm)"
     )
 
-    def _url_date(self, url: str) -> date | None:
+    def _url_date(self, url: str) -> DocDate | None:
         m = re.search(r"/(\d{4})-(\d{2})/(\d{2})/c_", url)
-        return date(*map(int, m.groups())) if m else None
+        return DocDate.of_day(*map(int, m.groups())) if m else None
 
     def _listing_urls(self, f, start, end):
         for listing in self.LISTINGS:  # live page 1: incremental layer (20 items)
@@ -391,9 +403,9 @@ class CNMIITIngester(CNCrawlIngester):
 
     def __init__(self, conn, settings=None):
         super().__init__(conn, settings)
-        self._item_dates: dict[str, date] = {}
+        self._item_dates: dict[str, DocDate] = {}
 
-    def _url_date(self, url: str) -> date | None:
+    def _url_date(self, url: str) -> DocDate | None:
         return self._item_dates.get(url)
 
     def _listing_urls(self, f, start, end):
@@ -425,7 +437,7 @@ class CNMIITIngester(CNCrawlIngester):
             for path, y, mth, dd in items:
                 url = "https://www.miit.gov.cn" + path
                 d = date(int(y), int(mth), int(dd))
-                self._item_dates[url] = d
+                self._item_dates[url] = DocDate(d, "day")
                 dates.append(d)
                 yield url
             if max(dates) < start:  # whole page pre-window: stop
@@ -453,13 +465,13 @@ class CNPeopleIngester(CNCrawlIngester):
     def windows(self, start=None, end=None):
         return Ingester.windows(self, start, end)  # chunked, not whole-history
 
-    def _url_date(self, url: str) -> date | None:
+    def _url_date(self, url: str) -> DocDate | None:
         m = self.OLD_FRONT_RE.search(url)
         if m:
             s = m.group(1)
-            return date(int(s[:4]), int(s[4:6]), int(s[6:8]))
+            return DocDate.of_day(int(s[:4]), int(s[4:6]), int(s[6:8]))
         m = re.search(r"/pc/content/(\d{4})(\d{2})/(\d{2})/content_", url)
-        return date(*map(int, m.groups())) if m else None
+        return DocDate.of_day(*map(int, m.groups())) if m else None
 
     def _listing_urls(self, f, start, end):
         day = max(start, self.PC_CUTOVER)

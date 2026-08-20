@@ -33,9 +33,9 @@ def test_shard_is_the_first_hex_character_modulo_the_count():
 
 def test_a_short_utterance_is_shipped_whole():
     text = "Before. THE QUOTE. After."
-    out, span, truncated = utterances.window(text, (8, 18))
+    out, spans, truncated = utterances.window(text, [(8, 18)])
     assert out == text
-    assert span == (8, 18)
+    assert spans == [(8, 18)]
     assert truncated is False
 
 
@@ -47,10 +47,12 @@ def test_a_long_utterance_is_windowed_onto_the_quote_not_its_opening():
     """
     quote = "THE QUOTE"
     text = ("x " * 20_000) + quote + (" y" * 20_000)
-    out, span, truncated = utterances.window(text, (text.index(quote), text.index(quote) + len(quote)))
+    at = text.index(quote)
+    out, spans, truncated = utterances.window(text, [(at, at + len(quote))])
     assert truncated is True
     assert len(out) <= utterances.CAP + 4  # the two ellipses and their spaces
-    assert span is not None
+    assert spans is not None
+    (span,) = spans
     assert out[span[0] : span[1]] == quote
     assert out.startswith("… ") and out.endswith(" …")
     # centred: comparable amounts of the record on either side
@@ -60,8 +62,9 @@ def test_a_long_utterance_is_windowed_onto_the_quote_not_its_opening():
 def test_a_window_at_the_top_of_a_record_is_not_half_empty():
     quote = "THE QUOTE"
     text = quote + (" y" * 20_000)
-    out, span, truncated = utterances.window(text, (0, len(quote)))
+    out, spans, truncated = utterances.window(text, [(0, len(quote))])
     assert truncated is True
+    (span,) = spans
     assert out[span[0] : span[1]] == quote
     assert not out.startswith("…")
     assert len(out) > utterances.CAP * 0.9
@@ -73,9 +76,9 @@ def test_an_unlocated_quote_still_gets_the_opening_of_the_record():
     That costs the highlight, not the passage.
     """
     text = "z " * 20_000
-    out, span, truncated = utterances.window(text, None)
+    out, spans, truncated = utterances.window(text, None)
     assert truncated is True
-    assert span is None
+    assert spans is None
     assert out.endswith(" …")
     assert len(out) <= utterances.CAP + 2
 
@@ -95,13 +98,19 @@ def test_a_quote_that_crosses_a_paragraph_break_is_still_highlighted():
     """The quote was flattened by the exporter and the record was not, so the
     two differ by exactly the whitespace at the seam."""
     text = utterances.paragraphs("Opening line.\n\nHe said this\n\nand also that.\n\nClosing.")
-    out, span, _ = utterances.window(text, utterances._locate(text, "said this and also that"))
-    assert span is not None
+    out, spans, _ = utterances.window(text, [utterances._locate(text, "said this and also that")])
+    assert spans is not None
+    (span,) = spans
     assert out[span[0] : span[1]] == "said this\n\nand also that"
 
 
-def _db(utterance_text: str, quote: str = "the quote", **utt):
-    """A throwaway DB with one published quote inside `utterance_text`."""
+def _db(utterance_text: str, quote: str = "the quote", display: str | None = None, **utt):
+    """A throwaway DB with one published quote inside `utterance_text`.
+
+    `display` is refine's rewrite of it -- the string the card shows, and so the
+    string the highlight is for. Passing one with `[...]` in it is how the
+    abridged case gets exercised.
+    """
     from tracker import db
 
     dbfile = Path(tempfile.mkdtemp()) / "t.db"
@@ -133,6 +142,12 @@ def _db(utterance_text: str, quote: str = "the quote", **utt):
             "'neutral','de','2026-01-01',?)",
             (cand, adj, quote, db.utcnow()),
         )
+        if display is not None:
+            conn.execute(
+                "INSERT INTO refinements (candidate_id, model, provider, prompt_sha256, "
+                "verdict, created_at, cache_key) VALUES (?,'m','p','sha',?,?,'rk')",
+                (cand, json.dumps({"display_quote": display}), db.utcnow()),
+            )
     return dbfile
 
 
@@ -152,6 +167,112 @@ def test_the_record_carries_the_passage_its_language_and_its_occasion():
     assert rec["l"] == "de"
     assert rec["sc"] == "Debatte"
     assert "x" not in rec
+
+
+def test_every_segment_of_an_abridged_quote_is_marked():
+    """A third of the corpus is a splice, and one span cannot mark a splice.
+
+    `q` may join verbatim runs of the record with `[...]` across material the
+    quote leaves out. Marking the extent highlights the elided material as
+    though the speaker had said it next; marking the first-stage span highlights
+    whichever stretch of the record that was, which after refine's rewrite is
+    routinely not the opening of the card, or not on it at all. So each segment
+    is located and `ss` carries them all.
+    """
+    from tracker import db
+
+    dbfile = _db(
+        "Vorher. first bit. Elided middle. second bit. Nachher. " + "w " * 200,
+        quote="first bit. Elided middle. second bit",
+        display="first bit [...] second bit",
+    )
+    with db.session(dbfile) as conn:
+        rows = _rows(conn)
+        records = utterances.build(conn, rows)
+
+    rec = records[rows[0]["id"]]
+    assert [rec["t"][a:b] for a, b in rec["ss"]] == ["first bit", "second bit"]
+    # `s` is the extent the segments sit in, so a consumer that has never heard
+    # of `ss` marks a block containing the whole quote rather than a piece of
+    # the record the card does not show.
+    assert rec["t"][rec["s"][0] : rec["s"][1]] == "first bit. Elided middle. second bit"
+
+
+def test_a_quote_that_is_one_run_of_the_record_carries_no_segments():
+    """`ss` is the abridged case only -- there is nothing for it to say about a
+    quote whose single span `s` already describes."""
+    from tracker import db
+
+    dbfile = _db("Vorher. the quote Nachher. " + "w " * 200, display="the quote")
+    with db.session(dbfile) as conn:
+        rows = _rows(conn)
+        records = utterances.build(conn, rows)
+
+    rec = records[rows[0]["id"]]
+    assert "ss" not in rec
+    # "the quote" stops mid-sentence, so the export finishes it from the record
+    # before publishing -- and the highlight covers what the card shows, tail
+    # and all, rather than the string refine handed over.
+    assert rec["t"][rec["s"][0] : rec["s"][1]] == "the quote Nachher."
+
+
+def test_the_highlight_follows_the_words_on_the_card_not_the_first_stage_span():
+    """Refine splices from a wide window around the first-stage span, so the two
+    name different stretches of the record. The reader is looking at the card."""
+    from tracker import db
+
+    dbfile = _db(
+        "Vorher. the first stage span. and then what refine chose. " + "w " * 200,
+        quote="the first stage span",
+        display="and then what refine chose",
+    )
+    with db.session(dbfile) as conn:
+        rows = _rows(conn)
+        records = utterances.build(conn, rows)
+
+    rec = records[rows[0]["id"]]
+    assert rec["t"][rec["s"][0] : rec["s"][1]] == "and then what refine chose."
+
+
+def test_a_display_quote_the_record_does_not_contain_falls_back_to_the_span():
+    """Refine is asked for verbatim segments and the guard checks it, but a row
+    refined under an older prompt can carry a genuine rewrite. That costs the
+    per-segment highlight, not the highlight."""
+    from tracker import db
+
+    dbfile = _db(
+        "Vorher. the quote Nachher. " + "w " * 200,
+        display="words that are nowhere in the record",
+    )
+    with db.session(dbfile) as conn:
+        rows = _rows(conn)
+        records = utterances.build(conn, rows)
+
+    rec = records[rows[0]["id"]]
+    assert rec["t"][rec["s"][0] : rec["s"][1]] == "the quote"
+
+
+def test_segments_are_located_in_order_and_do_not_overlap():
+    """A phrase the speaker repeated must not send a later segment backwards
+    into the text of an earlier one -- the marks would then run out of order,
+    or nest."""
+    text = "AI is a risk. Some other business. AI is a risk. And so we must act."
+    spans = utterances._locate_segments(text, "AI is a risk [...] AI is a risk")
+    assert [text[a:b] for a, b in spans] == ["AI is a risk", "AI is a risk"]
+    assert spans[0][1] <= spans[1][0]
+    assert spans[1][0] > text.index("Some other business")
+
+
+def test_an_abridged_quote_keeps_every_segment_through_the_window():
+    """The window is placed around the whole quote, first segment to last, so an
+    excerpted record does not lose half of the splice to the cut."""
+    head = "AI is a risk."
+    tail = "And so we must act."
+    text = ("x " * 10_000) + head + (" y" * 4_000) + " " + tail + (" z" * 10_000)
+    spans = utterances._locate_segments(text, head + " [...] " + tail)
+    out, moved, truncated = utterances.window(text, spans)
+    assert truncated is True
+    assert [out[a:b] for a, b in moved] == [head, tail]
 
 
 def test_an_utterance_that_is_only_the_quote_ships_nothing():
@@ -234,3 +355,25 @@ def test_the_sidecar_version_tracks_the_payload():
     payload = json.loads((out / "site" / "quotes-data.json").read_text(encoding="utf-8"))
     assert blob["v"] == payload["v"] == QUOTES_DATA_VERSION
     assert blob["generated"] == payload["generated"]
+
+
+def test_export_to_a_temp_dir_leaves_the_repository_docs_alone(tmp_path):
+    """A fixture export must not rewrite SCHEMA.md.
+
+    `run_export` regenerates the generated-counts block in both copies of
+    SCHEMA.md, and those sit at absolute paths while `out_dir` does not. So an
+    export from a two-row fixture database into tmp_path once overwrote the real
+    document with "rows | 1", and the only thing that noticed was the staleness
+    test the block exists to satisfy. The guard is `out == config.EXPORT_DIR`.
+    """
+    from tracker.export import schema_counts
+
+    from tracker import db
+
+    before = {p: p.read_text(encoding="utf-8") for p in schema_counts.schema_paths()}
+    assert before, "SCHEMA.md not found -- nothing to protect, so nothing proven"
+    dbfile = _db("Vorher. the quote " + "w " * 400)
+    with db.session(dbfile) as conn:
+        run_export(conn, str(tmp_path / "out"))
+    for path, text in before.items():
+        assert path.read_text(encoding="utf-8") == text, f"{path} was rewritten by a temp export"

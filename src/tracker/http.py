@@ -70,6 +70,7 @@ class Fetcher:
         source: str,
         *,
         rate_per_host: float = 1.0,
+        host_rates: dict[str, float] | None = None,
         tolerant_tls: bool = False,
         timeout: float = 30.0,
         extraction_method: str = "direct",
@@ -77,6 +78,9 @@ class Fetcher:
         self.conn = conn
         self.source = source
         self.rate = rate_per_host
+        # per-host override, for a source that reads two hosts at different rates
+        # (nl_officielebekendmakingen searches one and fetches bodies from another)
+        self.host_rates = dict(host_rates or {})
         self.extraction_method = extraction_method
         verify = _tolerant_ssl_context() if tolerant_tls else True
         self.client = httpx.Client(
@@ -96,13 +100,16 @@ class Fetcher:
         self.close()
 
     def _throttle(self, host: str):
-        """Space request *starts* at rate_per_host, from any number of threads.
+        """Space request *starts* at this host's rate, from any number of threads.
+
+        `host_rates` wins over `rate_per_host` when it names the host, so a
+        source spanning two hosts honours each one's stated ceiling separately.
 
         The sleep happens outside the lock: holding it would serialize the whole
         pool onto one in-flight request and undo fetch_many's concurrency. We
         reserve a slot under the lock, then wait for it.
         """
-        min_gap = 1.0 / self.rate
+        min_gap = 1.0 / self.host_rates.get(host, self.rate)
         with _throttle_lock:
             slot = max(_last_request_at.get(host, 0.0) + min_gap, time.monotonic())
             _last_request_at[host] = slot
@@ -133,15 +140,22 @@ class Fetcher:
         headers=None,
         retries: int = 3,
         cache: bool = True,
+        record_as: str | None = None,
     ) -> FetchResult:
         """Fetch with retry/backoff; archive body; record raw_fetches row.
 
         cache=True returns the most recent successful archived fetch of the same
         URL+body instead of re-hitting the network (used for offline re-parses
         and idempotent re-runs of fetch windows).
+
+        record_as replaces the URL in `raw_fetches` and in the cache key. It is
+        for a source whose credential sits in the request path rather than a
+        header (ru_duma): the archive then keeps a stable, secret-free URL that
+        a later run can still match.
         """
         body_repr = db.j(json_body) if json_body is not None else None
-        hit = self._cached(url) if (cache and method == "GET" and params is None) else None
+        key = record_as or url
+        hit = self._cached(key) if (cache and method == "GET" and params is None) else None
         if hit is not None:
             return hit
         resp, last_exc = self._request(
@@ -153,9 +167,9 @@ class Fetcher:
             retries=retries,
         )
         if resp is None:
-            self._record_failure_soft(url, last_exc, method=method, body_repr=body_repr)
-            raise ConnectionError(f"fetch failed after {retries} attempts: {url}: {last_exc}")
-        return self._record(resp, method, body_repr)
+            self._record_failure_soft(key, last_exc, method=method, body_repr=body_repr)
+            raise ConnectionError(f"fetch failed after {retries} attempts: {key}: {last_exc}")
+        return self._record(resp, method, body_repr, url=record_as)
 
     # -- fetch internals, split so fetch_many can run _request off-thread ------
 
@@ -223,8 +237,11 @@ class Fetcher:
             return resp, None
         return None, last_exc
 
-    def _record(self, resp: httpx.Response, method: str, body_repr: str | None) -> FetchResult:
+    def _record(
+        self, resp: httpx.Response, method: str, body_repr: str | None, *, url: str | None = None
+    ) -> FetchResult:
         """Archive the body and insert the raw_fetches row. Calling thread only."""
+        recorded = url or str(resp.url)
         text, encoding = self._decode(resp)
         sha = archive.store(self.source, resp.content) if resp.content else None
         cur = self.conn.execute(
@@ -233,7 +250,7 @@ class Fetcher:
             "VALUES (?,?,?,?,?,?,?,?,?,?)",
             (
                 self.source,
-                str(resp.url),
+                recorded,
                 method,
                 body_repr,
                 db.utcnow(),
@@ -246,7 +263,7 @@ class Fetcher:
         )
         self.conn.commit()
         return FetchResult(
-            str(resp.url),
+            recorded,
             resp.status_code,
             resp.content,
             text,

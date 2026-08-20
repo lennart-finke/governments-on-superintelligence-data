@@ -5,8 +5,7 @@ backfill_start: "2022-01-01"
 # and asserted by tests/test_quote_export.py.
 excluded_sources:
   - us_govinfo_bills
-  - au_hansard   # aph.gov.au terms do not permit republishing the Hansard text; keep ingesting, do not serve
-  - intl_un_webtv  # likewise the UN Web TV transcripts; the intl_un verbatim records are unaffected
+  - intl_un_webtv  # UN terms permit personal non-commercial use only, with no right to redistribute; the intl_un verbatim records carry the same terms and are a separate open question
 
 sources:
   uk_hansard:
@@ -70,6 +69,8 @@ sources:
     window_days: 90
     languages: [en]
   au_hansard:               # House+Senate via the aph.gov.au fragment JSON API
+                            # CC BY-NC-ND 4.0: verbatim excerpts are licensed
+                            # ("in whole or in part"), translations are not
     enabled: true           # (parlinfo.aph.gov.au itself is Azure-WAF blocked)
     jurisdiction: AU
     rate_per_host: 4.0      # the host answers in ~1s, so a sequential walk is
@@ -122,6 +123,9 @@ sources:
     timeout: 120
     languages: [nl]
   nl_officielebekendmakingen:  # KOOP SRU: Kamerstukken + Kamervragen, keyword-prescreened
+                            # rate_per_host is the SRU host; bodies come from
+                            # zoek.officielebekendmakingen.nl at its own stated
+                            # rate, hardcoded as BODY_RATE in the ingester
     enabled: true
     jurisdiction: NL
     rate_per_host: 1.0
@@ -135,12 +139,13 @@ sources:
     rate_per_host: 0.4
     window_days: 30
     languages: [ru]
-  ru_duma:                  # State Duma stenograms; see module docstring re robots.txt
+  ru_duma:                  # State Duma stenograms via the official api.duma.gov.ru
     enabled: true
     jurisdiction: RU
     rate_per_host: 0.5
-    window_days: 90         # ~25 stenograms/quarter, under the 30/page pager
+    window_days: 90         # one request per calendar day: ~3 min per window
     languages: [ru]
+    requires_env: [DUMA_API_TOKEN, DUMA_APP_TOKEN]  # registered at api.duma.gov.ru
   ca_commons:
     enabled: true
     jurisdiction: CA

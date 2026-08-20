@@ -1,41 +1,4 @@
-"""Refine stage: second-pass judge over ACCEPTED quotes (readme §Search).
-
-Three jobs, one call per quote (prompt: load_refine_prompt):
-  0. re-decide the coarse topics (agi/asi/rsi/x_risk/regulation) — the facets
-     readers filter by — from the written definitions in the prompt. The first
-     stage derives them from 0-100 relevance scores against models.RELEVANT,
-     whose frontier bars sit at 5/100, low enough that a tag can ride on noise;
-     deciding them from definitions, on the quote alone, is what the published
-     coarse labels rest on. The first-stage concepts on the quotes row are left
-     untouched — export chooses which to publish, so a refine pass is always
-     reversible;
-  1. re-classify the quote against the published taxonomies in
-     models.RISK_SUBDOMAINS / POLICY_INSTRUMENTS (MIT AI Risk Repository
-     subdomains + AGORA governance strategies);
-  2. extract a display_quote that reads standalone: verbatim substrings of the
-     source utterance joined by " [...] ", at most MAX_DISPLAY_WORDS words,
-     with an English rendering for non-English sources.
-
-Double judging: refinements are keyed per model, so running the stage once per
-judge (`refine --judge gemini`, `refine --judge glm`) leaves two independent
-verdicts per quote. coarse_consensus() reads them back and reports which coarse
-labels both judges agreed on and which only one asserted.
-
-Double judging does not buy steadier labels: the agreed set reproduces no better
-across repeated runs than the better single judge does, for twice the calls and
-fewer labels (eval/refine_consistency measures this). Run the second judge for
-`coarse_disputed`, which marks contested quotes for review, not in the
-expectation of a steadier label.
-
-Mechanical guards mirror promote's quote_span check: every display_quote
-segment must appear verbatim (whitespace-normalized) and in source order in
-the utterance text; the English rendering must clear the word cap. Guard
-failures are fed back to the model for one retry, then recorded as errors.
-
-Verdicts are cached by (utterance content, first-stage span, prompt sha,
-model) in the append-only `refinements` table; a prompt bump re-refines every
-quote. Nothing here mutates quotes — export reads best_refinement() per quote.
-"""
+"""Refine stage: second-pass judge over accepted quotes"""
 
 from __future__ import annotations
 
@@ -57,24 +20,6 @@ _CJK = re.compile(r"[぀-ヿ㐀-䶿一-鿿豈-﫿]")
 
 
 def load_refine_prompt() -> tuple[str, str]:
-    # v4 adds Task 1: the judge decides the five coarse filter facets itself,
-    # from written definitions with explicit "Distinct from" exclusions, instead
-    # of them falling out of first-stage scores against a 5/100 bar. See the
-    # module docstring; the v3 note below still describes the taxonomy sections.
-    #
-    # v3 replaces the paraphrased category definitions with the sources' own
-    # wording: MIT AI Risk Repository Table 2 verbatim (which also fixes 4.2/4.3,
-    # transposed in v1/v2) and the AGORA codebook's governance-strategy
-    # definitions verbatim. Everything that is ours — the statement-level reading
-    # of definitions written for risks and documents, the governance_failure
-    # guard v2 introduced, the agi/asi/rsi primaries — is still there, but now
-    # confined to a "Project adaptation rules" section instead of being blended
-    # into definitions attributed to the sources. See LABELS.md §11.
-    #
-    # A prompt bump re-refines every accepted quote (pending_refine keys on the
-    # sha), so until a v3 pass finishes best_refinement's newest-verdict fallback
-    # keeps serving v2 where it exists and v1 elsewhere. v2 itself only ever
-    # reached 3,600 of 5,259 accepted quotes, so the corpus is already mixed.
     return load_prompt("refine_v4.md")
 
 
@@ -136,14 +81,21 @@ def context_window(text: str, span: str, radius: int = CONTEXT_RADIUS) -> str:
     return ("…" if lo else "") + text[lo:hi] + ("…" if hi < len(text) else "")
 
 
-def _needs_translation(display: str, language: str) -> bool:
-    """Non-English sources need display_quote_en — except when the quoted
-    passage is actually English despite the source tag (multilingual records,
-    e.g. EP 'mul'); mirrors the narrow ASCII-letters test the export uses."""
-    if language == "en":
-        return False
-    letters = [ch for ch in display if ch.isalpha()]
-    return not (letters and all(ch.isascii() for ch in letters))
+# Tags that do not name a language the passage can be assumed to be written in:
+# 'en' needs no translation, and 'mul'/'und' name nothing actionable -- EP
+# plenary and ep_questions record every speech as 'mul' whatever was spoken, so
+# demanding an English rendering there would demand it for English speeches too.
+_UNSPECIFIC_LANGUAGES = frozenset({"en", "mul", "und", ""})
+
+
+def _needs_translation(language: str) -> bool:
+    """Non-English sources need display_quote_en.
+
+    The record's own `language` tag is the whole test. Where it names a language
+    other than English, the passage is in that language and the judge owes an
+    English rendering; where it names nothing usable the guard stays quiet.
+    """
+    return (language or "") not in _UNSPECIFIC_LANGUAGES
 
 
 def guard(verdict: RefinementVerdict, text: str, language: str) -> None:
@@ -153,7 +105,7 @@ def guard(verdict: RefinementVerdict, text: str, language: str) -> None:
             "display_quote is not a splice of verbatim, in-order substrings of PASSAGE; "
             'copy segments character-for-character and join them with " [...] "'
         )
-    if not verdict.display_quote_en and _needs_translation(verdict.display_quote, language):
+    if not verdict.display_quote_en and _needs_translation(language):
         raise ValueError("display_quote_en is required when the original is not English")
     english = verdict.display_quote_en or verdict.display_quote
     if (n := word_count(english)) > MAX_DISPLAY_WORDS:

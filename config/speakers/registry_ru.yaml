@@ -137,6 +137,12 @@
   jurisdiction: RU
   role: President of Russia
   description: President of the Russian Federation.
+  # Wikidata's P18 for Q7747 is a face-filling 2:3 crop; the 38px avatar takes
+  # cover + object-position 50% 0% of it, which clips the crown and runs the
+  # chin off the bottom of the circle. This one is framed head-and-shoulders
+  # like every other portrait on the page. Same source and licence as the
+  # Wikidata pick (kremlin.ru, CC BY 4.0).
+  image_url: https://commons.wikimedia.org/wiki/Special:FilePath/Vladimir_Putin_portrait_%282024-02-23%29.png?width=200
   aliases:
   - Vladimir Putin (President of Russia)
   - В.Путин

@@ -2,6 +2,7 @@ from datetime import date
 
 from lxml import etree
 
+from tracker.ingest.base import DocDate
 from tracker.ingest.cn.crawl import CNCACIngester, CNGovIngester, CNMFAIngester
 from tracker.ingest.de_bundestag import DEBundestagIngester
 from tracker.ingest.fr_senat import CRI_NS, FRSenatIngester
@@ -46,12 +47,26 @@ def test_senat_intervenant_parse(conn):
 
 
 def test_cn_url_dates():
-    assert CNCACIngester._url_date(None, "https://www.cac.gov.cn/2026-07/13/c_1.htm") == date(
-        2026, 7, 13
+    assert CNCACIngester._url_date(None, "https://www.cac.gov.cn/2026-07/13/c_1.htm") == DocDate(
+        date(2026, 7, 13), "day"
     )
-    assert CNMFAIngester._url_date(None, ".../202607/t20260713_11980494.html") == date(2026, 7, 13)
+    assert CNMFAIngester._url_date(None, ".../202607/t20260713_11980494.html") == DocDate(
+        date(2026, 7, 13), "day"
+    )
     assert CNGovIngester._url_date(
         None,
         "//english.www.gov.cn/policies/latestreleases/202607/13/content_WSabc.html",
-    ) == date(2026, 7, 13)
+    ) == DocDate(date(2026, 7, 13), "day")
     assert CNMFAIngester._url_date(None, "https://x/nodate.html") is None
+
+
+def test_cn_gov_zh_url_is_month_precision_not_a_guessed_day():
+    """A gov.cn zh article URL carries no day, and must not pretend otherwise.
+
+    This is the regression that put 72 published quotes on the first of a month,
+    wrong by up to five weeks and indistinguishable from a real date. The day in
+    `.date` is a placeholder for ordering; `.precision` is what says so.
+    """
+    got = CNGovIngester._url_date(None, "https://www.gov.cn/yaowen/liebiao/202607/content_1.htm")
+    assert got == DocDate(date(2026, 7, 1), "month")
+    assert got.precision == "month"

@@ -213,6 +213,50 @@ def refine(
         typer.echo(json.dumps(stats, indent=2))
 
 
+@app.command("resolve-citations")
+def resolve_citations(
+    source: Optional[str] = typer.Option(None, help="Single source; default: all with a resolver"),
+    include_unquoted: bool = typer.Option(
+        False, "--all", help="Also resolve documents that carry no quote"
+    ),
+    recheck: bool = typer.Option(False, "--recheck", help="Re-resolve rows that already have one"),
+    rate: float = typer.Option(1.0, help="Seconds between verification requests"),
+):
+    """Fill documents.citation_url — where a reader verifies the quote.
+
+    `url` is where the crawler fetched the bytes, which for a bulk-archive source
+    is a zip download and for an API source a static index page. This resolves a
+    document-specific citation instead, verifying constructed URLs with a HEAD
+    request so nothing unverified reaches the payload. See citations.py.
+    """
+    from . import citations
+
+    with db.session() as conn:
+        typer.echo(
+            json.dumps(
+                citations.resolve(conn, source, include_unquoted, rate, recheck), indent=2
+            )
+        )
+
+
+@app.command("resolve-dates")
+def resolve_dates(
+    source: Optional[str] = typer.Option(None, help="Single source; default: all with a recoverer"),
+    dry_run: bool = typer.Option(False, "--dry-run", help="Report only; write nothing"),
+):
+    """Recover precise document dates from the archived body, offline.
+
+    Sources whose article URL carries only a year and month record
+    month-precision dates (see ingest/base.DocDate). Most state the real day in
+    the page markup, so this reads it back out of the raw archive and promotes
+    the date, propagating to the quotes that copied it. Re-runnable; no network.
+    """
+    from . import dates
+
+    with db.session() as conn:
+        typer.echo(json.dumps(dates.resolve(conn, source, dry_run), indent=2))
+
+
 @app.command()
 def link():
     """Link quotes to canonical speakers, merging duplicates via the registry.

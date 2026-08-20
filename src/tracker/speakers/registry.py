@@ -32,6 +32,7 @@ only where nothing better was found.
 
 from __future__ import annotations
 
+import json
 import re
 from pathlib import Path
 
@@ -282,6 +283,42 @@ def _apply_wikidata(conn) -> dict:
     return stats
 
 
+_CANON_CACHE: dict[tuple[str, str], str] | None = None
+
+
+def canonical_from_yaml(jurisdiction: str, display: str | None) -> str | None:
+    """Canonical name for a raw speaker label, read straight from the registry YAML.
+
+    `_alias_map` answers the same question but from the database, which only holds
+    the aliases after `link` has run. Promote needs the answer *before* that, to
+    dedup on the person rather than on the label the source happened to print:
+    cac.gov.cn writes "Xi Jinping (President)" and gov.cn writes "Xi Jinping
+    (General Secretary and ...)", and a dedup key over the raw string treats one
+    man saying one sentence as two statements. 155 of 175 duplicate clusters in
+    the corpus were exactly that.
+
+    Returns None for a label the registry does not know, and the caller keeps the
+    raw string -- an unknown speaker must not silently merge with anyone.
+    """
+    global _CANON_CACHE
+    if _CANON_CACHE is None:
+        cache: dict[tuple[str, str], str] = {}
+        speakers_dir = config.CONFIG_DIR / "speakers"
+        paths = sorted(speakers_dir.glob("manual_*.yaml")) + sorted(
+            speakers_dir.glob("registry_*.yaml")
+        )
+        for path in paths:
+            for item in yaml.safe_load(Path(path).read_text(encoding="utf-8")) or []:
+                name = item.get("name") or item.get("canonical")
+                jur = item.get("jurisdiction")
+                if not name or not jur:
+                    continue
+                for label in [name, *item.get("aliases", [])]:
+                    cache.setdefault((jur, _norm(label)), name)
+        _CANON_CACHE = cache
+    return _CANON_CACHE.get((jurisdiction, _norm(display)))
+
+
 def _alias_map(conn) -> tuple[dict, dict]:
     """(exact, normalized) maps of (jurisdiction, alias) -> speaker_id.
 
@@ -440,6 +477,61 @@ def run_link(conn) -> dict:
     # After the prune, so the generated sidecar is only applied to speakers the
     # corpus actually still quotes.
     stats.update(_apply_wikidata(conn))
+
+    # Confidence in the attribution reads the roles this run just assigned, so it
+    # belongs here rather than in its own command: a registry edit that records
+    # "identity best-effort" has to reach quotes.speaker_resolution in the same
+    # pass, or the export keeps serving a row the registry no longer stands behind.
+    from .resolution import backfill as _resolution_backfill
+
+    stats["speaker_resolution"] = _resolution_backfill(conn)
+
+    # statement_key is written at promote time; rows promoted before the column
+    # existed still need it, and it is derived purely from quote_original, so
+    # filling it here keeps the column trustworthy for `GROUP BY statement_key`
+    # audits rather than half-populated. See ids.statement_key.
+    from ..export.quotes import _normalize_text
+    from ..ids import statement_key
+
+    filled = 0
+    for row in conn.execute(
+        "SELECT id, quote_original FROM quotes WHERE statement_key IS NULL"
+    ).fetchall():
+        key = statement_key(_normalize_text(row["quote_original"]))
+        if key:
+            conn.execute("UPDATE quotes SET statement_key=? WHERE id=?", (key, row["id"]))
+            filled += 1
+    stats["statement_keys_filled"] = filled
+
+    # The cross-candidate dedup key promote checks against. Recomputed here for
+    # two reasons: this run has just established the authoritative canonical name
+    # (promote could only consult the YAML), and the formula changed -- it used to
+    # hash the raw source label, so a key stored under "Xi Jinping (President)"
+    # would never match the next copy filed under a different office. Without this
+    # backfill the improved key would silently fail to see the corpus it already
+    # holds. See promote.span_key_for.
+    from ..adjudicate.promote import span_key_for
+
+    rekeyed = 0
+    for row in conn.execute(
+        "SELECT q.id, q.quote_original, q.trigger_phrases, "
+        "       COALESCE(s.canonical_name, q.speaker_display) AS canonical "
+        "FROM quotes q LEFT JOIN speakers s ON s.id=q.speaker_id"
+    ).fetchall():
+        try:
+            blob = json.loads(row["trigger_phrases"] or "{}")
+        except (ValueError, TypeError):
+            continue
+        key = span_key_for(row["canonical"], _normalize_text(row["quote_original"]))
+        if blob.get("span_key") != key:
+            blob["span_key"] = key
+            conn.execute(
+                "UPDATE quotes SET trigger_phrases=? WHERE id=?",
+                (json.dumps(blob, ensure_ascii=False), row["id"]),
+            )
+            rekeyed += 1
+    stats["span_keys_rekeyed"] = rekeyed
+    conn.commit()
 
     stats["distinct_speakers"] = conn.execute("SELECT COUNT(*) n FROM speakers").fetchone()["n"]
     if unlinked:

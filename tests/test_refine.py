@@ -131,9 +131,38 @@ def test_guard_word_cap_and_translation_requirement():
             "fr",
         )
     # mistagged multilingual source whose quoted passage is actually English:
-    # no translation demanded (mirrors the export's ASCII-letters test)
+    # no translation demanded (mirrors the test the export's `tr` note applies)
     guard(RefinementVerdict.model_validate(_verdict()), TEXT, "mul")
     guard(RefinementVerdict.model_validate(_verdict()), TEXT, "en")  # passes
+
+
+def test_guard_demands_english_for_latin_script_languages():
+    """Dutch is ASCII, and the guard used to test for non-ASCII letters.
+
+    So `"display_quote_en": null` — the literal value in the prompt's
+    response-shape example — passed the guard on every Dutch, French, German and
+    Italian quote whose text happened to carry no accent, and the export
+    published the original and marked it `tr: raw`. 705 rows shipped untranslated,
+    686 of them Dutch. Nothing else in the pipeline was watching.
+    """
+    nl = (
+        "Er zou een toezichthouder komen op AI en dergelijke. "
+        "Hoe gaat dat nou werken in de praktijk?"
+    )
+    with pytest.raises(ValueError, match="display_quote_en is required"):
+        guard(RefinementVerdict.model_validate(_verdict(display_quote=nl)), nl, "nl")
+    # and is satisfied by an English rendering, as it always was for CJK
+    guard(
+        RefinementVerdict.model_validate(
+            _verdict(
+                display_quote=nl,
+                display_quote_en="There would be a regulator for AI and the like. "
+                "How is that going to work in practice?",
+            )
+        ),
+        nl,
+        "nl",
+    )
 
 
 def test_word_count_counts_cjk_characters():
